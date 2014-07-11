@@ -22,6 +22,11 @@ class dpKernel{
 		size_t localSize[3], globalSize[3];
 	public:
 		void FillerFunction();
+		virtual void memoryCopyOut(void) = 0;
+		virtual void plan(void) = 0;
+		virtual void execute(void) = 0;
+		virtual void memoryCopyIn(void) = 0;
+		virtual void cleanUp(void) = 0;
 		
 };
 

@@ -55,7 +55,7 @@ void dpSquareArray::memoryCopyIn(){
 }
 
 void dpSquareArray::cleanUp(){
-	printf("%f, %f\n",Ain[Asize-1], Aout[Asize-1]);
+	//printf("%f^2 = %f\n",Ain[Asize-1],Aout[Asize-1]);
 	clErrChk(clReleaseKernel(kernel));
 	clErrChk(clReleaseProgram(program));
 	clErrChk(clReleaseMemObject(Ain_d));

@@ -4,6 +4,8 @@ helperFunctions/errorCheck.cpp \
 dpKernel.cpp \
 dpClient.cpp \
 dpSquareArray.cpp \
+dpRotateImage.cpp \
+dpTiming.cpp \
 dpMatrixMultiplication.cpp \
 dpFFT.cpp \
 -odpClient \

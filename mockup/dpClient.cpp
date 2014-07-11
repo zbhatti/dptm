@@ -1,25 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h> //for random seed and timing
 #include <sys/time.h>
 #include <new>
+#include <vector>
 #include <math.h>
+
 #ifdef __APPLE__
 	#include <OpenCL/opencl.h>
 #else
 	#include <CL/opencl.h>
 #endif
-#include <clFFT.h>
-#include "helperFunctions/errorCheck.hpp"
-#include "helperFunctions/bmpfuncs.h"
 
 #include "dpFFT.hpp"
 #include "dpSquareArray.hpp"
 #include "dpMatrixMultiplication.hpp"
-#define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
-
-
-//using namespace std;
+#include "dpRotateImage.hpp"
+#include "dpTiming.hpp"
 
 class dpClient {
 	cl_platform_id platform_ids[16];
@@ -32,15 +28,11 @@ class dpClient {
 	size_t MaxWorkGroupSize;
 	int MaxComputeUnits;
 	struct timeval start, finish;
-	//std::vector<clKernel> taskList needs null constructor and '='
-	//use vector of <*dpKernel> instead
-	//1D scan, 2D scan etc
-	//timing in kernels
-	//
+	std::vector<dpKernel*> taskList;
+	std::vector<dpTiming> timeList;
 	
 	public:
 		dpClient(int,int);
-		void rotateImage(int, int);
 		void generateArray(float[],int);
 		void generateMatrix(float[],int,int);
 		void generateInterleaved(float[],int);
@@ -51,6 +43,9 @@ class dpClient {
 		void runSquareArray();
 		void runFFT();
 		void runMatrixMultiplication();
+		void runRotateImage();
+		void runKernels();
+		void printTimes();
 		
 };
 
@@ -113,10 +108,7 @@ void dpClient::runMatrixMultiplication(){
 	dpMatrixMultiplication MMKernel(A, B, N, P, M, context, queue, 32, 16);
 	MMKernel.memoryCopyOut();
 	MMKernel.plan();
-		gettimeofday(&start, NULL);
 	MMKernel.execute();
-		gettimeofday(&finish, NULL);
-		prinft("%f",timeDiff(start,finish))
 	MMKernel.memoryCopyIn();
 	MMKernel.cleanUp();
 	delete[] A;
@@ -124,80 +116,97 @@ void dpClient::runMatrixMultiplication(){
 	
 }
 
-
-void dpClient::rotateImage(int threadsX, int threadsY){
-
-	// Set the image rotation (in degrees)
-	float theta = 3.14159/6;
-	float cos_theta = cosf(theta);
-	float sin_theta = sinf(theta);
-	int imageHeight;
-	int imageWidth;
-	const char* inputFile = "helperFunctions/input.bmp";
-	const char* outputFile = "helperFunctions/output.bmp";
-	float* inputImage = readImage(inputFile, &imageWidth, &imageHeight);
-
-	// Size of the input and output images on the host
-	int dataSize = imageHeight*imageWidth*sizeof(float);
-
-	// Output image on the host
-	float* outputImage = new float[imageHeight*imageWidth];
-
-	// Create the input and output buffers
-	cl_mem d_input;
-	cl_mem d_output;
-	cl_int err;
-	d_input = clCreateBuffer(context, CL_MEM_READ_ONLY, dataSize, NULL, &err);  clErrChk(err);
-	d_output = clCreateBuffer(context, CL_MEM_WRITE_ONLY, dataSize, NULL,	&err);  clErrChk(err);
-
-	// Copy the input image to the device
-	clErrChk(clEnqueueWriteBuffer(queue, d_input, CL_TRUE, 0, dataSize, inputImage, 0, NULL, NULL));
-
-	// Create the kernel object
-	kernel = clCreateKernel(program, "img_rotate", &err); clErrChk(err);
-	
-	// Set the kernel arguments
-	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), &d_output));
-	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), &d_input));
-	clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &imageWidth));
-	clErrChk(clSetKernelArg(kernel, 3, sizeof(int), &imageHeight));
-	clErrChk(clSetKernelArg(kernel, 4, sizeof(float), &sin_theta));
-	clErrChk(clSetKernelArg(kernel, 5, sizeof(float), &cos_theta));
-
-	// Set the work item dimensions
-	size_t globalSize[2] = {imageWidth, imageHeight};
-	size_t localSize[2] = {threadsX, threadsY};
-	gettimeofday(&start, NULL);	
-	clErrChk(clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL));
-	clErrChk(clFinish(queue));
-	gettimeofday(&finish, NULL);
-	//printf("height,localSizeX,localSizeY,execution\n");
-	printf("%d,%d,%d,%3.3f\n",imageHeight,localSize[0],localSize[1],timeDiff(start,finish));
-
-	// Read the image back to the host
-	clErrChk(clEnqueueReadBuffer(queue, d_output, CL_TRUE, 0, dataSize, outputImage, 0, NULL, NULL));
-
-	// Write the output image to file
-	//storeImage(outputImage, outputFile, imageHeight, imageWidth, inputFile);
-	clErrChk(clReleaseKernel(kernel));
-	clErrChk(clReleaseMemObject(d_input));
-	clErrChk(clReleaseMemObject(d_output));
-	delete[] outputImage;
+void dpClient::runRotateImage(){
+	dpRotateImage rotKernel(context, queue, 16, 16);
+	rotKernel.memoryCopyOut();
+	rotKernel.plan();
+	rotKernel.execute();
+	rotKernel.memoryCopyIn();
+	rotKernel.cleanUp();
 }
 
-//void dpClient::convolve(int type, int xThreads, int yThreads){
-	//opencl variables
-	//build filter
+void dpClient::runKernels(){
+
+	int N1, N2, N3; 
+	int P1, P2, P3; 
+	int M1, M2, M3;
+	float *A1, *A2, *A3; 
+	float *B1, *B2, *B3;
 	
-	//copy memory to device
+	N1=512; N2=1024; N3=256;
+	P1=4096; P2=2048; P3=4096;
+	M1=2048; M2=8192; M3=8192;
 	
-	//set kernel arguments
+	A1 = new float[N1*P1]; A2 = new float[N2*P2]; A3 = new float[N3*P3];
+	B1 = new float[P1*M1]; B2 = new float[P2*M2]; B3 = new float[P3*M3];
 	
-	//launch kernel
+	generateMatrix(A1,N1,P1); generateMatrix(A2,N2,P2); generateMatrix(A3,N3,P3);
+	generateMatrix(B1,P1,M1); generateMatrix(B2,P2,M2); generateMatrix(B3,P3,M3);
 	
-	//copy memory back to host
+	dpMatrixMultiplication MM1(A1, B1, N1, P1, M1, context, queue, 4, 16);
+	dpMatrixMultiplication MM2(A2, B2, N2, P2, M2, context, queue, 16, 16);
+	dpMatrixMultiplication MM3(A3, B3, N3, P3, M3, context, queue, 8, 32);
+
 	
-	//switch on type: 1-set,2-arithmetic,3-globalconv,4-localconv}
+	int C1size, C2size, C3size;
+	C1size=1024; C2size=8192; C3size=1048576;
+	float *C1, *C2, *C3;
+	C1 = new float[C1size]; C2 = new float[C2size]; C3 = new float[C3size];
+	generateArray(C1, C1size); generateArray(C2, C2size); generateArray(C3, C3size);
+	dpSquareArray square1(C1, C1size, context, queue, 256); //C1size must be larger than xLocal
+	dpSquareArray square2(C2, C2size, context, queue, 16);
+	dpSquareArray square3(C3, C3size, context, queue, MaxWorkGroupSize);
+	
+	dpRotateImage rot1(context, queue, 16, 16);
+	dpRotateImage rot2(context, queue, 8, 32);
+	dpRotateImage rot3(context, queue, 64, 4);
+	
+	taskList.push_back(&MM1);
+	taskList.push_back(&MM2);
+	taskList.push_back(&MM3);
+	taskList.push_back(&square1);
+	taskList.push_back(&square2);
+	taskList.push_back(&square3);
+	taskList.push_back(&rot1);
+	taskList.push_back(&rot2);
+	taskList.push_back(&rot3);
+	
+	dpTiming timeTmp;
+	
+	for (int i =0; i <taskList.size(); i++){
+		gettimeofday(&start, NULL);
+		taskList.at(i)->memoryCopyOut();
+		gettimeofday(&finish, NULL);
+		timeTmp.memoryCopyOut = timeDiff(start,finish);
+		
+		gettimeofday(&start, NULL);
+		taskList.at(i)->plan();
+		gettimeofday(&finish, NULL);
+		timeTmp.plan = timeDiff(start,finish);
+		
+		gettimeofday(&start, NULL);
+		taskList.at(i)->execute();
+		gettimeofday(&finish, NULL);
+		timeTmp.execute = timeDiff(start,finish);
+		
+		gettimeofday(&start, NULL);
+		taskList.at(i)->memoryCopyIn();
+		gettimeofday(&finish, NULL);
+		timeTmp.memoryCopyIn = timeDiff(start,finish);
+		
+		gettimeofday(&start, NULL);
+		taskList.at(i)->cleanUp();
+		gettimeofday(&finish, NULL);
+		timeTmp.cleanUp = timeDiff(start,finish);
+		
+		timeList.push_back(timeTmp);
+		
+	}
+	
+	delete[] C1, C2, C3;
+	delete[] A1, A2, A3;
+	delete[] B1, B2, B3;
+}
 
 void dpClient::generateArray(float A[], int N){
 	int i;
@@ -250,14 +259,41 @@ void dpClient::printInterlaved(float A[], int N){
 		printf("%f, %f\n",A[i], A[i+1]);
 }
 
+//print times, probably change to export the timeList instance
+void dpClient::printTimes(){
+	for (int i = 0; i < timeList.size(); i++){
+		printf("%0.3f\t%0.3f\t%0.3f\t%0.3f\t%0.3f\n", 
+			timeList.at(i).memoryCopyOut,
+			timeList.at(i).plan,
+			timeList.at(i).execute,
+			timeList.at(i).memoryCopyIn,
+			timeList.at(i).cleanUp);
+	}
+}
+
 int main(){
-	dpClient cli3(0,0);
-	cli3.runSquareArray();
-	cli3.runFFT();
-	cli3.runMatrixMultiplication();
+	dpClient cli1(0,0);
+	cli1.runKernels();
+	cli1.printTimes();
 	
-	int j=0;
+	dpClient cli2(1,0);
+	cli2.runKernels();
+	cli2.printTimes();
+	
+	dpClient cli3(1,1);
+	cli3.runKernels();
+	cli3.printTimes();
+	
+	dpClient cli4(2,0);
+	cli4.runKernels();
+	cli4.printTimes();
+	
+	dpClient cli5(2,1);
+	cli5.runKernels();
+	cli5.printTimes();
+	
 	/*
+	int j=0;
 	for(r=0; r<15; r++){
 		for(i=0; pow(2,i)*pow(2,j)<=1024;i++){
 			for(j=0; pow(2,i)*pow(2,j)<=1024;j++){
