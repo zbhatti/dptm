@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "./bmpfuncs.h"
+#include "bmpfuncs.h"
 
 void storeImage(float *imageOut, const char *filename, int rows, int cols, 
                 const char* refFilename) {

@@ -1,5 +1,5 @@
 #include "dpRotateImage.hpp"
-#include "helperFunctions/errorCheck.hpp"
+#include "errorCheck.hpp"
 #include <string.h>
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
@@ -48,8 +48,8 @@ void dpRotateImage::init(int xLocal, int yLocal, int zLocal){
 	theta = 3.14159/6;
 	cos_theta = cosf(theta);
 	sin_theta = sinf(theta);
-	strcpy(inputFile,"helperFunctions/input.bmp");
-	strcpy(outputFile,"output.bmp");
+	strcpy(inputFile,"./src/data/input.bmp");
+	strcpy(outputFile,"./src/data/output.bmp");
 	float * tmp = readImage(inputFile, &imageWidth, &imageHeight);
 	inputImage = new float[imageHeight*imageWidth];
 	inputImage = tmp;
@@ -88,7 +88,7 @@ void dpRotateImage::memoryCopyIn(){
 
 void dpRotateImage::cleanUp(){
 	// Write the output image to file
-	//storeImage(outputImage, outputFile, imageHeight, imageWidth, inputFile);
+	storeImage(outputImage, outputFile, imageHeight, imageWidth, inputFile);
 	clErrChk(clReleaseKernel(kernel));
 	clErrChk(clReleaseMemObject(d_input));
 	clErrChk(clReleaseMemObject(d_output));

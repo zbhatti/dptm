@@ -1,5 +1,5 @@
 #include "dpKernel.hpp"
-#include "helperFunctions/bmpfuncs.h"
+#include "bmpfuncs.h"
 
 class dpRotateImage: public dpKernel{
 	

@@ -1,5 +1,5 @@
 #include "dpSquareArray.hpp"
-#include "helperFunctions/errorCheck.hpp"
+#include "errorCheck.hpp"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
 dpSquareArray::dpSquareArray(cl_context ctx, cl_command_queue q){

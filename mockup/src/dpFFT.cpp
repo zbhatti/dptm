@@ -1,5 +1,5 @@
 #include "dpFFT.hpp"
-#include "helperFunctions/errorCheck.hpp"
+#include "errorCheck.hpp"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
 

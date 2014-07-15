@@ -11,7 +11,6 @@
 #else
 	#include <CL/opencl.h>
 #endif
-#include "helperFunctions/bmpfuncs.h"
 #include "enumeratedTypes.h"
 
 

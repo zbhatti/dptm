@@ -1,5 +1,5 @@
 #include "dpClient.hpp"
-#include "helperFunctions/errorCheck.hpp"
+#include "errorCheck.hpp"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
 
@@ -58,7 +58,7 @@ void dpClient::runKernels(){
 	
 	dpTiming timeTmp; //timeTmp needs to check what type it is so it can store arguments like N.M.P, WorkGroupSize, etc
 	
-	for (int i =0; i <taskList.size(); i++){
+	for (unsigned int i =0; i <taskList.size(); i++){
 		if (taskList.at(i)->workDimension == ONE_D){
 			//loop this over workgroup dimensions
 			taskList.at(i)->init(MaxWorkGroupSize,1,1);
@@ -101,7 +101,7 @@ void dpClient::runKernels(){
 	}
 	
 }
-
+ 
 float dpClient::timeDiff(struct timeval start, struct timeval finish){
 	return (float) ((finish.tv_sec*1000000.0 + finish.tv_usec) - (start.tv_sec*1000000.0 + start.tv_usec))/(1000.0);
 }
@@ -109,11 +109,11 @@ float dpClient::timeDiff(struct timeval start, struct timeval finish){
 
 //print times, probably change to export the timeList instance
 void dpClient::printTimes(){
-	for (int i = 0; i < timeList.size(); i++){
+	for (unsigned int i = 0; i < timeList.size(); i++){
 		printf("%0.1f\t%0.1f\t%0.1f\t%0.1f\t%0.1f\n", 
 			timeList.at(i).memoryCopyOut,
 			timeList.at(i).plan,
-			timeList.at(i).execute,
+			timeList.at(i).execute, 
 			timeList.at(i).memoryCopyIn,
 			timeList.at(i).cleanUp);
 	}
