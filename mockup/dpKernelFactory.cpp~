@@ -1,9 +1,0 @@
-#include "dpKernel.hpp"
-#include "dpFFT.hpp"
-#include "dpMatrixMultiplication.hpp"
-#include "dpSquareArray.hpp"
-
-class dpKernelFactory{
-
-	dpKernel * makeItems
-}
