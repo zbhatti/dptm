@@ -12,10 +12,12 @@ class dpFFT: public dpKernel{
 	size_t clLengths[1];
 	
 	public:
-		dpFFT(float*, int, cl_context, cl_command_queue);
+		dpFFT(cl_context, cl_command_queue);
+		void init(int,int,int); //unused for this kernel
 		void memoryCopyOut();
 		void plan();
 		void execute();
 		void memoryCopyIn();
 		void cleanUp();
+		void generateInterleaved(float*,int);
 };

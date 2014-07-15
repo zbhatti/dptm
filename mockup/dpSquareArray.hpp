@@ -5,12 +5,16 @@ class dpSquareArray: public dpKernel{
 	float *Ain, *Aout;
 	int Asize;
 	int err;
+
+	const char* kernelString;
 	
 	public:
-		dpSquareArray(float*, int, cl_context, cl_command_queue, int);
+		dpSquareArray(cl_context, cl_command_queue);
+		void init(int,int,int); //send workgroup dimensions after checking the kernel's type
 		void memoryCopyOut();
 		void plan();
 		void execute();
 		void memoryCopyIn();
 		void cleanUp();
+		void generateArray(float*, int);
 };

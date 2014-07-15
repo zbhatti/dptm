@@ -1,53 +1,7 @@
-#include <stdio.h>
-#include <time.h> //for random seed and timing
-#include <sys/time.h>
-#include <new>
-#include <vector>
-#include <math.h>
+#include "dpClient.hpp"
+#include "helperFunctions/errorCheck.hpp"
+#define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
-#ifdef __APPLE__
-	#include <OpenCL/opencl.h>
-#else
-	#include <CL/opencl.h>
-#endif
-
-#include "dpFFT.hpp"
-#include "dpSquareArray.hpp"
-#include "dpMatrixMultiplication.hpp"
-#include "dpRotateImage.hpp"
-#include "dpTiming.hpp"
-
-class dpClient {
-	cl_platform_id platform_ids[16];
-	cl_device_id device_ids[16];
-	cl_context context;
-	cl_command_queue queue;
-	cl_program program;
-	cl_kernel kernel;
-	char * kernelString;
-	size_t MaxWorkGroupSize;
-	int MaxComputeUnits;
-	struct timeval start, finish;
-	std::vector<dpKernel*> taskList;
-	std::vector<dpTiming> timeList;
-	
-	public:
-		dpClient(int,int);
-		void generateArray(float[],int);
-		void generateMatrix(float[],int,int);
-		void generateInterleaved(float[],int);
-		void printMatrix(float[],int,int);
-		void printInterlaved(float[], int);
-		float timeDiff(struct timeval, struct timeval);
-		int MaxWGSize(){return MaxWorkGroupSize;};
-		void runSquareArray();
-		void runFFT();
-		void runMatrixMultiplication();
-		void runRotateImage();
-		void runKernels();
-		void printTimes();
-		
-};
 
 //set up context and queue on a device and retrieve valuable
 //device information for other methods
@@ -56,110 +10,38 @@ dpClient::dpClient(int platform, int device){
 	char name[256];
 	int err;
 	cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
-	err = clGetPlatformIDs(16, platform_ids, NULL);
-	err = clGetDeviceIDs(platform_ids[platform], CL_DEVICE_TYPE_ALL, 16, device_ids, &numDevices);
-	err = clGetPlatformInfo(platform_ids[platform], CL_PLATFORM_NAME, sizeof(name), name, NULL);
+	clErrChk(clGetPlatformIDs(16, platform_ids, NULL));
+	clErrChk(clGetDeviceIDs(platform_ids[platform], CL_DEVICE_TYPE_ALL, 16, device_ids, &numDevices));
+	clErrChk(clGetPlatformInfo(platform_ids[platform], CL_PLATFORM_NAME, sizeof(name), name, NULL));
 	fprintf(stderr,"On Platform %s\n", name);
-	err = clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(name), name, NULL);
-	err = clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL);
-	err = clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL);
+	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(name), name, NULL));
+	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL));
+	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
 	fprintf(stderr,"using device %s\n", name);
 	props[1] = (cl_context_properties) platform_ids[platform];
-	context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err);
-	queue = clCreateCommandQueue( context, device_ids[device], 0, &err);
+	context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err); clErrChk(err);
+	queue = clCreateCommandQueue( context, device_ids[device], 0, &err); clErrChk(err);
 }
 
-void dpClient::runSquareArray(){
-	int Asize = 1024;
-	float* Ain = new float[Asize];
-	generateArray(Ain, Asize);
-	dpSquareArray squareKernel(Ain, Asize, context, queue, MaxWorkGroupSize);
-	squareKernel.memoryCopyOut();
-	squareKernel.plan();
-	squareKernel.execute();
-	squareKernel.memoryCopyIn();
-	squareKernel.cleanUp();
-	delete[] Ain;
-}
-
-void dpClient::runFFT(){
-	int Asize =1024;
-	float* Ain = new float[Asize*2];
-	generateInterleaved(Ain, Asize);
-	dpFFT FFTKernel(Ain, Asize, context, queue);
-	FFTKernel.memoryCopyOut();
-	FFTKernel.plan();
-	FFTKernel.execute();
-	FFTKernel.memoryCopyIn();
-	FFTKernel.cleanUp();
-	delete[] Ain;
-}
-
-void dpClient::runMatrixMultiplication(){
-	int N, P, M;
-	float *A, *B;
-	N=1024;
-	P=1024;
-	M=1024;
-	A = new float[N*P];
-	B = new float[P*M];
-	generateMatrix(A,N,P);
-	generateMatrix(B,P,M);
-	dpMatrixMultiplication MMKernel(A, B, N, P, M, context, queue, 32, 16);
-	MMKernel.memoryCopyOut();
-	MMKernel.plan();
-	MMKernel.execute();
-	MMKernel.memoryCopyIn();
-	MMKernel.cleanUp();
-	delete[] A;
-	delete[] B;
-	
-}
-
-void dpClient::runRotateImage(){
-	dpRotateImage rotKernel(context, queue, 16, 16);
-	rotKernel.memoryCopyOut();
-	rotKernel.plan();
-	rotKernel.execute();
-	rotKernel.memoryCopyIn();
-	rotKernel.cleanUp();
-}
 
 void dpClient::runKernels(){
 
-	int N1, N2, N3; 
-	int P1, P2, P3; 
-	int M1, M2, M3;
-	float *A1, *A2, *A3; 
-	float *B1, *B2, *B3;
-	
-	N1=512; N2=1024; N3=256;
-	P1=4096; P2=2048; P3=4096;
-	M1=2048; M2=8192; M3=8192;
-	
-	A1 = new float[N1*P1]; A2 = new float[N2*P2]; A3 = new float[N3*P3];
-	B1 = new float[P1*M1]; B2 = new float[P2*M2]; B3 = new float[P3*M3];
-	
-	generateMatrix(A1,N1,P1); generateMatrix(A2,N2,P2); generateMatrix(A3,N3,P3);
-	generateMatrix(B1,P1,M1); generateMatrix(B2,P2,M2); generateMatrix(B3,P3,M3);
-	
-	dpMatrixMultiplication MM1(A1, B1, N1, P1, M1, context, queue, 4, 16);
-	dpMatrixMultiplication MM2(A2, B2, N2, P2, M2, context, queue, 16, 16);
-	dpMatrixMultiplication MM3(A3, B3, N3, P3, M3, context, queue, 8, 32);
+	//workgroups must be smaller than data dimensions
+	dpMatrixMultiplication MM1(context, queue);
+	dpMatrixMultiplication MM2(context, queue);
+	dpMatrixMultiplication MM3(context, queue);
 
+	dpSquareArray square1(context, queue);
+	dpSquareArray square2(context, queue);
+	dpSquareArray square3(context, queue);
 	
-	int C1size, C2size, C3size;
-	C1size=1024; C2size=8192; C3size=1048576;
-	float *C1, *C2, *C3;
-	C1 = new float[C1size]; C2 = new float[C2size]; C3 = new float[C3size];
-	generateArray(C1, C1size); generateArray(C2, C2size); generateArray(C3, C3size);
-	dpSquareArray square1(C1, C1size, context, queue, 256); //C1size must be larger than xLocal
-	dpSquareArray square2(C2, C2size, context, queue, 16);
-	dpSquareArray square3(C3, C3size, context, queue, MaxWorkGroupSize);
+	dpRotateImage rot1(context, queue);
+	dpRotateImage rot2(context, queue);
+	dpRotateImage rot3(context, queue);
 	
-	dpRotateImage rot1(context, queue, 16, 16);
-	dpRotateImage rot2(context, queue, 8, 32);
-	dpRotateImage rot3(context, queue, 64, 4);
+	dpFFT fft1(context, queue);
+	dpFFT fft2(context, queue);
+	dpFFT fft3(context, queue);
 	
 	taskList.push_back(&MM1);
 	taskList.push_back(&MM2);
@@ -170,10 +52,26 @@ void dpClient::runKernels(){
 	taskList.push_back(&rot1);
 	taskList.push_back(&rot2);
 	taskList.push_back(&rot3);
+	taskList.push_back(&fft1);
+	taskList.push_back(&fft2);
+	taskList.push_back(&fft3);
 	
-	dpTiming timeTmp;
+	dpTiming timeTmp; //timeTmp needs to check what type it is so it can store arguments like N.M.P, WorkGroupSize, etc
 	
 	for (int i =0; i <taskList.size(); i++){
+		if (taskList.at(i)->workDimension == ONE_D){
+			//loop this over workgroup dimensions
+			taskList.at(i)->init(MaxWorkGroupSize,1,1);
+		}
+
+		if (taskList.at(i)->workDimension == TWO_D){
+			taskList.at(i)->init(8,32,1);
+		}
+		
+		if (taskList.at(i)->workDimension == THREE_D){
+			taskList.at(i)->init(16,4,1);
+		}
+
 		gettimeofday(&start, NULL);
 		taskList.at(i)->memoryCopyOut();
 		gettimeofday(&finish, NULL);
@@ -200,69 +98,19 @@ void dpClient::runKernels(){
 		timeTmp.cleanUp = timeDiff(start,finish);
 		
 		timeList.push_back(timeTmp);
-		
 	}
 	
-	delete[] C1, C2, C3;
-	delete[] A1, A2, A3;
-	delete[] B1, B2, B3;
-}
-
-void dpClient::generateArray(float A[], int N){
-	int i;
-	srand(time(NULL));
-	for (i=0; i < N; i++){
-		A[i]=rand() / (RAND_MAX/99999.9 + 1);
-	}
-}
-
-void dpClient::generateMatrix(float A[], int height, int width){
-	int i, j;
-	srand(time(NULL));
-	for (j=0; j<height; j++){//rows in A
-		for (i=0; i<width; i++){//cols in A
-			A[i + width*j] = rand() / (RAND_MAX/99999.9 + 1);
-		}
-	}
-}
-
-void dpClient::generateInterleaved(float A[], int N){
-	int i;
-	srand(time(NULL));
-	for (i=0; i < 2*N; i=i+2){
-		A[i] = rand() / (RAND_MAX/99999.9 + 1);
-		A[i+1] = rand() / (RAND_MAX/99999.9 + 1);
-	}
 }
 
 float dpClient::timeDiff(struct timeval start, struct timeval finish){
 	return (float) ((finish.tv_sec*1000000.0 + finish.tv_usec) - (start.tv_sec*1000000.0 + start.tv_usec))/(1000.0);
 }
 
-//helper function:
-void dpClient::printMatrix(float A[], int height, int width){
-	int i, j;
-	printf("\n");
-	for (j=0; j<height; j++){//rows in A
-		for (i=0; i<width; i++){//cols in A
-			printf("%3.2f ",A[i + width*j]);
-		}
-		printf("\n");
-	}
-	printf("\n");
-}
-
-//helper function:
-void dpClient::printInterlaved(float A[], int N){
-	int i;
-	for (i=0; i < 2*N; i=i+2)
-		printf("%f, %f\n",A[i], A[i+1]);
-}
 
 //print times, probably change to export the timeList instance
 void dpClient::printTimes(){
 	for (int i = 0; i < timeList.size(); i++){
-		printf("%0.3f\t%0.3f\t%0.3f\t%0.3f\t%0.3f\n", 
+		printf("%0.1f\t%0.1f\t%0.1f\t%0.1f\t%0.1f\n", 
 			timeList.at(i).memoryCopyOut,
 			timeList.at(i).plan,
 			timeList.at(i).execute,

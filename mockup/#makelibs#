@@ -1,0 +1,16 @@
+g++ \
+helperFunctions/bmpfuncs.c \
+helperFunctions/errorCheck.cpp \
+dpKernel.cpp \
+dpClient.cpp \
+dpSquareArray.cpp \
+dpRotateImage.cpp \
+dpTiming.cpp \
+dpMatrixMultiplication.cpp \
+dpFFT.cpp \
+-odpClient \
+-I/opt/intel/include \
+-lOpenCL \
+-I/opt/clFFT/src/package/include \
+
+

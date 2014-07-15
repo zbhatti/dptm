@@ -11,8 +11,12 @@ class dpRotateImage: public dpKernel{
 	char inputFile[48];
 	char outputFile[48];
 	
+	//source: http://www.heterogeneouscompute.org/?page_id=7
+	const char* kernelString;
+	
 	public:
-		dpRotateImage(cl_context, cl_command_queue, int, int);
+		dpRotateImage(cl_context, cl_command_queue);
+		void init(int,int,int);
 		void memoryCopyOut();
 		void plan();
 		void execute();

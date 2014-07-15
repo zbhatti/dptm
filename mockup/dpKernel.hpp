@@ -12,6 +12,8 @@
 	#include <CL/opencl.h>
 #endif
 #include "helperFunctions/bmpfuncs.h"
+#include "enumeratedTypes.h"
+
 
 class dpKernel{
 	protected:
@@ -20,8 +22,11 @@ class dpKernel{
 		cl_kernel kernel;
 		cl_program program;
 		size_t localSize[3], globalSize[3];
+		
 	public:
+		workGroupSpace workDimension;
 		void FillerFunction();
+		virtual void init(int,int,int) = 0;
 		virtual void memoryCopyOut(void) = 0;
 		virtual void plan(void) = 0;
 		virtual void execute(void) = 0;

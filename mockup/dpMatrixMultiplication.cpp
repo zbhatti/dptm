@@ -2,54 +2,57 @@
 #include "helperFunctions/errorCheck.hpp"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
-
-
-//source: http://www.cs.bris.ac.uk/home/simonm/workshops/OpenCL_lecture3.pdf
-const char* kernelS = "\n"
-"__kernel void mmul( \n" 
-"const int Mdim, \n" 
-"const int Ndim,  \n" 
-"const int Pdim, \n" 
-"__global float* A, \n" 
-"__global float* B,  \n" 
-"__global float* C){ \n" 
-"	int k; \n" 
-"	int i = get_global_id(0); //get column \n" 
-"	int j = get_global_id(1); //get row \n" 
-"	float tmp = 0.0f; \n" 
-"	for (k=0; k<Pdim; k++)  \n" 
-"		tmp += A[j*Pdim+k] * B[k*Mdim+i];  \n" 
-"	C[j*Mdim+i] = tmp; \n" 
-"} \n";
-
-dpMatrixMultiplication::dpMatrixMultiplication(float* M1, float* M2, int M1Height, int M1Width, int M2Width, cl_context ctx, cl_command_queue q, int xLocal, int yLocal){
-	
-	A = M1;
-	B = M2;
-	N = M1Height;
-	P = M1Width;
-	M = M2Width;
+dpMatrixMultiplication::dpMatrixMultiplication(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
-	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	szA = N*P; 
-	szB = P*M; 
-	szC = N*M; 
+	workDimension = TWO_D;
+	kernelString = "\n"
+		"__kernel void mmul( \n" 
+		"const int Mdim, \n" 
+		"const int Ndim,  \n" 
+		"const int Pdim, \n" 
+		"__global float* A, \n" 
+		"__global float* B,  \n" 
+		"__global float* C){ \n" 
+		"	int k; \n" 
+		"	int i = get_global_id(0); //get column \n" 
+		"	int j = get_global_id(1); //get row \n" 
+		"	float tmp = 0.0f; \n" 
+		"	for (k=0; k<Pdim; k++)  \n" 
+		"		tmp += A[j*Pdim+k] * B[k*Mdim+i];  \n" 
+		"	C[j*Mdim+i] = tmp; \n" 
+		"} \n";
 	
-	C = new float[szC];
-	if (!C)
-		fprintf(stderr,"error in dynamic allocation");
-		
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelS, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "mmul", &err); clErrChk(err);
 }
 
-void dpMatrixMultiplication::memoryCopyOut(){
+void dpMatrixMultiplication::init(int xLocal, int yLocal, int zLocal){
+	
+	N = 4096;
+	P = 4096;
+	M = 1024;
+	szA = N*P;
+	szB = P*M;
+	szC = N*M;
+	
+	A = new float[szA];
+	B = new float[szB];
+	C = new float[szC];
+	if (!A || !B || !C)
+		fprintf(stderr,"error in dynamic allocation");
+	
+	localSize[0] = xLocal;
+	localSize[1] = yLocal;
+	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "mmul", &err); clErrChk(err);
 	a_in = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(float) * szA, NULL, &err); clErrChk(err);
 	b_in = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(float) * szB, NULL, &err); clErrChk(err);
 	c_out = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(float) * szC, NULL, &err); clErrChk(err);
+	
+}
+
+void dpMatrixMultiplication::memoryCopyOut(){
 	clErrChk(clEnqueueWriteBuffer(queue, a_in, CL_TRUE, 0, sizeof(float) * szA, A, 0, NULL, NULL)); 
 	clErrChk(clEnqueueWriteBuffer(queue, b_in, CL_TRUE, 0, sizeof(float) * szB, B, 0, NULL, NULL));
 	clErrChk(clFinish(queue));
@@ -80,5 +83,17 @@ void dpMatrixMultiplication::cleanUp(){
 	clErrChk(clReleaseMemObject(a_in));
 	clErrChk(clReleaseMemObject(b_in));
 	clErrChk(clReleaseMemObject(c_out));
+	delete[] A;
+	delete[] B;
 	delete[] C;
+}
+
+void dpMatrixMultiplication::generateMatrix(float A[], int height, int width){
+	int i, j;
+	srand(time(NULL));
+	for (j=0; j<height; j++){//rows in A
+		for (i=0; i<width; i++){//cols in A
+			A[i + width*j] = rand() / (RAND_MAX/99999.9 + 1);
+		}
+	}
 }
