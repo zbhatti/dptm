@@ -7,6 +7,7 @@
 #include <new>
 #include <math.h>
 #include <string>
+#include <vector>
 #ifdef __APPLE__
 	#include <OpenCL/opencl.h>
 #else
@@ -26,6 +27,8 @@ class dpKernel{
 		
 	public:
 		std::string name;
+		std::vector<std::string> dataNames;
+		std::vector<float> dataParameters;
 		workGroupSpace workDimension;
 		void FillerFunction();
 		virtual void init(int,int,int) = 0;

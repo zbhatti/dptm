@@ -23,30 +23,29 @@ int main (int argc, const char* argv[]) {
 	cli1.addTask("FFT",32);
 	*/
 	cli1.addTaskScan("SquareArray");
+	cli1.addTaskScan("RotateImage");
 	cli1.addTaskScan("MatrixMultiplication");
-	//cli1.addTaskScan("RotateImage");
 	cli1.runTasks();
 	cli1.printTimes();
 	
 	
 	dpClient cli2(1,0);
-	cli2.addTaskScan("RotateImage");
 	cli2.addTaskScan("SquareArray");
 	cli2.addTaskScan("MatrixMultiplication");
+	cli2.addTaskScan("RotateImage");
 	cli2.runTasks();
 	cli2.printTimes();
 	
 	dpClient cli3(1,1);
-	cli3.addTaskScan("MatrixMultiplication");
 	cli3.addTaskScan("RotateImage");
+	cli3.addTaskScan("MatrixMultiplication");
 	cli3.addTaskScan("SquareArray");
 	cli3.runTasks();
 	cli3.printTimes();
 	
 	dpClient cli4(2,0);
-	
-	cli4.addTaskScan("RotateImage");
 	cli4.addTaskScan("MatrixMultiplication");
+	cli4.addTaskScan("RotateImage");
 	cli4.addTaskScan("SquareArray");
 	cli4.runTasks();
 	cli4.printTimes();

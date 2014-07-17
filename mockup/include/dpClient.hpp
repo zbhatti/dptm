@@ -31,6 +31,7 @@ class dpClient {
 		std::vector<dpKernel*> taskList;
 		std::vector<dpTiming> timeList;
 		dpKernelFactory kernelFactory;
+		char name[256];
 		
 	
 	public:

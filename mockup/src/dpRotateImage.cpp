@@ -59,6 +59,11 @@ void dpRotateImage::init(int xLocal, int yLocal, int zLocal){
 	dataSize = imageHeight*imageWidth*sizeof(float);
 	outputImage = new float[imageHeight*imageWidth];
 	
+	dataParameters.push_back(imageHeight);
+	dataParameters.push_back(imageWidth);
+	dataNames.push_back("ImageHeight");
+	dataNames.push_back("ImageWidth");
+	
 	d_input = clCreateBuffer(context, CL_MEM_READ_ONLY, dataSize, NULL, &err);  clErrChk(err);
 	d_output = clCreateBuffer(context, CL_MEM_WRITE_ONLY, dataSize, NULL,	&err);  clErrChk(err);
 }

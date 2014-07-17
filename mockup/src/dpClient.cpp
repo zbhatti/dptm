@@ -6,7 +6,6 @@
 //device information for other methods
 dpClient::dpClient(int platform, int device){
 	unsigned int numDevices;
-	char name[256];
 	int err;
 	cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
 	clErrChk(clGetPlatformIDs(16, platform_ids, NULL));
@@ -54,7 +53,9 @@ void dpClient::runTasks(){
 		
 		timeTmp.name = taskList.at(i)->name;
 		timeTmp.localSize = taskList.at(i)->getLocalSize();
-		
+		timeTmp.data= taskList.at(i)->dataParameters;
+		timeTmp.dataNames= taskList.at(i)->dataNames;
+		timeTmp.device = name;
 		timeList.push_back(timeTmp);
 	}
 }
@@ -133,18 +134,15 @@ float dpClient::timeDiff(struct timeval start, struct timeval finish){
 
 //print times, probably change to export the timeList instance
 void dpClient::printTimes(){
+	printf("%s\n",timeList.at(0).getVariables().c_str());
 	for (unsigned int i = 0; i < timeList.size(); i++){
-		printf("%s\t%d\t%d\t%d\t%0.1f\t%0.1f\t%0.1f\t%0.1f\t%0.1f\n",
-			timeList.at(i).name.c_str(),
-			(int)timeList.at(i).localSize[0],
-			(int)timeList.at(i).localSize[1],
-			(int)timeList.at(i).localSize[2],
-			timeList.at(i).memoryCopyOut,
-			timeList.at(i).plan,
-			timeList.at(i).execute, 
-			timeList.at(i).memoryCopyIn,
-			timeList.at(i).cleanUp);
+		if(i>0){
+			if ( timeList.at(i).name.compare(timeList.at(i-1).name) )
+				printf("%s\n",timeList.at(i).getVariables().c_str());
+		}
+		printf("%s\n", timeList.at(i).getTimes().c_str() );
 	}
+	
 }
 
 

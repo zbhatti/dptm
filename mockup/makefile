@@ -1,4 +1,4 @@
-CFLAGS=-c -Wall
+CFLAGS=-c -Wall 
 includedir=-I/opt/clFFT/src/package/include -I./include -I/opt/intel/include
 libdir=-L/opt/clFFT/src/package/lib64
 LDFLAGS=-lclFFT -lOpenCL
@@ -20,7 +20,7 @@ OBJECTS=$(addprefix obj/, $(SRCLIST))
 all: main
 
 main: objects
-	g++ $(OBJECTS:.cpp=.o) -o dpClient $(includedir) $(libdir) $(LDFLAGS)
+	g++ $(OBJECTS:.cpp=.o) -std=c++11 -o dpClient $(includedir) $(libdir) $(LDFLAGS)
 
 objects: $(SOURCES)
 	gcc $(CFLAGS) $(includedir) $(libdir) $(LDFLAGS) $(SOURCES)

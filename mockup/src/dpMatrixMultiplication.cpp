@@ -30,17 +30,28 @@ dpMatrixMultiplication::dpMatrixMultiplication(cl_context ctx, cl_command_queue 
 void dpMatrixMultiplication::init(int xLocal, int yLocal, int zLocal){
 	
 	N = 2048;
-	P = 2048;
-	M = 2048;
+	P = 4096;
+	M = 1024;
 	szA = N*P;
 	szB = P*M;
 	szC = N*M;
+	
+	dataParameters.push_back(N);
+	dataParameters.push_back(P);
+	dataParameters.push_back(M);
+	
+	dataNames.push_back("N");
+	dataNames.push_back("P");
+	dataNames.push_back("M");
 	
 	A = new float[szA];
 	B = new float[szB];
 	C = new float[szC];
 	if (!A || !B || !C)
 		fprintf(stderr,"error in dynamic allocation");
+	
+	generateMatrix(A,N,P);
+	generateMatrix(B,P,M);
 	
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;

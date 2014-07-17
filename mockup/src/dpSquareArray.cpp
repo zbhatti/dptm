@@ -36,6 +36,9 @@ void dpSquareArray::init(int xLocal,int yLocal, int zLocal){
 	localSize[1] = yLocal;
 	localSize[2] = zLocal;
 	
+	dataParameters.push_back(Asize);
+	dataNames.push_back("nElements");
+	
 	Ain_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
 	Aout_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
 }

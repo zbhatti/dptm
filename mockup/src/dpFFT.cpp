@@ -14,6 +14,9 @@ void dpFFT::init(int filler1, int filler2, int filler3){
 	
 	Asize = 16384;
 	
+	dataParameters.push_back(Asize);
+	dataNames.push_back("nVectors");
+	
 	Ain = new float[Asize*2];
 	Aout = new float[Asize*2];
 	if (!Aout || !Ain)
