@@ -1,6 +1,10 @@
 #include "dpKernel.hpp"
 #include "bmpfuncs.h"
 
+#ifndef __dpRotateImage_H_INCLUDED__
+#define __dpRotateImage_H_INCLUDED__
+
+
 class dpRotateImage: public dpKernel{
 	
 	cl_mem d_input, d_output;
@@ -23,3 +27,5 @@ class dpRotateImage: public dpKernel{
 		void memoryCopyIn();
 		void cleanUp();
 };
+
+#endif

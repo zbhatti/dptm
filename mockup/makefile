@@ -1,8 +1,9 @@
 CFLAGS=-c -Wall
-includedir=-I/opt/clFFT/src/package/include -I/home/zxb0111/dptm/mockup/include -I/opt/intel/include
+includedir=-I/opt/clFFT/src/package/include -I./include -I/opt/intel/include
 libdir=-L/opt/clFFT/src/package/lib64
 LDFLAGS=-lclFFT -lOpenCL
 SRCLIST= \
+main.cpp \
 errorCheck.cpp \
 dpKernel.cpp \
 dpClient.cpp \
@@ -11,16 +12,17 @@ dpRotateImage.cpp \
 dpMatrixMultiplication.cpp \
 dpFFT.cpp \
 dpTiming.cpp \
+dpKernelFactory.cpp \
 bmpfuncs.cpp
 SOURCES=$(addprefix src/, $(SRCLIST))
 OBJECTS=$(addprefix obj/, $(SRCLIST))
 
 all: main
 
-main: $(OBJECTS)
+main: objects
 	g++ $(OBJECTS:.cpp=.o) -o dpClient $(includedir) $(libdir) $(LDFLAGS)
 
-$(OBJECTS): $(SOURCES)
+objects: $(SOURCES)
 	gcc $(CFLAGS) $(includedir) $(libdir) $(LDFLAGS) $(SOURCES)
 	mv *.o obj/
 

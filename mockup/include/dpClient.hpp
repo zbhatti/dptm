@@ -13,11 +13,8 @@
 #endif
 
 #include "enumeratedTypes.h"
-#include "dpFFT.hpp"
-#include "dpSquareArray.hpp"
-#include "dpMatrixMultiplication.hpp"
-#include "dpRotateImage.hpp"
 #include "dpTiming.hpp"
+#include "dpKernelFactory.hpp"
 
 class dpClient {
 	private:
@@ -27,16 +24,22 @@ class dpClient {
 		cl_command_queue queue;
 		cl_program program;
 		cl_kernel kernel;
-		char * kernelString;
 		size_t MaxWorkGroupSize;
+		size_t MaxWorkDim[3];
 		int MaxComputeUnits;
 		struct timeval start, finish;
 		std::vector<dpKernel*> taskList;
 		std::vector<dpTiming> timeList;
+		dpKernelFactory kernelFactory;
+		
 	
 	public:
-		dpClient(int,int);
+		dpClient(int, int);
 		float timeDiff(struct timeval, struct timeval);
-		void runKernels();
+		void runTasks();
+		void addTask(std::string, int);
+		void addTask(std::string, int, int);
+		void addTask(std::string, int, int, int);
+		void addTaskScan(std::string);
 		void printTimes();
 };

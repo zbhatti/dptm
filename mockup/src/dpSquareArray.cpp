@@ -6,6 +6,7 @@ dpSquareArray::dpSquareArray(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = ONE_D;
+	name = "SquareArray";
 	
 	kernelString = "\n"
 		"__kernel void squareArray( \n" 
@@ -32,8 +33,8 @@ void dpSquareArray::init(int xLocal,int yLocal, int zLocal){
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
 	kernel = clCreateKernel(program, "squareArray", &err); clErrChk(err);
 	localSize[0] = xLocal;
-	localSize[1] = 1;
-	localSize[2] = 1;
+	localSize[1] = yLocal;
+	localSize[2] = zLocal;
 	
 	Ain_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
 	Aout_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
@@ -62,7 +63,7 @@ void dpSquareArray::memoryCopyIn(){
 }
 
 void dpSquareArray::cleanUp(){
-	printf("%f^2 = %f\n",Ain[Asize-1],Aout[Asize-1]);
+	//printf("%f^2 = %f\n",Ain[Asize-1],Aout[Asize-1]);
 	clErrChk(clReleaseKernel(kernel));
 	clErrChk(clReleaseProgram(program));
 	clErrChk(clReleaseMemObject(Ain_d));

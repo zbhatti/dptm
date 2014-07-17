@@ -7,6 +7,7 @@ dpFFT::dpFFT(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+	name = "FFT";
 }
 
 void dpFFT::init(int filler1, int filler2, int filler3){
@@ -21,7 +22,9 @@ void dpFFT::init(int filler1, int filler2, int filler3){
 	generateInterleaved(Ain, Asize);
 	clErrChk(clfftSetup(&fftSetup));
 	buffer = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*2*sizeof(float), NULL, &err); clErrChk(err);
-
+	localSize[0] =localSize[1]=localSize[2]=0;
+	
+	
 }
 
 void dpFFT::memoryCopyOut(){

@@ -6,6 +6,8 @@ dpMatrixMultiplication::dpMatrixMultiplication(cl_context ctx, cl_command_queue 
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+	name = "MatrixMultiplication";
+	
 	kernelString = "\n"
 		"__kernel void mmul( \n" 
 		"const int Mdim, \n" 
@@ -27,9 +29,9 @@ dpMatrixMultiplication::dpMatrixMultiplication(cl_context ctx, cl_command_queue 
 
 void dpMatrixMultiplication::init(int xLocal, int yLocal, int zLocal){
 	
-	N = 4096;
-	P = 4096;
-	M = 1024;
+	N = 2048;
+	P = 2048;
+	M = 2048;
 	szA = N*P;
 	szB = P*M;
 	szC = N*M;
@@ -42,6 +44,7 @@ void dpMatrixMultiplication::init(int xLocal, int yLocal, int zLocal){
 	
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
+	localSize[2] = zLocal;
 	
 	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));

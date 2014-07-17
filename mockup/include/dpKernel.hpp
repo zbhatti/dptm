@@ -6,6 +6,7 @@
 #include <sys/time.h>
 #include <new>
 #include <math.h>
+#include <string>
 #ifdef __APPLE__
 	#include <OpenCL/opencl.h>
 #else
@@ -20,9 +21,11 @@ class dpKernel{
 		cl_command_queue queue;
 		cl_kernel kernel;
 		cl_program program;
-		size_t localSize[3], globalSize[3];
+		size_t localSize[3];
+		size_t globalSize[3];
 		
 	public:
+		std::string name;
 		workGroupSpace workDimension;
 		void FillerFunction();
 		virtual void init(int,int,int) = 0;
@@ -31,7 +34,7 @@ class dpKernel{
 		virtual void execute(void) = 0;
 		virtual void memoryCopyIn(void) = 0;
 		virtual void cleanUp(void) = 0;
-		
+		size_t* getLocalSize(){return localSize;};
 };
 
 #endif

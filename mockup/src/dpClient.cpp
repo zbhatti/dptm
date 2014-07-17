@@ -2,8 +2,7 @@
 #include "errorCheck.hpp"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
-
-//set up context and queue on a device and retrieve valuable
+//set up context and queue on a device and retrieve 
 //device information for other methods
 dpClient::dpClient(int platform, int device){
 	unsigned int numDevices;
@@ -17,61 +16,17 @@ dpClient::dpClient(int platform, int device){
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(name), name, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
+	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_ITEM_SIZES, sizeof(MaxWorkDim), &MaxWorkDim, NULL));
 	fprintf(stderr,"using device %s\n", name);
 	props[1] = (cl_context_properties) platform_ids[platform];
 	context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err); clErrChk(err);
 	queue = clCreateCommandQueue( context, device_ids[device], 0, &err); clErrChk(err);
 }
 
-
-void dpClient::runKernels(){
-
-	//workgroups must be smaller than data dimensions
-	dpMatrixMultiplication MM1(context, queue);
-	dpMatrixMultiplication MM2(context, queue);
-	dpMatrixMultiplication MM3(context, queue);
-
-	dpSquareArray square1(context, queue);
-	dpSquareArray square2(context, queue);
-	dpSquareArray square3(context, queue);
-	
-	dpRotateImage rot1(context, queue);
-	dpRotateImage rot2(context, queue);
-	dpRotateImage rot3(context, queue);
-	
-	dpFFT fft1(context, queue);
-	dpFFT fft2(context, queue);
-	dpFFT fft3(context, queue);
-	
-	taskList.push_back(&MM1);
-	taskList.push_back(&MM2);
-	taskList.push_back(&MM3);
-	taskList.push_back(&square1);
-	taskList.push_back(&square2);
-	taskList.push_back(&square3);
-	taskList.push_back(&rot1);
-	taskList.push_back(&rot2);
-	taskList.push_back(&rot3);
-	taskList.push_back(&fft1);
-	taskList.push_back(&fft2);
-	taskList.push_back(&fft3);
-	
-	dpTiming timeTmp; //timeTmp needs to check what type it is so it can store arguments like N.M.P, WorkGroupSize, etc
+void dpClient::runTasks(){
+	dpTiming timeTmp;
 	
 	for (unsigned int i =0; i <taskList.size(); i++){
-		if (taskList.at(i)->workDimension == ONE_D){
-			//loop this over workgroup dimensions
-			taskList.at(i)->init(MaxWorkGroupSize,1,1);
-		}
-
-		if (taskList.at(i)->workDimension == TWO_D){
-			taskList.at(i)->init(8,32,1);
-		}
-		
-		if (taskList.at(i)->workDimension == THREE_D){
-			taskList.at(i)->init(16,4,1);
-		}
-
 		gettimeofday(&start, NULL);
 		taskList.at(i)->memoryCopyOut();
 		gettimeofday(&finish, NULL);
@@ -97,20 +52,93 @@ void dpClient::runKernels(){
 		gettimeofday(&finish, NULL);
 		timeTmp.cleanUp = timeDiff(start,finish);
 		
+		timeTmp.name = taskList.at(i)->name;
+		timeTmp.localSize = taskList.at(i)->getLocalSize();
+		
 		timeList.push_back(timeTmp);
+	}
+}
+
+//One Dimensional kernel task:
+void dpClient::addTask(std::string name, int xLocal){
+	if(xLocal > (int)MaxWorkDim[0])
+		xLocal = MaxWorkDim[0]; 
+
+	taskList.push_back(kernelFactory.makeTask(name, context, queue));
+	//add error check here to make sure newly created kernel is of right dimension
+	taskList.at(taskList.size()-1)->init(xLocal, 1, 1);
+}
+
+//Two Dimensional kernel task:
+void dpClient::addTask(std::string name, int xLocal, int yLocal){
+	if((xLocal>(int)MaxWorkDim[0])||(yLocal>(int)MaxWorkDim[1])||(xLocal*yLocal>(int)MaxWorkGroupSize))
+		xLocal = yLocal = 16;
+
+	taskList.push_back(kernelFactory.makeTask(name, context, queue));
+	//add error check here to make sure newly created kernel is of right dimension
+	taskList.at(taskList.size()-1)->init(xLocal, yLocal, 1);
+}
+
+//Three Dimensional kernel task:
+void dpClient::addTask(std::string name, int xLocal, int yLocal, int zLocal){
+	if((xLocal>(int)MaxWorkDim[0])||(yLocal>(int)MaxWorkDim[1])||(zLocal>(int)MaxWorkDim[2])||(xLocal*yLocal*zLocal>(int)MaxWorkGroupSize))
+		xLocal=yLocal=zLocal = 8;
+	
+	taskList.push_back(kernelFactory.makeTask(name, context, queue));
+	//add error check here to make sure newly created kernel is of right dimension
+	taskList.at(taskList.size()-1)->init(xLocal, yLocal, zLocal);
+}
+
+//Loop through dimensions of a task:
+void dpClient::addTaskScan(std::string name){
+	workGroupSpace workDim;
+	int i,j,k;
+	j =0;
+	k =0;
+	//make a temporary kernel to read information from:
+	workDim = kernelFactory.makeTask(name, context, queue)->workDimension;
+	
+	if (workDim == ONE_D){
+		for (i=0; pow(2,i)<=MaxWorkGroupSize; i++)
+			addTask(name, pow(2,i));
+	}
+	
+	if (workDim == TWO_D){
+		for(i=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
+			for(j=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
+				addTask(name, pow(2,i), pow(2,j));
+			}
+			j=0;
+		}
+	}
+	
+	if (workDim == THREE_D){
+		for(i=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
+			for(j=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
+				for(k=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; k++){
+					addTask(name, pow(2,i), pow(2,j), pow(2,k));
+				}
+				j=0;
+			}
+			k=0;
+		}
 	}
 	
 }
- 
+
+//helper function that returns time difference
 float dpClient::timeDiff(struct timeval start, struct timeval finish){
 	return (float) ((finish.tv_sec*1000000.0 + finish.tv_usec) - (start.tv_sec*1000000.0 + start.tv_usec))/(1000.0);
 }
 
-
 //print times, probably change to export the timeList instance
 void dpClient::printTimes(){
 	for (unsigned int i = 0; i < timeList.size(); i++){
-		printf("%0.1f\t%0.1f\t%0.1f\t%0.1f\t%0.1f\n", 
+		printf("%s\t%d\t%d\t%d\t%0.1f\t%0.1f\t%0.1f\t%0.1f\t%0.1f\n",
+			timeList.at(i).name.c_str(),
+			(int)timeList.at(i).localSize[0],
+			(int)timeList.at(i).localSize[1],
+			(int)timeList.at(i).localSize[2],
 			timeList.at(i).memoryCopyOut,
 			timeList.at(i).plan,
 			timeList.at(i).execute, 
@@ -118,64 +146,6 @@ void dpClient::printTimes(){
 			timeList.at(i).cleanUp);
 	}
 }
-
-int main(){
-	dpClient cli1(0,0);
-	cli1.runKernels();
-	cli1.printTimes();
-	
-	dpClient cli2(1,0);
-	cli2.runKernels();
-	cli2.printTimes();
-	
-	dpClient cli3(1,1);
-	cli3.runKernels();
-	cli3.printTimes();
-	
-	dpClient cli4(2,0);
-	cli4.runKernels();
-	cli4.printTimes();
-	
-	dpClient cli5(2,1);
-	cli5.runKernels();
-	cli5.printTimes();
-	
-	/*
-	int j=0;
-	for(r=0; r<15; r++){
-		for(i=0; pow(2,i)*pow(2,j)<=1024;i++){
-			for(j=0; pow(2,i)*pow(2,j)<=1024;j++){
-				cli1.matrixMultiplication(2048,2048,2048,pow(2,i),pow(2,j));
-			}
-			j=0;
-		}
-	}*/
-	
-	/*
-	cli1.FFT(8);
-	cli1.FFT(8192);
-	for(r=0; r<2; r++){
-		for(i=0; pow(2,i)*pow(2,j)<=cli1.MaxWGSize();i++){
-			for(j=0; pow(2,i)*pow(2,j)<=cli1.MaxWGSize();j++){
-				cli1.rotateImage(pow(2,i),pow(2,j));
-			}
-			j=0;
-		}
-	}
-	
-	for(r=0; r<2; r++){
-		for(i=0; pow(2,i)*pow(2,j)<=cli2.MaxWGSize();i++){
-			for(j=0; pow(2,i)*pow(2,j)<=cli2.MaxWGSize();j++){
-				cli2.rotateImage(pow(2,i),pow(2,j));
-			}
-			j=0;
-		}
-	}
-	*/
-	return 0;
-}
-
-
 
 
 

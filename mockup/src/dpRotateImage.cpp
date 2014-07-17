@@ -9,6 +9,8 @@ dpRotateImage::dpRotateImage(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+	name = "RotateImage";
+	
 	kernelString = "\n"
 		"__kernel \n"
 		"void img_rotate(__global float* dest_data, \n"
@@ -44,6 +46,7 @@ void dpRotateImage::init(int xLocal, int yLocal, int zLocal){
 	
 	localSize[0] = xLocal; 
 	localSize[1] = yLocal;
+	localSize[2] = zLocal;
 	
 	theta = 3.14159/6;
 	cos_theta = cosf(theta);

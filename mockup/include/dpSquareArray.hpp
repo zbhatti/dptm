@@ -1,5 +1,8 @@
 #include "dpKernel.hpp"
 
+#ifndef __dpSquareArray_H_INCLUDED__
+#define __dpSquareArray_H_INCLUDED__
+
 class dpSquareArray: public dpKernel{
 	cl_mem Ain_d, Aout_d;
 	float *Ain, *Aout;
@@ -18,3 +21,5 @@ class dpSquareArray: public dpKernel{
 		void cleanUp();
 		void generateArray(float*, int);
 };
+
+#endif

@@ -1,4 +1,7 @@
 #include "dpKernel.hpp"
+#ifndef __dpMatrixMultiplication_H_INCLUDED__
+#define __dpMatrixMultiplication_H_INCLUDED__
+
 
 class dpMatrixMultiplication: public dpKernel{
 	float *A, *B, *C;
@@ -20,3 +23,5 @@ class dpMatrixMultiplication: public dpKernel{
 		void cleanUp();
 		void generateMatrix(float*, int, int);
 };
+
+#endif

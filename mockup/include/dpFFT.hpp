@@ -1,6 +1,9 @@
 #include <clFFT.h>
 #include "dpKernel.hpp"
 
+#ifndef __dpFFT_H_INCLUDED__
+#define __dpFFT_H_INCLUDED__
+
 class dpFFT: public dpKernel{
 
 	float *Ain, *Aout;
@@ -21,3 +24,5 @@ class dpFFT: public dpKernel{
 		void cleanUp();
 		void generateInterleaved(float*,int);
 };
+
+#endif
