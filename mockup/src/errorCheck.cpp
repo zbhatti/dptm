@@ -60,7 +60,7 @@ const char* get_error_string(cl_int err){
 //code from stackexchange to print opencl return messages
 void clAssert(cl_int code, const char *file, int line){
    if (code != 0){
-      printf("clErrChk: %s %s %d\n", get_error_string(code), file, line);
+      fprintf(stderr,"clErrChk: %s %s %d\n", get_error_string(code), file, line);
       //exit(code);
    }
 }

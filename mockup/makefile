@@ -10,6 +10,9 @@ dpClient.cpp \
 dpSquareArray.cpp \
 dpRotateImage.cpp \
 dpMatrixMultiplication.cpp \
+dpConvolution.cpp \
+dpMersenneTwister.cpp \
+dpMatrixTranspose.cpp \
 dpFFT.cpp \
 dpTiming.cpp \
 dpKernelFactory.cpp \

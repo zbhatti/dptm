@@ -22,17 +22,26 @@ int main (int argc, const char* argv[]) {
 	cli1.addTask("FFT",8192);
 	cli1.addTask("FFT",32);
 	*/
-	cli1.addTaskScan("SquareArray");
-	cli1.addTaskScan("RotateImage");
-	cli1.addTaskScan("MatrixMultiplication");
+	//cli1.addTaskScan("SquareArray");
+	//cli1.addTaskScan("RotateImage");
+	//cli1.addTaskScan("MatrixMultiplication");
+	cli1.addTask("Convolution",16);
+	cli1.addTask("MatrixTranspose",16,16);
+	cli1.addTaskScan("MatrixTranspose");
+	//cli1.addTaskScan("Convolution");
+	cli1.addTask("MersenneTwister",16,16);
+	//cli1.addTaskScan("MersenneTwister");
 	cli1.runTasks();
 	cli1.printTimes();
 	
-	
 	dpClient cli2(1,0);
-	cli2.addTaskScan("SquareArray");
-	cli2.addTaskScan("MatrixMultiplication");
-	cli2.addTaskScan("RotateImage");
+	cli2.addTask("MersenneTwister",16,16);
+	cli2.addTask("MatrixTranspose",16,16);
+	cli2.addTaskScan("MatrixTranspose");
+	cli2.addTaskScan("MersenneTwister");
+	//cli2.addTaskScan("SquareArray");
+	//cli2.addTaskScan("MatrixMultiplication");
+	//cli2.addTaskScan("RotateImage");
 	cli2.runTasks();
 	cli2.printTimes();
 	

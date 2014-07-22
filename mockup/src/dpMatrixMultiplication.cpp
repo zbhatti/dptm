@@ -94,6 +94,7 @@ void dpMatrixMultiplication::memoryCopyIn(){
 
 void dpMatrixMultiplication::cleanUp(){
 	clErrChk(clReleaseKernel(kernel));
+	clErrChk(clReleaseProgram(program));
 	clErrChk(clReleaseMemObject(a_in));
 	clErrChk(clReleaseMemObject(b_in));
 	clErrChk(clReleaseMemObject(c_out));
@@ -102,7 +103,7 @@ void dpMatrixMultiplication::cleanUp(){
 	delete[] C;
 }
 
-void dpMatrixMultiplication::generateMatrix(float A[], int height, int width){
+void dpMatrixMultiplication::generateMatrix(float *A, int height, int width){
 	int i, j;
 	srand(time(NULL));
 	for (j=0; j<height; j++){//rows in A

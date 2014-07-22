@@ -1,8 +1,4 @@
 #include "dpKernel.hpp"
-#include "dpFFT.hpp"
-#include "dpMatrixMultiplication.hpp"
-#include "dpSquareArray.hpp"
-#include "dpRotateImage.hpp"
 #include <string>
 
 class dpKernelFactory{

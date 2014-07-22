@@ -15,5 +15,4 @@ class dpTiming{
 		float cleanUp;
 		std::string getTimes();
 		std::string getVariables();
-		//add print method
 };

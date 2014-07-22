@@ -2,7 +2,6 @@
 #ifndef __dpMatrixMultiplication_H_INCLUDED__
 #define __dpMatrixMultiplication_H_INCLUDED__
 
-
 class dpMatrixMultiplication: public dpKernel{
 	float *A, *B, *C;
 	int szA, szB, szC;
