@@ -24,6 +24,8 @@ class dpKernel{
 		cl_program program;
 		size_t localSize[3];
 		size_t globalSize[3];
+		const char* kernelString;
+		cl_int err;
 		
 	public:
 		std::string name;

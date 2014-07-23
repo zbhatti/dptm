@@ -66,6 +66,7 @@ void dpMatrixTranspose::init(int xLocal,int yLocal,int zLocal){
 }
 void dpMatrixTranspose::memoryCopyOut(){
 	clErrChk(clEnqueueWriteBuffer(queue, d_idata, CL_FALSE, 0, size_x*size_y*sizeof(float), h_idata, 0, NULL, NULL));
+	clFinish(queue);
 }
 void dpMatrixTranspose::plan(){
 		size_t offset = 0;
@@ -79,9 +80,11 @@ void dpMatrixTranspose::plan(){
 }
 void dpMatrixTranspose::execute(){
 		clErrChk(clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL));
+		clFinish(queue);
 }
 void dpMatrixTranspose::memoryCopyIn(){
 		clErrChk(clEnqueueReadBuffer(queue, d_odata, CL_TRUE, 0, size_x * size_y * sizeof(float), h_odata, 0, NULL, NULL));
+		clFinish(queue);
 }
 void dpMatrixTranspose::cleanUp(){
 	free(h_idata);

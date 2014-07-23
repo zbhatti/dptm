@@ -13,6 +13,10 @@ dpMatrixMultiplication.cpp \
 dpConvolution.cpp \
 dpMersenneTwister.cpp \
 dpMatrixTranspose.cpp \
+dpVectorAdd.cpp \
+dpLUDecomposition.cpp \
+dpNBody.cpp \
+dpFWT.cpp \
 dpFFT.cpp \
 dpTiming.cpp \
 dpKernelFactory.cpp \

@@ -8,9 +8,6 @@ class dpMatrixTranspose: public dpKernel{
 	float* h_idata, *h_odata;
 	size_t mem_size;
 	unsigned int size_x, size_y;
-	cl_int err;
-	const char* kernelString;
-	
 	
 	public:
 		dpMatrixTranspose(cl_context, cl_command_queue);

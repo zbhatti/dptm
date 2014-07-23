@@ -15,8 +15,6 @@ class dpConvolution: public dpKernel{
 	cl_mem       inputBuffer;        /**< CL memory input buffer */
 	cl_mem       outputBuffer;       /**< CL memory output buffer */
 	cl_mem       maskBuffer; 				 /**< CL memory mask buffer */
-	const char* kernelString;
-	cl_int err;
 	
 	public:
 		dpConvolution(cl_context, cl_command_queue);

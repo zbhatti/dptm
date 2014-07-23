@@ -6,6 +6,10 @@
 #include "dpConvolution.hpp"
 #include "dpMersenneTwister.hpp"
 #include "dpMatrixTranspose.hpp"
+#include "dpVectorAdd.hpp"
+#include "dpLUDecomposition.hpp"
+#include "dpNBody.hpp"
+#include "dpFWT.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
@@ -23,10 +27,14 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		if (!name.compare("FFT"))
 			return new dpFFT(context, queue);
 		
-		/*
-		if (!name.compare("LUDecomposition")
+		if (!name.compare("FWT"))
+			return new dpFWT(context, queue);
+		
+		if (!name.compare("LUDecomposition"))
 			return new dpLUDecomposition(context,queue);
-		*/
+		
+		if (!name.compare("VectorAdd"))
+			return new dpVectorAdd(context, queue);
 		
 		if (!name.compare("MatrixTranspose"))
 			return new dpMatrixTranspose(context, queue);
@@ -37,8 +45,11 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		if (!name.compare("Convolution"))
 			return new dpConvolution(context,queue);
 		
+		if (!name.compare("NBody"))
+			return new dpNBody(context,queue);
+		
 		else	//need better return case here
-			return new dpRotateImage(context, queue);
+			return new dpSquareArray(context, queue);
  }
 
 #endif

@@ -26,6 +26,13 @@ void dpClient::runTasks(){
 	dpTiming timeTmp;
 	
 	for (unsigned int i =0; i <taskList.size(); i++){
+		
+		timeTmp.name = taskList.at(i)->name;
+		timeTmp.localSize = taskList.at(i)->getLocalSize();
+		timeTmp.data= taskList.at(i)->dataParameters;
+		timeTmp.dataNames= taskList.at(i)->dataNames;
+		timeTmp.device = name;
+		
 		gettimeofday(&start, NULL);
 		taskList.at(i)->memoryCopyOut();
 		gettimeofday(&finish, NULL);
@@ -51,13 +58,11 @@ void dpClient::runTasks(){
 		gettimeofday(&finish, NULL);
 		timeTmp.cleanUp = timeDiff(start,finish);
 		
-		timeTmp.name = taskList.at(i)->name;
-		timeTmp.localSize = taskList.at(i)->getLocalSize();
-		timeTmp.data= taskList.at(i)->dataParameters;
-		timeTmp.dataNames= taskList.at(i)->dataNames;
-		timeTmp.device = name;
+		
 		timeList.push_back(timeTmp);
 	}
+	
+	taskList.clear();
 }
 
 //One Dimensional kernel task:

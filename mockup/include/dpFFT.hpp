@@ -9,7 +9,6 @@ class dpFFT: public dpKernel{
 	float *Ain, *Aout;
 	int Asize;
 	cl_mem buffer;
-	cl_int err;
 	clfftPlanHandle planHandle;
 	clfftSetupData fftSetup;
 	size_t clLengths[1];

@@ -133,8 +133,8 @@ void dpConvolution::plan(){
 	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *)&outputBuffer));
 	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void *)&inputBuffer));
 	clErrChk(clSetKernelArg(kernel, 2, sizeof(cl_mem), (void *)&maskBuffer));
-	cl_uint2 inputDimensions = {width, height};
-	cl_uint2 maskDimensions  = {maskWidth, maskHeight};
+	cl_uint2 inputDimensions = {{width, height}};
+	cl_uint2 maskDimensions  = {{maskWidth, maskHeight}};
 	clErrChk(clSetKernelArg( kernel, 3, sizeof(cl_uint2), (void *)&inputDimensions));
 	clErrChk(clSetKernelArg( kernel, 4, sizeof(cl_uint2), (void *)&maskDimensions));
 	globalSize[0]=width*height;

@@ -12,10 +12,6 @@ class dpMersenneTwister: public dpKernel{
 	cl_int width;                   /**< width of the execution domain */
 	cl_int height;                  /**< height of the execution domain */
 	
-	
-	cl_int err;
-	const char* kernelString;
-	
 	public:
 		dpMersenneTwister(cl_context, cl_command_queue);
 		void init(int,int,int);

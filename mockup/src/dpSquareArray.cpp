@@ -21,7 +21,7 @@ dpSquareArray::dpSquareArray(cl_context ctx, cl_command_queue q){
 }
 
 void dpSquareArray::init(int xLocal,int yLocal, int zLocal){
-	Asize = 16384;
+	Asize = 131072;
 	Ain = new float[Asize];
 	Aout = new float[Asize];
 	if (!Aout || !Ain)

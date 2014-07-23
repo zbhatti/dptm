@@ -7,9 +7,6 @@ class dpSquareArray: public dpKernel{
 	cl_mem Ain_d, Aout_d;
 	float *Ain, *Aout;
 	int Asize;
-	int err;
-
-	const char* kernelString;
 	
 	public:
 		dpSquareArray(cl_context, cl_command_queue);
