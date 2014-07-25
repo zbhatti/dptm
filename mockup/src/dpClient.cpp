@@ -95,6 +95,48 @@ void dpClient::addTask(std::string name, int xLocal, int yLocal, int zLocal){
 	taskList.at(taskList.size()-1)->init(xLocal, yLocal, zLocal);
 }
 
+
+void dpClient::runTaskScan(std::string name){
+	workGroupSpace workDim;
+	dpTiming timeTmp;
+	int i,j,k;
+	j =0;
+	k =0;
+	//make a temporary kernel to read information from:
+	workDim = kernelFactory.makeTask(name, context, queue)->workDimension;
+	
+	if (workDim == ONE_D){
+		for (i=0; pow(2,i)<=MaxWorkGroupSize; i++){
+			addTask(name, pow(2,i));
+			runTasks();
+		}
+	}
+	
+	if (workDim == TWO_D){
+		for(i=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
+			for(j=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
+				addTask(name, pow(2,i), pow(2,j));
+				runTasks();
+			}
+			j=0;
+		}
+	}
+	
+	if (workDim == THREE_D){
+		for(i=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
+			for(j=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
+				for(k=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; k++){
+					addTask(name, pow(2,i), pow(2,j), pow(2,k));
+					runTasks();
+				}
+				j=0;
+			}
+			k=0;
+		}
+	}
+	
+}
+
 //Loop through dimensions of a task:
 void dpClient::addTaskScan(std::string name){
 	workGroupSpace workDim;

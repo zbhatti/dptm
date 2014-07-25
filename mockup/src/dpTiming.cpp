@@ -23,17 +23,17 @@ std::string dpTiming::getVariables(){
 std::string dpTiming::getTimes(){
 	std::stringstream ss;
 	//ss<<device<<",";
-	ss<<name<<"\t";
+	ss<<name<<",";
 	for (unsigned int i = 0; i < data.size();i++){
-		ss<<data.at(i)<<"\t";
+		ss<<data.at(i)<<",";
 	}
-	ss<<localSize[0]<<"\t";
-	ss<<localSize[1]<<"\t"; 
-	ss<<localSize[2]<<"\t";
-	ss<<memoryCopyOut<<"\t";
-	ss<<plan<<"\t";
-	ss<<execute<<"\t";
-	ss<<memoryCopyIn<<"\t";
-	ss<<cleanUp<<"\t";
+	ss<<localSize[0]<<",";
+	ss<<localSize[1]<<","; 
+	ss<<localSize[2]<<",";
+	ss<<memoryCopyOut<<",";
+	ss<<plan<<",";
+	ss<<execute<<",";
+	ss<<memoryCopyIn<<",";
+	ss<<cleanUp<<",";
 	return ss.str();
 }

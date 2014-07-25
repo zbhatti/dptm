@@ -36,7 +36,7 @@ void dpFWT::init(int xLocal,int yLocal, int zLocal){
 	localSize[1]= yLocal;
 	localSize[2]= zLocal;
 	
-	length = 16384;
+	length = 32768;
 	if(length < 512)
 		length = 512;
 	

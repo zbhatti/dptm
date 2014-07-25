@@ -50,7 +50,7 @@ void dpVectorAdd::init(int xLocal,int yLocal,int zLocal){
 	localSize[1] = yLocal;
 	localSize[2] = zLocal;
 	
-	iNumElements = 131072;
+	iNumElements = 262144;
 	
 	dataParameters.push_back(iNumElements);
 	dataNames.push_back("nElements");

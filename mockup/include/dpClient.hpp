@@ -42,6 +42,7 @@ class dpClient {
 		void addTask(std::string, int, int);
 		void addTask(std::string, int, int, int);
 		void addTaskScan(std::string);
+		void runTaskScan(std::string);
 		void printTimes();
 		std::vector<dpTiming> getTimes(){return timeList;};
 };
