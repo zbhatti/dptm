@@ -10,6 +10,8 @@
 #include "dpLUDecomposition.hpp"
 #include "dpNBody.hpp"
 #include "dpFWT.hpp"
+#include "dpFloydWarshall.hpp"
+#include "dpFluidSimulation.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
@@ -29,6 +31,12 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		
 		if (!name.compare("FWT"))
 			return new dpFWT(context, queue);
+		
+		if (!name.compare("FloydWarshall"))
+			return new dpFloydWarshall(context, queue);
+			
+		if (!name.compare("FluidSimulation"))
+			return new dpFluidSimulation(context, queue);
 		
 		if (!name.compare("LUDecomposition"))
 			return new dpLUDecomposition(context,queue);

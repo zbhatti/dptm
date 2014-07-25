@@ -112,8 +112,6 @@ void dpNBody::init(int xLocal,int yLocal,int zLocal){
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
 	kernel = clCreateKernel(program, "nbody_sim", &err); clErrChk(err);
 	
-	
-	
 }
 
 void dpNBody::memoryCopyOut(){

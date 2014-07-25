@@ -10,19 +10,23 @@ int main (int argc, const char* argv[]) {
 	dpClient* cliList[4] = {&cli1, &cli2,&cli3, &cli4};
 	
 	for (int i=0;i<4;i++){
-		cliList[i]->addTaskScan("FWT");
+		//cliList[i]->addTaskScan("FluidSimulation");
+		//cliList[i]->addTask("FluidSimulation",16,16);
+		//cliList[i]->addTaskScan("LUDecomposition");
+		//cliList[i]->addTaskScan("FloydWarshall");
+		//cliList[i]->addTaskScan("FWT");
 		//cliList[i]->addTaskScan("NBody");
 		//cliList[i]->addTaskScan("FFT");
-		//cliList[i]->addTaskScan("LUDecomposition"); cliList[i]->runTasks();
 		//cliList[i]->addTaskScan("VectorAdd");
-		//cliList[i]->addTaskScan("SquareArray"); cliList[i]->runTasks();
-		//cliList[i]->addTaskScan("MatrixMultiplication"); cliList[i]->runTasks();
-		//cliList[i]->addTaskScan("RotateImage"); cliList[i]->runTasks();
+		//cliList[i]->addTaskScan("SquareArray"); 
+		//cliList[i]->addTaskScan("MatrixMultiplication");
+		//cliList[i]->addTaskScan("RotateImage");
 		//cliList[i]->addTaskScan("MatrixTranspose");
-		//cliList[i]->addTaskScan("MersenneTwister"); cliList[i]->runTasks();
+		cliList[i]->addTaskScan("MersenneTwister");
 		//cliList[i]->addTaskScan("Convolution"); 
+		
 		cliList[i]->runTasks();
-		printf("------------------------Client: %d-------------------------\n",i+1);
+		printf("-------------------------Client: %d-------------------------\n",i+1);
 		cliList[i]->printTimes();
 	}
 	

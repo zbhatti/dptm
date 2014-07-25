@@ -57,7 +57,11 @@ dpConvolution::dpConvolution(cl_context ctx, cl_command_queue q){
 }
 
 void dpConvolution::init(int xLocal, int yLocal, int zLocal){
-
+	
+	localSize[0] = xLocal;
+	localSize[1] = yLocal;
+	localSize[2] = zLocal;
+	
 	cl_uint inputSizeBytes;
 
 	width = 1024;
@@ -110,17 +114,14 @@ void dpConvolution::init(int xLocal, int yLocal, int zLocal){
 	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
 	kernel = clCreateKernel(program, "simpleConvolution", &err); clErrChk(err);
+}
 
-	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+void dpConvolution::memoryCopyOut(){
 	
 	inputBuffer = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_uint ) * width * height, NULL, &err); clErrChk(err);
 	outputBuffer = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(cl_uint ) * width * height, NULL, &err); clErrChk(err);
 	maskBuffer = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_float ) * maskWidth * maskHeight, NULL, &err); clErrChk(err);
-}
-
-void dpConvolution::memoryCopyOut(){
+	
 	//this is a combined allocation and copy function
 	clErrChk(clEnqueueWriteBuffer(queue, inputBuffer, CL_TRUE, 0, sizeof(cl_uint ) * width * height, input, 0, NULL, NULL)); 
 	clErrChk(clEnqueueWriteBuffer(queue, outputBuffer, CL_TRUE, 0, sizeof(cl_uint ) * width * height, output, 0, NULL, NULL));

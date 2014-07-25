@@ -11,6 +11,7 @@
 
 const char* get_error_string(cl_int);
 void clAssert(cl_int, const char*, int);
+void programCheck(cl_int, cl_context, cl_program);
 
 //#define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 

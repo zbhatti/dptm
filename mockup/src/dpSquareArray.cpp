@@ -29,9 +29,6 @@ void dpSquareArray::init(int xLocal,int yLocal, int zLocal){
 	
 	generateArray(Ain, Asize);
 	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "squareArray", &err); clErrChk(err);
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
 	localSize[2] = zLocal;
@@ -39,11 +36,16 @@ void dpSquareArray::init(int xLocal,int yLocal, int zLocal){
 	dataParameters.push_back(Asize);
 	dataNames.push_back("nElements");
 	
-	Ain_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
-	Aout_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "squareArray", &err); clErrChk(err);
+	
 }
 
 void dpSquareArray::memoryCopyOut(){
+	Ain_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
+	Aout_d = clCreateBuffer(context, CL_MEM_READ_WRITE, Asize*sizeof(float), NULL, &err); clErrChk(err);
+
 	clErrChk(clEnqueueWriteBuffer(queue, Ain_d, CL_TRUE, 0, Asize*sizeof(float), Ain, 0, NULL, NULL));
 	clErrChk(clFinish(queue));
 }

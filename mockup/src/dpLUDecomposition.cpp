@@ -114,7 +114,7 @@ dpLUDecomposition::dpLUDecomposition(cl_context ctx, cl_command_queue q){
 	
 }
 void dpLUDecomposition::init(int xLocal,int yLocal,int zLocal){
-	effectiveDimension = 4096;
+	effectiveDimension = 2048;
 	
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
@@ -139,13 +139,15 @@ void dpLUDecomposition::init(int xLocal,int yLocal,int zLocal){
 	// get a kernel object handle for a kernel with the given name
 	kernelLUD = clCreateKernel(program, "kernelLUDecompose", &err); clErrChk(err);
 	kernelCombine = clCreateKernel(program, "kernelLUCombine", &err); clErrChk(err);
+}
+
+void dpLUDecomposition::memoryCopyOut(){
 	
 	//Creating Buffers
 	inplaceBuffer = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(double) * effectiveDimension * effectiveDimension,NULL,&err); clErrChk(err);
 	inputBuffer2 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(double) * effectiveDimension * effectiveDimension,NULL,&err); clErrChk(err);
-
-}
-void dpLUDecomposition::memoryCopyOut(){
+	
+	//Copy data to buffers
 	inMapPtr = clEnqueueMapBuffer(queue,inplaceBuffer,CL_FALSE,CL_MAP_WRITE,0,SIZE,0,NULL,NULL,&err); clErrChk(err);
 	memcpy(inMapPtr, input, SIZE);
 	clErrChk(clEnqueueUnmapMemObject(queue,inplaceBuffer,inMapPtr,0,NULL,NULL));

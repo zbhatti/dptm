@@ -60,13 +60,15 @@ void dpMatrixMultiplication::init(int xLocal, int yLocal, int zLocal){
 	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
 	kernel = clCreateKernel(program, "mmul", &err); clErrChk(err);
-	a_in = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(float) * szA, NULL, &err); clErrChk(err);
-	b_in = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(float) * szB, NULL, &err); clErrChk(err);
-	c_out = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(float) * szC, NULL, &err); clErrChk(err);
 	
 }
 
 void dpMatrixMultiplication::memoryCopyOut(){
+
+	a_in = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(float) * szA, NULL, &err); clErrChk(err);
+	b_in = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(float) * szB, NULL, &err); clErrChk(err);
+	c_out = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(float) * szC, NULL, &err); clErrChk(err);
+
 	clErrChk(clEnqueueWriteBuffer(queue, a_in, CL_TRUE, 0, sizeof(float) * szA, A, 0, NULL, NULL)); 
 	clErrChk(clEnqueueWriteBuffer(queue, b_in, CL_TRUE, 0, sizeof(float) * szB, B, 0, NULL, NULL));
 	clErrChk(clFinish(queue));

@@ -52,11 +52,13 @@ void dpFWT::init(int xLocal,int yLocal, int zLocal){
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
 	kernel = clCreateKernel(program, "fastWalshTransform", &err); clErrChk(err);
 
-	inputBuffer = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_float) * length,0,&err);
+	
 	
 }
 
 void dpFWT::memoryCopyOut(){
+	inputBuffer = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_float) * length,0,&err); clErrChk(err);
+	
 	// Enqueue write input to inputBuffer
 	clErrChk(clEnqueueWriteBuffer(queue,inputBuffer,CL_FALSE,0,length * sizeof(cl_float),input,0,NULL,NULL));
 	clErrChk(clFinish(queue));

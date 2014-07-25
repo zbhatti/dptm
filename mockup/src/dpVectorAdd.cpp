@@ -66,13 +66,13 @@ void dpVectorAdd::init(int xLocal,int yLocal,int zLocal){
 	clErrChk(clBuildProgram(program, 0, NULL, "-cl-fast-relaxed-math", NULL, NULL));
 	kernel = clCreateKernel(program, "VectorAdd", &err); clErrChk(err);
 	
+}
+
+void dpVectorAdd::memoryCopyOut(){
 	cmDevSrcA = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_float) * iNumElements, NULL, &err); clErrChk(err);
 	cmDevSrcB = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_float) * iNumElements, NULL, &err); clErrChk(err);
 	cmDevDst = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(cl_float) * iNumElements, NULL, &err); clErrChk(err);
 	
-}
-
-void dpVectorAdd::memoryCopyOut(){
 	clErrChk(clEnqueueWriteBuffer(queue, cmDevSrcA, CL_FALSE, 0, sizeof(cl_float) * iNumElements, srcA, 0, NULL, NULL));
 	clErrChk(clEnqueueWriteBuffer(queue, cmDevSrcB, CL_FALSE, 0, sizeof(cl_float) * iNumElements, srcB, 0, NULL, NULL));
 	clFinish(queue);

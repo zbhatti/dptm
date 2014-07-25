@@ -288,14 +288,15 @@ void dpMersenneTwister::init(int xLocal,int yLocal,int zLocal){
 	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
 	//this build program with these arguments will not work on NVIDIA devices!
 	//src: http://stackoverflow.com/questions/14991591/how-to-use-templates-with-opencl
-	clErrChk(clBuildProgram(program, 0, NULL, "-x clc++", NULL, NULL));
+	err = clBuildProgram(program, 0, NULL, "-x clc++ -Werror", NULL, NULL);
+	//programCheck(err, context, program);
 	kernel = clCreateKernel(program, "gaussianRand", &err); clErrChk(err);
-
-	seedsBuf = clCreateBuffer(context, CL_MEM_READ_ONLY, width * height * sizeof(cl_float4), 0, &err); clErrChk(err);
-	resultBuf = clCreateBuffer(context, CL_MEM_WRITE_ONLY, width * height * sizeof(cl_float4) * mulFactor, NULL, &err); clErrChk(err);
 	
 }
 void dpMersenneTwister::memoryCopyOut(){
+	seedsBuf = clCreateBuffer(context, CL_MEM_READ_ONLY, width * height * sizeof(cl_float4), 0, &err); clErrChk(err);
+	resultBuf = clCreateBuffer(context, CL_MEM_WRITE_ONLY, width * height * sizeof(cl_float4) * mulFactor, NULL, &err); clErrChk(err);
+	
 	clErrChk(clEnqueueWriteBuffer(queue, seedsBuf, CL_FALSE, 0, width * height * sizeof(cl_float4), seeds, 0, NULL, NULL));
 	clErrChk(clFinish(queue));
 }

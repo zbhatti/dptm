@@ -59,12 +59,13 @@ void dpMatrixTranspose::init(int xLocal,int yLocal,int zLocal){
 	program = clCreateProgramWithSource(context, 1, (const char **)&kernelString, NULL, &err); clErrChk(err);
 	clErrChk(clBuildProgram(program, 0, NULL, "-cl-fast-relaxed-math", NULL, NULL));
 	kernel = clCreateKernel(program, "simple_copy", &err); clErrChk(err);
+	
+}
+void dpMatrixTranspose::memoryCopyOut(){
 
 	d_idata = clCreateBuffer(context, CL_MEM_READ_ONLY, size_x*size_y*sizeof(float), NULL, &err); clErrChk(err);
 	d_odata = clCreateBuffer(context, CL_MEM_WRITE_ONLY, size_x*size_y*sizeof(float), NULL, &err); clErrChk(err);
 	
-}
-void dpMatrixTranspose::memoryCopyOut(){
 	clErrChk(clEnqueueWriteBuffer(queue, d_idata, CL_FALSE, 0, size_x*size_y*sizeof(float), h_idata, 0, NULL, NULL));
 	clFinish(queue);
 }

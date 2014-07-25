@@ -64,11 +64,13 @@ void dpRotateImage::init(int xLocal, int yLocal, int zLocal){
 	dataNames.push_back("ImageHeight");
 	dataNames.push_back("ImageWidth");
 	
-	d_input = clCreateBuffer(context, CL_MEM_READ_ONLY, dataSize, NULL, &err);  clErrChk(err);
-	d_output = clCreateBuffer(context, CL_MEM_WRITE_ONLY, dataSize, NULL,	&err);  clErrChk(err);
+	
 }
 
 void dpRotateImage::memoryCopyOut(){
+	d_input = clCreateBuffer(context, CL_MEM_READ_ONLY, dataSize, NULL, &err);  clErrChk(err);
+	d_output = clCreateBuffer(context, CL_MEM_WRITE_ONLY, dataSize, NULL,	&err);  clErrChk(err);
+	
 	clErrChk(clEnqueueWriteBuffer(queue, d_input, CL_TRUE, 0, dataSize, inputImage, 0, NULL, NULL));
 	clErrChk(clFinish(queue));
 }

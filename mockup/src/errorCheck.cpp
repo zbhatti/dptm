@@ -64,3 +64,24 @@ void clAssert(cl_int code, const char *file, int line){
       //exit(code);
    }
 }
+
+void programCheck(cl_int err, cl_context context, cl_program program) {
+	if (err != CL_SUCCESS){
+		//http://dhruba.name/2012/08/16/opencl-cookbook-building-a-program-and-debugging-failures/
+		cl_device_id devices[1];
+		clGetContextInfo (context, CL_CONTEXT_DEVICES,sizeof(devices),devices,NULL);
+		cl_build_status status;
+		char *programLog;
+		size_t logSize;
+
+		// check build error and build status first
+		clGetProgramBuildInfo(program, devices[0], CL_PROGRAM_BUILD_STATUS, sizeof(cl_build_status), &status, NULL);
+		// check build log
+		clGetProgramBuildInfo(program, devices[0], CL_PROGRAM_BUILD_LOG, 0, NULL, &logSize);
+		programLog = (char*) calloc (logSize+1, sizeof(char));
+		clGetProgramBuildInfo(program, devices[0], CL_PROGRAM_BUILD_LOG, logSize+1, programLog, NULL);
+
+		printf("Build failed; error=%d, status=%d, programLog:\n\n%s", err, status, programLog);
+		free(programLog);
+	}
+}
