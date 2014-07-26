@@ -13,7 +13,7 @@ int main (int argc, const char* argv[]) {
 		dpClient* cliList[5] = {&cli1, &cli2, &cli3, &cli4, &cli5};
 	
 	//take task scan argument:
-	for (int i=1;i<=5;i++){
+	for (int i=0;i<5;i++){
 		
 		cliList[i]->runTaskScan("FluidSimulation");
 		cliList[i]->runTaskScan("LUDecomposition");
@@ -30,7 +30,7 @@ int main (int argc, const char* argv[]) {
 		//cliList[i]->addTaskScan("FFT");
 		
 		//cliList[i]->runTasks();
-		printf("-------------------------Client: %d-------------------------\n",i);
+		//printf("-------------------------Client: %d-------------------------\n",i+1);
 		cliList[i]->printTimes();
 	}
 	

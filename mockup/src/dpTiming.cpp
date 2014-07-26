@@ -4,7 +4,7 @@
 
 std::string dpTiming::getVariables(){
 	std::stringstream ss;
-	//ss<<"device,";
+	ss<<"device,";
 	ss<<"kernel,";
 	for (unsigned int i = 0; i < dataNames.size();i++){
 		ss<<dataNames.at(i)<<",";
@@ -22,7 +22,7 @@ std::string dpTiming::getVariables(){
 
 std::string dpTiming::getTimes(){
 	std::stringstream ss;
-	//ss<<device<<",";
+	ss<<device<<",";
 	ss<<name<<",";
 	for (unsigned int i = 0; i < data.size();i++){
 		ss<<data.at(i)<<",";
