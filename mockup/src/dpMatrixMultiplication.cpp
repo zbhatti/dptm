@@ -84,9 +84,13 @@ void dpMatrixMultiplication::plan(){
 	globalSize[0] = (size_t) M; globalSize[1] = (size_t) N;
 }
 
-void dpMatrixMultiplication::execute(){
-	clErrChk(clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL));
+int dpMatrixMultiplication::execute(){
+	err=clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL);
+	clErrChk(err);
+	if(err<0)
+		return -1;
 	clErrChk(clFinish(queue));
+	return 0;
 }
 
 void dpMatrixMultiplication::memoryCopyIn(){

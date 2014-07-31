@@ -309,9 +309,13 @@ void dpMersenneTwister::plan(){
     clErrChk(clSetKernelArg(kernel, 3, sizeof(cl_mem), (void*)&resultBuf));
 }
 
-void dpMersenneTwister::execute(){
-	clErrChk(clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL));
+int dpMersenneTwister::execute(){
+	err=clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL);
+	clErrChk(err);
+	if(err<0)
+		return -1;
 	clErrChk(clFinish(queue));
+	return 0;
 }
 
 void dpMersenneTwister::memoryCopyIn(){

@@ -5,6 +5,11 @@
 #include <vector>
 #include <math.h>
 #include <string>
+#include <string.h>
+#include <fstream> //file writing
+#include <iostream> //file writing
+#include <sys/stat.h> //mkdir 
+#include <sys/types.h> //mkdir
 
 #ifdef __APPLE__
 	#include <OpenCL/opencl.h>
@@ -44,5 +49,7 @@ class dpClient {
 		void addTaskScan(std::string);
 		void runTaskScan(std::string);
 		void printTimes();
+		void printFile();
+		bool isEmpty(std::ifstream&);
 		std::vector<dpTiming> getTimes(){return timeList;};
 };

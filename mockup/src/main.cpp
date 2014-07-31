@@ -13,27 +13,26 @@ int main (int argc, const char* argv[]) {
 		dpClient* cliList[5] = {&cli1, &cli2, &cli3, &cli4, &cli5};
 	
 	//take task scan argument:
-	for (int i=0;i<5;i++){
-		
-		cliList[i]->runTaskScan("FluidSimulation");
-		cliList[i]->runTaskScan("LUDecomposition");
-		cliList[i]->runTaskScan("FloydWarshall");
-		cliList[i]->runTaskScan("FWT");
-		cliList[i]->runTaskScan("NBody");
-		cliList[i]->runTaskScan("VectorAdd");
-		cliList[i]->runTaskScan("SquareArray"); 
-		cliList[i]->runTaskScan("MatrixMultiplication");
-		cliList[i]->runTaskScan("RotateImage");
-		cliList[i]->runTaskScan("MatrixTranspose");
-		//cliList[i]->runTaskScan("MersenneTwister");
-		cliList[i]->runTaskScan("Convolution"); 
-		//cliList[i]->addTaskScan("FFT");
-		
-		//cliList[i]->runTasks();
-		//printf("-------------------------Client: %d-------------------------\n",i+1);
-		cliList[i]->printTimes();
+	for (int r=0;r<2;r++){
+		for (int i=0;i<5;i++){
+			fprintf(stderr, "Client:%d\n",i);
+			cliList[i]->runTaskScan("VectorAdd");
+			//cliList[i]->runTaskScan("SquareArray");
+			//cliList[i]->runTaskScan("FluidSimulation");
+			//cliList[i]->runTaskScan("LUDecomposition");
+			//cliList[i]->runTaskScan("FloydWarshall");
+			//cliList[i]->runTaskScan("FWT");
+			//cliList[i]->runTaskScan("NBody");
+			//cliList[i]->runTaskScan("MatrixMultiplication");
+			cliList[i]->runTaskScan("MatrixTranspose");
+			//cliList[i]->runTaskScan("Convolution");
+			
+			//cliList[i]->runTaskScan("RotateImage");
+			//cliList[i]->runTaskScan("MersenneTwister");
+			//cliList[i]->addTaskScan("FFT");
+			cliList[i]->printFile();
+		}
 	}
-	
 	
 	return 0;
 }

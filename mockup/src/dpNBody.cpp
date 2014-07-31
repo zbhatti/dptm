@@ -138,7 +138,7 @@ void dpNBody::plan(){
 	globalSize[0] = numBodies;
 }
 
-void dpNBody::execute(){
+int dpNBody::execute(){
 	int currentPosBufferIndex = 0;
 
 	for (int i = 0; i < nSteps; i++){
@@ -151,11 +151,15 @@ void dpNBody::execute(){
 		clErrChk(clSetKernelArg(kernel,5,sizeof(cl_mem),(void*) (particlePos+nextBuffer)));
 		clErrChk(clSetKernelArg(kernel,6,sizeof(cl_mem),(void*) (particleVel+nextBuffer)));
 
-		clErrChk(clEnqueueNDRangeKernel(queue,kernel,1,NULL,globalSize,localSize,0,NULL,NULL));
+		err=clEnqueueNDRangeKernel(queue,kernel,1,NULL,globalSize,localSize,0,NULL,NULL);
+		clErrChk(err);
+		if(err<0)
+			return -1;
 		
 		currentPosBufferIndex = nextBuffer;
 	}
 	clFinish(queue);
+	return 0;
 }
 
 void dpNBody::memoryCopyIn(){

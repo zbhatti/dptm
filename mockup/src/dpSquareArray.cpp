@@ -57,9 +57,13 @@ void dpSquareArray::plan(){
 	globalSize[0] = Asize;
 }
 
-void dpSquareArray::execute(){
-	clErrChk(clEnqueueNDRangeKernel(queue, kernel, 1, NULL, globalSize, localSize, 0, NULL, NULL));
+int dpSquareArray::execute(){
+	err=clEnqueueNDRangeKernel(queue, kernel, 1, NULL, globalSize, localSize, 0, NULL, NULL); 
+	clErrChk(err);
+	if(err<0)
+		return -1;
 	clErrChk(clFinish(queue));
+	return 0;
 }
 
 void dpSquareArray::memoryCopyIn(){

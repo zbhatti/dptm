@@ -90,7 +90,7 @@ void dpFloydWarshall::plan(){
 	
 }
 
-void dpFloydWarshall::execute(){
+int dpFloydWarshall::execute(){
 	cl_uint numPasses = numNodes;
 	for(cl_uint i = 0; i < numPasses; i += 1){
 		/*
@@ -99,10 +99,14 @@ void dpFloydWarshall::execute(){
 		*/
 		clErrChk(clSetKernelArg(kernel,3,sizeof(cl_uint),(void*)&i));
 		// Enqueue a kernel run call.
-		clErrChk(clEnqueueNDRangeKernel(queue,kernel,2,NULL,globalSize,localSize,0,NULL,NULL));
+		err= clEnqueueNDRangeKernel(queue,kernel,2,NULL,globalSize,localSize,0,NULL,NULL);
+		clErrChk(err)
+		if (err < 0)
+			return -1;
 		clFinish(queue);
 	}
 	clFinish(queue);
+	return 0;
 }
 
 void dpFloydWarshall::memoryCopyIn(){

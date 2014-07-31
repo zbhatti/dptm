@@ -141,9 +141,13 @@ void dpConvolution::plan(){
 	globalSize[0]=width*height;
 }
 
-void dpConvolution::execute(){
-	clErrChk(clEnqueueNDRangeKernel( queue, kernel, 1, NULL, globalSize, localSize, 0, NULL, NULL));
+int dpConvolution::execute(){
+	err = clEnqueueNDRangeKernel( queue, kernel, 1, NULL, globalSize, localSize, 0, NULL, NULL);
+	clErrChk(err); 
+	if (err < 0)
+		return -1;
 	clFinish(queue);
+	return 0;
 }
 
 void dpConvolution::memoryCopyIn(){

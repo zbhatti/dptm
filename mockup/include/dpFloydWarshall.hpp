@@ -15,7 +15,7 @@ class dpFloydWarshall: public dpKernel{
 		void init(int,int,int);
 		void memoryCopyOut();
 		void plan();
-		void execute();
+		int execute();
 		void memoryCopyIn();
 		void cleanUp();
 		void generateMatrix(cl_uint*, int, int);

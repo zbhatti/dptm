@@ -246,7 +246,7 @@ void dpFluidSimulation::plan(){
 	globalSize[1] = dims[1];
 }
 
-void dpFluidSimulation::execute(){
+int dpFluidSimulation::execute(){
 	
 	for (int i = 1; i <= iterations; i++){
 
@@ -286,7 +286,10 @@ void dpFluidSimulation::execute(){
 		clErrChk(clSetKernelArg(kernel, 10, sizeof(cl_double), &omega));
 		clErrChk(clSetKernelArg(kernel, 11, sizeof(cl_mem), &velocity));
 		
-		clErrChk(clEnqueueNDRangeKernel(queue,kernel,2,0,globalSize,localSize,0, 0, 0));
+		err=clEnqueueNDRangeKernel(queue,kernel,2,0,globalSize,localSize,0, 0, 0);
+		clErrChk(err);
+		if(err<0)
+			return -1;
 		clErrChk(clEnqueueReadBuffer(queue,velocity,CL_FALSE,0,sizeof(cl_double2) * temp,u,0, 0, NULL));
 		clFinish(queue);
 		
@@ -323,7 +326,9 @@ void dpFluidSimulation::execute(){
 		d_if5678 = temp5678;
 		clFinish(queue);
 	}
+	
 	clFinish(queue);
+	return 0;
 }
 
 void dpFluidSimulation::memoryCopyIn(){

@@ -16,7 +16,7 @@ class dpVectorAdd: public dpKernel{
 		void init(int,int,int);
 		void memoryCopyOut();
 		void plan();
-		void execute();
+		int execute();
 		void memoryCopyIn();
 		void cleanUp();
 		void generateArray(float*, int);

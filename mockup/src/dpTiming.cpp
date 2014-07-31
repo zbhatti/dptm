@@ -1,22 +1,24 @@
 #include "dpTiming.hpp"
 #include <sstream>
 #include <iostream>
+#include <algorithm>
 
 std::string dpTiming::getVariables(){
 	std::stringstream ss;
-	ss<<"device,";
-	ss<<"kernel,";
+	ss<<"device/C,";
+	ss<<"kernel/C,";
+	ss<<"workDimension/C,";
 	for (unsigned int i = 0; i < dataNames.size();i++){
-		ss<<dataNames.at(i)<<",";
+		ss<<dataNames.at(i)<<"/F,";
 	}
-	ss<<"xLocal,";
-	ss<<"yLocal,";
-	ss<<"zLocal,";
-	ss<<"memoryCopyOut,";
-	ss<<"plan,";
-	ss<<"execute,";
-	ss<<"memoryCopyIn,";
-	ss<<"cleanUp,";
+	ss<<"xLocal/I,";
+	ss<<"yLocal/I,";
+	ss<<"zLocal/I,";
+	ss<<"memoryCopyOut/F,";
+	ss<<"plan/F,";
+	ss<<"execute/F,";
+	ss<<"memoryCopyIn/F,";
+	ss<<"cleanUp/F";
 	return ss.str();
 }
 
@@ -24,6 +26,7 @@ std::string dpTiming::getTimes(){
 	std::stringstream ss;
 	ss<<device<<",";
 	ss<<name<<",";
+	ss<<workDimension<<",";
 	for (unsigned int i = 0; i < data.size();i++){
 		ss<<data.at(i)<<",";
 	}
@@ -34,6 +37,6 @@ std::string dpTiming::getTimes(){
 	ss<<plan<<",";
 	ss<<execute<<",";
 	ss<<memoryCopyIn<<",";
-	ss<<cleanUp<<",";
+	ss<<cleanUp;
 	return ss.str();
 }

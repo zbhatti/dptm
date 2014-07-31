@@ -24,6 +24,7 @@ dpClient::dpClient(int platform, int device){
 
 void dpClient::runTasks(){
 	dpTiming timeTmp;
+	int err;
 	
 	for (unsigned int i =0; i <taskList.size(); i++){
 		
@@ -32,6 +33,13 @@ void dpClient::runTasks(){
 		timeTmp.data= taskList.at(i)->dataParameters;
 		timeTmp.dataNames= taskList.at(i)->dataNames;
 		timeTmp.device = name;
+		//if block for enum to string:
+		if (taskList.at(i)->workDimension == ONE_D)
+			timeTmp.workDimension ="ONE_D";
+		if (taskList.at(i)->workDimension == TWO_D)
+			timeTmp.workDimension = "TWO_D";
+		if (taskList.at(i)->workDimension == THREE_D) 
+			timeTmp.workDimension = "THREE_D";
 		
 		gettimeofday(&start, NULL);
 		taskList.at(i)->memoryCopyOut();
@@ -44,10 +52,13 @@ void dpClient::runTasks(){
 		timeTmp.plan = timeDiff(start,finish);
 		
 		gettimeofday(&start, NULL);
-		taskList.at(i)->execute();
+		err = taskList.at(i)->execute();
 		gettimeofday(&finish, NULL);
-		timeTmp.execute = timeDiff(start,finish);
-		
+		if (err<0)
+			timeTmp.execute = -1;
+		else
+			timeTmp.execute = timeDiff(start,finish);
+			
 		gettimeofday(&start, NULL);
 		taskList.at(i)->memoryCopyIn();
 		gettimeofday(&finish, NULL);
@@ -137,43 +148,6 @@ void dpClient::runTaskScan(std::string name){
 	
 }
 
-//Loop through dimensions of a task:
-void dpClient::addTaskScan(std::string name){
-	workGroupSpace workDim;
-	int i,j,k;
-	j =0;
-	k =0;
-	//make a temporary kernel to read information from:
-	workDim = kernelFactory.makeTask(name, context, queue)->workDimension;
-	
-	if (workDim == ONE_D){
-		for (i=0; pow(2,i)<=MaxWorkGroupSize; i++)
-			addTask(name, pow(2,i));
-	}
-	
-	if (workDim == TWO_D){
-		for(i=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
-			for(j=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
-				addTask(name, pow(2,i), pow(2,j));
-			}
-			j=0;
-		}
-	}
-	
-	if (workDim == THREE_D){
-		for(i=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
-			for(j=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
-				for(k=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; k++){
-					addTask(name, pow(2,i), pow(2,j), pow(2,k));
-				}
-				j=0;
-			}
-			k=0;
-		}
-	}
-	
-}
-
 //helper function that returns time difference
 float dpClient::timeDiff(struct timeval start, struct timeval finish){
 	return (float) ((finish.tv_sec*1000000.0 + finish.tv_usec) - (start.tv_sec*1000000.0 + start.tv_usec))/(1000.0);
@@ -189,11 +163,45 @@ void dpClient::printTimes(){
 		}
 		printf("%s\n", timeList.at(i).getTimes().c_str() );
 	}
-	
+	timeList.clear();
 }
 
+void dpClient::printFile(){
+	std::ofstream fileOut;
+	std::ifstream fileIn;
+	char tmp[100];
+	strcpy(tmp, "analysis/");
+	strcat(tmp, name);
+	mkdir(tmp, 0777);
+	
+	for (unsigned int i=0; i<timeList.size(); i++){
+		char tmpString[200];
+		//get filename to save to at ./device/kernelname.log
+		strcpy(tmpString,"analysis/");
+		strcat(tmpString,name);
+		strcat(tmpString,"/");
+		strcat(tmpString, timeList.at(i).name.c_str());
+		strcat(tmpString,".log");
+		
+		
+		fileOut.open(tmpString, std::ofstream::app );
+		fileIn.open(tmpString);
+		
+		//if the file is empty, add the variable names first
+		if (isEmpty(fileIn))
+			fileOut << timeList.at(i).getVariables().c_str() << "\n";
 
+		fileOut << timeList.at(i).getTimes().c_str() << "\n";
+		fileOut.close();
+		fileIn.close();
+	}
+	timeList.clear();
+}
 
+//http://stackoverflow.com/questions/2390912/checking-for-an-empty-file-in-c
+bool dpClient::isEmpty(std::ifstream& pFile){
+    return pFile.peek() == std::ifstream::traits_type::eof();
+}
 
 
 

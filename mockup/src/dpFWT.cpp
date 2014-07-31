@@ -77,13 +77,17 @@ void dpFWT::plan(){
 	clErrChk(clSetKernelArg(kernel,0,sizeof(cl_mem),(void *)&inputBuffer));
 }
 
-void dpFWT::execute(){
+int dpFWT::execute(){
 	for(cl_int step = 1; step < length; step <<= 1){
 		// stage of the algorithm
 		clErrChk(clSetKernelArg(kernel,1,sizeof(cl_int),(void *)&step));
-		clErrChk(clEnqueueNDRangeKernel(queue,kernel,1,NULL,globalSize,localSize,0,NULL,NULL));
+		err = clEnqueueNDRangeKernel(queue,kernel,1,NULL,globalSize,localSize,0,NULL,NULL);
+		clErrChk(err);
+		if(err<0)
+			return -1;
 	}
-	clErrChk(clFinish(queue));	
+	clErrChk(clFinish(queue));
+	return 0;
 }
 
 void dpFWT::memoryCopyIn(){

@@ -46,9 +46,13 @@ void dpFFT::plan(){
 	clErrChk(clFinish(queue));
 }
 
-void dpFFT::execute(){
-	clErrChk(clfftEnqueueTransform(planHandle, CLFFT_FORWARD, 1, &queue, 0, NULL, NULL, &buffer, &buffer, NULL));
+int dpFFT::execute(){
+	err = clfftEnqueueTransform(planHandle, CLFFT_FORWARD, 1, &queue, 0, NULL, NULL, &buffer, &buffer, NULL);
+	clErrChk(err);
+	if (err <0)
+		return -1;
 	clErrChk(clFinish(queue));
+	return 0;
 }
 
 void dpFFT::memoryCopyIn(){

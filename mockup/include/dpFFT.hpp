@@ -18,7 +18,7 @@ class dpFFT: public dpKernel{
 		void init(int,int,int); //unused for this kernel
 		void memoryCopyOut();
 		void plan();
-		void execute();
+		int execute();
 		void memoryCopyIn();
 		void cleanUp();
 		void generateInterleaved(float*,int);

@@ -13,7 +13,7 @@ class dpSquareArray: public dpKernel{
 		void init(int,int,int); //send workgroup dimensions after checking the kernel's type
 		void memoryCopyOut();
 		void plan();
-		void execute();
+		int execute();
 		void memoryCopyIn();
 		void cleanUp();
 		void generateArray(float*, int);

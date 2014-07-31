@@ -36,7 +36,7 @@ class dpKernel{
 		virtual void init(int,int,int) = 0;
 		virtual void memoryCopyOut(void) = 0;
 		virtual void plan(void) = 0;
-		virtual void execute(void) = 0;
+		virtual int execute(void) = 0;
 		virtual void memoryCopyIn(void) = 0;
 		virtual void cleanUp(void) = 0;
 		size_t* getLocalSize(){return localSize;};

@@ -79,9 +79,13 @@ void dpMatrixTranspose::plan(){
     globalSize[0] = size_x;
     globalSize[1] = size_y;
 }
-void dpMatrixTranspose::execute(){
-		clErrChk(clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL));
+int dpMatrixTranspose::execute(){
+		err = clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL);
+		clErrChk(err);
+		if(err<0)
+			return -1;
 		clFinish(queue);
+		return 0;
 }
 void dpMatrixTranspose::memoryCopyIn(){
 		clErrChk(clEnqueueReadBuffer(queue, d_odata, CL_TRUE, 0, size_x * size_y * sizeof(float), h_odata, 0, NULL, NULL));

@@ -164,7 +164,7 @@ void dpLUDecomposition::plan(){
 	clSetKernelArg(kernelCombine,1,sizeof(cl_mem),(void *)&inplaceBuffer);
 }
 
-void dpLUDecomposition::execute(){
+int dpLUDecomposition::execute(){
 	int workGroupArea = localSize[0]*localSize[1];
 	size_t offset[2] = {0, 0};
 	size_t localThreads[2] = {localSize[0] , localSize[1]};
@@ -226,7 +226,10 @@ void dpLUDecomposition::execute(){
 
 		clErrChk(clSetKernelArg(kernelLUD,2,sizeof(cl_uint),&index));
 		clErrChk(clSetKernelArg(kernelLUD,3,sizeof(cl_double) * localThreads[1],NULL));
-		clErrChk(clEnqueueNDRangeKernel(queue,kernelLUD,2,offset,globalSize,localThreads,0,NULL,NULL));
+		err=clEnqueueNDRangeKernel(queue,kernelLUD,2,offset,globalSize,localThreads,0,NULL,NULL);
+		clErrChk(err);
+		if(err<0)
+			return -1;
 		clFinish(queue);
 
 	}
@@ -238,9 +241,12 @@ void dpLUDecomposition::execute(){
 
 	globalSize[0] = effectiveDimension;
 	globalSize[1] = effectiveDimension;
-	clErrChk(clEnqueueNDRangeKernel(queue,kernelCombine,2,NULL,globalSize,NULL,0,NULL,NULL));
+	err= clEnqueueNDRangeKernel(queue,kernelCombine,2,NULL,globalSize,NULL,0,NULL,NULL);
+	clErrChk(err);
+	if(err<0)
+		return -1;
 	clFinish(queue);
-
+	return 0;
 }
 
 void dpLUDecomposition::memoryCopyIn(){

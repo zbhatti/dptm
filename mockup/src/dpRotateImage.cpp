@@ -86,9 +86,13 @@ void dpRotateImage::plan(){
 	globalSize[1] = imageHeight;
 }
 
-void dpRotateImage::execute(){
-	clErrChk(clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL));
+int dpRotateImage::execute(){
+	err=clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL);
+	clErrChk(err);
+	if(err<0) 
+		return -1;
 	clErrChk(clFinish(queue));
+	return 0;
 }
 
 void dpRotateImage::memoryCopyIn(){

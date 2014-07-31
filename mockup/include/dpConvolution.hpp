@@ -21,7 +21,7 @@ class dpConvolution: public dpKernel{
 		void init(int, int, int);
 		void memoryCopyOut();
 		void plan();
-		void execute();
+		int execute();
 		void memoryCopyIn();
 		void cleanUp();
 		template<typename T> void fillRandom(T*, const int, const int, const T, const T);
