@@ -13,19 +13,19 @@ int main (int argc, const char* argv[]) {
 		dpClient* cliList[5] = {&cli1, &cli2, &cli3, &cli4, &cli5};
 	
 	//take task scan argument:
-	for (int r=0;r<2;r++){
+	for (int r=0;r<10;r++){
 		for (int i=0;i<5;i++){
 			fprintf(stderr, "Client:%d\n",i);
 			cliList[i]->runTaskScan("VectorAdd");
-			//cliList[i]->runTaskScan("SquareArray");
-			//cliList[i]->runTaskScan("FluidSimulation");
-			//cliList[i]->runTaskScan("LUDecomposition");
-			//cliList[i]->runTaskScan("FloydWarshall");
-			//cliList[i]->runTaskScan("FWT");
-			//cliList[i]->runTaskScan("NBody");
-			//cliList[i]->runTaskScan("MatrixMultiplication");
+			cliList[i]->runTaskScan("SquareArray");
+			cliList[i]->runTaskScan("FluidSimulation");
+			cliList[i]->runTaskScan("LUDecomposition");
+			cliList[i]->runTaskScan("FloydWarshall");
+			cliList[i]->runTaskScan("FWT");
+			cliList[i]->runTaskScan("NBody");
+			cliList[i]->runTaskScan("MatrixMultiplication");
 			cliList[i]->runTaskScan("MatrixTranspose");
-			//cliList[i]->runTaskScan("Convolution");
+			cliList[i]->runTaskScan("Convolution");
 			
 			//cliList[i]->runTaskScan("RotateImage");
 			//cliList[i]->runTaskScan("MersenneTwister");

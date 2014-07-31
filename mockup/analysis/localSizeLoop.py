@@ -14,29 +14,27 @@ for root, dirs, files in os.walk("."):
 
 #make canvases to store files in:
 Canvases={}
-for f in FileNames:
-	Canvases[f]=TCanvas(f)
-	
 
-	
-data={}#data[filename]=[Bounds[threads[]], Hists[threads[]], MeanRMS[threads[]], canvas, TGRAPHS]
-c=0
+data={}#data[filename]=[tree, Bounds[threads[]], Hists[threads[]], MeanRMS[threads[]], canvas, TGRAPHS]
 #make ttree for each device/kernel.log
 for f in FileNames:
 	data[f]=()
 	tree=TTree()
 	tree.ReadFile(f,"",',')
 	print "Working on " + f
-	
+	tree.GetEntry(0);
+	if tree.workDimension[0:3]=="ONE": #some issue with string encoding
+		continue
 	threads=[] #array if tuples (X,Y)
 	Bounds={} #dictionary with tuples (X,Y) as keys and [min,max] as values
 	Hists={}
 	MeanRMS={}
+	Canvases[f]=TCanvas(f)
 	
 	#get maximum and minimum times found for (xLocal,yLocal)
 	for i in xrange(0,tree.GetEntries()):
 		tree.GetEntry(i)
-		if(tree.workDimension=="ONE_D"):
+		if(tree.execute < 0 ): #the current x,y point is a failed test
 			continue
 		X=tree.xLocal
 		Y=tree.yLocal
@@ -77,10 +75,11 @@ for f in FileNames:
 		i=i+1
 	
 	tree.GetEntry(0)
-	title=tree.kernel+" "+tree.device
-	print title
-	plot = TGraph2D("filling","title;xLocal;yLocal;execute (ms)", len(threads), x, y, z)
-	plot.SetTitle(title)
+	plot = TGraph2D("empty","empty", len(threads), x, y, z)
+	#plot.SetXTitle("xLocal")
+	#plot.SetYTitle("yLocal")
+	#plot.SetZTitle("execute (ms)")
+	plot.SetTitle(tree.kernel+tree.device)
 	#add color legend
 	plot.SetMarkerStyle(20)
 	gStyle.SetPalette(1)
