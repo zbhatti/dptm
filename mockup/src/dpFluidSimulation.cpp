@@ -247,7 +247,7 @@ void dpFluidSimulation::plan(){
 }
 
 int dpFluidSimulation::execute(){
-	
+	int safeExit =0;
 	for (int i = 1; i <= iterations; i++){
 
 		size_t temp = dims[0] * dims[1];
@@ -289,7 +289,8 @@ int dpFluidSimulation::execute(){
 		err=clEnqueueNDRangeKernel(queue,kernel,2,0,globalSize,localSize,0, 0, 0);
 		clErrChk(err);
 		if(err<0)
-			return -1;
+			safeExit = -1;
+		
 		clErrChk(clEnqueueReadBuffer(queue,velocity,CL_FALSE,0,sizeof(cl_double2) * temp,u,0, 0, NULL));
 		clFinish(queue);
 		
@@ -325,6 +326,9 @@ int dpFluidSimulation::execute(){
 		d_if1234 = temp1234;
 		d_if5678 = temp5678;
 		clFinish(queue);
+		
+		if (safeExit <0)
+			return -1;
 	}
 	
 	clFinish(queue);

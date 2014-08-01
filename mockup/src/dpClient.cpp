@@ -54,8 +54,16 @@ void dpClient::runTasks(){
 		gettimeofday(&start, NULL);
 		err = taskList.at(i)->execute();
 		gettimeofday(&finish, NULL);
-		if (err<0)
+		//execution failed: set error values and continue testing
+		if (err<0){
+			taskList.at(i)->memoryCopyIn();
+			taskList.at(i)->cleanUp();
 			timeTmp.execute = -1;
+			timeTmp.memoryCopyIn = -1;
+			timeTmp.cleanUp = -1;
+			timeList.push_back(timeTmp);
+			continue;
+		}
 		else
 			timeTmp.execute = timeDiff(start,finish);
 			

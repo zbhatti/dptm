@@ -13,7 +13,7 @@ int main (int argc, const char* argv[]) {
 		dpClient* cliList[5] = {&cli1, &cli2, &cli3, &cli4, &cli5};
 	
 	//take task scan argument:
-	for (int r=0;r<10;r++){
+	for (int r=0;r<15;r++){
 		for (int i=0;i<5;i++){
 			fprintf(stderr, "Client:%d\n",i);
 			cliList[i]->runTaskScan("VectorAdd");
@@ -26,10 +26,11 @@ int main (int argc, const char* argv[]) {
 			cliList[i]->runTaskScan("MatrixMultiplication");
 			cliList[i]->runTaskScan("MatrixTranspose");
 			cliList[i]->runTaskScan("Convolution");
-			
+			cliList[i]->runTaskScan("Array3dAverage");
 			//cliList[i]->runTaskScan("RotateImage");
 			//cliList[i]->runTaskScan("MersenneTwister");
 			//cliList[i]->addTaskScan("FFT");
+			//cliList[i]->printTimes();
 			cliList[i]->printFile();
 		}
 	}

@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,maskWidth/F,maskHeight/F,xLocal/I,yLocal/I,zLocal/I,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,1,1,1,9.065,0.003,550.303,2.738,1.19
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,2,1,1,6.381,0.002,548.396,1.598,0.989
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,4,1,1,6.815,0.003,547.727,0.95,0.885
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,8,1,1,6.773,0.004,545.947,2.274,1.006
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,16,1,1,6.39,0.004,133.67,1.717,1.371
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,32,1,1,6.856,0.005,130.034,1.88,1.026
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,64,1,1,6.982,0.004,133.914,1.912,1.863
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,128,1,1,6.675,0.004,140.515,1.526,0.976
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,256,1,1,8.852,0.008,131.06,2.152,1.161
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,512,1,1,6.603,0.005,143.815,1.771,1.303
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,1024,1,1,6.447,0.004,175.434,2.061,1.063
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,2048,1,1,8.754,0.007,183.977,1.912,1.046
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,4096,1,1,6.499,0.004,199.268,1.373,2.628
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,8192,1,1,8.317,0.007,203.793,12.105,2.823

@@ -20,6 +20,7 @@ dpFWT.cpp \
 dpFFT.cpp \
 dpFloydWarshall.cpp \
 dpFluidSimulation.cpp \
+dpArray3dAverage.cpp \
 dpTiming.cpp \
 dpKernelFactory.cpp \
 bmpfuncs.cpp

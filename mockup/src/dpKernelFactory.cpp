@@ -12,6 +12,7 @@
 #include "dpFWT.hpp"
 #include "dpFloydWarshall.hpp"
 #include "dpFluidSimulation.hpp"
+#include "dpArray3dAverage.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
@@ -55,6 +56,9 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		
 		if (!name.compare("NBody"))
 			return new dpNBody(context,queue);
+		
+		if(!name.compare("Array3dAverage"))
+			return new dpArray3dAverage(context,queue);
 		
 		else	//need better return case here
 			return new dpSquareArray(context, queue);
