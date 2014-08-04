@@ -72,7 +72,8 @@ def plot_ONE_D(f,tree):
 	
 	tree.GetEntry(0)
 	plot = TGraph(len(threads), x, t)
-	plot.SetTitle(tree.kernel+tree.device)
+	title=""+tree.kernel[:-1]+tree.device[:-1]
+	plot.SetTitle(title)
 	#add color legend
 	plot.SetMarkerStyle(20)
 	#gStyle.SetPalette(1)
@@ -134,7 +135,8 @@ def plot_TWO_D(f,tree):
 	
 	tree.GetEntry(0)
 	plot = TGraph2D("empty","empty", len(threads), x, y, t)
-	plot.SetTitle(tree.kernel+tree.device)
+	title = ""+tree.kernel[:-1]+tree.device[:-1]
+	plot.SetTitle(title)
 	#add color legend
 	plot.SetMarkerStyle(20)
 	#gStyle.SetPalette(1)
@@ -204,8 +206,10 @@ def plot_THREE_D(f,tree):
 	tree.GetEntry(0)
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
-	ntuple.SetTitle(tree.kernel+tree.device)
-	Canvases[f].Print(f[:-4]+ ".pdf")
+	title = ""+tree.kernel[:-1]+tree.device[:-1]
+	ntuple.SetTitle(title)
+	pdfname = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + ".pdf"
+	Canvases[f].Print(pdfname)
 	
 	#plot = TGraph2D("empty","empty", len(threads), x, y, z, t)
 	#plot.SetTitle(tree.kernel+tree.device)
