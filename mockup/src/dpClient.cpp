@@ -148,9 +148,9 @@ void dpClient::runTaskScan(std::string name){
 					addTask(name, pow(2,i), pow(2,j), pow(2,k));
 					runTasks();
 				}
-				j=0;
+				k=0;
 			}
-			k=0;
+			j=0;
 		}
 	}
 	

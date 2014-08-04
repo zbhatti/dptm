@@ -25,7 +25,6 @@ data={}#data[filename]=[tree, Bounds[threads[]], Hists[threads[]], MeanRMS[threa
 
 
 def plot_ONE_D(f,tree):
-	print "IN ONE_D-----------------------------------------------------------------------------------"
 	threads=[] #array of xLocal
 	Bounds={} #dictionary with tuples (xLocal) as keys and [min,max] as values
 	Hists={}
@@ -83,7 +82,6 @@ def plot_ONE_D(f,tree):
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 	
 def plot_TWO_D(f,tree):
-	print "IN TWO_D************************************************************************************"
 	threads=[] #array of tuples (xLocal,yLocal)
 	Bounds={} #dictionary with tuples (X,Y) as keys and [min,max] as values
 	Hists={}
@@ -147,7 +145,6 @@ def plot_TWO_D(f,tree):
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 
 def plot_THREE_D(f,tree):
-	print "IN THREE_D!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 	threads=[] #array of tuples (xLocal,yLocal,zLocal)
 	Bounds={} #dictionary with tuples (X,Y,Z) as keys and [min,max] as values
 	Hists={}
@@ -195,17 +192,20 @@ def plot_THREE_D(f,tree):
 		
 		Hists[thr]= h
 		
-		#print str(thr[0])+str(thr[1])+str(h.GetMean())
+		print "(" + str(thr[0]) + "," + str(thr[1]) + "," + str(thr[2])+ ")" + "=" + str(h.GetMean())
 		x[i]= thr[0]
 		y[i]= thr[1]
 		z[i]= thr[2]
 		t[i]= h.GetMean()
-		ntuple.Fill(x[i],y[i],z[i],t[i])
+		ntuple.Fill(x[i],y[i],z[i],t[i]) #t(x,y,z)
 		
 		i=i+1 
 		
 	tree.GetEntry(0)
-	ntuple.Draw("x:y:z:t","","L")
+	ntuple.SetMarkerStyle(20)
+	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
+	ntuple.SetTitle(tree.kernel+tree.device)
+	Canvases[f].Print(f[:-4]+ ".pdf")
 	
 	#plot = TGraph2D("empty","empty", len(threads), x, y, z, t)
 	#plot.SetTitle(tree.kernel+tree.device)
@@ -213,12 +213,9 @@ def plot_THREE_D(f,tree):
 	#plot.SetMarkerStyle(20)
 	#gStyle.SetPalette(1)
 	#plot.Draw("P&&TRI1&&colz")
-	#Canvases[f].SetLogx(1)
-	#Canvases[f].SetLogy(1)
-	#Canvases[f].SetLogz(1)
 	
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f])
-
+	raw_input("holding")
 
 #make ttree for each device/kernel.log
 for f in FileNames:
