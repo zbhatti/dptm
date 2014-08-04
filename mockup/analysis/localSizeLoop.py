@@ -8,7 +8,7 @@ FileNames=[]
 #find files that end with .log and add them into FileNames array
 for root, dirs, files in os.walk("."):
 	for file in files:
-		if file.endswith("age.log"):
+		if file.endswith(".log"):
 			print os.path.join(root, file)
 			FileNames.append(os.path.join(root, file))
 
@@ -80,6 +80,8 @@ def plot_ONE_D(f,tree):
 	plot.Draw("AL")
 	Canvases[f].SetLogx(1)
 	
+	pdfname = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + ".pdf"
+	Canvases[f].Print(pdfname)
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 	
 def plot_TWO_D(f,tree):
@@ -144,6 +146,8 @@ def plot_TWO_D(f,tree):
 	Canvases[f].SetLogx(1)
 	Canvases[f].SetLogy(1)
 	
+	pdfname = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + ".pdf"
+	Canvases[f].Print(pdfname)
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 
 def plot_THREE_D(f,tree):
@@ -201,7 +205,7 @@ def plot_THREE_D(f,tree):
 		t[i]= h.GetMean()
 		ntuple.Fill(x[i],y[i],z[i],t[i]) #t(x,y,z)
 		
-		i=i+1 
+		i=i+1  
 		
 	tree.GetEntry(0)
 	ntuple.SetMarkerStyle(20)
@@ -211,15 +215,7 @@ def plot_THREE_D(f,tree):
 	pdfname = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + ".pdf"
 	Canvases[f].Print(pdfname)
 	
-	#plot = TGraph2D("empty","empty", len(threads), x, y, z, t)
-	#plot.SetTitle(tree.kernel+tree.device)
-	#add color legend
-	#plot.SetMarkerStyle(20)
-	#gStyle.SetPalette(1)
-	#plot.Draw("P&&TRI1&&colz")
-	
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f])
-	raw_input("holding")
 
 #make ttree for each device/kernel.log
 for f in FileNames:
@@ -236,8 +232,4 @@ for f in FileNames:
 		plot_THREE_D(f,tree)
 	else:
 		continue
-	
 
-#plot contour
-#Mean values to plot for contour: MeanRMS[thr][0]
-#RMS values associated with each Mean: MeanRMS[thr][1]
