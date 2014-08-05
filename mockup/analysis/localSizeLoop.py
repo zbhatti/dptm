@@ -8,7 +8,7 @@ FileNames=[]
 #find files that end with .log and add them into FileNames array
 for root, dirs, files in os.walk("."):
 	for file in files:
-		if file.endswith(".log"):
+		if file.endswith("verage.log"):
 			print os.path.join(root, file)
 			FileNames.append(os.path.join(root, file))
 
@@ -199,9 +199,9 @@ def plot_THREE_D(f,tree):
 		MeanRMS[thr][0]=h.GetMean()
 		MeanRMS[thr][1]=h.GetRMS()
 		
-		Hists[thr]= h
+		Hists[thr]= h 
 		
-		print "(" + str(thr[0]) + "," + str(thr[1]) + "," + str(thr[2])+ ")" + "=" + str(h.GetMean())
+		#print "(" + str(thr[0]) + "," + str(thr[1]) + "," + str(thr[2])+ ")" + "=" + str(h.GetMean())
 		x[i]= thr[0]
 		y[i]= thr[1]
 		z[i]= thr[2]
@@ -214,7 +214,9 @@ def plot_THREE_D(f,tree):
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
 	title = ""+tree.kernel[:-1]+tree.device[:-1]
-	ntuple.SetTitle(title)
+	Canvases[f].SetPhi(260)
+	Canvases[f].SetTheta(20)
+	
 	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1]
 	Canvases[f].Print(pic+".png")
 	
