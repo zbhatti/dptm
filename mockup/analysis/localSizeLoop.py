@@ -8,7 +8,7 @@ FileNames=[]
 #find files that end with .log and add them into FileNames array
 for root, dirs, files in os.walk("."):
 	for file in files:
-		if file.endswith("pose.log"):
+		if file.endswith(".log"):
 			print os.path.join(root, file)
 			FileNames.append(os.path.join(root, file))
 
