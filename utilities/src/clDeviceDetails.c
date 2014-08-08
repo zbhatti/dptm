@@ -61,7 +61,7 @@ int main() {
 						
 						//print size of global memory in bytes
 						clGetDeviceInfo(devices[j], CL_DEVICE_GLOBAL_MEM_SIZE, sizeof(ulongTmp), &ulongTmp, NULL);
-						printf(" %d.%d Global memory size: %ld\n", j+1, 3, ulongTmp);
+						printf(" %d.%d Global memory size: %ld MiB\n", j+1, 3, ulongTmp/1048576);
 						
 						//print size of global memory cache in bytes
 						clGetDeviceInfo(devices[j], CL_DEVICE_GLOBAL_MEM_CACHE_SIZE, sizeof(ulongTmp), &ulongTmp, NULL);
@@ -81,11 +81,11 @@ int main() {
 						
 						//print device maximum memory allocation size
 						clGetDeviceInfo(devices[j], CL_DEVICE_MAX_MEM_ALLOC_SIZE , sizeof(ulongTmp), &ulongTmp, NULL);
-						printf(" %d.%d Maximum memory allocation: %ld\n", j+1, 8, ulongTmp);
+						printf(" %d.%d Maximum memory allocation: %ld MiB\n", j+1, 8, ulongTmp/1048576);
 						
 						//print device maximum constant buffer size
 						clGetDeviceInfo(devices[j], CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE , sizeof(ulongTmp), &ulongTmp, NULL);
-						printf(" %d.%d Maximum constant buffer size: %ld\n", j+1, 9, ulongTmp);
+						printf(" %d.%d Maximum constant buffer size: %ld MiB\n", j+1, 9, ulongTmp/1048576);
 						
 						//print maximum work group size 
 						clGetDeviceInfo(devices[j], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(TmpSizeT), &TmpSizeT, NULL);

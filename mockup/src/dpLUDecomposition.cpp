@@ -14,6 +14,7 @@ dpLUDecomposition::dpLUDecomposition(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+	
 	name = "LUDecomposition";
 	kernelString = "\n"
 	"#ifdef KHR_DP_EXTENSION                                                                                                                                         \n"
@@ -112,13 +113,30 @@ dpLUDecomposition::dpLUDecomposition(cl_context ctx, cl_command_queue q){
 	"    }                                                                                                                                                           \n"
 	"}																																																																															 \n";
 	
-}
-void dpLUDecomposition::init(int xLocal,int yLocal,int zLocal){
-	effectiveDimension = 2048;
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, "-D KHR_DP_EXTENSION", NULL, NULL));
+	// get a kernel object handle for a kernel with the given name
+	kernelLUD = clCreateKernel(program, "kernelLUDecompose", &err); clErrChk(err);
+	kernelCombine = clCreateKernel(program, "kernelLUCombine", &err); clErrChk(err);
 	
+}
+
+void dpLUDecomposition::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[2] = 1;
+	
+	for (int i =0; pow(2,i)*pow(2,i)*sizeof(double)/(float) 1048576 <= dataMB; i++){
+		effectiveDimension = pow(2,i);
+	}
+	
+	MB=effectiveDimension*effectiveDimension*sizeof(double)/(float) 1048576;
+}
+
+void dpLUDecomposition::init(){
+	effectiveDimension = 2048;
+
 	
 	dataParameters.push_back(effectiveDimension);
 	dataParameters.push_back(effectiveDimension);
@@ -133,12 +151,6 @@ void dpLUDecomposition::init(int xLocal,int yLocal,int zLocal){
 
 	//initialize with random double type elements
 	generateMatrix(input, effectiveDimension,effectiveDimension);
-
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, "-D KHR_DP_EXTENSION", NULL, NULL));
-	// get a kernel object handle for a kernel with the given name
-	kernelLUD = clCreateKernel(program, "kernelLUDecompose", &err); clErrChk(err);
-	kernelCombine = clCreateKernel(program, "kernelLUCombine", &err); clErrChk(err);
 }
 
 void dpLUDecomposition::memoryCopyOut(){

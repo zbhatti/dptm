@@ -10,6 +10,8 @@
 #include <iostream> //file writing
 #include <sys/stat.h> //mkdir 
 #include <sys/types.h> //mkdir
+#include <sstream>
+#include <algorithm>
 
 #ifdef __APPLE__
 	#include <OpenCL/opencl.h>
@@ -31,25 +33,26 @@ class dpClient {
 		cl_kernel kernel;
 		size_t MaxWorkGroupSize;
 		size_t MaxWorkDim[3];
+		cl_ulong MaxMemAlloc;
 		int MaxComputeUnits;
 		struct timeval start, finish;
 		std::vector<dpKernel*> taskList;
 		std::vector<dpTiming> timeList;
 		dpKernelFactory kernelFactory;
-		char name[256];
-		
+		char devName[256];
+		char platName[256];
+		bool isEmpty(std::ifstream&);
+		//void getOptimalWG(std::string, int);
+		//void getOptimalMB(std::string, int, int, int);
 	
 	public:
 		dpClient(int, int);
 		float timeDiff(struct timeval, struct timeval);
+		void addTask(std::string, int xLocal=1, int yLocal=1, int zLocal=1, int MB=8);
+		void addMBScan(std::string, int xLocal=1 , int yLocal=1, int zLocal=1); //need to change this to lookup optimal
+		void addWGScan(std::string, int MB = 8);
 		void runTasks();
-		void addTask(std::string, int);
-		void addTask(std::string, int, int);
-		void addTask(std::string, int, int, int);
-		void addTaskScan(std::string);
-		void runTaskScan(std::string);
 		void printTimes();
 		void printFile();
-		bool isEmpty(std::ifstream&);
 		std::vector<dpTiming> getTimes(){return timeList;};
 };

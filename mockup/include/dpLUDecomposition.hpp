@@ -16,7 +16,8 @@ class dpLUDecomposition: public dpKernel{
 	
 	public:
 		dpLUDecomposition(cl_context, cl_command_queue);
-		void init(int,int,int);
+		void setup(int,int,int,int);
+		void init();
 		void memoryCopyOut();
 		void plan();
 		int execute();

@@ -65,9 +65,11 @@ void clAssert(cl_int code, const char *file, int line){
    }
 }
 
+//code from http://dhruba.name/2012/08/16/opencl-cookbook-building-a-program-and-debugging-failures/
+//used to determine if the program is built properly for a given kernel
 void programCheck(cl_int err, cl_context context, cl_program program) {
 	if (err != CL_SUCCESS){
-		//http://dhruba.name/2012/08/16/opencl-cookbook-building-a-program-and-debugging-failures/
+		
 		cl_device_id devices[1];
 		clGetContextInfo (context, CL_CONTEXT_DEVICES,sizeof(devices),devices,NULL);
 		cl_build_status status;

@@ -6,8 +6,8 @@ dpSquareArray::dpSquareArray(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = ONE_D;
+
 	name = "SquareArray";
-	
 	kernelString = "\n"
 		"__kernel void squareArray( \n" 
 		"	__global const float * Ain_d, \n"
@@ -18,10 +18,26 @@ dpSquareArray::dpSquareArray(cl_context ctx, cl_command_queue q){
 		"			Aout_d[idx] = Ain_d[idx] * Ain_d[idx]; \n"
 		"		} \n"
 		"	} \n";
+
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "squareArray", &err); clErrChk(err);
 }
 
-void dpSquareArray::init(int xLocal,int yLocal, int zLocal){
-	Asize = 262144;
+void dpSquareArray::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+
+	localSize[0] = xLocal;
+	localSize[1] = 1;
+	localSize[2] = 1;
+	
+	for(int i=0; pow(2,i)*sizeof(float)/(float) 1048576<dataMB;i++)
+		Asize = pow(2,i);
+	
+	MB = Asize * sizeof(float) / (float) 1048576;
+	
+}
+
+void dpSquareArray::init(){
 	Ain = new float[Asize];
 	Aout = new float[Asize];
 	if (!Aout || !Ain)
@@ -29,16 +45,8 @@ void dpSquareArray::init(int xLocal,int yLocal, int zLocal){
 	
 	generateArray(Ain, Asize);
 	
-	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	localSize[2] = zLocal;
-	
 	dataParameters.push_back(Asize);
 	dataNames.push_back("nElements");
-	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "squareArray", &err); clErrChk(err);
 	
 }
 

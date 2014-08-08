@@ -14,24 +14,47 @@ int main (int argc, const char* argv[]) {
 	
 	//take task scan argument:
 	for (int r=0;r<15;r++){
-		for (int i=0;i<5;i++){
+		for (int j=3;pow(2,j)<=32;j++){
+			for (int i=0;i<5;i++){
 			fprintf(stderr, "Client:%d\n",i);
-			//cliList[i]->runTaskScan("VectorAdd");
-			//cliList[i]->runTaskScan("SquareArray");
-			//cliList[i]->runTaskScan("FluidSimulation");
-			//cliList[i]->runTaskScan("LUDecomposition");
-			//cliList[i]->runTaskScan("FloydWarshall");
-			//cliList[i]->runTaskScan("FWT");
-			//cliList[i]->runTaskScan("NBody");
-			//cliList[i]->runTaskScan("MatrixMultiplication");
-			//cliList[i]->runTaskScan("MatrixTranspose");
-			//cliList[i]->runTaskScan("Convolution");
-			cliList[i]->runTaskScan("Array3dAverage");
-			//cliList[i]->runTaskScan("RotateImage");
-			//cliList[i]->runTaskScan("MersenneTwister");
-			//cliList[i]->addTaskScan("FFT");
-			//cliList[i]->printTimes();
-			cliList[i]->printFile();
+			
+				cliList[i]->addWGScan("VectorAdd",pow(2,j));
+				//cliList[i]->addMBScan("VectorAdd",8,8,8);
+				
+				cliList[i]->addWGScan("MatrixTranspose",pow(2,j));
+				//cliList[i]->addMBScan("MatrixTranspose",8,8,8);
+				
+				cliList[i]->addWGScan("SquareArray",pow(2,j));
+				//cliList[i]->addMBScan("SquareArray",8,8,8);
+				
+				cliList[i]->addWGScan("FluidSimulation",pow(2,j));
+				//cliList[i]->addMBScan("FluidSimulation",8,8,8);
+				
+				cliList[i]->addWGScan("LUDecomposition",pow(2,j));
+				//cliList[i]->addMBScan("LUDecomposition",8,8,8);
+				
+				cliList[i]->addWGScan("FloydWarshall",pow(2,j));
+				//cliList[i]->addMBScan("FloydWarshall",8,8,8);
+				
+				cliList[i]->addWGScan("FWT",pow(2,j));
+				//cliList[i]->addMBScan("FWT",8,8,8);
+				
+				cliList[i]->addWGScan("NBody",pow(2,j));
+				//cliList[i]->addMBScan("NBody",8,8,8);
+				
+				cliList[i]->addWGScan("MatrixMultiplication",pow(2,j));
+				//cliList[i]->addMBScan("MatrixMultiplication",8,8,8);
+				
+				cliList[i]->addWGScan("Convolution",pow(2,j));
+				//cliList[i]->addMBScan("Convolution",8,8,8);
+				
+				cliList[i]->addWGScan("Array3dAverage",pow(2,j));
+				//cliList[i]->addMBScan("Array3dAverage",8,8,8);
+				
+				cliList[i]->runTasks();
+				//cliList[i]->printTimes();
+				cliList[i]->printFile();
+			}
 		}
 	}
 	

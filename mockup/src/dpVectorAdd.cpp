@@ -24,6 +24,7 @@ dpVectorAdd::dpVectorAdd(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = ONE_D;
+
 	kernelString = "\n"
 	" // OpenCL Kernel Function for element by element vector addition                                                \n"
 	"__kernel void VectorAdd(__global const float* a, __global const float* b, __global float* c, int iNumElements)   \n"
@@ -42,16 +43,23 @@ dpVectorAdd::dpVectorAdd(cl_context ctx, cl_command_queue q){
 	"}                                                                                                                \n";
 	name = "VectorAdd";
 	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, "-cl-fast-relaxed-math", NULL, NULL));
+	kernel = clCreateKernel(program, "VectorAdd", &err); clErrChk(err);
 }
 
-void dpVectorAdd::init(int xLocal,int yLocal,int zLocal){
-
+void dpVectorAdd::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[1] = 1;
+	localSize[2] = 1;
 	
-	iNumElements = 262144;
+	for(int i =0; pow(2,i)*sizeof(cl_float)/(float) 1048576 <dataMB; i++)
+		iNumElements=pow(2,i);
 	
+	MB= iNumElements*sizeof(cl_float)/(float) 1048576;
+}
+
+void dpVectorAdd::init(){
 	dataParameters.push_back(iNumElements);
 	dataNames.push_back("nElements");
 	
@@ -61,11 +69,6 @@ void dpVectorAdd::init(int xLocal,int yLocal,int zLocal){
 	dst = (float *)malloc(sizeof(cl_float) * iNumElements);
 	generateArray(srcA, iNumElements);
 	generateArray(srcB, iNumElements);
-
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, "-cl-fast-relaxed-math", NULL, NULL));
-	kernel = clCreateKernel(program, "VectorAdd", &err); clErrChk(err);
-	
 }
 
 void dpVectorAdd::memoryCopyOut(){

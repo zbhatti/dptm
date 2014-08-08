@@ -15,7 +15,8 @@ class dpFFT: public dpKernel{
 	
 	public:
 		dpFFT(cl_context, cl_command_queue);
-		void init(int,int,int); //unused for this kernel
+		void setup(int,int,int,int);
+		void init();
 		void memoryCopyOut();
 		void plan();
 		int execute();

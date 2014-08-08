@@ -24,6 +24,7 @@ class dpKernel{
 		cl_program program;
 		size_t localSize[3];
 		size_t globalSize[3];
+		float MB;
 		const char* kernelString;
 		cl_int err;
 		
@@ -33,13 +34,15 @@ class dpKernel{
 		std::vector<float> dataParameters;
 		workGroupSpace workDimension;
 		void FillerFunction();
-		virtual void init(int,int,int) = 0;
+		virtual void setup(int,int,int,int) = 0;
+		virtual void init() = 0;
 		virtual void memoryCopyOut(void) = 0;
 		virtual void plan(void) = 0;
 		virtual int execute(void) = 0;
 		virtual void memoryCopyIn(void) = 0;
 		virtual void cleanUp(void) = 0;
 		size_t* getLocalSize(){return localSize;};
+		float getMB() {return MB;};
 };
 
 #endif

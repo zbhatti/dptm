@@ -8,12 +8,21 @@ dpFFT::dpFFT(cl_context ctx, cl_command_queue q){
 	queue = q;
 	workDimension = TWO_D;
 	name = "FFT";
+	localSize[0] =localSize[1]=localSize[2]=0;
+	
+	clErrChk(clfftSetup(&fftSetup));
+
 }
 
-void dpFFT::init(int filler1, int filler2, int filler3){
+void dpFFT::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+	localSize[0] =localSize[1]=localSize[2]=1;
+	for (int i = 0; pow(2,i) *2 *sizeof(float)/(float) 1048576 <= dataMB; i++)
+		Asize = pow(2,i);
 	
-	Asize = 16384;
-	
+	MB = Asize*2*sizeof(float)/(float) 1048576;
+}
+
+void dpFFT::init(){
 	dataParameters.push_back(Asize);
 	dataNames.push_back("nVectors");
 	
@@ -23,10 +32,6 @@ void dpFFT::init(int filler1, int filler2, int filler3){
 		fprintf(stderr,"error in dynamic allocation");
 	
 	generateInterleaved(Ain, Asize);
-	clErrChk(clfftSetup(&fftSetup));
-	
-	localSize[0] =localSize[1]=localSize[2]=0;
-	
 }
 
 void dpFFT::memoryCopyOut(){

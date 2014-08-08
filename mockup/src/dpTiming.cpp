@@ -14,6 +14,8 @@ std::string dpTiming::getVariables(){
 	ss<<"xLocal/I,";
 	ss<<"yLocal/I,";
 	ss<<"zLocal/I,";
+	ss<<"MB/F,";
+	ss<<"init/F,";
 	ss<<"memoryCopyOut/F,";
 	ss<<"plan/F,";
 	ss<<"execute/F,";
@@ -33,6 +35,8 @@ std::string dpTiming::getTimes(){
 	ss<<localSize[0]<<",";
 	ss<<localSize[1]<<","; 
 	ss<<localSize[2]<<",";
+	ss<<MB<<",";
+	ss<<init<<",";
 	ss<<memoryCopyOut<<",";
 	ss<<plan<<",";
 	ss<<execute<<",";

@@ -10,16 +10,74 @@ dpClient::dpClient(int platform, int device){
 	cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
 	clErrChk(clGetPlatformIDs(16, platform_ids, NULL));
 	clErrChk(clGetDeviceIDs(platform_ids[platform], CL_DEVICE_TYPE_ALL, 16, device_ids, &numDevices));
-	clErrChk(clGetPlatformInfo(platform_ids[platform], CL_PLATFORM_NAME, sizeof(name), name, NULL));
-	fprintf(stderr,"On Platform %s\n", name);
-	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(name), name, NULL));
+	clErrChk(clGetPlatformInfo(platform_ids[platform], CL_PLATFORM_NAME, sizeof(platName), platName, NULL));
+	fprintf(stderr,"On Platform %s\n", platName);
+	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(devName), devName, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_ITEM_SIZES, sizeof(MaxWorkDim), &MaxWorkDim, NULL));
-	fprintf(stderr,"using device %s\n", name);
+	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_MEM_ALLOC_SIZE , sizeof(MaxMemAlloc), &MaxMemAlloc, NULL));
+	fprintf(stderr,"using device %s\n", devName);
 	props[1] = (cl_context_properties) platform_ids[platform];
 	context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err); clErrChk(err);
 	queue = clCreateCommandQueue( context, device_ids[device], 0, &err); clErrChk(err);
+}
+
+
+//Add kernel task:, xLocal=1, yLocal=1, zLocal=1, MB=8 if not passed to this function
+void dpClient::addTask(std::string name, int xLocal, int yLocal, int zLocal, int MB){
+	//check that the wg arguments do not exceed the maxworkgroupsize of a device 
+	if((xLocal>(int)MaxWorkDim[0])||(yLocal>(int)MaxWorkDim[1])||(zLocal>(int)MaxWorkDim[2])||(xLocal*yLocal*zLocal>(int)MaxWorkGroupSize))
+		xLocal=yLocal=zLocal = 8;
+	
+	taskList.push_back(kernelFactory.makeTask(name, context, queue));
+	taskList.at(taskList.size()-1)->setup(MB,xLocal,yLocal,zLocal);
+}
+
+//Add scan over data size at a constant workgroupdimension, default xLocal=yLocal=zLocal=1
+void dpClient::addMBScan(std::string name, int xLocal, int yLocal, int zLocal){
+	//scan from 1MB to Max MB of single allocation for a kernel
+	for (int i=0; pow(2,i) <= 8; i++)
+		addTask(name, xLocal, yLocal, zLocal, pow(2,i) );
+}
+
+//Add scan over workgroup dimensions at a constant data size, default MB=8
+void dpClient::addWGScan(std::string name, int MB){
+	workGroupSpace workDim;
+	int i,j,k;
+	j =0;
+	k =0;
+	
+	//make a temporary kernel to read work dimension from:
+	workDim = kernelFactory.makeTask(name, context, queue)->workDimension;
+	
+	if (workDim == ONE_D){
+		for (i=0; pow(2,i)<=MaxWorkGroupSize; i++){
+			addTask(name, pow(2,i),1,1, MB);
+		}
+	}
+	
+	if (workDim == TWO_D){
+		for(i=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
+			for(j=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
+				addTask(name, pow(2,i), pow(2,j),1,MB);
+			}
+			j=0;
+		}
+	}
+	
+	if (workDim == THREE_D){
+		for(i=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
+			for(j=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
+				for(k=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; k++){
+					addTask(name, pow(2,i), pow(2,j), pow(2,k),MB);
+				}
+				k=0;
+			}
+			j=0;
+		}
+	}
+	
 }
 
 void dpClient::runTasks(){
@@ -30,9 +88,9 @@ void dpClient::runTasks(){
 		
 		timeTmp.name = taskList.at(i)->name;
 		timeTmp.localSize = taskList.at(i)->getLocalSize();
-		timeTmp.data= taskList.at(i)->dataParameters;
-		timeTmp.dataNames= taskList.at(i)->dataNames;
-		timeTmp.device = name;
+		timeTmp.MB = taskList.at(i)->getMB();
+		timeTmp.device = devName;
+		
 		//if block for enum to string:
 		if (taskList.at(i)->workDimension == ONE_D)
 			timeTmp.workDimension ="ONE_D";
@@ -40,6 +98,15 @@ void dpClient::runTasks(){
 			timeTmp.workDimension = "TWO_D";
 		if (taskList.at(i)->workDimension == THREE_D) 
 			timeTmp.workDimension = "THREE_D";
+		
+		
+		gettimeofday(&start, NULL);
+		taskList.at(i)->init();
+		gettimeofday(&finish, NULL);
+		timeTmp.init = timeDiff(start,finish);
+		
+		timeTmp.data= taskList.at(i)->dataParameters;
+		timeTmp.dataNames= taskList.at(i)->dataNames;
 		
 		gettimeofday(&start, NULL);
 		taskList.at(i)->memoryCopyOut();
@@ -54,6 +121,7 @@ void dpClient::runTasks(){
 		gettimeofday(&start, NULL);
 		err = taskList.at(i)->execute();
 		gettimeofday(&finish, NULL);
+
 		//execution failed: set error values and continue testing
 		if (err<0){
 			taskList.at(i)->memoryCopyIn();
@@ -77,83 +145,10 @@ void dpClient::runTasks(){
 		gettimeofday(&finish, NULL);
 		timeTmp.cleanUp = timeDiff(start,finish);
 		
-		
 		timeList.push_back(timeTmp);
 	}
 	
 	taskList.clear();
-}
-
-//One Dimensional kernel task:
-void dpClient::addTask(std::string name, int xLocal){
-	if(xLocal > (int)MaxWorkDim[0])
-		xLocal = MaxWorkDim[0]; 
-
-	taskList.push_back(kernelFactory.makeTask(name, context, queue));
-	//add error check here to make sure newly created kernel is of right dimension
-	taskList.at(taskList.size()-1)->init(xLocal, 1, 1);
-}
-
-//Two Dimensional kernel task:
-void dpClient::addTask(std::string name, int xLocal, int yLocal){
-	if((xLocal>(int)MaxWorkDim[0])||(yLocal>(int)MaxWorkDim[1])||(xLocal*yLocal>(int)MaxWorkGroupSize))
-		xLocal = yLocal = 16;
-
-	taskList.push_back(kernelFactory.makeTask(name, context, queue));
-	//add error check here to make sure newly created kernel is of right dimension
-	taskList.at(taskList.size()-1)->init(xLocal, yLocal, 1);
-}
-
-//Three Dimensional kernel task:
-void dpClient::addTask(std::string name, int xLocal, int yLocal, int zLocal){
-	if((xLocal>(int)MaxWorkDim[0])||(yLocal>(int)MaxWorkDim[1])||(zLocal>(int)MaxWorkDim[2])||(xLocal*yLocal*zLocal>(int)MaxWorkGroupSize))
-		xLocal=yLocal=zLocal = 8;
-	
-	taskList.push_back(kernelFactory.makeTask(name, context, queue));
-	//add error check here to make sure newly created kernel is of right dimension
-	taskList.at(taskList.size()-1)->init(xLocal, yLocal, zLocal);
-}
-
-
-void dpClient::runTaskScan(std::string name){
-	workGroupSpace workDim;
-	dpTiming timeTmp;
-	int i,j,k;
-	j =0;
-	k =0;
-	//make a temporary kernel to read information from:
-	workDim = kernelFactory.makeTask(name, context, queue)->workDimension;
-	
-	if (workDim == ONE_D){
-		for (i=0; pow(2,i)<=MaxWorkGroupSize; i++){
-			addTask(name, pow(2,i));
-			runTasks();
-		}
-	}
-	
-	if (workDim == TWO_D){
-		for(i=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
-			for(j=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
-				addTask(name, pow(2,i), pow(2,j));
-				runTasks();
-			}
-			j=0;
-		}
-	}
-	
-	if (workDim == THREE_D){
-		for(i=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
-			for(j=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
-				for(k=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; k++){
-					addTask(name, pow(2,i), pow(2,j), pow(2,k));
-					runTasks();
-				}
-				k=0;
-			}
-			j=0;
-		}
-	}
-	
 }
 
 //helper function that returns time difference
@@ -177,23 +172,20 @@ void dpClient::printTimes(){
 void dpClient::printFile(){
 	std::ofstream fileOut;
 	std::ifstream fileIn;
-	char tmp[100];
+	char tmp[256];
+	std::stringstream tmpString;
 	strcpy(tmp, "analysis/");
-	strcat(tmp, name);
+	strcat(tmp, platName);
+	strcat(tmp," - ");
+	strcat(tmp, devName);
 	mkdir(tmp, 0777);
 	
 	for (unsigned int i=0; i<timeList.size(); i++){
-		char tmpString[200];
 		//get filename to save to at ./device/kernelname.log
-		strcpy(tmpString,"analysis/");
-		strcat(tmpString,name);
-		strcat(tmpString,"/");
-		strcat(tmpString, timeList.at(i).name.c_str());
-		strcat(tmpString,".log");
-		
-		
-		fileOut.open(tmpString, std::ofstream::app );
-		fileIn.open(tmpString);
+		tmpString << tmp << "/" << timeList.at(i).name.c_str() << timeList.at(i).MB << ".log";
+		//fprintf(stderr,"%s\n",tmp,tmpString.str().c_str());
+		fileOut.open(tmpString.str().c_str(), std::ofstream::app );
+		fileIn.open(tmpString.str().c_str() );
 		
 		//if the file is empty, add the variable names first
 		if (isEmpty(fileIn))
@@ -202,7 +194,9 @@ void dpClient::printFile(){
 		fileOut << timeList.at(i).getTimes().c_str() << "\n";
 		fileOut.close();
 		fileIn.close();
+		tmpString.str("");
 	}
+	
 	timeList.clear();
 }
 

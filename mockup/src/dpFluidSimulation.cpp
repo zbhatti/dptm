@@ -12,6 +12,7 @@ dpFluidSimulation::dpFluidSimulation(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+	
 	name = "FluidSimulation";
 	kernelString = "\n"
 	"#ifdef KHR_DP_EXTENSION                                                                            \n"
@@ -147,6 +148,12 @@ dpFluidSimulation::dpFluidSimulation(cl_context ctx, cl_command_queue q){
 	"    if(t4 && t1)                                                                                   \n"
 	"        of5678[nPos.s7].w = f5678.w;                                                               \n"
 	"}                                                                                                  \n";
+	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	err = clBuildProgram(program, 0, NULL, "-D KHR_DP_EXTENSION", NULL, NULL); clErrChk(err);	
+	programCheck(err, context, program);
+	kernel = clCreateKernel(program, "lbm", &err); clErrChk(err);
+	
 }
 
 
@@ -159,17 +166,26 @@ cl_double w[9] = {4.0 / 9.0, 1.0 / 9.0, 1.0 / 9.0, 1.0 / 9.0, 1.0 / 9.0, 1.0 / 3
 // Omega (global)
 const double omega = 1.2f;
 
-void dpFluidSimulation::init(int xLocal, int yLocal, int zLocal){
+void dpFluidSimulation::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+
 	localSize[0]= xLocal;
 	localSize[1]= yLocal;
-	localSize[2]= zLocal;
+	localSize[2]= 1;
 	
-	dims[0]=2048;
-	dims[1]=2048;
+	for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_double)/(float) 1048576 <= dataMB;i++){
+		dims[0] = pow(2,i);
+		dims[1] = pow(2,i);
+	}
+	
+	MB=dims[0]*dims[1]*sizeof(cl_double)/(float) 1048576;
+}
+
+
+void dpFluidSimulation::init(){
 	iterations = 5;
 	
 	dataParameters.push_back(dims[0]);
-	dataParameters.push_back(dims[0]);
+	dataParameters.push_back(dims[1]);
 	dataParameters.push_back(iterations);
 	dataNames.push_back("width");
 	dataNames.push_back("height");
@@ -192,13 +208,8 @@ void dpFluidSimulation::init(int xLocal, int yLocal, int zLocal){
 		fprintf(stderr,"memory allocation error on host");
 	reset();
 	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	err = clBuildProgram(program, 0, NULL, "-D KHR_DP_EXTENSION", NULL, NULL); clErrChk(err);	
-	programCheck(err, context, program);
-
-	kernel = clCreateKernel(program, "lbm", &err); clErrChk(err);
-
 }
+
 void dpFluidSimulation::memoryCopyOut(){
 	//MEMORY COPY OUT:
 	size_t temp = dims[0] * dims[1];

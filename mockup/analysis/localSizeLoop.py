@@ -24,7 +24,7 @@ Graphs={}
 data={}#data[filename]=[tree, Bounds[threads[]], Hists[threads[]], MeanRMS[threads[]], canvas, TGRAPHS]
 
 
-def plot_ONE_D(f,tree):
+def plot_ONE_D(f,tree, optimalFile):
 	threads=[] #array of xLocal
 	Bounds={} #dictionary with tuples (xLocal) as keys and [min,max] as values
 	Hists={}
@@ -72,7 +72,7 @@ def plot_ONE_D(f,tree):
 	
 	tree.GetEntry(0)
 	plot = TGraph(len(threads), x, t)
-	title=""+tree.kernel[:-1]+tree.device[:-1]
+	title=""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
 	plot.SetTitle(title)
 	#add color legend
 	plot.SetMarkerStyle(20)
@@ -80,15 +80,17 @@ def plot_ONE_D(f,tree):
 	plot.Draw("AL")
 	Canvases[f].SetLogx(1)
 	
-	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1]
+	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
 	Canvases[f].Print(pic+".png")
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 	
-def plot_TWO_D(f,tree):
+def plot_TWO_D(f,tree, optimalFile):
 	threads=[] #array of tuples (xLocal,yLocal)
 	Bounds={} #dictionary with tuples (X,Y) as keys and [min,max] as values
 	Hists={}
 	MeanRMS={}
+	min =100000000
+	minP = (0,0)
 	Canvases[f]=TCanvas(f)
 	
 	#get maximum and minimum times found for (xLocal,yLocal)
@@ -133,27 +135,37 @@ def plot_TWO_D(f,tree):
 		x[i]= thr[0]
 		y[i]= thr[1]
 		t[i]= h.GetMean()
+		if h.GetMean() < min:
+			min = h.GetMean()
+			minP = thr
 		i=i+1
+
 	
+	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
+	minLabel = TPaveLabel(1, 3, 3, 3.5, minString)
+	#print xThreads,yThreads,zThreads,MB,\n
 	tree.GetEntry(0)
+	
+	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+",\n")
 	plot = TGraph2D("empty","empty", len(threads), x, y, t)
-	title = ""+tree.kernel[:-1]+tree.device[:-1]
+	#plot.SetPoint(len(threads),x,y,min)
+	title = ""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
 	plot.SetTitle(title)
 	#add color legend
 	plot.SetMarkerStyle(20)
-	#gStyle.SetPalette(1)
-	plot.Draw("P&&TRI1&&colz")
+	plot.Draw("P0&&TRI2T&&colz")
+	minLabel.Draw()
 	Canvases[f].SetLogx(1)
 	Canvases[f].SetLogy(1)
 	Canvases[f].SetLogz(1)
 	Canvases[f].SetPhi(0)
 	Canvases[f].SetTheta(90)
 	
-	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1]
+	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
 	Canvases[f].Print(pic+".png")
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 
-def plot_THREE_D(f,tree):
+def plot_THREE_D(f,tree, optimalFile):
 	threads=[] #array of tuples (xLocal,yLocal,zLocal)
 	Bounds={} #dictionary with tuples (X,Y,Z) as keys and [min,max] as values
 	Hists={}
@@ -213,11 +225,11 @@ def plot_THREE_D(f,tree):
 	tree.GetEntry(0)
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
-	title = ""+tree.kernel[:-1]+tree.device[:-1]
+	title = ""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
 	Canvases[f].SetPhi(260)
 	Canvases[f].SetTheta(20)
 	
-	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1]
+	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
 	Canvases[f].Print(pic+".png")
 	
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f])
@@ -229,12 +241,17 @@ for f in FileNames:
 	tree.ReadFile(f,"",',')
 	print "Working on " + f
 	tree.GetEntry(0);
+	
+	optimalFile= open("optimal.txt","a")
+	
 	if tree.workDimension[0:3]=="ONE": #some issue with string encoding
-		plot_ONE_D(f,tree)
+		plot_ONE_D(f,tree, optimalFile)
 	if tree.workDimension[0:3]=="TWO":
-		plot_TWO_D(f,tree)
-	if tree.workDimension[0:3]=="THR":
-		plot_THREE_D(f,tree)
+		plot_TWO_D(f,tree, optimalFile)
+	#if tree.workDimension[0:3]=="THR":
+		#plot_THREE_D(f,tree, optimalFile)
 	else:
 		continue
+	
+	#save minimum information
 

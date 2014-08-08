@@ -9,6 +9,7 @@ dpFWT::dpFWT(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = ONE_D;
+	
 	name = "FWT";
 	kernelString = "\n"
 	"__kernel                                                             \n"
@@ -29,17 +30,31 @@ dpFWT::dpFWT(cl_context ctx, cl_command_queue q){
 	"        tArray[pair]             = T1 + T2;                          \n"
 	"        tArray[match]            = T1 - T2;                          \n"
 	"}                                                                    \n";
+	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "fastWalshTransform", &err); clErrChk(err);	
+	
 }
 
-void dpFWT::init(int xLocal,int yLocal, int zLocal){
+void dpFWT::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+
 	localSize[0]= xLocal;
-	localSize[1]= yLocal;
-	localSize[2]= zLocal;
+	localSize[1]= 1;
+	localSize[2]= 1;
 	
-	length = 32768;
+	for (int i = 0; pow(2,i)*sizeof(cl_float)/(float) 1048576 < dataMB; i++)
+		length = pow(2,i);
+	
 	if(length < 512)
 		length = 512;
 	
+	MB = length*sizeof(cl_float)/(float) 1048576;
+	
+}
+
+
+void dpFWT::init(){
 	dataParameters.push_back(length);
 	dataNames.push_back("nElements");
 
@@ -47,12 +62,6 @@ void dpFWT::init(int xLocal,int yLocal, int zLocal){
 	input = (cl_float *) malloc(length * sizeof(cl_float));
 	output = (cl_float *) malloc(length * sizeof(cl_float));
 	generateArray(input, length);
-	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "fastWalshTransform", &err); clErrChk(err);
-
-	
 	
 }
 

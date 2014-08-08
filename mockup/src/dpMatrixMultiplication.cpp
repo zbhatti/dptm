@@ -6,8 +6,8 @@ dpMatrixMultiplication::dpMatrixMultiplication(cl_context ctx, cl_command_queue 
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+
 	name = "MatrixMultiplication";
-	
 	kernelString = "\n"
 		"__kernel void mmul( \n" 
 		"const int Mdim, \n" 
@@ -25,13 +25,28 @@ dpMatrixMultiplication::dpMatrixMultiplication(cl_context ctx, cl_command_queue 
 		"	C[j*Mdim+i] = tmp; \n" 
 		"} \n";
 	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "mmul", &err); clErrChk(err);
 }
 
-void dpMatrixMultiplication::init(int xLocal, int yLocal, int zLocal){
+void dpMatrixMultiplication::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+	localSize[0] = xLocal;
+	localSize[1] = yLocal;
+	localSize[2] = 1;
 	
-	N = 2048;
-	P = 4096;
-	M = 1024;
+	for (int i =0; pow(2,i)*pow(2,i)*sizeof(float)/(float) 1048576 <= dataMB;i++){
+		N = pow(2,i);
+		P = pow(2,i);
+		M = pow(2,i);
+	}
+	
+	//calculating total data as MB of matrix A only. MBof(B) <= MBof(A)
+	MB=(N*P*sizeof(float))/(float) 1048576;
+	
+}
+
+void dpMatrixMultiplication::init(){
 	szA = N*P;
 	szB = P*M;
 	szC = N*M;
@@ -52,15 +67,7 @@ void dpMatrixMultiplication::init(int xLocal, int yLocal, int zLocal){
 	
 	generateMatrix(A,N,P);
 	generateMatrix(B,P,M);
-	
-	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	localSize[2] = zLocal;
-	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "mmul", &err); clErrChk(err);
-	
+
 }
 
 void dpMatrixMultiplication::memoryCopyOut(){

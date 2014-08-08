@@ -28,6 +28,7 @@ dpMersenneTwister::dpMersenneTwister(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+
 	name = "MersenneTwister";
 	
 	kernelString = "\n"
@@ -262,16 +263,31 @@ dpMersenneTwister::dpMersenneTwister(cl_context ctx, cl_command_queue q){
 "	                                                                                              \n"
 "}                                                                                              \n"
 "                                                                                               \n";
+
+program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	//this build program with these arguments will not work on NVIDIA devices!
+	//src: http://stackoverflow.com/questions/14991591/how-to-use-templates-with-opencl
+	err = clBuildProgram(program, 0, NULL, "-x clc++ -Werror", NULL, NULL);
+	//programCheck(err, context, program);
+	kernel = clCreateKernel(program, "gaussianRand", &err); clErrChk(err);
+
 }
 
-void dpMersenneTwister::init(int xLocal,int yLocal,int zLocal){
-
+void dpMersenneTwister::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[2] = 1;
 	
-	width = 4096;
-	height = 4096;
+	for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_float4)/(float) 1048576 <= dataMB;i++){
+		width = pow(2,i);
+		height = pow(2,i);
+	}
+	
+	MB = width * height * sizeof(cl_float4)/(float) 1048576;
+	
+}
+
+void dpMersenneTwister::init(){
 	mulFactor = 1;
 	numRands = width * height; //this is total number of numbers to generate, it should be square of width and height;
 	
@@ -284,13 +300,6 @@ void dpMersenneTwister::init(int xLocal,int yLocal,int zLocal){
 	for(int i = 0; i < width * height * 4; ++i)
 		seeds[i] = (unsigned int)rand();
 	memset((void*)deviceResult, 0, width * height * mulFactor * sizeof(cl_float4));
-	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	//this build program with these arguments will not work on NVIDIA devices!
-	//src: http://stackoverflow.com/questions/14991591/how-to-use-templates-with-opencl
-	err = clBuildProgram(program, 0, NULL, "-x clc++ -Werror", NULL, NULL);
-	//programCheck(err, context, program);
-	kernel = clCreateKernel(program, "gaussianRand", &err); clErrChk(err);
 	
 }
 void dpMersenneTwister::memoryCopyOut(){

@@ -11,7 +11,8 @@ class dpArray3dAverage: public dpKernel{
 	
 	public:
 		dpArray3dAverage(cl_context, cl_command_queue);
-		void init(int,int,int); //send workgroup dimensions after checking the kernel's type
+		void setup(int,int,int,int);
+		void init(); 
 		void memoryCopyOut();
 		void plan();
 		int execute();

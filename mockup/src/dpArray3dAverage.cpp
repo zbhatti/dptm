@@ -7,6 +7,7 @@ dpArray3dAverage::dpArray3dAverage(cl_context ctx, cl_command_queue q){
 	queue = q;
 	workDimension = THREE_D;
 	name = "Array3dAverage";
+
 	
 	kernelString ="\n"
 	"__kernel void average3d(__global const float * Ain_d, __global float * Aout_d, const int N){  \n"
@@ -37,10 +38,29 @@ dpArray3dAverage::dpArray3dAverage(cl_context ctx, cl_command_queue q){
 	"	Aout_d[idg] = Sum/(float)numNeighbors;                                                       \n"
 	"	                                                                                             \n"
 	"}                                                                                             \n";
+	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	err =clBuildProgram(program, 0, NULL, NULL, NULL, NULL); clErrChk(err);
+	programCheck(err, context, program);
+	kernel = clCreateKernel(program, "average3d", &err); clErrChk(err);
+	
 }
 
-void dpArray3dAverage::init(int xLocal,int yLocal, int zLocal){
-	Alength = 256; //about 134 MB
+void dpArray3dAverage::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+
+	localSize[0] = xLocal;
+	localSize[1] = yLocal;
+	localSize[2] = zLocal;
+	
+	//scan up to MB size specified to set dimensions of 3d array
+	for (int i =0; pow(2,i)*pow(2,i)*pow(2,i) *sizeof(float)/(float) 1048576 <= dataMB;i++)
+		Alength = pow(2,i);
+	
+	MB = Alength*Alength*Alength*sizeof(float) / (float) 1048576;
+}
+
+
+void dpArray3dAverage::init(){
 	nElements = Alength*Alength*Alength;
 	Ain = new float[nElements];
 	Aout = new float[nElements];
@@ -48,19 +68,9 @@ void dpArray3dAverage::init(int xLocal,int yLocal, int zLocal){
 		fprintf(stderr, "error in dynamic allocation");
 	
 	generate3dArray(Ain, Alength);
-	
-	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	localSize[2] = zLocal;
-	
+
 	dataParameters.push_back(Alength);
 	dataNames.push_back("cubeLength");
-	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	err =clBuildProgram(program, 0, NULL, NULL, NULL, NULL); clErrChk(err);
-	programCheck(err, context, program);
-	kernel = clCreateKernel(program, "average3d", &err); clErrChk(err);
-	
 }
 
 void dpArray3dAverage::memoryCopyOut(){
@@ -95,7 +105,6 @@ void dpArray3dAverage::memoryCopyIn(){
 }
 
 void dpArray3dAverage::cleanUp(){
-	//printf("%f^2 = %f\n",Ain[Asize-1],Aout[Asize-1]);
 	clErrChk(clReleaseKernel(kernel));
 	clErrChk(clReleaseProgram(program));
 	clErrChk(clReleaseMemObject(Ain_d));

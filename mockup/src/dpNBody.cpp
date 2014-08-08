@@ -1,7 +1,6 @@
 /**********************************************************************
 Copyright ©2013 Advanced Micro Devices, Inc. All rights reserved.
 ********************************************************************/
-
 #include "dpNBody.hpp"
 #include "errorCheck.hpp"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
@@ -13,6 +12,7 @@ dpNBody::dpNBody(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = ONE_D;
+	
 	name = "NBody";
 	kernelString = "\n"
 	"#define UNROLL_FACTOR  8                                                                          \n"
@@ -74,18 +74,29 @@ dpNBody::dpNBody(cl_context ctx, cl_command_queue q){
 	"    newVelocity[gid] = newVel;                                                                    \n"
 	"}                                                                                                 \n";
 	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "nbody_sim", &err); clErrChk(err);
 	
 }
 
-void dpNBody::init(int xLocal,int yLocal,int zLocal){
+void dpNBody::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[1] = 1;
+	localSize[2] = 1;
 	
-	numBodies = 8192;
+	for (int i=0; pow(2,i)*sizeof(cl_float4)/(float) 1048576 <dataMB; i++){
+		numBodies=pow(2,i);
+	}
+	
+	MB = numBodies * sizeof(cl_float4)/(float) 1048576;
+	
+}
+
+void dpNBody::init(){
 	delT=0.005f;
 	espSqr=500.0f;
-	nSteps = 100;
+	nSteps = 5;
 	
 	dataParameters.push_back(numBodies);
 	dataParameters.push_back(delT);
@@ -95,6 +106,8 @@ void dpNBody::init(int xLocal,int yLocal,int zLocal){
 	dataNames.push_back("nSteps");
 	
 	initPos = (cl_float*)malloc(numBodies * sizeof(cl_float4));
+	if(!initPos)
+		fprintf(stderr, "initpos not allocated in dpNBody\n");
 	// initialization of inputs
 	for(int i = 0; i < numBodies; ++i){
 		int index = 4 * i;
@@ -108,10 +121,6 @@ void dpNBody::init(int xLocal,int yLocal,int zLocal){
 		initPos[index + 3] = random(1, 1000);
 	}
 	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "nbody_sim", &err); clErrChk(err);
-	
 }
 
 void dpNBody::memoryCopyOut(){
@@ -122,10 +131,10 @@ void dpNBody::memoryCopyOut(){
 	}
 
 	clErrChk(clEnqueueWriteBuffer(queue,particlePos[0],CL_TRUE,0,bufferSize,initPos,0,0,NULL));
-
+	
 	// Initialize the velocity buffer to zero
-	float* p = (float*) clEnqueueMapBuffer(	queue, particleVel[0], CL_TRUE, CL_MAP_WRITE
-																					, 0, bufferSize, 0, NULL, NULL, &err); clErrChk(err);
+	float* p = (float*) clEnqueueMapBuffer(	queue, particleVel[0], CL_TRUE, CL_MAP_WRITE,
+																					0, bufferSize, 0, NULL, NULL, &err); clErrChk(err);
 	memset(p, 0, bufferSize);
 	clErrChk(clEnqueueUnmapMemObject(queue, particleVel[0], p, 0, NULL,NULL));
 	clFinish(queue);

@@ -9,6 +9,8 @@
 	#include <CL/opencl.h>
 #endif
 
+#define ERRORLINE fprintf(stderr,"Line: %d\n",__LINE__);
+
 const char* get_error_string(cl_int);
 void clAssert(cl_int, const char*, int);
 void programCheck(cl_int, cl_context, cl_program);

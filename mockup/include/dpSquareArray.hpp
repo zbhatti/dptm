@@ -10,7 +10,8 @@ class dpSquareArray: public dpKernel{
 	
 	public:
 		dpSquareArray(cl_context, cl_command_queue);
-		void init(int,int,int); //send workgroup dimensions after checking the kernel's type
+		void setup(int,int,int,int);
+		void init(); //send workgroup dimensions after checking the kernel's type
 		void memoryCopyOut();
 		void plan();
 		int execute();

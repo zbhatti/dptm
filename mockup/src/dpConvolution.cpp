@@ -19,7 +19,8 @@ Copyright ©2013 Advanced Micro Devices, Inc. All rights reserved.
 dpConvolution::dpConvolution(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
-	workDimension = ONE_D;
+	workDimension = ONE_D;	
+	
 	name = "Convolution";
 	kernelString = "\n"	
 		"	__kernel void simpleConvolution(\n"
@@ -54,26 +55,37 @@ dpConvolution::dpConvolution(cl_context ctx, cl_command_queue q){
 		"    output[tid] = (uint)sumFX;\n"
 		"}\n";
 	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "simpleConvolution", &err); clErrChk(err);
+	
 }
 
-void dpConvolution::init(int xLocal, int yLocal, int zLocal){
-	
+void dpConvolution::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+		
 	localSize[0] = xLocal;
-	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[1] = 1;
+	localSize[2] = 1;
 	
-	cl_uint inputSizeBytes;
-
-	width = 1024;
-	height = 1024;
-	maskWidth = 64;
-	maskHeight = 64;
+	for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_uint)/(float) 1048576 <= dataMB;i++){
+		width = pow(2,i);
+		height = pow(2,i);
+	}
 	
-	if(width * height < 256)
-	{
+	//for mask to not run out of bounds:
+	if(width * height < 256){
 			width = 64;
 			height = 64;
 	}
+	
+	MB = width*height*sizeof(cl_uint)/(float) 1048576;
+}
+
+void dpConvolution::init(){
+	cl_uint inputSizeBytes;
+	
+	maskWidth = 64;
+	maskHeight = 64;
 	
 	dataParameters.push_back(width);
 	dataParameters.push_back(height);
@@ -81,8 +93,8 @@ void dpConvolution::init(int xLocal, int yLocal, int zLocal){
 	dataParameters.push_back(maskHeight);
 	dataNames.push_back("width");
 	dataNames.push_back("height");
-	dataNames.push_back("maskWidth");
-	dataNames.push_back("maskHeight");
+	dataNames.push_back("maskwidth");
+	dataNames.push_back("maskheight");
 	
 	// allocate and init memory used by host
 	inputSizeBytes = width * height * sizeof(cl_uint);
@@ -99,21 +111,17 @@ void dpConvolution::init(int xLocal, int yLocal, int zLocal){
 
 	cl_float val = 1.0f / (maskWidth * 2.0f - 1.0f);
 
-	for(cl_uint i = 0; i < maskWidth; i++)
-	{
+	for(cl_uint i = 0; i < maskWidth; i++){
 			cl_uint y = maskHeight / 2;
 			mask[y * maskWidth + i] = val;
 	}
 
-	for(cl_uint i = 0; i < maskHeight; i++)
-	{
+	for(cl_uint i = 0; i < maskHeight; i++){
 			cl_uint x = maskWidth / 2;
 			mask[i * maskWidth + x] = val;
 	}
 	  
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "simpleConvolution", &err); clErrChk(err);
+	
 }
 
 void dpConvolution::memoryCopyOut(){

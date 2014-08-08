@@ -36,17 +36,22 @@ dpRotateImage::dpRotateImage(cl_context ctx, cl_command_queue q){
 		"      dest_data[iy*W+ix] = src_data[ypos*W+xpos]; \n"
 		"   } \n"
 		"} ";
-}
-
-void dpRotateImage::init(int xLocal, int yLocal, int zLocal){
-
+		
 	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
 	kernel = clCreateKernel(program, "img_rotate", &err); clErrChk(err);
-	
+}
+
+void dpRotateImage::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[0] = xLocal; 
 	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[2] = 1;
+	
+	MB=dataMB;
+
+}
+
+void dpRotateImage::init(){
 	
 	theta = 3.14159/6;
 	cos_theta = cosf(theta);
@@ -63,8 +68,6 @@ void dpRotateImage::init(int xLocal, int yLocal, int zLocal){
 	dataParameters.push_back(imageWidth);
 	dataNames.push_back("ImageHeight");
 	dataNames.push_back("ImageWidth");
-	
-	
 }
 
 void dpRotateImage::memoryCopyOut(){

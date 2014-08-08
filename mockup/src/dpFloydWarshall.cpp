@@ -10,6 +10,7 @@ dpFloydWarshall::dpFloydWarshall(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+
 	name = "FloydWarshall";
 	kernelString = "\n"
 	"inline unsigned int uintMin(unsigned int a, unsigned int b){                 \n"
@@ -34,15 +35,27 @@ dpFloydWarshall::dpFloydWarshall(cl_context ctx, cl_command_queue q){
 	"        pathBuffer[yValue * numNodes + xValue] = k;                          \n"
 	"    }                                                                        \n"
 	"}                                                                            \n";
+	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
+	kernel = clCreateKernel(program, "floydWarshallPass", &err); clErrChk(err);
+	
 }
 
-void dpFloydWarshall::init(int xLocal,int yLocal,int zLocal){
+void dpFloydWarshall::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[2] = 1;
 	
-	numNodes = 2048;
+	for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_uint)/(float) 1048576 <= dataMB;i++){
+		numNodes = pow(2,i);
+	}
 	
+	MB = numNodes*numNodes*sizeof(cl_uint)/(float) 1048576;
+}
+
+void dpFloydWarshall::init(){
 	dataParameters.push_back(numNodes);
 	dataParameters.push_back(numNodes);
 	dataNames.push_back("width");
@@ -65,10 +78,6 @@ void dpFloydWarshall::init(int xLocal,int yLocal,int zLocal){
 		}
 		pathMatrix[i * numNodes + i] = i;
 	}
-	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "floydWarshallPass", &err); clErrChk(err);
 
 }
 void dpFloydWarshall::memoryCopyOut(){

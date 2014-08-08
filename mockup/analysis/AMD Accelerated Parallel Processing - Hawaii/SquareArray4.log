@@ -1,0 +1,10 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Hawaii,SquareArray,ONE_D,1.04858e+06,1,1,1,4,22.562,2.117,0.003,5.48,1.236,0.053
+Hawaii,SquareArray,ONE_D,1.04858e+06,2,1,1,4,26.081,2.01,0.001,3.301,1.255,0.034
+Hawaii,SquareArray,ONE_D,1.04858e+06,4,1,1,4,24.547,2.02,0.001,1.922,1.165,0.034
+Hawaii,SquareArray,ONE_D,1.04858e+06,8,1,1,4,23.417,2.032,0.001,1.272,1.234,0.034
+Hawaii,SquareArray,ONE_D,1.04858e+06,16,1,1,4,23.509,2.033,0.001,0.796,1.194,0.05
+Hawaii,SquareArray,ONE_D,1.04858e+06,32,1,1,4,23.233,2.244,0.001,0.567,1.17,0.052
+Hawaii,SquareArray,ONE_D,1.04858e+06,64,1,1,4,22.59,1.964,0.002,0.408,1.007,0.034
+Hawaii,SquareArray,ONE_D,1.04858e+06,128,1,1,4,22.568,1.965,0.002,0.309,1.05,0.033
+Hawaii,SquareArray,ONE_D,1.04858e+06,256,1,1,4,22.252,1.704,0.001,0.396,1.293,0.05

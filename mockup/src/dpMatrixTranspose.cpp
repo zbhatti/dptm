@@ -20,6 +20,7 @@ dpMatrixTranspose::dpMatrixTranspose(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
 	workDimension = TWO_D;
+
 	name = "MatrixTranspose";
 	kernelString = "\n"
 		"__kernel void simple_copy(__global float *odata, __global float* idata, int offset, int width, int height) \n"
@@ -34,16 +35,28 @@ dpMatrixTranspose::dpMatrixTranspose(cl_context ctx, cl_command_queue q){
 		"    }                                                                                                      \n"
 		"}                                                                                                          \n"
 		"                                                                                                           \n";
+		
+	program = clCreateProgramWithSource(context, 1, (const char **)&kernelString, NULL, &err); clErrChk(err);
+	clErrChk(clBuildProgram(program, 0, NULL, "-cl-fast-relaxed-math", NULL, NULL));
+	kernel = clCreateKernel(program, "simple_copy", &err); clErrChk(err);
 	
 }
-void dpMatrixTranspose::init(int xLocal,int yLocal,int zLocal){
+
+void dpMatrixTranspose::setup(int dataMB, int xLocal, int yLocal, int zLocal){
+
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
-	localSize[2] = zLocal;
+	localSize[2] = 1;
+
+	for (int i =0; pow(2,i)*pow(2,i)*sizeof(float)/(float) 1048576 <= dataMB;i++){
+		size_x = pow(2,i);
+		size_y = pow(2,i);
+	}
 	
-	
-	size_x = 8192;
-	size_y = 8192;
+	MB = size_x*size_y*sizeof(float)/(float) 1048576;
+}
+
+void dpMatrixTranspose::init(){
 
 	dataParameters.push_back(size_x);
 	dataParameters.push_back(size_y);
@@ -55,12 +68,9 @@ void dpMatrixTranspose::init(int xLocal,int yLocal,int zLocal){
 	h_idata = (float*)malloc(mem_size);
 	h_odata = (float*)malloc(mem_size);
 	generateMatrix(h_idata, size_x, size_y);
-	
-	program = clCreateProgramWithSource(context, 1, (const char **)&kernelString, NULL, &err); clErrChk(err);
-	clErrChk(clBuildProgram(program, 0, NULL, "-cl-fast-relaxed-math", NULL, NULL));
-	kernel = clCreateKernel(program, "simple_copy", &err); clErrChk(err);
-	
+
 }
+
 void dpMatrixTranspose::memoryCopyOut(){
 
 	d_idata = clCreateBuffer(context, CL_MEM_READ_ONLY, size_x*size_y*sizeof(float), NULL, &err); clErrChk(err);
@@ -69,6 +79,7 @@ void dpMatrixTranspose::memoryCopyOut(){
 	clErrChk(clEnqueueWriteBuffer(queue, d_idata, CL_FALSE, 0, size_x*size_y*sizeof(float), h_idata, 0, NULL, NULL));
 	clFinish(queue);
 }
+
 void dpMatrixTranspose::plan(){
 		size_t offset = 0;
 		clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *) &d_odata)); //need to double check the pointers
@@ -79,6 +90,7 @@ void dpMatrixTranspose::plan(){
     globalSize[0] = size_x;
     globalSize[1] = size_y;
 }
+
 int dpMatrixTranspose::execute(){
 		err = clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL);
 		clErrChk(err);
@@ -87,10 +99,12 @@ int dpMatrixTranspose::execute(){
 		clFinish(queue);
 		return 0;
 }
+
 void dpMatrixTranspose::memoryCopyIn(){
 		clErrChk(clEnqueueReadBuffer(queue, d_odata, CL_TRUE, 0, size_x * size_y * sizeof(float), h_odata, 0, NULL, NULL));
 		clFinish(queue);
 }
+
 void dpMatrixTranspose::cleanUp(){
 	free(h_idata);
 	free(h_odata);
@@ -98,7 +112,6 @@ void dpMatrixTranspose::cleanUp(){
 	clReleaseMemObject(d_idata);
 	clReleaseMemObject(d_odata);
 	clReleaseKernel(kernel);
-	
 }
 
 void dpMatrixTranspose::generateMatrix(float *A, int height, int width){

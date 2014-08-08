@@ -9,6 +9,8 @@ class dpTiming{
 		std::vector<float> data; //pair strings with data points, kernel must set this in the init() function
 		std::string workDimension;
 		size_t* localSize;
+		float MB;
+		float init;
 		float memoryCopyOut;
 		float plan;
 		float execute;
