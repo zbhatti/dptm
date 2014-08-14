@@ -13,3 +13,17 @@ device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,in
       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,2048,1,1,4,27.686,5.628,0.006,1.494,2.367,1.853
       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,4096,1,1,4,26.809,5.56,0.005,2.608,1.776,1.896
       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,8192,1,1,4,27.383,5.765,0.005,2.933,1.894,1.938
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,1,1,1,4,30.486,5.018,0.006,2.042,2.971,1.808
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,2,1,1,4,27.48,4.529,0.006,2.503,2.872,1.813
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,4,1,1,4,27.293,4.492,0.004,3.034,2.101,1.777
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,8,1,1,4,27.29,4.689,0.006,2.742,3.089,1.778
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,16,1,1,4,27.222,4.638,0.006,3.61,2.488,1.764
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,32,1,1,4,27.406,4.614,0.006,2.995,3.126,1.81
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,64,1,1,4,27.865,4.657,0.006,3.159,2.432,1.783
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,128,1,1,4,27.217,5.042,0.005,3,2.644,1.806
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,256,1,1,4,27.428,5.154,0.005,3.156,3.075,1.786
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,512,1,1,4,27.266,4.509,0.006,3.301,3.072,1.809
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,1024,1,1,4,27.306,4.577,0.006,3.237,2.95,1.822
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,2048,1,1,4,27.652,4.51,0.005,3.322,3.076,1.814
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,4096,1,1,4,27.27,4.71,0.005,3.308,3.086,1.831
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.04858e+06,8192,1,1,4,27.432,4.777,0.006,3.346,2.157,1.825

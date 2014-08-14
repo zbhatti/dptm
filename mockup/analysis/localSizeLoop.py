@@ -146,7 +146,7 @@ def plot_TWO_D(f,tree, optimalFile):
 	#print xThreads,yThreads,zThreads,MB,\n
 	tree.GetEntry(0)
 	
-	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+",\n")
+	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+",\n")
 	plot = TGraph2D("empty","empty", len(threads), x, y, t)
 	#plot.SetPoint(len(threads),x,y,min)
 	title = ""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)

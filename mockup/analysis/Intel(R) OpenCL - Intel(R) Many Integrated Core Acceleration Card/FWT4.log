@@ -13,3 +13,17 @@ Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,1024,1,1,4
 Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,2048,1,1,4,31.485,2.397,0.002,12.54,2.119,1.375
 Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,4096,1,1,4,31.639,2.472,0.006,7.241,2.066,0.865
 Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,8192,1,1,4,34.358,3.644,0.005,9.015,2.195,1.244
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,1,1,1,4,32,1.98,0.005,42.873,12.982,0.802
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,2,1,1,4,26.293,2.449,0.003,37.725,1.638,0.95
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,4,1,1,4,31.472,2.042,0.004,28.245,1.294,0.679
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,8,1,1,4,26.404,2.412,0.005,25.074,2.412,0.821
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,16,1,1,4,26.279,2.407,0.003,20.891,1.976,0.903
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,32,1,1,4,34.764,2.343,0.006,16.251,3.328,0.792
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,64,1,1,4,31,2.433,0.005,12.145,2.582,0.846
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,128,1,1,4,31.483,3.508,0.003,12.238,2.888,0.873
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,256,1,1,4,30.966,2.429,0.003,14.408,3.123,0.769
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,512,1,1,4,35.008,2.413,0.002,18.933,1.281,0.874
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,1024,1,1,4,35.799,1.887,0.003,13.157,7.175,1.175
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,2048,1,1,4,31.877,2.472,0.004,12.399,1.803,0.897
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,4096,1,1,4,31.813,2.64,0.003,7.092,1.345,0.768
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.04858e+06,8192,1,1,4,29.334,3.77,0.003,8.168,15.275,0.862

@@ -130,21 +130,18 @@ void dpLUDecomposition::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	for (int i =0; pow(2,i)*pow(2,i)*sizeof(double)/(float) 1048576 <= dataMB; i++){
 		effectiveDimension = pow(2,i);
 	}
-	
+
+	if(effectiveDimension % VECTOR_SIZE != 0)
+		effectiveDimension = effectiveDimension -(effectiveDimension % VECTOR_SIZE)+ VECTOR_SIZE;
+
 	MB=effectiveDimension*effectiveDimension*sizeof(double)/(float) 1048576;
 }
 
 void dpLUDecomposition::init(){
-	effectiveDimension = 2048;
-
-	
 	dataParameters.push_back(effectiveDimension);
 	dataParameters.push_back(effectiveDimension);
 	dataNames.push_back("width");
 	dataNames.push_back("height");
-	
-	if(effectiveDimension % VECTOR_SIZE != 0)
-		effectiveDimension = effectiveDimension -(effectiveDimension % VECTOR_SIZE)+ VECTOR_SIZE;
 
 	input = static_cast<double*>(memalign(4096, SIZE));
 	matrixGPU = static_cast<double*>(memalign(4096, SIZE));
@@ -188,47 +185,37 @@ int dpLUDecomposition::execute(){
 		*  2. Local Work group size
 		*  3. Global ND range
 		*/
-		if(index % VECTOR_SIZE == 0)
-		{
+		if(index % VECTOR_SIZE == 0){
 			offset[0] = (index / VECTOR_SIZE);
 			offset[1] = VECTOR_SIZE * (index / VECTOR_SIZE);
 
-			if(!index)
-			{
+			if(!index){
 				globalSize[0] += 1;
 				globalSize[1] += VECTOR_SIZE;
 			}
 			globalSize[0] -= 1;
 			globalSize[1] -= VECTOR_SIZE;
 
-			if(globalSize[0] <= (unsigned int)workGroupArea)
-			{
+			if(globalSize[0] <= (unsigned int)workGroupArea){
 				localThreads[0] = globalSize[0];
 			}
-			else
-			{
+			else{
 				size_t temp = (int)workGroupArea;
-				for(; temp > 1; temp--)
-				{
-					if(globalSize[0] % temp == 0)
-					{
+				for(; temp > 1; temp--){
+					if(globalSize[0] % temp == 0){
 						break;
 					}
 				}
 				localThreads[0] = temp;
 			}
 
-			if( globalSize[1] < workGroupArea / localThreads[0])
-			{
+			if( globalSize[1] < workGroupArea / localThreads[0]){
 				localThreads[1] = globalSize[1];
 			}
-			else
-			{
+			else{
 				size_t temp = workGroupArea / localThreads[0];
-				for(; temp > 1; temp--)
-				{
-					if(globalSize[1] % temp == 0)
-					{
+				for(; temp > 1; temp--){
+					if(globalSize[1] % temp == 0){
 						break;
 					}
 				}

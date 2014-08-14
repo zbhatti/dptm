@@ -1,0 +1,10 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Hawaii,VectorAdd,ONE_D,4.1943e+06,1,1,1,16,165.687,7.471,0.004,18.795,4.876,0.116
+Hawaii,VectorAdd,ONE_D,4.1943e+06,2,1,1,16,172.51,7.561,0.004,9.742,4.857,0.1
+Hawaii,VectorAdd,ONE_D,4.1943e+06,4,1,1,16,168.568,7.547,0.003,5.106,4.996,0.109
+Hawaii,VectorAdd,ONE_D,4.1943e+06,8,1,1,16,171.289,7.553,0.004,2.848,4.86,0.161
+Hawaii,VectorAdd,ONE_D,4.1943e+06,16,1,1,16,174.773,7.378,0.003,1.769,4.797,0.099
+Hawaii,VectorAdd,ONE_D,4.1943e+06,32,1,1,16,167.949,7.331,0.004,1.132,4.839,0.153
+Hawaii,VectorAdd,ONE_D,4.1943e+06,64,1,1,16,172.785,7.11,0.004,0.854,4.88,0.099
+Hawaii,VectorAdd,ONE_D,4.1943e+06,128,1,1,16,169.076,7.895,0.003,0.674,4.853,0.097
+Hawaii,VectorAdd,ONE_D,4.1943e+06,256,1,1,16,167.701,7.723,0.003,0.728,4.798,0.096

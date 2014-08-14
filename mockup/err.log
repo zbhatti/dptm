@@ -10,72 +10,34 @@ On Platform Intel(R) OpenCL
 using device       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz
 On Platform Intel(R) OpenCL
 using device Intel(R) Many Integrated Core Acceleration Card
-Client:0
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
 Client:1
+Convolution
+FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
 Client:2
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpArray3dAverage.cpp 95
+Convolution
+FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
 Client:3
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
@@ -88,41 +50,215 @@ clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_OUT_OF_RESOURCES src/dpLUDecomposition.cpp 242
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FWT
+MatrixMultiplication
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
+Client:4
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+FWT
+MatrixMultiplication
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
+Client:1
+Convolution
+FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
+Client:2
+Convolution
+FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
+Client:3
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+FWT
+MatrixMultiplication
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
+Client:4
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+FWT
+MatrixMultiplication
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
+Client:1
+Convolution
+FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
+Client:2
+Convolution
+FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
+Client:3
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+FWT
+MatrixMultiplication
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
+Client:4
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+FWT
+MatrixMultiplication
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
+Client:1
+Convolution
+FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
+Client:2
+Convolution
+FloydWarshall

@@ -13,3 +13,17 @@ Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,1024
 Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,2048,1,1,4,56.78,4.344,0.005,7.136,1.416,1.339
 Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,4096,1,1,4,56.277,4.43,0.006,13.717,1.527,1.749
 Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,8192,1,1,4,57.511,5.089,0.005,7.246,1.487,1.545
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,1,1,1,4,57.627,14.773,0.007,10.009,3.361,2.034
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,2,1,1,4,57.676,3.924,0.01,8.957,2.515,1.811
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,4,1,1,4,59.527,3.767,0.006,8.152,1.588,1.584
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,8,1,1,4,57.096,3.565,0.006,19.958,1.36,1.655
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,16,1,1,4,55.171,3.622,0.005,15.595,1.471,1.624
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,32,1,1,4,56.559,3.671,0.007,11.956,1.47,1.588
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,64,1,1,4,53.925,3.606,0.007,12.993,1.53,1.635
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,128,1,1,4,57.08,3.564,0.008,7.493,1.481,1.571
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,256,1,1,4,56.452,3.678,0.006,16.991,1.47,1.152
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,512,1,1,4,56.662,4.18,0.004,6.607,1.002,1.161
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,1024,1,1,4,56.62,3.42,0.006,13.831,1.449,1.344
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,2048,1,1,4,53.113,3.569,0.005,6.294,1.015,1.479
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,4096,1,1,4,55.674,3.519,0.004,18.705,1.029,1.137
+Intel(R) Many Integrated Core Acceleration Card,VectorAdd,ONE_D,1.04858e+06,8192,1,1,4,55.569,5.635,0.006,4.795,1.456,1.643

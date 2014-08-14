@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,maskwidth/F,maskheight/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,1,1,1,64,447.182,111.911,0.009,86432.9,36.783,3.789
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,2,1,1,64,372.721,95.771,0.009,86423.5,36.784,3.621
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,4,1,1,64,372.615,95.283,0.01,86323.1,36.863,4.189
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,8,1,1,64,374.926,95.158,0.008,86262.4,36.104,3.973
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,16,1,1,64,400.755,96.097,0.008,10235.5,35.869,4.031
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,32,1,1,64,358.297,94.982,0.01,10201.3,36.52,3.718
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,64,1,1,64,380.852,95.301,0.008,10207.8,35.915,3.867
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,128,1,1,64,383.968,94.894,0.008,10191.6,35.701,3.764
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,256,1,1,64,364.706,95.278,0.009,10206,37.028,4.131
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,512,1,1,64,377.346,95.58,0.029,10294,36.839,3.885
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,1024,1,1,64,457.564,94.211,0.008,10314.4,26.481,3.767
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,2048,1,1,64,411.574,93.516,0.014,10341.9,27.235,3.476
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,4096,1,1,64,419.968,94.128,0.009,10726.9,26.758,3.796
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,4096,4096,64,64,8192,1,1,64,409.667,93.908,0.01,11090.6,26.734,3.332

@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,1,1,1,16,90.574,12.255,0.006,23.289,28.707,1.305
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,2,1,1,16,84.363,10.959,0.005,18.071,16.6,1.287
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,4,1,1,16,88.758,11.034,0.005,15.673,21.907,1.227
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,8,1,1,16,84.727,10.818,0.005,13.21,19.996,1.137
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,16,1,1,16,84.222,10.665,0.005,13.639,20.318,1.149
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,32,1,1,16,84.084,10.668,0.004,16.815,12.587,1.3
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,64,1,1,16,89.094,11.017,0.006,13.454,19.799,1.139
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,128,1,1,16,84.39,10.886,0.005,16.542,27.025,1.234
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,256,1,1,16,84.744,10.951,0.004,11.654,17.22,1.259
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,512,1,1,16,86.04,11.074,0.006,16.181,19.607,1.298
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,1024,1,1,16,84.091,10.886,0.005,14.309,19.399,1.222
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,2048,1,1,16,83.942,10.793,0.005,12.768,21.263,1.129
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,4096,1,1,16,84.096,10.965,0.005,12.632,18.273,1.431
+Intel(R) Many Integrated Core Acceleration Card,SquareArray,ONE_D,4.1943e+06,8192,1,1,16,86.382,10.902,0.004,12.002,13.371,1.187

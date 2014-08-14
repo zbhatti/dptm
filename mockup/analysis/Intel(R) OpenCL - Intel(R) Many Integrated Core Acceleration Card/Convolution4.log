@@ -27,3 +27,17 @@ Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,6
 Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,2048,1,1,4,33.902,8.146,0.006,186.664,1.762,1.23
 Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,4096,1,1,4,33.052,7.708,0.005,199.943,1.428,2.731
 Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,8192,1,1,4,30.596,6.862,0.007,203.887,2.05,3.204
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,1,1,1,4,28.212,9.126,0.006,525.52,1.579,0.952
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,2,1,1,4,29.795,9.646,0.008,527.863,1.765,1.21
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,4,1,1,4,29.619,9.564,0.005,527.346,1.887,1.158
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,8,1,1,4,34.816,9.595,0.007,527.027,1.783,1.107
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,16,1,1,4,27.642,9.448,0.005,127.242,1.539,1.164
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,32,1,1,4,34.123,9.377,0.004,125.86,1.487,0.992
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,64,1,1,4,33.097,9.304,0.004,131.645,1.077,0.908
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,128,1,1,4,30.269,9.289,0.004,136.183,1.418,0.897
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,256,1,1,4,26.78,9.334,0.005,133.474,2.171,1.217
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,512,1,1,4,29.623,9.525,0.005,138.04,1.739,1.176
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,1024,1,1,4,29.574,9.502,0.008,152.267,2.038,1.129
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,2048,1,1,4,32.306,10.122,0.007,179.92,1.983,1.178
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,4096,1,1,4,29.53,10.385,0.008,193.609,1.947,2.664
+Intel(R) Many Integrated Core Acceleration Card,Convolution,ONE_D,1024,1024,64,64,8192,1,1,4,35.473,8.511,0.006,198.817,1.714,3.055
