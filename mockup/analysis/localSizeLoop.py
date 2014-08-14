@@ -29,6 +29,8 @@ def plot_ONE_D(f,tree, optimalFile):
 	Bounds={} #dictionary with tuples (xLocal) as keys and [min,max] as values
 	Hists={}
 	MeanRMS={}
+	min =1000000000
+	minP = 1
 	Canvases[f]=TCanvas(f)
 	
 	for i in xrange(0,tree.GetEntries()):
@@ -68,9 +70,14 @@ def plot_ONE_D(f,tree, optimalFile):
 		#print str(thr[0])+str(thr[1])+str(h.GetMean())
 		x[i]= thr
 		t[i]= h.GetMean()
+		if h.GetMean() < min:
+			min = h.GetMean()
+			minP = thr
 		i=i+1
 	
 	tree.GetEntry(0)
+	
+	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+",\n")
 	plot = TGraph(len(threads), x, t)
 	title=""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
 	plot.SetTitle(title)
@@ -89,7 +96,7 @@ def plot_TWO_D(f,tree, optimalFile):
 	Bounds={} #dictionary with tuples (X,Y) as keys and [min,max] as values
 	Hists={}
 	MeanRMS={}
-	min =100000000
+	min =1000000000
 	minP = (0,0)
 	Canvases[f]=TCanvas(f)
 	
@@ -170,6 +177,8 @@ def plot_THREE_D(f,tree, optimalFile):
 	Bounds={} #dictionary with tuples (X,Y,Z) as keys and [min,max] as values
 	Hists={}
 	MeanRMS={}
+	min =1000000000
+	minP = (0,0,0)
 	Canvases[f]=TCanvas(f)
 	
 	#get maximum and minimum times found for (xLocal,yLocal,zLocal)
@@ -199,7 +208,7 @@ def plot_THREE_D(f,tree, optimalFile):
 	
 	ntuple = TNtuple("ntuple","data from ascii file","x:y:z:t")
 	i=0
-	for thr in threads: #where thr is a tuple
+	for thr in threads: #where thr is a 3-tuple
 		if not thr in MeanRMS:
 			MeanRMS[thr]=[-1,-1]
 		if not thr in Hists:
@@ -218,11 +227,17 @@ def plot_THREE_D(f,tree, optimalFile):
 		y[i]= thr[1]
 		z[i]= thr[2]
 		t[i]= h.GetMean()
+		if h.GetMean() < min:
+			min = h.GetMean()
+			minP = thr
 		ntuple.Fill(x[i],y[i],z[i],t[i]) #t(x,y,z)
 		
 		i=i+1  
 		
 	tree.GetEntry(0)
+	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+",\n")
+	
+	
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
 	title = ""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
@@ -242,14 +257,14 @@ for f in FileNames:
 	print "Working on " + f
 	tree.GetEntry(0);
 	
-	optimalFile= open("optimal.txt","a")
+	optimalFile= open("optimal.csv","a")
 	
 	if tree.workDimension[0:3]=="ONE": #some issue with string encoding
 		plot_ONE_D(f,tree, optimalFile)
 	if tree.workDimension[0:3]=="TWO":
 		plot_TWO_D(f,tree, optimalFile)
-	#if tree.workDimension[0:3]=="THR":
-		#plot_THREE_D(f,tree, optimalFile)
+	if tree.workDimension[0:3]=="THR":
+		plot_THREE_D(f,tree, optimalFile)
 	else:
 		continue
 	

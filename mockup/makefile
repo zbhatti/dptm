@@ -3,7 +3,6 @@ includedir=-I/opt/clFFT/src/package/include -I./include -I/opt/intel/include
 libdir=-L/opt/clFFT/src/package/lib64
 LDFLAGS=-lclFFT -lOpenCL
 SRCLIST= \
-main.cpp \
 errorCheck.cpp \
 dpKernel.cpp \
 dpClient.cpp \
@@ -30,11 +29,13 @@ OBJECTS=$(addprefix obj/, $(SRCLIST))
 all: main
 
 main: objects
-	g++ $(OBJECTS:.cpp=.o) -g -std=c++11 -o dpClient $(includedir) $(libdir) $(LDFLAGS)
+	g++ $(OBJECTS:.cpp=.o) obj/mainSrc.o -g -std=c++11 -o dpClientSrc $(includedir) $(libdir) $(LDFLAGS)
+	g++ $(OBJECTS:.cpp=.o) obj/mainShell.o -g -std=c++11 -o dpClientShell $(includedir) $(libdir) $(LDFLAGS)
 
 objects: $(SOURCES)
-	gcc $(CFLAGS) $(includedir) $(libdir) $(LDFLAGS) $(SOURCES)
+	gcc $(CFLAGS) $(includedir) $(libdir) $(LDFLAGS) $(SOURCES) src/mainSrc.cpp
+	gcc $(CFLAGS) $(includedir) $(libdir) $(LDFLAGS) $(SOURCES) src/mainShell.cpp
 	mv *.o obj/
 
-clean:
-	rm -rf *o dpClient
+#clean:
+	#rm -rf *.o dpClient*

@@ -54,5 +54,7 @@ class dpClient {
 		void runTasks();
 		void printTimes();
 		void printFile();
+		char* getDev(){return devName;};
+		char* getPlat(){return platName;};
 		std::vector<dpTiming> getTimes(){return timeList;};
 };

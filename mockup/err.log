@@ -262,3 +262,20 @@ VectorAdd
 Client:2
 Convolution
 FloydWarshall
+FluidSimulation
+FWT
+MatrixMultiplication
+MatrixTranspose
+SquareArray
+VectorAdd
+Client:3
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+FWT
+MatrixMultiplication
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
