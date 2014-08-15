@@ -14,18 +14,19 @@ int main (int argc, const char* argv[]) {
 	
 	//take task scan argument:
 	for (int r=0;r<1;r++){
-		for (int j=4;pow(2,j)<=128;j++){
-			for (int i=1;i<5;i++){
+		for (int j=3;pow(2,j)<=512;j++){
+			for (int i=0;i<5;i++){
 				fprintf(stderr, "Client:%d\n",i);
 				
-				/*
+				
 				fprintf(stderr,"Array3dAverage\n");
 				cliList[i]->addWGScan("Array3dAverage",pow(2,j));
 				//cliList[i]->addMBScan("Array3dAverage",8,8,8);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
-				*/
 				
+
+				/*
 				fprintf(stderr,"Convolution\n");
 				cliList[i]->addWGScan("Convolution",pow(2,j));
 				//cliList[i]->addMBScan("Convolution",8,8,8);
@@ -50,13 +51,13 @@ int main (int argc, const char* argv[]) {
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				
-				/*
+				
 				fprintf(stderr,"LUDecomposition\n");
 				cliList[i]->addWGScan("LUDecomposition",pow(2,j));
 				//cliList[i]->addMBScan("LUDecomposition",8,8,8);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
-				*/
+				
 				
 				fprintf(stderr,"MatrixMultiplication\n");
 				cliList[i]->addWGScan("MatrixMultiplication",pow(2,j));
@@ -70,13 +71,13 @@ int main (int argc, const char* argv[]) {
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				
-				/*
+				
 				fprintf(stderr,"NBody\n");
 				cliList[i]->addWGScan("NBody",pow(2,j));
 				//cliList[i]->addMBScan("NBody",8,8,8);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
-				*/
+				
 				
 				fprintf(stderr,"SquareArray\n");
 				cliList[i]->addWGScan("SquareArray",pow(2,j));
@@ -89,6 +90,7 @@ int main (int argc, const char* argv[]) {
 				//cliList[i]->addMBScan("VectorAdd",8,8,8);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
+				*/
 				
 				//cliList[i]->printTimes();
 			}
