@@ -88,6 +88,7 @@ def plot_ONE_D(f,tree, optimalFile):
 	plot.SetMarkerStyle(20)
 	#gStyle.SetPalette(1)
 	plot.Draw("AL")
+	minLabel.Draw()
 	Canvases[f].SetLogx(1)
 	
 	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
@@ -248,8 +249,10 @@ def plot_THREE_D(f,tree, optimalFile):
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
 	title = ""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
+	minLabel.Draw()
 	Canvases[f].SetPhi(260)
 	Canvases[f].SetTheta(20)
+	
 	
 	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
 	Canvases[f].Print(pic+".png")
