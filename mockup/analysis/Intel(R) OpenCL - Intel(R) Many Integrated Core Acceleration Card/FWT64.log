@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,1,1,1,64,329.012,15.208,0.008,647.641,31.716,1.226
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,2,1,1,64,327.354,16.882,0.007,431.611,32.399,1.245
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,4,1,1,64,326.471,16.765,0.008,317.36,33.707,1.112
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,8,1,1,64,329.755,17.087,0.007,259.572,33.969,1.457
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,16,1,1,64,327.539,17.469,0.008,72.598,30.379,1.336
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,32,1,1,64,430.41,21.471,0.008,53.205,27.684,1.192
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,64,1,1,64,384.632,18.945,0.007,44.116,20.515,1.178
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,128,1,1,64,339.856,22.699,0.007,44.694,22.146,1.128
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,256,1,1,64,340.694,21.999,0.008,44.563,21.453,1.148
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,512,1,1,64,340.728,22.071,0.008,42.908,22.545,1.257
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,1024,1,1,64,340.424,19.622,0.007,42.067,24.093,1.196
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,2048,1,1,64,339.873,19.988,0.008,39.265,22.548,1.249
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,4096,1,1,64,352.135,18.939,0.009,39.51,24.075,1.494
+Intel(R) Many Integrated Core Acceleration Card,FWT,ONE_D,1.67772e+07,8192,1,1,64,342.637,19.488,0.008,47.174,22.161,1.185

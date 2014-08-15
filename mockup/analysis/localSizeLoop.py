@@ -75,6 +75,9 @@ def plot_ONE_D(f,tree, optimalFile):
 			minP = thr
 		i=i+1
 	
+	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
+	minLabel = TPaveLabel(1, 3, 3, 3.5, minString)
+	
 	tree.GetEntry(0)
 	
 	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+",\n")
@@ -89,6 +92,7 @@ def plot_ONE_D(f,tree, optimalFile):
 	
 	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
 	Canvases[f].Print(pic+".png")
+	Canvases[f].Close()
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 	
 def plot_TWO_D(f,tree, optimalFile):
@@ -170,6 +174,7 @@ def plot_TWO_D(f,tree, optimalFile):
 	
 	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
 	Canvases[f].Print(pic+".png")
+	Canvases[f].Close()
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 
 def plot_THREE_D(f,tree, optimalFile):
@@ -233,10 +238,12 @@ def plot_THREE_D(f,tree, optimalFile):
 		ntuple.Fill(x[i],y[i],z[i],t[i]) #t(x,y,z)
 		
 		i=i+1  
-		
+	
+	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
+	minLabel = TPaveLabel(1, 3, 3, 3.5, minString)
+	
 	tree.GetEntry(0)
 	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+",\n")
-	
 	
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
@@ -246,6 +253,7 @@ def plot_THREE_D(f,tree, optimalFile):
 	
 	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
 	Canvases[f].Print(pic+".png")
+	Canvases[f].Close()
 	
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f])
 

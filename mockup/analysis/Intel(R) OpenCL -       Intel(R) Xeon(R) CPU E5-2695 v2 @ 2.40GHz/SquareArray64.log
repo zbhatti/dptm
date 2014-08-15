@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,1,1,1,64,328.552,64.807,0.009,15.308,34.987,1.877
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,2,1,1,64,325.978,65.642,0.008,11.013,38.878,1.903
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,4,1,1,64,324.726,66.497,0.008,9.174,37.978,2.007
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,8,1,1,64,324.794,66.172,0.008,8.768,33.107,1.892
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,16,1,1,64,324.583,65.332,0.008,10.487,32.598,1.907
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,32,1,1,64,324.726,65.33,0.008,10.278,37.086,1.916
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,64,1,1,64,326.025,65.514,0.008,10.635,33.934,1.924
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,128,1,1,64,324.342,65.482,0.008,10.877,37.935,1.92
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,256,1,1,64,325.003,65.222,0.008,9.219,37.056,1.976
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,512,1,1,64,324.827,65.187,0.008,9.885,34.082,1.898
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,1024,1,1,64,326.036,65.594,0.008,9.419,33.2,1.927
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,2048,1,1,64,324.749,65.459,0.008,9.708,38.856,1.993
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,4096,1,1,64,324.608,66.059,0.008,8.695,37.728,1.974
+      Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,SquareArray,ONE_D,1.67772e+07,8192,1,1,64,324.704,65.442,0.008,10.369,34.295,1.925

@@ -279,3 +279,26 @@ clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
 FWT
 MatrixMultiplication
 clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
+Client:4
+Convolution
+FloydWarshall
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFloydWarshall.cpp 112
+FluidSimulation
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpFluidSimulation.cpp 301
+FWT
+MatrixMultiplication
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 96
+MatrixTranspose
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixTranspose.cpp 96
+SquareArray
+VectorAdd
