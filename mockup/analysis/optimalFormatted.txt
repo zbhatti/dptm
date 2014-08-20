@@ -1,0 +1,518 @@
+########## MatrixMultiplication ##########
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,34436.60,1,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,88976.20,4096,1,1
+NVIDIA CUDA - Tesla K20Xm,75224.30,32,32,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,95573.30,2048,1,1
+AMD Accelerated Parallel Processing - Hawaii,23229.50,16,16,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,17.70,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,16.00,128,1,1
+NVIDIA CUDA - Tesla K20Xm,101.74,32,8,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,145.55,128,1,1
+AMD Accelerated Parallel Processing - Hawaii,41.33,64,4,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,124.58,4,2,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,206.20,64,1,1
+NVIDIA CUDA - Tesla K20Xm,1632.15,64,2,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1324.13,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,353.77,64,4,1
+
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1019.60,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,912.64,32,1,1
+NVIDIA CUDA - Tesla K20Xm,9104.76,32,32,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,11666.60,128,1,1
+AMD Accelerated Parallel Processing - Hawaii,2773.06,16,16,1
+
+
+########## FluidSimulation ##########
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,582.68,8,16,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,650.20,8,1,1
+NVIDIA CUDA - Tesla K20Xm,832.37,64,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,517.59,16,16,1
+AMD Accelerated Parallel Processing - Hawaii,595.58,8,1,1
+
+128.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8859.02,64,4,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7380.56,128,64,1
+NVIDIA CUDA - Tesla K20Xm,9963.82,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8305.62,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,8628.52,2,8,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,176.16,128,8,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,104.69,128,16,1
+NVIDIA CUDA - Tesla K20Xm,149.58,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,157.00,32,1,1
+AMD Accelerated Parallel Processing - Hawaii,128.13,4,2,1
+
+0.5
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,47.61,64,4,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,31.15,64,2,1
+NVIDIA CUDA - Tesla K20Xm,40.90,64,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,35.03,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,37.83,128,2,1
+
+32.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1800.14,128,8,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1472.37,2,2,1
+NVIDIA CUDA - Tesla K20Xm,2479.25,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,2387.35,64,8,1
+AMD Accelerated Parallel Processing - Hawaii,2136.43,2,2,1
+
+
+########## Convolution ##########
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2029.53,256,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1937.94,64,1,1
+NVIDIA CUDA - Tesla K20Xm,21355.70,1024,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4459.44,64,1,1
+AMD Accelerated Parallel Processing - Hawaii,4883.72,256,1,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,75.65,32,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,80.64,4,1,1
+NVIDIA CUDA - Tesla K20Xm,1274.39,512,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,139.25,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,293.01,128,1,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,337.98,8,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,384.14,4,1,1
+NVIDIA CUDA - Tesla K20Xm,8801.22,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,551.66,32,1,1
+AMD Accelerated Parallel Processing - Hawaii,1202.88,256,1,1
+
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8042.35,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7689.54,32,1,1
+NVIDIA CUDA - Tesla K20Xm,86245.70,1024,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,86432.90,128,1,1
+AMD Accelerated Parallel Processing - Hawaii,19684.50,256,1,1
+
+
+########## FloydWarshall ##########
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,80091.60,64,8,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8706.62,64,32,1
+NVIDIA CUDA - Tesla K20Xm,43603.30,32,4,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,28254.10,2048,2,1
+AMD Accelerated Parallel Processing - Hawaii,38123.10,256,1,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1481.06,512,2,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,206.32,512,8,1
+NVIDIA CUDA - Tesla K20Xm,617.32,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,661.26,256,8,1
+AMD Accelerated Parallel Processing - Hawaii,777.36,64,2,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,10453.20,64,4,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1108.79,64,32,1
+NVIDIA CUDA - Tesla K20Xm,5483.33,32,4,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4264.79,1024,1,1
+AMD Accelerated Parallel Processing - Hawaii,5083.37,128,2,1
+
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,634853.00,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,63174.50,4096,2,1
+NVIDIA CUDA - Tesla K20Xm,348578.00,32,4,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,217550.00,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,300990.00,256,1,1
+
+
+########## MatrixTranspose ##########
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,57.24,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8.39,64,1,1
+NVIDIA CUDA - Tesla K20Xm,17.20,32,8,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,25.07,256,32,1
+AMD Accelerated Parallel Processing - Hawaii,18.91,16,8,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,5.95,256,2,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2.32,512,16,1
+NVIDIA CUDA - Tesla K20Xm,1.49,512,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.12,512,16,1
+AMD Accelerated Parallel Processing - Hawaii,3.17,8,16,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,19.61,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.25,32,1,1
+NVIDIA CUDA - Tesla K20Xm,4.59,32,16,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,15.62,256,32,1
+AMD Accelerated Parallel Processing - Hawaii,5.81,16,8,1
+
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,178.55,256,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,25.15,8,2,1
+NVIDIA CUDA - Tesla K20Xm,67.52,32,4,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,83.57,64,128,1
+AMD Accelerated Parallel Processing - Hawaii,75.34,256,1,1
+
+
+########## Array3dAverage ##########
+512.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1545.86,512,1,2
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,232.24,512,8,2
+NVIDIA CUDA - Tesla K20Xm,1815.10,32,1,4
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1391.48,512,1,4
+AMD Accelerated Parallel Processing - Hawaii,642.37,64,1,4
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.52,8,16,4
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.77,64,16,4
+NVIDIA CUDA - Tesla K20Xm,3.24,8,8,8
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,6.00,64,8,16
+AMD Accelerated Parallel Processing - Hawaii,2.30,16,1,4
+
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,22.36,128,4,2
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,5.74,16,4,2
+NVIDIA CUDA - Tesla K20Xm,44.25,64,2,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.72,128,1,8
+AMD Accelerated Parallel Processing - Hawaii,10.07,32,2,2
+
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,204.06,128,2,4
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,32.45,128,8,2
+NVIDIA CUDA - Tesla K20Xm,206.28,64,2,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,161.01,256,1,8
+AMD Accelerated Parallel Processing - Hawaii,75.26,128,2,1
+
+
+########## VectorAdd ##########
+0.5
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2.52,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.89,8192,1,1
+NVIDIA CUDA - Tesla K20Xm,0.80,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5.41,8192,1,1
+AMD Accelerated Parallel Processing - Hawaii,3.12,64,1,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.45,256,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.77,2048,1,1
+NVIDIA CUDA - Tesla K20Xm,1.49,1024,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5.75,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,2.29,256,1,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,9.66,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.16,512,1,1
+NVIDIA CUDA - Tesla K20Xm,2.53,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.37,8192,1,1
+AMD Accelerated Parallel Processing - Hawaii,3.51,256,1,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,19.44,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.91,4096,1,1
+NVIDIA CUDA - Tesla K20Xm,4.49,1024,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,10.16,8192,1,1
+AMD Accelerated Parallel Processing - Hawaii,5.40,128,1,1
+
+32.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,94.32,16,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11.93,8,1,1
+NVIDIA CUDA - Tesla K20Xm,33.07,512,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,42.37,32,1,1
+AMD Accelerated Parallel Processing - Hawaii,38.13,256,1,1
+
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,30.97,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.59,512,1,1
+NVIDIA CUDA - Tesla K20Xm,8.62,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,14.30,32,1,1
+AMD Accelerated Parallel Processing - Hawaii,10.04,128,1,1
+
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,185.75,256,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,20.65,4096,1,1
+NVIDIA CUDA - Tesla K20Xm,65.79,512,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,80.06,128,1,1
+AMD Accelerated Parallel Processing - Hawaii,75.33,128,1,1
+
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64.93,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.62,2,1,1
+NVIDIA CUDA - Tesla K20Xm,16.82,256,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.65,32,1,1
+AMD Accelerated Parallel Processing - Hawaii,18.80,128,1,1
+
+
+########## Reduction ##########
+32.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,27.35,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,5.20,16,1,1
+NVIDIA CUDA - Tesla K20Xm,5.67,64,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,11.19,128,1,1
+AMD Accelerated Parallel Processing - Hawaii,17.40,256,1,1
+
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,35.97,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.95,64,1,1
+NVIDIA CUDA - Tesla K20Xm,10.62,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,17.38,512,1,1
+AMD Accelerated Parallel Processing - Hawaii,30.25,64,1,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,12.48,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.36,2048,1,1
+NVIDIA CUDA - Tesla K20Xm,0.68,64,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.33,1024,1,1
+AMD Accelerated Parallel Processing - Hawaii,2.13,256,1,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.20,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.50,512,1,1
+NVIDIA CUDA - Tesla K20Xm,1.00,32,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.62,1024,1,1
+AMD Accelerated Parallel Processing - Hawaii,2.42,1,1,1
+
+0.5
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.48,64,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.60,512,1,1
+NVIDIA CUDA - Tesla K20Xm,0.20,64,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.88,1024,1,1
+AMD Accelerated Parallel Processing - Hawaii,17.25,256,1,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.79,32,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.02,8,1,1
+NVIDIA CUDA - Tesla K20Xm,0.41,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.08,1024,1,1
+AMD Accelerated Parallel Processing - Hawaii,1.64,16,1,1
+
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,27.64,64,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.12,64,1,1
+NVIDIA CUDA - Tesla K20Xm,1.71,16,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.48,2048,1,1
+AMD Accelerated Parallel Processing - Hawaii,6.15,4,1,1
+
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,33.28,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.80,16,1,1
+NVIDIA CUDA - Tesla K20Xm,2.97,256,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.24,128,1,1
+AMD Accelerated Parallel Processing - Hawaii,8.38,256,1,1
+
+
+########## MonteCarloAsian ##########
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,960.11,4,16,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,557.21,32,8,1
+NVIDIA CUDA - Tesla K20Xm,4616.16,4,32,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1328.77,64,1,1
+AMD Accelerated Parallel Processing - Hawaii,2006.79,256,1,1
+
+32.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3736.93,16,16,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2334.86,1,16,1
+NVIDIA CUDA - Tesla K20Xm,18275.80,2,64,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5269.04,512,1,1
+AMD Accelerated Parallel Processing - Hawaii,7803.34,64,2,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,201.26,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,161.16,32,2,1
+NVIDIA CUDA - Tesla K20Xm,1152.84,2,64,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,373.02,128,2,1
+AMD Accelerated Parallel Processing - Hawaii,504.28,8,8,1
+
+128.0
+NVIDIA CUDA - Tesla K20Xm,73289.10,32,4,1
+
+
+########## FWT ##########
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2111.71,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,149.91,128,1,1
+NVIDIA CUDA - Tesla K20Xm,923.96,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,647.64,2048,1,1
+AMD Accelerated Parallel Processing - Hawaii,877.17,128,1,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,43.50,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.49,256,1,1
+NVIDIA CUDA - Tesla K20Xm,17.21,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,13.54,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,12.78,128,1,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,67.14,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7.56,256,1,1
+NVIDIA CUDA - Tesla K20Xm,23.23,256,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.84,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,23.48,128,1,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,142.09,64,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11.57,1024,1,1
+NVIDIA CUDA - Tesla K20Xm,48.49,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,45.94,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,46.74,128,1,1
+
+0.5
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,25.85,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.26,512,1,1
+NVIDIA CUDA - Tesla K20Xm,4.75,256,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8.36,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,5.99,256,1,1
+
+32.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1017.63,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,76.86,256,1,1
+NVIDIA CUDA - Tesla K20Xm,442.77,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,317.56,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,420.65,128,1,1
+
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,252.32,128,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,20.32,128,1,1
+NVIDIA CUDA - Tesla K20Xm,101.46,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,81.33,1024,1,1
+AMD Accelerated Parallel Processing - Hawaii,97.43,128,1,1
+
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,491.37,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,36.32,1024,1,1
+NVIDIA CUDA - Tesla K20Xm,212.08,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,158.23,2048,1,1
+AMD Accelerated Parallel Processing - Hawaii,201.97,256,1,1
+
+
+########## LUDecomposition ##########
+0.5
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7877.25,2,256,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1410.45,16,32,1
+NVIDIA CUDA - Tesla K20Xm,7510.58,512,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4894.28,32,16,1
+AMD Accelerated Parallel Processing - Hawaii,3565.21,64,4,1
+
+32.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7754.17,1,512,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1346.82,512,1,1
+NVIDIA CUDA - Tesla K20Xm,7505.59,512,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5034.20,8,64,1
+AMD Accelerated Parallel Processing - Hawaii,3527.56,32,1,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7784.54,1,512,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1395.86,1,512,1
+NVIDIA CUDA - Tesla K20Xm,7507.72,2,256,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5014.53,256,2,1
+AMD Accelerated Parallel Processing - Hawaii,3614.80,2,16,1
+
+128.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,65703.10,8,128,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11489.80,1024,1,1
+NVIDIA CUDA - Tesla K20Xm,59526.60,1,1024,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,34175.40,256,4,1
+AMD Accelerated Parallel Processing - Hawaii,26074.70,4,8,1
+
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7774.15,1,512,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1324.36,256,2,1
+NVIDIA CUDA - Tesla K20Xm,7508.42,64,8,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5020.94,32,16,1
+AMD Accelerated Parallel Processing - Hawaii,3563.57,8,32,1
+
+
+########## SquareArray ##########
+0.5
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.71,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.50,2048,1,1
+NVIDIA CUDA - Tesla K20Xm,0.91,256,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,3.35,8192,1,1
+AMD Accelerated Parallel Processing - Hawaii,1.82,128,1,1
+
+64.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,179.74,256,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,15.31,4096,1,1
+NVIDIA CUDA - Tesla K20Xm,64.22,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,75.97,8,1,1
+AMD Accelerated Parallel Processing - Hawaii,75.36,128,1,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11.13,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.03,1024,1,1
+NVIDIA CUDA - Tesla K20Xm,2.36,512,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,6.52,4096,1,1
+AMD Accelerated Parallel Processing - Hawaii,3.93,128,1,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,15.05,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2.66,512,1,1
+NVIDIA CUDA - Tesla K20Xm,4.36,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,9.02,8192,1,1
+AMD Accelerated Parallel Processing - Hawaii,5.48,256,1,1
+
+32.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,96.79,512,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,9.16,2,1,1
+NVIDIA CUDA - Tesla K20Xm,32.21,256,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,41.28,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,38.25,128,1,1
+
+8.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,44.65,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.39,256,1,1
+NVIDIA CUDA - Tesla K20Xm,8.33,256,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,13.45,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,10.11,256,1,1
+
+16.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,48.43,1024,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.49,4,1,1
+NVIDIA CUDA - Tesla K20Xm,16.23,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.29,256,1,1
+AMD Accelerated Parallel Processing - Hawaii,18.88,128,1,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.21,256,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.74,8192,1,1
+NVIDIA CUDA - Tesla K20Xm,1.00,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.19,8192,1,1
+AMD Accelerated Parallel Processing - Hawaii,2.52,256,1,1
+
+
+########## NBody ##########
+0.5
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1603.92,2,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7982.40,8,1,1
+NVIDIA CUDA - Tesla K20Xm,7823.35,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5104.42,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,3352.00,256,1,1
+
+1.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6179.67,4,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,31890.30,8,1,1
+NVIDIA CUDA - Tesla K20Xm,54603.70,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,20406.20,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,13410.00,64,1,1
+
+2.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,24455.20,2,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,127511.00,8,1,1
+NVIDIA CUDA - Tesla K20Xm,147062.00,128,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,81540.30,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,53508.20,64,1,1
+
+4.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,97382.70,2,1,1
+Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,510308.00,8,1,1
+NVIDIA CUDA - Tesla K20Xm,710405.00,64,1,1
+Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,326066.00,16,1,1
+AMD Accelerated Parallel Processing - Hawaii,214737.00,64,1,1
+
+8.0
+NVIDIA CUDA - Tesla K20Xm,2348650.00,128,1,1
+
+16.0
+NVIDIA CUDA - Tesla K20Xm,9394920.00,128,1,1
+
+

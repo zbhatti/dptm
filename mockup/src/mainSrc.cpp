@@ -15,7 +15,7 @@ int main (int argc, const char* argv[]) {
 	//take task scan argument:
 	for (int r=0;r<1;r++){
 		for (int j=5;pow(2,j)<=512;j++){
-			for (int i=0;i<5;i++){
+			for (int i=3;i<5;i++){
 				fprintf(stderr, "Client:%d\n",i);
 				
 				/*

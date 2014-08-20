@@ -24,7 +24,7 @@ Graphs={}
 data={}#data[filename]=[tree, Bounds[threads[]], Hists[threads[]], MeanRMS[threads[]], canvas, TGRAPHS]
 
 
-def plot_ONE_D(f,tree, optimalFile):
+def plot_ONE_D(f,tree, optimalFile,devName):
 	threads=[] #array of xLocal
 	Bounds={} #dictionary with tuples (xLocal) as keys and [min,max] as values
 	Hists={}
@@ -80,9 +80,9 @@ def plot_ONE_D(f,tree, optimalFile):
 	
 	tree.GetEntry(0)
 	
-	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+",\n")
+	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph(len(threads), x, t)
-	title=""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
+	title=""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
 	#add color legend
 	plot.SetMarkerStyle(20)
@@ -96,7 +96,7 @@ def plot_ONE_D(f,tree, optimalFile):
 	Canvases[f].Close()
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 	
-def plot_TWO_D(f,tree, optimalFile):
+def plot_TWO_D(f,tree, optimalFile,devName):
 	threads=[] #array of tuples (xLocal,yLocal)
 	Bounds={} #dictionary with tuples (X,Y) as keys and [min,max] as values
 	Hists={}
@@ -157,10 +157,10 @@ def plot_TWO_D(f,tree, optimalFile):
 	#print xThreads,yThreads,zThreads,MB,\n
 	tree.GetEntry(0)
 	
-	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+",\n")
+	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph2D("empty","empty", len(threads), x, y, t)
 	#plot.SetPoint(len(threads),x,y,min)
-	title = ""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
+	title = ""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
 	#add color legend
 	plot.SetMarkerStyle(20)
@@ -177,7 +177,7 @@ def plot_TWO_D(f,tree, optimalFile):
 	Canvases[f].Close()
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 
-def plot_THREE_D(f,tree, optimalFile):
+def plot_THREE_D(f,tree, optimalFile,devName):
 	threads=[] #array of tuples (xLocal,yLocal,zLocal)
 	Bounds={} #dictionary with tuples (X,Y,Z) as keys and [min,max] as values
 	Hists={}
@@ -243,11 +243,11 @@ def plot_THREE_D(f,tree, optimalFile):
 	minLabel = TPaveLabel(1, 3, 3, 3.5, minString)
 	
 	tree.GetEntry(0)
-	optimalFile.write(tree.kernel[:-1]+","+tree.device[:-1]+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+",\n")
+	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+"\n")
 	
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
-	title = ""+tree.kernel[:-1]+tree.device[:-1]+str(tree.MB)
+	title = ""+tree.kernel[:-1]+devName+str(tree.MB)
 	minLabel.Draw()
 	Canvases[f].SetPhi(260)
 	Canvases[f].SetTheta(20)
@@ -260,25 +260,31 @@ def plot_THREE_D(f,tree, optimalFile):
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f])
 
 #make ttree for each device/kernel.log
+
+newFile=open("optimal.csv","w")
+newFile.write("kernel,device,x,y,z,mb,time\n")
+newFile.close() #used to clear the preexisting file
+
+
 for f in FileNames:
 	data[f]=()
 	tree=TTree()
 	tree.ReadFile(f,"",',')
 	print "Working on " + f
 	
-	
 	tree.GetEntry(0);
+	optimalFile=open("optimal.csv","a")	
 	
-	optimalFile= open("optimal.csv","w")
+	slashLocation = f.rfind("/");
+	devName = f[2:slashLocation]
 	
 	if tree.workDimension[0:3]=="ONE":
-		plot_ONE_D(f,tree, optimalFile)
+		plot_ONE_D(f,tree, optimalFile,devName)
 	if tree.workDimension[0:3]=="TWO":
-		plot_TWO_D(f,tree, optimalFile)
+		plot_TWO_D(f,tree, optimalFile,devName)
 	if tree.workDimension[0:3]=="THR":
-		plot_THREE_D(f,tree, optimalFile)
+		plot_THREE_D(f,tree, optimalFile,devName)
 	else:
 		continue
-
+	
 	#save minimum information
-
