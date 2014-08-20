@@ -324,7 +324,9 @@ Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,373.02,128,2,1
 AMD Accelerated Parallel Processing - Hawaii,504.28,8,8,1
 
 128.0
+AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,12224.20,128,1,1
 NVIDIA CUDA - Tesla K20Xm,73289.10,32,4,1
+AMD Accelerated Parallel Processing - Hawaii,29328.20,4,64,1
 
 
 ########## FWT ##########
