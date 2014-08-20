@@ -13,12 +13,14 @@
 #include "dpFloydWarshall.hpp"
 #include "dpFluidSimulation.hpp"
 #include "dpArray3dAverage.hpp"
+#include "dpMonteCarloAsian.hpp"
+#include "dpReduction.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
 
-dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_command_queue queue) 
-{																
+dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_command_queue queue){	
+
     if (!name.compare("SquareArray"))
       return new dpSquareArray(context, queue);
 			
@@ -39,6 +41,12 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 			
 		if (!name.compare("FluidSimulation"))
 			return new dpFluidSimulation(context, queue);
+		
+		if (!name.compare("MonteCarloAsian"))
+			return new dpMonteCarloAsian(context, queue);
+		
+		if (!name.compare("Reduction"))
+			return new dpReduction(context, queue);
 		
 		if (!name.compare("LUDecomposition"))
 			return new dpLUDecomposition(context,queue);

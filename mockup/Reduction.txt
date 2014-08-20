@@ -1,0 +1,13 @@
+0
+0
+Reduction,1,8,8,1
+Reduction,2,8,8,1
+Reduction,4,8,8,1
+Reduction,8,8,8,1
+Reduction,16,8,8,1
+Reduction,32,8,8,1
+Reduction,64,8,8,1
+Reduction,16,16,4,1
+Reduction,16,4,16,1
+RUN
+

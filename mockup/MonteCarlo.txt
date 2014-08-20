@@ -1,0 +1,12 @@
+0
+0
+MonteCarloAsian,8,8,8,1
+MonteCarloAsian,16,8,8,1
+MonteCarloAsian,32,8,8,1
+MonteCarloAsian,64,8,8,1
+MonteCarloAsian,128,8,8,1
+MonteCarloAsian,256,8,8,1
+MonteCarloAsian,16,16,4,1
+MonteCarloAsian,16,4,16,1
+RUN
+

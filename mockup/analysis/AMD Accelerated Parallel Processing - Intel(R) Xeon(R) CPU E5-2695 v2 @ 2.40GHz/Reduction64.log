@@ -1,0 +1,12 @@
+device/C,kernel/C,workDimension/C,length/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,1,1,1,64,350.502,31.945,0.017,35.974,20.821,1
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,2,1,1,64,339.294,32.93,0.003,37.217,10.446,0.9
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,4,1,1,64,337.632,33.051,0.017,9.407,5.181,0.749
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,8,1,1,64,336.594,33.195,0.004,6.596,2.659,0.777
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,16,1,1,64,335.965,33.304,0.004,4.226,1.373,0.788
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,32,1,1,64,335.67,33.079,0.004,3.458,0.772,0.697
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,64,1,1,64,334.949,33.166,0.003,2.987,0.425,0.712
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,128,1,1,64,335.307,33.025,0.003,2.874,0.236,0.76
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,256,1,1,64,335.359,32.966,0.004,3.155,0.125,0.742
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,512,1,1,64,335.442,32.899,0.004,3.767,0.07,0.648
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,Reduction,ONE_D,4.1943e+06,1024,1,1,64,336.355,32.854,0.004,3.744,0.044,0.605

@@ -1,0 +1,10 @@
+device/C,kernel/C,workDimension/C,length/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Hawaii,Reduction,ONE_D,32768,1,1,1,0.5,2.531,0.636,0.002,17.252,0.214,0.075
+Hawaii,Reduction,ONE_D,32768,2,1,1,0.5,4.498,0.155,0.001,1.073,0.13,0.05
+Hawaii,Reduction,ONE_D,32768,4,1,1,0.5,2.538,0.154,0.001,0.95,0.089,0.047
+Hawaii,Reduction,ONE_D,32768,8,1,1,0.5,2.535,0.15,0,0.902,0.064,0.047
+Hawaii,Reduction,ONE_D,32768,16,1,1,0.5,2.62,0.149,0.001,0.898,0.049,0.045
+Hawaii,Reduction,ONE_D,32768,32,1,1,0.5,2.539,0.152,0.001,0.891,0.044,0.045
+Hawaii,Reduction,ONE_D,32768,64,1,1,0.5,2.536,0.149,0,0.903,0.039,0.045
+Hawaii,Reduction,ONE_D,32768,128,1,1,0.5,2.536,0.152,0,0.876,0.042,0.046
+Hawaii,Reduction,ONE_D,32768,256,1,1,0.5,2.536,0.141,0.001,0.846,0.041,0.044

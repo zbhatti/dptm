@@ -184,9 +184,6 @@ void dpNBody::cleanUp(){
 	}
 
 	free(initPos);
-	//free(initVel);
-	//free(pos);
-	//free(vel);
 }
 
 float dpNBody::random(float randMax, float randMin){

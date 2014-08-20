@@ -91,7 +91,7 @@ def plot_ONE_D(f,tree, optimalFile):
 	minLabel.Draw()
 	Canvases[f].SetLogx(1)
 	
-	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
+	pic = "./results/" + f[2:-4]
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
@@ -143,7 +143,6 @@ def plot_TWO_D(f,tree, optimalFile):
 		
 		Hists[thr]= h
 		
-		#print str(thr[0])+str(thr[1])+str(h.GetMean())
 		x[i]= thr[0]
 		y[i]= thr[1]
 		t[i]= h.GetMean()
@@ -173,7 +172,7 @@ def plot_TWO_D(f,tree, optimalFile):
 	Canvases[f].SetPhi(0)
 	Canvases[f].SetTheta(90)
 	
-	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
+	pic = "./results/" + f[2:-4]
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
@@ -254,7 +253,7 @@ def plot_THREE_D(f,tree, optimalFile):
 	Canvases[f].SetTheta(20)
 	
 	
-	pic = "./results/" + tree.device[:-1] + "-" + tree.kernel[:-1] + str(tree.MB)
+	pic = "./results/" + f[2:-4]
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	
@@ -266,11 +265,13 @@ for f in FileNames:
 	tree=TTree()
 	tree.ReadFile(f,"",',')
 	print "Working on " + f
+	
+	
 	tree.GetEntry(0);
 	
-	optimalFile= open("optimal.csv","a")
+	optimalFile= open("optimal.csv","w")
 	
-	if tree.workDimension[0:3]=="ONE": #some issue with string encoding
+	if tree.workDimension[0:3]=="ONE":
 		plot_ONE_D(f,tree, optimalFile)
 	if tree.workDimension[0:3]=="TWO":
 		plot_TWO_D(f,tree, optimalFile)
@@ -278,6 +279,6 @@ for f in FileNames:
 		plot_THREE_D(f,tree, optimalFile)
 	else:
 		continue
-	
+
 	#save minimum information
 
