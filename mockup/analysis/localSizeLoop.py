@@ -76,25 +76,27 @@ def plot_ONE_D(f,tree, optimalFile,devName):
 		i=i+1
 	
 	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
-	minLabel = TPaveLabel(1, 3, 3, 3.5, minString)
-	
+	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	tree.GetEntry(0)
 	
 	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph(len(threads), x, t)
 	title=""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
-	#add color legend
+	
 	plot.SetMarkerStyle(20)
-	#gStyle.SetPalette(1)
 	plot.Draw("AL")
 	minLabel.Draw()
+	plot.GetXaxis().SetTitle("xThreads")
+	plot.GetYaxis().SetTitle("time (ms)")
 	Canvases[f].SetLogx(1)
 	
+	Canvases[f].Update()
 	pic = "./results/" + f[2:-4]
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
+	
 	
 def plot_TWO_D(f,tree, optimalFile,devName):
 	threads=[] #array of tuples (xLocal,yLocal)
@@ -153,29 +155,39 @@ def plot_TWO_D(f,tree, optimalFile,devName):
 
 	
 	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
-	minLabel = TPaveLabel(1, 3, 3, 3.5, minString)
+	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	#print xThreads,yThreads,zThreads,MB,\n
 	tree.GetEntry(0)
 	
 	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph2D("empty","empty", len(threads), x, y, t)
-	#plot.SetPoint(len(threads),x,y,min)
 	title = ""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
 	#add color legend
 	plot.SetMarkerStyle(20)
+	
 	plot.Draw("P0&&TRI2T&&colz")
 	minLabel.Draw()
+	
 	Canvases[f].SetLogx(1)
 	Canvases[f].SetLogy(1)
 	Canvases[f].SetLogz(1)
 	Canvases[f].SetPhi(0)
 	Canvases[f].SetTheta(90)
+	Canvases[f].Update()
 	
 	pic = "./results/" + f[2:-4]
+	
+	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
+	data[f][5].GetXaxis().SetTitle("xThreads")
+	data[f][5].GetYaxis().SetTitle("yThreads")
+	data[f][5].GetZaxis().SetTitle("time (ms)")
+	Canvases[f].Update()
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
-	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
+	
+	
+	
 
 def plot_THREE_D(f,tree, optimalFile,devName):
 	threads=[] #array of tuples (xLocal,yLocal,zLocal)
@@ -205,13 +217,13 @@ def plot_THREE_D(f,tree, optimalFile,devName):
 			Bounds[(X,Y,Z)][0]=tree.execute
 	
 	Canvases[f].cd()
-	x = np.zeros(len(threads), dtype=float)
-	y = np.zeros(len(threads), dtype=float)
-	z = np.zeros(len(threads), dtype=float)
+	xThreads = np.zeros(len(threads), dtype=float)
+	yThreads = np.zeros(len(threads), dtype=float)
+	zThreads = np.zeros(len(threads), dtype=float)
 	t = np.zeros(len(threads), dtype=float)
 	#build histograms, one for each x,y,z
 	
-	ntuple = TNtuple("ntuple","data from ascii file","x:y:z:t")
+	ntuple = TNtuple("ntuple",tree.kernel[:-1],"xThreads:yThreads:zThreads:t")
 	i=0
 	for thr in threads: #where thr is a 3-tuple
 		if not thr in MeanRMS:
@@ -227,37 +239,40 @@ def plot_THREE_D(f,tree, optimalFile,devName):
 		
 		Hists[thr]= h 
 		
-		#print "(" + str(thr[0]) + "," + str(thr[1]) + "," + str(thr[2])+ ")" + "=" + str(h.GetMean())
-		x[i]= thr[0]
-		y[i]= thr[1]
-		z[i]= thr[2]
+		xThreads[i]= thr[0]
+		yThreads[i]= thr[1]
+		zThreads[i]= thr[2]
 		t[i]= h.GetMean()
 		if h.GetMean() < min:
 			min = h.GetMean()
 			minP = thr
-		ntuple.Fill(x[i],y[i],z[i],t[i]) #t(x,y,z)
+		ntuple.Fill(xThreads[i],yThreads[i],zThreads[i],t[i]) #t(x,y,z)
 		
 		i=i+1  
 	
 	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
-	minLabel = TPaveLabel(1, 3, 3, 3.5, minString)
+	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	
 	tree.GetEntry(0)
 	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+"\n")
 	
 	ntuple.SetMarkerStyle(20)
-	ntuple.Draw("z:y:x:t","","L&&colz",len(threads),0)
+	ntuple.Draw("xThreads:yThreads:zThreads:t","","L&&colz",len(threads),0)
+	
 	title = ""+tree.kernel[:-1]+devName+str(tree.MB)
+	titleLabel = TPaveLabel(.20,.93,.80,1,title,"NDC") #need to draw these labels over the false ntuple title
+	
 	minLabel.Draw()
+	
 	Canvases[f].SetPhi(260)
 	Canvases[f].SetTheta(20)
-	
+	Canvases[f].Update()
 	
 	pic = "./results/" + f[2:-4]
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	
-	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f])
+	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f],ntuple)
 
 #make ttree for each device/kernel.log
 
@@ -275,8 +290,8 @@ for f in FileNames:
 	tree.GetEntry(0);
 	optimalFile=open("optimal.csv","a")	
 	
-	slashLocation = f.rfind("/");
-	devName = f[2:slashLocation]
+	slashIndex = f.rfind("/");
+	devName = f[2:slashIndex]
 	
 	if tree.workDimension[0:3]=="ONE":
 		plot_ONE_D(f,tree, optimalFile,devName)
