@@ -172,10 +172,13 @@ void dpFluidSimulation::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1]= yLocal;
 	localSize[2]= 1;
 	
-	for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_double)/(float) 1048576 <= dataMB;i++){
-		dims[0] = pow(2,i);
-		dims[1] = pow(2,i);
-	}
+	//for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_double)/(float) 1048576 <= dataMB;i++){
+	//	dims[0] = pow(2,i);
+	//	dims[1] = pow(2,i);
+	//}
+	
+	dims[0] = (int)sqrt(1048576*dataMB/(sizeof(cl_double)));
+	dims[1] = dims[0];
 	
 	MB=dims[0]*dims[1]*sizeof(cl_double)/(float) 1048576;
 }

@@ -41,6 +41,10 @@ void dpMatrixMultiplication::setup(int dataMB, int xLocal, int yLocal, int zLoca
 		M = pow(2,i);
 	}
 	
+	N=(int)sqrt(1048576*dataMB/sizeof(float));
+	P=N;
+	M=N;
+	
 	//calculating total data as MB of matrix A only. MBof(B) <= MBof(A)
 	MB=(N*P*sizeof(float))/(float) 1048576;
 	

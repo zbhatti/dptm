@@ -85,9 +85,11 @@ void dpNBody::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1] = 1;
 	localSize[2] = 1;
 	
-	for (int i=0; pow(2,i)*sizeof(cl_float4)/(float) 1048576 <dataMB; i++){
-		numBodies=pow(2,i);
-	}
+	//for (int i=0; pow(2,i)*sizeof(cl_float4)/(float) 1048576 <dataMB; i++){
+	//	numBodies=pow(2,i);
+	//}
+	
+	numBodies = 1048576*dataMB/sizeof(cl_float4);
 	
 	MB = numBodies * sizeof(cl_float4)/(float) 1048576;
 	

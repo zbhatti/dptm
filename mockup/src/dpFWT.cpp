@@ -43,8 +43,10 @@ void dpFWT::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1]= 1;
 	localSize[2]= 1;
 	
-	for (int i = 0; pow(2,i)*sizeof(cl_float)/(float) 1048576 < dataMB; i++)
-		length = pow(2,i);
+	//for (int i = 0; pow(2,i)*sizeof(cl_float)/(float) 1048576 < dataMB; i++)
+	//	length = pow(2,i);
+	
+	length = dataMB*1048576/sizeof(cl_float);
 	
 	if(length < 512)
 		length = 512;

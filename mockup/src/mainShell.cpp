@@ -57,7 +57,7 @@ int main (int argc, const char* argv[]) {
 	}
 
 	client.runTasks();
-	client.printTimes();
-	//client.printFile();
+	//client.printTimes();
+	client.printFile();
 
 }

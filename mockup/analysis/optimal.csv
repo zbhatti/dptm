@@ -1,5 +1,7 @@
 kernel,device,x,y,z,mb,time
 LUDecomposition,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1,512,1,2.0,1395.85998535
+MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8,8,1,7.99829006195,177.598999023
+MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,32,32,1,127.972999573,23424.9003906
 NBody,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8,1,1,0.5,7982.39990234
 FWT,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,256,1,1,1.0,4.49399995804
 FWT,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,128,1,1,64.0,149.906997681
@@ -19,6 +21,7 @@ SquareArray,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,51
 Reduction,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2048,1,1,2.0,1.35699999332
 FloydWarshall,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,32,1,16.0,8706.62011719
 Reduction,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,1,1,8.0,3.11500000954
+MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4,4,1,1.99957001209,24.3770008087
 NBody,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8,1,1,1.0,31890.3007812
 SquareArray,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2048,1,1,0.5,0.495999991894
 SquareArray,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4096,1,1,64.0,15.3079996109
@@ -27,7 +30,7 @@ MatrixTranspose,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GH
 MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4096,1,1,64.0,88976.203125
 FWT,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1024,1,1,4.0,11.5670003891
 NBody,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8,1,1,4.0,510308.0
-MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,1,1,4.0,206.199005127
+MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4,1,1,4.0,206.199005127
 VectorAdd,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4096,1,1,4.0,3.90799999237
 SquareArray,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8192,1,1,1.0,0.740999996662
 VectorAdd,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,512,1,1,8.0,4.59000015259
@@ -60,6 +63,7 @@ MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2
 Array3dAverage,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,128,8,2,64.0,32.452999115
 Reduction,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,512,1,1,0.5,0.602999985218
 FluidSimulation,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,2,1,0.5,31.1520004272
+MatrixMultiplication,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8,4,1,31.9932003021,2502.19995117
 FluidSimulation,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2,2,1,32.0,1472.36999512
 VectorAdd,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4096,1,1,64.0,20.6480007172
 FloydWarshall,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4096,2,1,64.0,63174.5
@@ -68,10 +72,17 @@ FWT,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1024,1,1,1
 FWT,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,256,1,1,2.0,7.55700016022
 SquareArray,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4,1,1,16.0,6.48799991608
 SquareArray,Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1024,1,1,2.0,1.03199994564
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,36.0,6.21299982071
 LUDecomposition,NVIDIA CUDA - Tesla K20Xm,2,256,1,2.0,7507.72021484
+Reduction,NVIDIA CUDA - Tesla K20Xm,64,1,1,52.0,8.80000019073
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,100.0,16.3449993134
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,88.0,14.4139995575
+MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,8,8,1,7.99829006195,3226.85009766
+MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,32,32,1,127.972999573,207163.0
 NBody,NVIDIA CUDA - Tesla K20Xm,128,1,1,0.5,7823.35009766
 FWT,NVIDIA CUDA - Tesla K20Xm,128,1,1,1.0,17.2059993744
 FWT,NVIDIA CUDA - Tesla K20Xm,128,1,1,64.0,923.958984375
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,72.0,11.9490003586
 Reduction,NVIDIA CUDA - Tesla K20Xm,64,1,1,32.0,5.66599988937
 FluidSimulation,NVIDIA CUDA - Tesla K20Xm,64,1,1,8.0,832.37097168
 MonteCarloAsian,NVIDIA CUDA - Tesla K20Xm,4,32,1,8.0,4616.16015625
@@ -83,56 +94,80 @@ Convolution,NVIDIA CUDA - Tesla K20Xm,128,1,1,4.0,8801.21972656
 Array3dAverage,NVIDIA CUDA - Tesla K20Xm,64,2,1,8.0,44.25
 FWT,NVIDIA CUDA - Tesla K20Xm,256,1,1,0.5,4.75199985504
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,1024,1,1,1.0,1.48899996281
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,116.0,19.0090007782
 FloydWarshall,NVIDIA CUDA - Tesla K20Xm,128,1,1,1.0,617.322021484
 MonteCarloAsian,NVIDIA CUDA - Tesla K20Xm,2,64,1,32.0,18275.8007812
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,108.0,17.6650009155
 SquareArray,NVIDIA CUDA - Tesla K20Xm,128,1,1,4.0,4.35900020599
 Reduction,NVIDIA CUDA - Tesla K20Xm,64,1,1,2.0,0.684000015259
 FloydWarshall,NVIDIA CUDA - Tesla K20Xm,32,4,1,16.0,43603.3007812
-Reduction,NVIDIA CUDA - Tesla K20Xm,16,1,1,8.0,1.70799994469
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,24.0,4.257999897
+Reduction,NVIDIA CUDA - Tesla K20Xm,32,1,1,8.0,1.70799994469
+MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,4,4,1,1.99957001209,394.62600708
 NBody,NVIDIA CUDA - Tesla K20Xm,128,1,1,1.0,54603.6992188
 SquareArray,NVIDIA CUDA - Tesla K20Xm,256,1,1,0.5,0.913999974728
 SquareArray,NVIDIA CUDA - Tesla K20Xm,128,1,1,64.0,64.2239990234
 FloydWarshall,NVIDIA CUDA - Tesla K20Xm,32,4,1,4.0,5483.33007812
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,40.0,6.92199993134
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,80.0,13.1499996185
 MatrixTranspose,NVIDIA CUDA - Tesla K20Xm,32,16,1,4.0,4.58799982071
+Reduction,NVIDIA CUDA - Tesla K20Xm,64,1,1,28.0,4.85699987411
 MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,32,32,1,64.0,75224.296875
 FWT,NVIDIA CUDA - Tesla K20Xm,128,1,1,4.0,48.4869995117
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,84.0,13.8249998093
 NBody,NVIDIA CUDA - Tesla K20Xm,64,1,1,4.0,710405.0
 MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,64,2,1,4.0,1632.15002441
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,1024,1,1,4.0,4.48600006104
 SquareArray,NVIDIA CUDA - Tesla K20Xm,128,1,1,1.0,0.995000004768
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,20.0,3.56900000572
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,128,1,1,8.0,8.62399959564
 LUDecomposition,NVIDIA CUDA - Tesla K20Xm,512,1,1,0.5,7510.58007812
-Reduction,NVIDIA CUDA - Tesla K20Xm,256,1,1,16.0,2.97399997711
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,16.0,2.97399997711
 FluidSimulation,NVIDIA CUDA - Tesla K20Xm,128,1,1,2.0,149.576004028
-MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,32,8,1,1.0,101.741996765
+MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,64,2,1,1.0,101.741996765
 Convolution,NVIDIA CUDA - Tesla K20Xm,512,1,1,1.0,1274.39001465
 MonteCarloAsian,NVIDIA CUDA - Tesla K20Xm,2,64,1,2.0,1152.83996582
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,128,1,1,0.5,0.804000020027
 NBody,NVIDIA CUDA - Tesla K20Xm,128,1,1,2.0,147062.0
 FWT,NVIDIA CUDA - Tesla K20Xm,128,1,1,32.0,442.765991211
-Reduction,NVIDIA CUDA - Tesla K20Xm,32,1,1,4.0,0.995999991894
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,124.0,20.1700000763
+Reduction,NVIDIA CUDA - Tesla K20Xm,64,1,1,4.0,0.995999991894
 NBody,NVIDIA CUDA - Tesla K20Xm,128,1,1,8.0,2348650.0
 MatrixTranspose,NVIDIA CUDA - Tesla K20Xm,512,1,1,1.0,1.49399995804
 FluidSimulation,NVIDIA CUDA - Tesla K20Xm,128,1,1,128.0,9963.8203125
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,60.0,9.99199962616
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,512,1,1,32.0,33.0680007935
 Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,64.0,10.6180000305
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,76.0,12.5069999695
 SquareArray,NVIDIA CUDA - Tesla K20Xm,256,1,1,8.0,8.32600021362
 Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,1.0,0.409000009298
 Convolution,NVIDIA CUDA - Tesla K20Xm,1024,1,1,16.0,21355.6992188
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,92.0,15.1929998398
 LUDecomposition,NVIDIA CUDA - Tesla K20Xm,512,1,1,32.0,7505.58984375
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,128,1,1,2.0,2.53099989891
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,120.0,19.5599994659
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,104.0,16.9769992828
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,256,1,1,16.0,16.8229999542
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,44.0,7.4279999733
 LUDecomposition,NVIDIA CUDA - Tesla K20Xm,64,8,1,8.0,7508.41992188
 SquareArray,NVIDIA CUDA - Tesla K20Xm,256,1,1,32.0,32.2109985352
 FWT,NVIDIA CUDA - Tesla K20Xm,128,1,1,8.0,101.462997437
 MatrixTranspose,NVIDIA CUDA - Tesla K20Xm,32,4,1,64.0,67.5210037231
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,96.0,15.8380002975
 LUDecomposition,NVIDIA CUDA - Tesla K20Xm,1,1024,1,128.0,59526.6015625
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,68.0,11.2609996796
 MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,32,32,1,16.0,9104.75976562
 Array3dAverage,NVIDIA CUDA - Tesla K20Xm,64,2,1,64.0,206.279998779
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,56.0,9.36699962616
 Reduction,NVIDIA CUDA - Tesla K20Xm,64,1,1,0.5,0.20000000298
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,128.0,20.8220005035
 FluidSimulation,NVIDIA CUDA - Tesla K20Xm,64,1,1,0.5,40.8950004578
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,48.0,8.10499954224
+MatrixMultiplication,NVIDIA CUDA - Tesla K20Xm,16,16,1,31.9932003021,25921.0996094
 MonteCarloAsian,NVIDIA CUDA - Tesla K20Xm,32,4,1,128.0,73289.1015625
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,12.0,2.25300002098
 FluidSimulation,NVIDIA CUDA - Tesla K20Xm,128,1,1,32.0,2479.25
+Reduction,NVIDIA CUDA - Tesla K20Xm,128,1,1,112.0,18.2339992523
 VectorAdd,NVIDIA CUDA - Tesla K20Xm,512,1,1,64.0,65.7949981689
 FloydWarshall,NVIDIA CUDA - Tesla K20Xm,32,4,1,64.0,348578.0
 Convolution,NVIDIA CUDA - Tesla K20Xm,1024,1,1,64.0,86245.703125
@@ -141,6 +176,8 @@ FWT,NVIDIA CUDA - Tesla K20Xm,256,1,1,2.0,23.232000351
 SquareArray,NVIDIA CUDA - Tesla K20Xm,128,1,1,16.0,16.2339992523
 SquareArray,NVIDIA CUDA - Tesla K20Xm,512,1,1,2.0,2.36100006104
 LUDecomposition,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1,512,1,2.0,7784.54003906
+MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8,2,1,7.99829006195,505.924987793
+MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,16,32,1,127.972999573,95876.703125
 NBody,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2,1,1,0.5,1603.92004395
 FWT,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,512,1,1,1.0,43.4980010986
 FWT,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1024,1,1,64.0,2111.70996094
@@ -160,6 +197,7 @@ SquareArray,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v
 Reduction,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,128,1,1,2.0,12.484000206
 FloydWarshall,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,8,1,16.0,80091.6015625
 Reduction,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,1,1,8.0,27.6420001984
+MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4,1,1,1.99957001209,118.018997192
 NBody,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4,1,1,1.0,6179.66992188
 SquareArray,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,512,1,1,0.5,3.71499991417
 SquareArray,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,256,1,1,64.0,179.73500061
@@ -168,7 +206,7 @@ MatrixTranspose,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-26
 MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1,1,1,64.0,34436.6015625
 FWT,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,1,1,4.0,142.089004517
 NBody,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2,1,1,4.0,97382.703125
-MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4,2,1,4.0,124.581001282
+MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,16,1,1,4.0,124.581001282
 VectorAdd,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,512,1,1,4.0,19.438999176
 SquareArray,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,256,1,1,1.0,6.20599985123
 VectorAdd,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1024,1,1,8.0,30.9729995728
@@ -201,6 +239,7 @@ MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU 
 Array3dAverage,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,128,2,4,64.0,204.06199646
 Reduction,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,1,1,0.5,0.479999989271
 FluidSimulation,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64,4,1,0.5,47.6119995117
+MatrixMultiplication,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4,4,1,31.9932003021,10336.2998047
 MonteCarloAsian,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,128,1,1,128.0,12224.2001953
 FluidSimulation,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,128,8,1,32.0,1800.14001465
 VectorAdd,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,256,1,1,64.0,185.753005981
@@ -211,6 +250,8 @@ FWT,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40
 SquareArray,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1024,1,1,16.0,48.4319992065
 SquareArray,AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1024,1,1,2.0,11.1289997101
 LUDecomposition,AMD Accelerated Parallel Processing - Hawaii,2,16,1,2.0,3614.80004883
+MatrixMultiplication,AMD Accelerated Parallel Processing - Hawaii,8,16,1,7.99829006195,972.085998535
+MatrixMultiplication,AMD Accelerated Parallel Processing - Hawaii,16,16,1,127.972999573,69239.5
 NBody,AMD Accelerated Parallel Processing - Hawaii,256,1,1,0.5,3352.0
 FWT,AMD Accelerated Parallel Processing - Hawaii,128,1,1,1.0,12.7779998779
 FWT,AMD Accelerated Parallel Processing - Hawaii,128,1,1,64.0,877.17199707
@@ -230,6 +271,7 @@ SquareArray,AMD Accelerated Parallel Processing - Hawaii,256,1,1,4.0,5.480000019
 Reduction,AMD Accelerated Parallel Processing - Hawaii,256,1,1,2.0,2.12599992752
 FloydWarshall,AMD Accelerated Parallel Processing - Hawaii,256,1,1,16.0,38123.1015625
 Reduction,AMD Accelerated Parallel Processing - Hawaii,4,1,1,8.0,6.15100002289
+MatrixMultiplication,AMD Accelerated Parallel Processing - Hawaii,16,8,1,1.99957001209,123.595001221
 NBody,AMD Accelerated Parallel Processing - Hawaii,64,1,1,1.0,13410.0
 SquareArray,AMD Accelerated Parallel Processing - Hawaii,128,1,1,0.5,1.82099997997
 SquareArray,AMD Accelerated Parallel Processing - Hawaii,128,1,1,64.0,75.3619995117
@@ -271,6 +313,7 @@ MatrixMultiplication,AMD Accelerated Parallel Processing - Hawaii,16,16,1,16.0,2
 Array3dAverage,AMD Accelerated Parallel Processing - Hawaii,128,2,1,64.0,75.2610015869
 Reduction,AMD Accelerated Parallel Processing - Hawaii,256,1,1,0.5,17.2520008087
 FluidSimulation,AMD Accelerated Parallel Processing - Hawaii,128,2,1,0.5,37.8269996643
+MatrixMultiplication,AMD Accelerated Parallel Processing - Hawaii,8,16,1,31.9932003021,8687.79980469
 MonteCarloAsian,AMD Accelerated Parallel Processing - Hawaii,4,64,1,128.0,29328.1992188
 FluidSimulation,AMD Accelerated Parallel Processing - Hawaii,2,2,1,32.0,2136.42993164
 VectorAdd,AMD Accelerated Parallel Processing - Hawaii,128,1,1,64.0,75.3280029297
@@ -281,6 +324,8 @@ FWT,AMD Accelerated Parallel Processing - Hawaii,128,1,1,2.0,23.4780006409
 SquareArray,AMD Accelerated Parallel Processing - Hawaii,128,1,1,16.0,18.8770008087
 SquareArray,AMD Accelerated Parallel Processing - Hawaii,128,1,1,2.0,3.92600011826
 LUDecomposition,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,256,2,1,2.0,5014.52978516
+MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8,8,1,7.99829006195,525.505004883
+MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,16,4,1,127.972999573,279960.0
 NBody,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,16,1,1,0.5,5104.41992188
 FWT,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4096,1,1,1.0,13.5380001068
 FWT,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,2048,1,1,64.0,647.640991211
@@ -300,15 +345,16 @@ SquareArray,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,81
 Reduction,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1024,1,1,2.0,4.33300018311
 FloydWarshall,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,2048,2,1,16.0,28254.0996094
 Reduction,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,2048,1,1,8.0,7.48000001907
+MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1,4,1,1.99957001209,61.7220001221
 NBody,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,16,1,1,1.0,20406.1992188
 SquareArray,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8192,1,1,0.5,3.35199999809
 SquareArray,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8,1,1,64.0,75.9670028687
 FloydWarshall,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1024,1,1,4.0,4264.79003906
 MatrixTranspose,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,256,32,1,4.0,15.6199998856
-MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,2048,1,1,64.0,95573.296875
+MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,512,1,1,64.0,95573.296875
 FWT,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4096,1,1,4.0,45.938999176
 NBody,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,16,1,1,4.0,326066.0
-MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,16,1,1,4.0,1324.13000488
+MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,32,1,1,4.0,1324.13000488
 VectorAdd,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8192,1,1,4.0,10.1610002518
 SquareArray,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8192,1,1,1.0,4.1939997673
 VectorAdd,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,32,1,1,8.0,14.3020000458
@@ -341,6 +387,7 @@ MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleratio
 Array3dAverage,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,256,1,8,64.0,161.007995605
 Reduction,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1024,1,1,0.5,4.88000011444
 FluidSimulation,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,16,1,1,0.5,35.0279998779
+MatrixMultiplication,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,16,16,1,31.9932003021,14942.5996094
 FluidSimulation,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,64,8,1,32.0,2387.35009766
 VectorAdd,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,128,1,1,64.0,80.0559997559
 FloydWarshall,Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4096,1,1,64.0,217550.0

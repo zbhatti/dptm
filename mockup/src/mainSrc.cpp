@@ -14,8 +14,8 @@ int main (int argc, const char* argv[]) {
 	
 	//take task scan argument:
 	for (int r=0;r<1;r++){
-		for (int j=5;pow(2,j)<=512;j++){
-			for (int i=3;i<5;i++){
+		for (int j=0;pow(2,j)<=128;j++){
+			for (int i=0;i<5;i++){
 				fprintf(stderr, "Client:%d\n",i);
 				
 				/*
@@ -55,20 +55,19 @@ int main (int argc, const char* argv[]) {
 				//cliList[i]->addMBScan("LUDecomposition",8,8,8);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
-				
-				
+				*/
 				fprintf(stderr,"MatrixMultiplication\n");
 				cliList[i]->addWGScan("MatrixMultiplication",pow(2,j));
 				//cliList[i]->addMBScan("MatrixMultiplication",8,8,8);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
-				
+				/*
 				fprintf(stderr,"MatrixTranspose\n");
 				cliList[i]->addWGScan("MatrixTranspose",pow(2,j));
 				//cliList[i]->addMBScan("MatrixTranspose",8,8,8);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
-				*/
+				
 				
 				fprintf(stderr,"MonteCarloAsian\n");
 				cliList[i]->addWGScan("MonteCarloAsian",pow(2,j));
@@ -76,7 +75,7 @@ int main (int argc, const char* argv[]) {
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				
-				/*
+				
 				fprintf(stderr,"NBody\n");
 				cliList[i]->addWGScan("NBody",pow(2,j));
 				//cliList[i]->addMBScan("NBody",8,8,8);

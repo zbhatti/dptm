@@ -48,10 +48,13 @@ void dpMatrixTranspose::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1] = yLocal;
 	localSize[2] = 1;
 
-	for (int i =0; pow(2,i)*pow(2,i)*sizeof(float)/(float) 1048576 <= dataMB;i++){
-		size_x = pow(2,i);
-		size_y = pow(2,i);
-	}
+	//for (int i =0; pow(2,i)*pow(2,i)*sizeof(float)/(float) 1048576 <= dataMB;i++){
+	//	size_x = pow(2,i);
+	//	size_y = pow(2,i);
+	//}
+	
+	size_x=(int)sqrt(dataMB*1048576/sizeof(float));
+	size_y=size_x;
 	
 	MB = size_x*size_y*sizeof(float)/(float) 1048576;
 }

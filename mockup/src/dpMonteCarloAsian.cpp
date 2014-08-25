@@ -412,14 +412,15 @@ void dpMonteCarloAsian::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1] = yLocal;
 	localSize[2] = 1;
 	
-	// Set samples and exercise points
+	//for (int i =0; (pow(2,i)*pow(2,i)/8)*sizeof(float)/(float) 1048576 <= dataMB;i++){
+	//	
+	//	noOfTraj = pow(2,i);
+	//}
 	
-	noOfTraj = 8; //MB = noOfTraj^2 /8 *sizeof(cl_float4);
+	noOfTraj = (int) sqrt(dataMB*1048576*8/sizeof(cl_float4));
 	
-	for (int i =0; (pow(2,i)*pow(2,i)/8)*sizeof(float)/(float) 1048576 <= dataMB;i++){
-		
-		noOfTraj = pow(2,i);
-	}
+	if (noOfTraj%4 != 0)
+		noOfTraj = noOfTraj - noOfTraj%4 + 4;
 	
 	width = noOfTraj / 4;
 	height = noOfTraj / 2;
@@ -430,6 +431,8 @@ void dpMonteCarloAsian::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 		height = 256;
 		
 	}
+	
+	//MB = noOfTraj^2 /8 *sizeof(cl_float4);
 	MB=(width*height*sizeof(cl_float4))/(float) 1048576;
 	
 }

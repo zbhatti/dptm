@@ -67,10 +67,13 @@ void dpConvolution::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1] = 1;
 	localSize[2] = 1;
 	
-	for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_uint)/(float) 1048576 <= dataMB;i++){
-		width = pow(2,i);
-		height = pow(2,i);
-	}
+	//for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_uint)/(float) 1048576 <= dataMB;i++){
+		//width = pow(2,i);
+		//height = pow(2,i);
+	//}
+	
+	width = (int) sqrt(1048576*dataMB/(sizeof(cl_uint)) );
+	height = width;
 	
 	//for mask to not run out of bounds:
 	if(width * height < 256){

@@ -48,9 +48,12 @@ void dpFloydWarshall::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1] = yLocal;
 	localSize[2] = 1;
 	
-	for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_uint)/(float) 1048576 <= dataMB;i++){
-		numNodes = pow(2,i);
-	}
+	//for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_uint)/(float) 1048576 <= dataMB;i++){
+	//	numNodes = pow(2,i);
+	//}
+	
+	numNodes = (int) sqrt(dataMB*1048576 / sizeof(cl_uint));
+	
 	
 	MB = numNodes*numNodes*sizeof(cl_uint)/(float) 1048576;
 }
