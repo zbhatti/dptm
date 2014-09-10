@@ -94,6 +94,10 @@ int main() {
 						//print maximum work item size CL_DEVICE_MAX_WORK_ITEM_SIZES
 						clGetDeviceInfo(devices[j], CL_DEVICE_MAX_WORK_ITEM_SIZES , sizeof(workItemSizes), &workItemSizes, NULL);
             printf(" %d.%d Max items per dimension per group: \(%d,%d,%d)\n", j+1, 11, workItemSizes[0],workItemSizes[1],workItemSizes[2]);
+						
+						//print maximum work item size CL_DEVICE_MAX_WORK_ITEM_SIZES
+						clGetDeviceInfo(devices[j], CL_DEVICE_ADDRESS_BITS , sizeof(uintTmp), &uintTmp, NULL);
+            printf(" %d.%d Default address compute space size: \%d bytes\n", j+1, 12, uintTmp);
 						printf("\n");
         }
 

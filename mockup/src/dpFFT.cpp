@@ -19,7 +19,7 @@ void dpFFT::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	for (int i = 0; pow(2,i) *2 *sizeof(float)/(float) 1048576 <= dataMB; i++)
 		Asize = pow(2,i);
 	
-	MB = Asize*2*sizeof(float)/(float) 1048576;
+	MB = Asize*2*sizeof(float)/1048576;
 }
 
 void dpFFT::init(){

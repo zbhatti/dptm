@@ -59,7 +59,7 @@ void dpVectorAdd::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	
 	iNumElements = dataMB*1048576/sizeof(cl_float);
 	
-	MB= iNumElements*sizeof(cl_float)/(float) 1048576;
+	MB= iNumElements*sizeof(cl_float)/1048576;
 }
 
 void dpVectorAdd::init(){

@@ -34,7 +34,7 @@ void dpSquareArray::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	//	Asize = pow(2,i);
 	
 	Asize = 1048576*dataMB/sizeof(float);
-	MB = Asize * sizeof(float) / (float) 1048576;
+	MB = Asize * sizeof(float) / 1048576;
 	
 }
 

@@ -15,7 +15,7 @@ float timeDiff(struct timeval start, struct timeval finish){
 }
 
 void initMat(int Mdim, int Ndim, int Pdim, float* A, float* B, float* C){
-	int i, j, k;
+	int i, j;
 	//Generate A:
 	for (i=0; i< Ndim; i++){//rows in A
 		for (j=0; j<Pdim; j++){//cols in A
@@ -68,7 +68,6 @@ int main(int argc, char **argv) {
 	cl_command_queue commands; 
 	cl_program program; 
 	cl_kernel kernel; 
-	cl_uint nd; 
 	cl_mem a_in, b_in, c_out; 
 	Ndim = 9; //leads to each matrix being ~67MB 4096
 	Pdim = 8; 

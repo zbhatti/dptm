@@ -81,7 +81,7 @@ void dpConvolution::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 			height = 64;
 	}
 	
-	MB = width*height*sizeof(cl_uint)/(float) 1048576;
+	MB = width*height*sizeof(cl_uint)/1048576;
 }
 
 void dpConvolution::init(){

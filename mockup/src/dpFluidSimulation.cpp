@@ -11,7 +11,7 @@ Copyright ©2013 Advanced Micro Devices, Inc. All rights reserved.
 dpFluidSimulation::dpFluidSimulation(cl_context ctx, cl_command_queue q){
 	context = ctx;
 	queue = q;
-	workDimension = TWO_D;
+	workDimension = ONE_D;
 	
 	name = "FluidSimulation";
 	kernelString = "\n"
@@ -168,19 +168,22 @@ const double omega = 1.2f;
 
 void dpFluidSimulation::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 
-	localSize[0]= xLocal;
-	localSize[1]= yLocal;
-	localSize[2]= 1;
+	localSize[0]=xLocal;
+	localSize[1]=1;
+	localSize[2]=1;
 	
-	//for (int i =0; pow(2,i)*pow(2,i)*sizeof(cl_double)/(float) 1048576 <= dataMB;i++){
-	//	dims[0] = pow(2,i);
-	//	dims[1] = pow(2,i);
-	//}
 	
-	dims[0] = (int)sqrt(1048576*dataMB/(sizeof(cl_double)));
-	dims[1] = dims[0];
 	
-	MB=dims[0]*dims[1]*sizeof(cl_double)/(float) 1048576;
+	dims[0] = (int)( sqrt( 1048576*dataMB / (float)( sizeof(cl_double) ) ) + 0.5);
+	
+	//if (dims[0] % localSize[0] != 0) //globalSize must be divisible by localSize
+		//dims[0] = dims[0] - dims[0]%localSize[0] + localSize[0];
+		 
+	dims[1]=dims[0];
+	MB=dims[0]*dims[1]*sizeof(cl_double)/1048576;
+	dataParameters.push_back(MB);
+	MB=dataMB;
+	
 }
 
 
@@ -190,9 +193,11 @@ void dpFluidSimulation::init(){
 	dataParameters.push_back(dims[0]);
 	dataParameters.push_back(dims[1]);
 	dataParameters.push_back(iterations);
+	dataNames.push_back("actualMB");
 	dataNames.push_back("width");
 	dataNames.push_back("height");
 	dataNames.push_back("nSteps");
+	
 	
 	//INIT:
 	size_t temp = dims[0] * dims[1];
@@ -245,7 +250,7 @@ void dpFluidSimulation::plan(){
 	
 	//PLAN:
 	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), &d_if0));
-	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), &d_of0));
+	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), &d_of0)); 
 	clErrChk(clSetKernelArg(kernel, 2, sizeof(cl_mem), &d_if1234));
 	clErrChk(clSetKernelArg(kernel, 3, sizeof(cl_mem), &d_of1234));
 	clErrChk(clSetKernelArg(kernel, 4, sizeof(cl_mem), &d_if5678));

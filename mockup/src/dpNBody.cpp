@@ -91,14 +91,14 @@ void dpNBody::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	
 	numBodies = 1048576*dataMB/sizeof(cl_float4);
 	
-	MB = numBodies * sizeof(cl_float4)/(float) 1048576;
+	MB = numBodies * sizeof(cl_float4)/1048576;
 	
 }
 
 void dpNBody::init(){
 	delT=0.005f;
 	espSqr=500.0f;
-	nSteps = 5;
+	nSteps = 1;
 	
 	dataParameters.push_back(numBodies);
 	dataParameters.push_back(delT);

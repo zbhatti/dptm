@@ -55,7 +55,7 @@ void dpFloydWarshall::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	numNodes = (int) sqrt(dataMB*1048576 / sizeof(cl_uint));
 	
 	
-	MB = numNodes*numNodes*sizeof(cl_uint)/(float) 1048576;
+	MB = numNodes*numNodes*sizeof(cl_uint)/1048576;
 }
 
 void dpFloydWarshall::init(){

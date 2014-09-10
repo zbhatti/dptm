@@ -1,5 +1,6 @@
 CFLAGS=-c -Wall -g
-includedir=-I/opt/clFFT/src/package/include -I./include -I/opt/intel/include
+includedir=-I/opt/clFFT/src/package/include -I./include -I/opt/AMDAPP/include
+#includedir=-I/opt/clFFT/src/package/include -I./include -I/usr/local/cuda/include
 libdir=-L/opt/clFFT/src/package/lib64
 LDFLAGS=-lclFFT -lOpenCL
 SRCLIST= \

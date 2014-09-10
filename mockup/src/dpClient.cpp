@@ -2,6 +2,31 @@
 #include "errorCheck.hpp"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
+//hardcoding device names and platforms for easier readability specific to AFSuper
+void nameFixer(int platform, int device, char*plat, char*dev){
+	if (platform == 0){
+		strcpy(plat, "NvidiaRuntime");
+		if (device == 0)
+			strcpy(dev, "Tesla K20Xm");
+	}
+	
+	if (platform == 1){
+		strcpy(plat, "AmdRuntime");
+		if (device == 0)
+			strcpy(dev, "AMD Firepro W9100");
+		if (device == 1)
+			strcpy(dev, "Intel Xeon CPU E5-2695 v2 @ 2.40GHz");
+	}
+	
+	if (platform == 2){
+		strcpy(plat, "IntelRuntime");
+		if (device == 0)
+			strcpy(dev, "Intel Xeon CPU E5-2695 v2 @ 2.40GHz");
+		if (device == 1)
+			strcpy(dev, "Intel Xeon Phi coprocessor x100 family");
+	}
+}
+
 //set up context and queue on a device and retrieve 
 //device information for other methods
 dpClient::dpClient(int platform, int device){
@@ -10,14 +35,18 @@ dpClient::dpClient(int platform, int device){
 	cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
 	clErrChk(clGetPlatformIDs(16, platform_ids, NULL));
 	clErrChk(clGetDeviceIDs(platform_ids[platform], CL_DEVICE_TYPE_ALL, 16, device_ids, &numDevices));
-	clErrChk(clGetPlatformInfo(platform_ids[platform], CL_PLATFORM_NAME, sizeof(platName), platName, NULL));
-	fprintf(stderr,"On Platform %s\n", platName);
-	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(devName), devName, NULL));
+	//clErrChk(clGetPlatformInfo(platform_ids[platform], CL_PLATFORM_NAME, sizeof(platName), platName, NULL));
+	
+	
+	//clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(devName), devName, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_ITEM_SIZES, sizeof(MaxWorkDim), &MaxWorkDim, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_MEM_ALLOC_SIZE , sizeof(MaxMemAlloc), &MaxMemAlloc, NULL));
+	nameFixer(platform, device, platName, devName);
+	fprintf(stderr,"On Platform %s\n", platName);
 	fprintf(stderr,"using device %s\n", devName);
+	
 	props[1] = (cl_context_properties) platform_ids[platform];
 	context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err); clErrChk(err);
 	queue = clCreateCommandQueue( context, device_ids[device], 0, &err); clErrChk(err);

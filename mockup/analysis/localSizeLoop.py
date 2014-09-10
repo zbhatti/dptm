@@ -61,6 +61,7 @@ def plot_ONE_D(f,tree, optimalFile,devName):
 		
 		histname="execute"+str(thr)
 		h=TH1F(histname, histname, len(threads), Bounds[thr][0]*.9, Bounds[thr][1]*1.1)
+		#CHECK IF preferred is there in tree.dir: and compare requested and actual within
 		tree.Draw("execute>>"+histname, "xLocal==" + str(thr))
 		MeanRMS[thr][0]=h.GetMean()
 		MeanRMS[thr][1]=h.GetRMS()
@@ -81,16 +82,16 @@ def plot_ONE_D(f,tree, optimalFile,devName):
 	
 	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph(len(threads), x, t)
+	
 	title=""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
-	
 	plot.SetMarkerStyle(20)
 	plot.Draw("AL")
 	minLabel.Draw()
 	plot.GetXaxis().SetTitle("xThreads")
 	plot.GetYaxis().SetTitle("time (ms)")
-	Canvases[f].SetLogx(1)
 	
+	Canvases[f].SetLogx(1)
 	Canvases[f].Update()
 	pic = "./results/" + f[2:-4]
 	Canvases[f].Print(pic+".png")
@@ -156,16 +157,14 @@ def plot_TWO_D(f,tree, optimalFile,devName):
 	
 	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
 	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
-	#print xThreads,yThreads,zThreads,MB,\n
+	
 	tree.GetEntry(0)
 	
 	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph2D("empty","empty", len(threads), x, y, t)
 	title = ""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
-	#add color legend
 	plot.SetMarkerStyle(20)
-	
 	plot.Draw("P0&&TRI2T&&colz")
 	minLabel.Draw()
 	
@@ -185,8 +184,6 @@ def plot_TWO_D(f,tree, optimalFile,devName):
 	Canvases[f].Update()
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
-	
-	
 	
 
 def plot_THREE_D(f,tree, optimalFile,devName):
@@ -272,7 +269,7 @@ def plot_THREE_D(f,tree, optimalFile,devName):
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	
-	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f],ntuple)
+	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], ntuple)
 
 #make ttree for each device/kernel.log
 
@@ -282,10 +279,11 @@ newFile.close() #used to clear the preexisting file
 
 
 for f in FileNames:
+	print "Working on " + f
 	data[f]=()
 	tree=TTree()
 	tree.ReadFile(f,"",',')
-	print "Working on " + f
+	
 	
 	tree.GetEntry(0);
 	optimalFile=open("optimal.csv","a")	
@@ -303,3 +301,8 @@ for f in FileNames:
 		continue
 	
 	#save minimum information
+
+#read optimal for execution_device(kernelMB)
+#graph each kernel's performance at optimal levels dependent on MB on a canvas grouped with other devices
+optimalTree=TTree()
+tree.ReadFile("./optimal.csv")

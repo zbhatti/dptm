@@ -56,7 +56,7 @@ void dpMatrixTranspose::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	size_x=(int)sqrt(dataMB*1048576/sizeof(float));
 	size_y=size_x;
 	
-	MB = size_x*size_y*sizeof(float)/(float) 1048576;
+	MB = size_x*size_y*sizeof(float)/1048576;
 }
 
 void dpMatrixTranspose::init(){
@@ -84,23 +84,23 @@ void dpMatrixTranspose::memoryCopyOut(){
 }
 
 void dpMatrixTranspose::plan(){
-		size_t offset = 0;
-		clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *) &d_odata)); //need to double check the pointers
-		clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void *) &d_idata));
-		clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &offset));
-		clErrChk(clSetKernelArg(kernel, 3, sizeof(int), &size_x));
-		clErrChk(clSetKernelArg(kernel, 4, sizeof(int), &size_y));
-    globalSize[0] = size_x;
-    globalSize[1] = size_y;
+	size_t offset = 0;
+	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *) &d_odata)); //need to double check the pointers
+	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void *) &d_idata));
+	clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &offset));
+	clErrChk(clSetKernelArg(kernel, 3, sizeof(int), &size_x));
+	clErrChk(clSetKernelArg(kernel, 4, sizeof(int), &size_y));
+	globalSize[0] = size_x;
+	globalSize[1] = size_y;
 }
 
 int dpMatrixTranspose::execute(){
-		err = clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL);
-		clErrChk(err);
-		if(err<0)
-			return -1;
-		clFinish(queue);
-		return 0;
+	err = clEnqueueNDRangeKernel(queue, kernel, 2, NULL, globalSize, localSize, 0, NULL, NULL);
+	clErrChk(err); 
+	if(err<0)
+		return -1;
+	clFinish(queue);
+	return 0;
 }
 
 void dpMatrixTranspose::memoryCopyIn(){

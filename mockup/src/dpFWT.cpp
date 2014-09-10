@@ -31,9 +31,14 @@ dpFWT::dpFWT(cl_context ctx, cl_command_queue q){
 	"        tArray[match]            = T1 - T2;                          \n"
 	"}                                                                    \n";
 	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); 
+	clErrChk(err);
+	
 	clErrChk(clBuildProgram(program, 0, NULL, NULL, NULL, NULL));
-	kernel = clCreateKernel(program, "fastWalshTransform", &err); clErrChk(err);	
+	programCheck(err, context, program);
+	
+	kernel = clCreateKernel(program, "fastWalshTransform", &err); 
+	clErrChk(err);	
 	
 }
 
@@ -43,15 +48,16 @@ void dpFWT::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1]= 1;
 	localSize[2]= 1;
 	
-	//for (int i = 0; pow(2,i)*sizeof(cl_float)/(float) 1048576 < dataMB; i++)
-	//	length = pow(2,i);
+	for (int i = 0; pow(2,i)*sizeof(cl_float)/(float) 1048576 < dataMB; i++)
+		length = pow(2,i);
 	
-	length = dataMB*1048576/sizeof(cl_float);
+	//length = dataMB*1048576/sizeof(cl_float);
 	
 	if(length < 512)
 		length = 512;
 	
-	MB = length*sizeof(cl_float)/(float) 1048576;
+	//fprintf(stderr,"length: %d\n", length);
+	MB = length*sizeof(cl_float)/1048576;
 	
 }
 
@@ -68,14 +74,15 @@ void dpFWT::init(){
 }
 
 void dpFWT::memoryCopyOut(){
-	inputBuffer = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_float) * length,0,&err); clErrChk(err);
+	inputBuffer = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_float) * length,0,&err); 
+	clErrChk(err);
 	
 	// Enqueue write input to inputBuffer
-	clErrChk(clEnqueueWriteBuffer(queue,inputBuffer,CL_FALSE,0,length * sizeof(cl_float),input,0,NULL,NULL));
+	clErrChk(clEnqueueWriteBuffer(queue,inputBuffer,CL_TRUE,0,length * sizeof(cl_float),input,0,NULL,NULL));
 	clErrChk(clFinish(queue));
 }
 
-void dpFWT::plan(){
+void dpFWT::plan(){ 
 	
 	/*
 	* The kernel performs a butterfly operation and it runs for half the
@@ -85,24 +92,31 @@ void dpFWT::plan(){
 	* is stored in the same locations as the numbers
 	*/
 	globalSize[0] = length / 2;
+	//fprintf(stderr, "%d,%d\n", globalSize[0],localSize[0]);
 	clErrChk(clSetKernelArg(kernel,0,sizeof(cl_mem),(void *)&inputBuffer));
 }
 
 int dpFWT::execute(){
-	for(cl_int step = 1; step < length; step <<= 1){
+	int flag=0;
+	int step;
+	for(step = 1; step < length; step <<= 1){
+		//printf("step: %d\n",step);
 		// stage of the algorithm
-		clErrChk(clSetKernelArg(kernel,1,sizeof(cl_int),(void *)&step));
+		clErrChk(clSetKernelArg(kernel,1,sizeof(int),(void *)&step));
 		err = clEnqueueNDRangeKernel(queue,kernel,1,NULL,globalSize,localSize,0,NULL,NULL);
 		clErrChk(err);
 		if(err<0)
-			return -1;
+			flag = -1;
 	}
+	
+	if (flag == -1)
+		return -1;
 	clErrChk(clFinish(queue));
 	return 0;
 }
 
 void dpFWT::memoryCopyIn(){
-	clErrChk(clEnqueueReadBuffer(queue,inputBuffer,CL_FALSE,0,length * sizeof(cl_float),output,0,NULL,NULL));
+	clErrChk(clEnqueueReadBuffer(queue,inputBuffer,CL_TRUE,0,length * sizeof(cl_float),output,0,NULL,NULL));
 	clErrChk(clFinish(queue));
 }
 

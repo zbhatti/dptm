@@ -6,6 +6,7 @@
 #include <sys/time.h>
 #include <new>
 #include <math.h>
+#include <algorithm>
 #include <string>
 #include <vector>
 #ifdef __APPLE__

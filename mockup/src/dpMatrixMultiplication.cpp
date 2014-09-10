@@ -46,7 +46,7 @@ void dpMatrixMultiplication::setup(int dataMB, int xLocal, int yLocal, int zLoca
 	M=N;
 	
 	//calculating total data as MB of matrix A only. MBof(B) <= MBof(A)
-	MB=(N*P*sizeof(float))/(float) 1048576;
+	MB=(N*P*sizeof(float))/1048576;
 	
 }
 
@@ -92,7 +92,8 @@ void dpMatrixMultiplication::plan(){
 	clErrChk(clSetKernelArg(kernel, 3, sizeof(cl_mem), &a_in)); 
 	clErrChk(clSetKernelArg(kernel, 4, sizeof(cl_mem), &b_in)); 
 	clErrChk(clSetKernelArg(kernel, 5, sizeof(cl_mem), &c_out));
-	globalSize[0] = (size_t) M; globalSize[1] = (size_t) N;
+	globalSize[0] = (size_t) M; 
+	globalSize[1] = (size_t) N;
 }
 
 int dpMatrixMultiplication::execute(){

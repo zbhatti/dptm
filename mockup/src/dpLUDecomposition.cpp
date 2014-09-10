@@ -136,7 +136,7 @@ void dpLUDecomposition::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	if(effectiveDimension % VECTOR_SIZE != 0)
 		effectiveDimension = effectiveDimension -(effectiveDimension % VECTOR_SIZE)+ VECTOR_SIZE;
 
-	MB=effectiveDimension*effectiveDimension*sizeof(double)/(float) 1048576;
+	MB=(int) (effectiveDimension*effectiveDimension*sizeof(double)/1048576 + 0.5);
 }
 
 void dpLUDecomposition::init(){

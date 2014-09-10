@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,length/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,1,1,1,28,200.557,29.463,0.011,13.903,25.118,1.88
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,2,1,1,28,183.792,26.257,0.005,7.576,10.129,2.638
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,4,1,1,28,190.592,27.193,0.011,7.152,7.347,2.272
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,8,1,1,28,193.021,24.932,0.008,5.908,3.549,2.067
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,16,1,1,28,146.477,22.863,0.008,5.325,1.098,2.003
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,32,1,1,28,147.743,23.563,0.012,5.049,1.15,2.449
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,64,1,1,28,148.075,23.233,0.008,5.601,0.699,2.296
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,128,1,1,28,147.513,22.235,0.012,6.518,0.517,2.407
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,256,1,1,28,148.103,21.923,0.008,9.164,0.141,1.846
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,512,1,1,28,147.238,22.809,0.009,5.243,0.178,2.2
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,1024,1,1,28,142.219,22.688,0.009,6.802,0.225,2.723
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,2048,1,1,28,153.747,23.247,0.009,12.685,0.317,2.788
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,4096,1,1,28,150.616,23.751,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.83501e+06,8192,1,1,28,151.383,20.375,0.009,-1,-1,-1

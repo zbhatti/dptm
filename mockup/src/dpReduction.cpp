@@ -66,9 +66,6 @@ void dpReduction::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[0] = xLocal;
 	localSize[1] = 1;
 	localSize[2] = 1;
-	
-	//for(int i=0; pow(2,i)*sizeof(cl_uint)*VECTOR_SIZE/(float) 1048576<dataMB;i++)
-		//length = pow(2,i);
 		
 	length = 1048576*dataMB/(sizeof(cl_uint)*VECTOR_SIZE);
 	
@@ -76,11 +73,10 @@ void dpReduction::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 		length = length - length%(localSize[0]*VECTOR_SIZE) + localSize[0]*VECTOR_SIZE;
 	}
 	
-	MB =  sizeof(cl_uint)*length*VECTOR_SIZE / (float) 1048576;
+	MB =  sizeof(cl_uint)*length*VECTOR_SIZE / 1048576;
 }
 
 void dpReduction::init(){
-
 	
 	input = (cl_uint*)memalign(16, length * sizeof(cl_uint4));
 

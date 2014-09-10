@@ -412,11 +412,6 @@ void dpMonteCarloAsian::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1] = yLocal;
 	localSize[2] = 1;
 	
-	//for (int i =0; (pow(2,i)*pow(2,i)/8)*sizeof(float)/(float) 1048576 <= dataMB;i++){
-	//	
-	//	noOfTraj = pow(2,i);
-	//}
-	
 	noOfTraj = (int) sqrt(dataMB*1048576*8/sizeof(cl_float4));
 	
 	if (noOfTraj%4 != 0)
@@ -429,7 +424,6 @@ void dpMonteCarloAsian::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 		noOfTraj = 512;
 		width = 128;
 		height = 256;
-		
 	}
 	
 	//MB = noOfTraj^2 /8 *sizeof(cl_float4);
@@ -441,7 +435,7 @@ void dpMonteCarloAsian::init(){
 
 	noOfSum = 12;
 	vectorWidth = 4;
-	steps = 10;
+	steps = 2;
 	initPrice = 50.f;
 	strikePrice = 55.f;
 	interest = 0.06f;
@@ -451,9 +445,12 @@ void dpMonteCarloAsian::init(){
 	steps = (steps < 4) ? 4 : steps;
 	steps = (steps / 2) * 2;
 	
-	dataParameters.push_back(noOfTraj);
+	dataParameters.push_back(width);
+	dataParameters.push_back(height);
 	dataParameters.push_back(steps);
-	dataNames.push_back("noOfTraj");
+	
+	dataNames.push_back("width");
+	dataNames.push_back("height");
 	dataNames.push_back("steps");
 
 	const cl_float finalValue = 0.8f;
@@ -508,7 +505,7 @@ void dpMonteCarloAsian::plan(){
 	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_int), (void*)&noOfSum));
 	globalSize[0] = width;
 	globalSize[1] = height;
-}
+} 
 
 int dpMonteCarloAsian::execute(){
 

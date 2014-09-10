@@ -1,0 +1,12 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,maskwidth/F,maskheight/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,1,1,1,27,149.87,21.022,0.003,37544.8,16.713,0.239
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,2,1,1,27,151.267,21.089,0.003,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,4,1,1,27,149.362,21.005,0.003,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,8,1,1,27,149.616,20.984,0.003,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,16,1,1,27,148.94,21.023,0.002,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,32,1,1,27,150.221,20.896,0.002,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,64,1,1,27,149.458,20.943,0.002,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,128,1,1,27,150.499,20.923,0.002,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,256,1,1,27,149.905,20.989,0.003,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,512,1,1,27,149.992,20.99,0.002,-1,-1,-1
+Tesla K20Xm,Convolution,ONE_D,2709,2709,64,64,1024,1,1,27,150.949,21.069,0.002,-1,-1,-1

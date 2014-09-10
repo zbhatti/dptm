@@ -27,7 +27,7 @@ int main (int argc, const char* argv[]) {
 	
 	int platform = 0;
 	int device = 0;
-	string kernel = "SquareArray";
+	string kernel = "";
 	int MB = 4;
 	int xLocal = 4;
 	int yLocal = 4;
@@ -57,7 +57,7 @@ int main (int argc, const char* argv[]) {
 	}
 
 	client.runTasks();
-	//client.printTimes();
-	client.printFile();
+	client.printTimes();
+	//client.printFile();
 
 }

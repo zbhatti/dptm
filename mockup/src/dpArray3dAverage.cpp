@@ -72,7 +72,7 @@ void dpArray3dAverage::init(){
 	dataParameters.push_back(Alength);
 	dataNames.push_back("cubeLength");
 }
-
+ 
 void dpArray3dAverage::memoryCopyOut(){
 	Ain_d = clCreateBuffer(context, CL_MEM_READ_WRITE, nElements*sizeof(float), NULL, &err); clErrChk(err);
 	Aout_d = clCreateBuffer(context, CL_MEM_READ_WRITE, nElements*sizeof(float), NULL, &err); clErrChk(err);
@@ -85,6 +85,7 @@ void dpArray3dAverage::plan(){
 	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void*) &Ain_d));
 	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void*) &Aout_d));
 	clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &Alength));
+	
 	globalSize[0] = Alength;
 	globalSize[1] = Alength;
 	globalSize[2] = Alength;
