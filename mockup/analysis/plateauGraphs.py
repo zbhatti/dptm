@@ -43,8 +43,9 @@ for ker in kernels:
 		for i in xrange(0, tree.GetEntries()):
 			tree.GetEntry(i)
 			if (tree.kernel.split('\x00')[0]==ker) and (tree.device.split('\x00')[0]==dev):
-				functions[dev][0].append(tree.mb)
-				functions[dev][1].append(tree.time)
+				if tree.time != -1.0:
+					functions[dev][0].append(tree.mb)
+					functions[dev][1].append(tree.time/1000.0)
 
 	data[ker]=functions
 
@@ -83,15 +84,27 @@ for ker in kernels:
 	mg.SetTitle(ker)
 	
 	color=1
+	leg = TLegend(0.1, 0.7, 0.39, 0.9)
+	leg.SetFillColor(0)
+	
+	
 	
 	for dev in devices:
 		n = len(data[ker][dev][0])
 		devGraph = TGraph(n, data[ker][dev][0], data[ker][dev][1])
+		devGraph.SetTitle(dev)
 		devGraph.SetLineColor(color)
+		devGraph.SetMarkerStyle(4)
+		devGraph.SetMarkerColor(color)
 		mg.Add(devGraph)
+		leg.AddEntry(devGraph, dev, "lp")
 		color = color + 1
-	mg.Draw("AC")
-	
+
+	mg.Draw("APL")
+	leg.Draw()
+	c.Update()
+	mg.GetXaxis().SetTitle("Megabytes")
+	mg.GetYaxis().SetTitle("Time (s)")
 	c.Print("./results/optimal/"+ker+".png")
 	
 #tree.Print()
