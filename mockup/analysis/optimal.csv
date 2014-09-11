@@ -1,4 +1,4 @@
-kernel,device,x,y,z,mb,time
+kernel/C,device/C,x/I,y/I,z/I,mb/F,time/F
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,1,1,1,27.0,29.7719993591
 VectorAdd,NvidiaRuntime - Tesla K20Xm,128,1,1,28.0,29.1009998322
 LUDecomposition,NvidiaRuntime - Tesla K20Xm,512,1,1,12.0,-1.0
@@ -8,25 +8,30 @@ FloydWarshall,NvidiaRuntime - Tesla K20Xm,1,1,1,11.0,28284.8007812
 Convolution,NvidiaRuntime - Tesla K20Xm,1,1,1,19.0,26714.8007812
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,4,4,1,23.0,25.5429992676
 MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,8,8,1,7.0,3221.60009766
+Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,32.0,10.6300001144
 SquareArray,NvidiaRuntime - Tesla K20Xm,64,1,1,12.0,-1.0
 MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,4,32,1,8.0,1377.36999512
 Array3dAverage,NvidiaRuntime - Tesla K20Xm,64,1,4,1.0,3.30900001526
 NBody,NvidiaRuntime - Tesla K20Xm,128,1,1,16.0,1905200.0
 FloydWarshall,NvidiaRuntime - Tesla K20Xm,4,4,1,23.0,79976.3984375
 MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,1,2,1,11.997300148,-1.0
+MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,2,4,1,28.007900238,4793.89013672
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,64,4,1,16.0,17.1210002899
 Convolution,NvidiaRuntime - Tesla K20Xm,1024,1,1,4.0,5256.62988281
 Array3dAverage,NvidiaRuntime - Tesla K20Xm,32,4,1,8.0,26.1210002899
 MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,2,4,1,3.99915003777,681.684997559
 Convolution,NvidiaRuntime - Tesla K20Xm,1,1,1,11.0,15964.2001953
+NBody,NvidiaRuntime - Tesla K20Xm,64,1,1,28.0,5833360.0
 VectorAdd,NvidiaRuntime - Tesla K20Xm,256,1,1,20.0,20.8209991455
 FloydWarshall,NvidiaRuntime - Tesla K20Xm,1,1,1,19.0,60817.6992188
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,8,8,1,7.0,8.77200031281
+MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,64,2,1,32.0,5528.25
 SquareArray,NvidiaRuntime - Tesla K20Xm,512,1,1,4.0,4.30100011826
 VectorAdd,NvidiaRuntime - Tesla K20Xm,512,1,1,12.0,-1.0
 SquareArray,NvidiaRuntime - Tesla K20Xm,1024,1,1,28.0,28.1380004883
 FloydWarshall,NvidiaRuntime - Tesla K20Xm,32,4,1,16.0,43590.8007812
 Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,24.0,8.0670003891
+MatrixTranspose,NvidiaRuntime - Tesla K20Xm,16,8,1,31.0,33.7130012512
 Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,8.0,2.81900000572
 FloydWarshall,NvidiaRuntime - Tesla K20Xm,32,4,1,4.0,5471.24023438
 NBody,NvidiaRuntime - Tesla K20Xm,128,1,1,20.0,2976610.0
@@ -46,30 +51,38 @@ Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,20.0,6.8109998703
 MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,1,2,1,24.0102996826,4240.02001953
 VectorAdd,NvidiaRuntime - Tesla K20Xm,512,1,1,8.0,8.31499958038
 Reduction,NvidiaRuntime - Tesla K20Xm,64,1,1,16.0,5.44000005722
+Convolution,NvidiaRuntime - Tesla K20Xm,256,1,1,31.0,42884.6992188
 NBody,NvidiaRuntime - Tesla K20Xm,64,1,1,24.0,4286060.0
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,1,1,1,11.0,-1.0
 Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,4.0,1.51199996471
 NBody,NvidiaRuntime - Tesla K20Xm,128,1,1,8.0,476299.0
+VectorAdd,NvidiaRuntime - Tesla K20Xm,256,1,1,32.0,33.1660003662
 SquareArray,NvidiaRuntime - Tesla K20Xm,256,1,1,20.0,20.2329998016
 LUDecomposition,NvidiaRuntime - Tesla K20Xm,128,4,1,24.0,4900.81005859
 SquareArray,NvidiaRuntime - Tesla K20Xm,128,1,1,8.0,8.31000041962
+FloydWarshall,NvidiaRuntime - Tesla K20Xm,16,8,1,31.0,123172.0
 Convolution,NvidiaRuntime - Tesla K20Xm,1024,1,1,16.0,21351.0996094
+LUDecomposition,NvidiaRuntime - Tesla K20Xm,1,512,1,32.0,7495.79980469
 Convolution,NvidiaRuntime - Tesla K20Xm,64,1,1,7.0,10605.7998047
 VectorAdd,NvidiaRuntime - Tesla K20Xm,128,1,1,24.0,24.7660007477
 VectorAdd,NvidiaRuntime - Tesla K20Xm,256,1,1,16.0,16.7609996796
 Convolution,NvidiaRuntime - Tesla K20Xm,1,1,1,27.0,37544.8007812
 LUDecomposition,NvidiaRuntime - Tesla K20Xm,1,256,1,8.0,955.067993164
 NBody,NvidiaRuntime - Tesla K20Xm,256,1,1,12.0,1071480.0
+SquareArray,NvidiaRuntime - Tesla K20Xm,128,1,1,32.0,32.2400016785
 MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,1,1,1,11.0,-1.0
 LUDecomposition,NvidiaRuntime - Tesla K20Xm,128,4,1,20.0,-1.0
 LUDecomposition,NvidiaRuntime - Tesla K20Xm,16,32,1,15.0,2668.19995117
+NBody,NvidiaRuntime - Tesla K20Xm,64,1,1,32.0,7619670.0
 MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,32,32,1,16.0,9109.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,16,16,1,31.0,25849.0996094
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,1,1,1,19.0,-1.0
 FloydWarshall,NvidiaRuntime - Tesla K20Xm,1,1,1,27.0,100760.0
 Reduction,NvidiaRuntime - Tesla K20Xm,256,1,1,12.0,-1.0
 MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,4,8,1,15.9966001511,2749.63989258
 SquareArray,NvidiaRuntime - Tesla K20Xm,128,1,1,16.0,16.204000473
-VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192,1,1,28.0,10.25
+MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,12.5810003281
+VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,1,1,28.0,10.25
 LUDecomposition,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,256,1,12.0,449.351989746
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,1859.73999023
 MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,4,1,20.022600174,594.706970215
@@ -83,17 +96,19 @@ Array3dAverage,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,8,1,1.0,1.8
 NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,16.0,285864.0
 FloydWarshall,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,23.0,14310.0
 MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,11.997300148,352.07699585
+MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,4,1,28.007900238,768.198974609
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,8,1,16.0,8.55599975586
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,4.0,420.110992432
 Array3dAverage,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,4,1,8.0,6.55999994278
 MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,4,1,3.99915003777,114.232002258
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,753.950012207
+NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,28.0,875542.0
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,20.0,7.69299983978
 FloydWarshall,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,11013.0
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,2,1,7.0,6.77099990845
 SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,1,1,4.0,2.08899998665
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096,1,1,12.0,6.27899980545
-SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,28.0,8.82499980927
+SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,28.0,8.82499980927
 FloydWarshall,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,16,1,16.0,7800.33984375
 Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,24.0,3.68799996376
 Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,8.0,3.20000004768
@@ -102,10 +117,12 @@ NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,20.0,447580.0
 FloydWarshall,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,8,1,7.0,2986.34008789
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,23.0,1498.48999023
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,128,1,4.0,3.33899998665
-Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,28.0,3.76900005341
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,2143.54003906
+Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,1,1,28.0,3.76900005341
 LUDecomposition,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,32,1,3.0,138.86000061
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,23.0,1628.61999512
 NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,4.0,17894.0
+LUDecomposition,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,8,1,28.0,1093.61999512
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,2,1,4.0,126.582000732
 SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,24.0,7.86800003052
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192,1,1,4.0,2.4430000782
@@ -124,6 +141,7 @@ Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,16.0,1934
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,7.0,511.355987549
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,1,1,24.0,8.82499980927
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,1,1,16.0,6.87799978256
+Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,1744.84997559
 LUDecomposition,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,32,1,8.0,281.282012939
 NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,12.0,160787.0
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,554.343017578
@@ -131,9 +149,11 @@ LUDecomposition,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,64,1,20.0,7
 LUDecomposition,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,2,1,15.0,559.336975098
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,2,1,16.0,914.262023926
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,10.2849998474
+FloydWarshall,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,17987.4003906
 Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,12.0,3.04999995232
 MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,15.9966001511,442.408996582
 SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096,1,1,16.0,5.9889998436
+MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,90.3730010986
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,28.0,99.0469970703
 LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,8,1,12.0,1964.86999512
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,1373.56994629
@@ -148,11 +168,13 @@ Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,4,2,1.0,4.665
 NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,1,1,16.0,311437.0
 FloydWarshall,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,23.0,146728.0
 MonteCarloAsian,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,11.997300148,492.973999023
+MonteCarloAsian,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,28.007900238,1096.61999512
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,16.0,69.8929977417
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,4.0,383.635986328
-Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,16,1,8.0,28.9290008545
+Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,8,1,8.0,28.9290008545
 MonteCarloAsian,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,4,1,3.99915003777,169.132995605
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,847.007995605
+NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,28.0,954650.0
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,20.0,78.7880020142
 FloydWarshall,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,111613.0
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,4,1,7.0,29.031999588
@@ -167,10 +189,12 @@ NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,20.0,486682.0
 FloydWarshall,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,8,1,7.0,28391.9003906
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,23.0,1644.56005859
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,4.0,13.954000473
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,2915.12988281
 Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,28.0,25.8220005035
 LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,16,1,3.0,517.132995605
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,1,1,23.0,1679.23999023
 NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,1,1,4.0,19487.8007812
+LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,512,1,28.0,6368.29980469
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,4,1,4.0,232.544998169
 SquareArray,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,24.0,75.5049972534
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,4.0,17.8010005951
@@ -178,6 +202,7 @@ Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,20.0,11.55300
 MonteCarloAsian,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,24.0102996826,990.70300293
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,8.0,29.2749996185
 Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,16.0,31.2159996033
+Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,31.0,2100.40991211
 NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,24.0,701108.0
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,45.8940010071
 Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,4.0,2.46700000763
@@ -189,6 +214,7 @@ Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,16.0,1995.45
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,7.0,550.132019043
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,24.0,88.1920013428
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,16.0,53.2159996033
+Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,1989.22998047
 LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,2,1,8.0,1116.75
 NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,1,1,12.0,175214.0
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,798.442993164
@@ -196,10 +222,12 @@ LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,20.0,39
 LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,15.0,2861.37011719
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,16.0,1028.32995605
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,61.3230018616
+FloydWarshall,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,184726.0
 Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,12.0,31.5480003357
 MonteCarloAsian,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,8,1,15.9966001511,777.335998535
 SquareArray,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,16.0,77.6299972534
-VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,28.0,39.3819999695
+MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,27.0,42.3019981384
+VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,1,1,28.0,39.3819999695
 LUDecomposition,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,256,1,12.0,1280.26000977
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,19.0,4292.43017578
 MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,4,1,20.022600174,1237.19995117
@@ -213,11 +241,13 @@ Array3dAverage,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64,64,2,1.0
 NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,16.0,1043550.0
 FloydWarshall,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,4,1,23.0,53064.8007812
 MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,2,1,11.997300148,764.271972656
+MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,4,1,28.007900238,1787.06005859
 MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64,1,1,16.0,25.6879997253
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,4.0,525.20098877
 Array3dAverage,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,2,1,8.0,22.4599990845
 MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,4,1,3.99915003777,262.010009766
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,11.0,1088.34997559
+NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64,1,1,28.0,3069490.0
 VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,20.0,31.5349998474
 FloydWarshall,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,19.0,41290.6015625
 MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8,1,1,7.0,15.5200004578
@@ -232,10 +262,12 @@ NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,20.0,1568040.
 FloydWarshall,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8,8,1,7.0,10768.5
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,23.0,2098.47998047
 MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256,32,1,4.0,9.47599983215
-Reduction,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,28.0,13.9029998779
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,27.0,10553.5996094
+Reduction,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,28.0,13.9029998779
 LUDecomposition,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,8,1,3.0,368.906005859
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,4,1,23.0,6985.04980469
 NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,4.0,62647.6015625
+LUDecomposition,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,32,1,28.0,3976.88989258
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,4.0,1266.44995117
 SquareArray,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,24.0,35.2270011902
 VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192,1,1,4.0,9.19299983978
@@ -254,6 +286,7 @@ Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,16.0,45
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64,1,1,7.0,688.797973633
 VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,24.0,34.6739997864
 VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1024,1,1,16.0,25.4880008698
+Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,27.0,2643.23999023
 LUDecomposition,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256,1,1,8.0,822.419006348
 NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,12.0,564132.0
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,11.0,1207.5300293
@@ -261,9 +294,11 @@ LUDecomposition,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,16,1,20
 LUDecomposition,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8,64,1,15.0,1944.48999023
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128,1,1,16.0,12214.2001953
 MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,19.0,32.1160011292
+FloydWarshall,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,27.0,64079.5
 Reduction,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,12.0,6.70300006866
 MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,2,1,15.9966001511,997.060974121
 SquareArray,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2048,1,1,16.0,26.3400001526
+MatrixTranspose,AmdRuntime - AMD Firepro W9100,16,16,1,27.0,32.4480018616
 VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,28.0,33.8250007629
 LUDecomposition,AmdRuntime - AMD Firepro W9100,128,2,1,12.0,933.87097168
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,19.0,4231.5
@@ -272,35 +307,42 @@ FloydWarshall,AmdRuntime - AMD Firepro W9100,256,1,1,11.0,24912.6992188
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,19.0,6110.5
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,8,16,1,23.0,27.9109992981
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,8,8,1,7.0,1042.06005859
+Reduction,AmdRuntime - AMD Firepro W9100,128,1,1,32.0,19.8360004425
 SquareArray,AmdRuntime - AMD Firepro W9100,256,1,1,12.0,14.7760000229
 MonteCarloAsian,AmdRuntime - AMD Firepro W9100,8,16,1,8.0,768.789001465
 Array3dAverage,AmdRuntime - AMD Firepro W9100,64,4,1,1.0,3.09800004959
 NBody,AmdRuntime - AMD Firepro W9100,64,1,1,16.0,684617.0
 FloydWarshall,AmdRuntime - AMD Firepro W9100,64,4,1,23.0,69734.3984375
 MonteCarloAsian,AmdRuntime - AMD Firepro W9100,8,32,1,11.997300148,1042.90002441
+MonteCarloAsian,AmdRuntime - AMD Firepro W9100,2,64,1,28.007900238,2535.81005859
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,32,4,1,16.0,18.8840007782
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,4.0,1202.86999512
-Array3dAverage,AmdRuntime - AMD Firepro W9100,32,1,8,8.0,10.2299995422
+Array3dAverage,AmdRuntime - AMD Firepro W9100,64,1,4,8.0,10.2299995422
 MonteCarloAsian,AmdRuntime - AMD Firepro W9100,16,4,1,3.99915003777,391.390014648
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,11.0,3651.55004883
+NBody,AmdRuntime - AMD Firepro W9100,64,1,1,28.0,2093990.0
 VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,20.0,24.3980007172
 FloydWarshall,AmdRuntime - AMD Firepro W9100,256,1,1,19.0,53150.1015625
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,4,32,1,7.0,9.82900047302
+MonteCarloAsian,AmdRuntime - AMD Firepro W9100,32,4,1,32.0,2861.82006836
 SquareArray,AmdRuntime - AMD Firepro W9100,128,1,1,4.0,5.89300012589
 VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,12.0,14.7510004044
 SquareArray,AmdRuntime - AMD Firepro W9100,128,1,1,28.0,33.158000946
 FloydWarshall,AmdRuntime - AMD Firepro W9100,128,2,1,16.0,38251.1992188
 Reduction,AmdRuntime - AMD Firepro W9100,32,1,1,24.0,13.0059995651
+MatrixTranspose,AmdRuntime - AMD Firepro W9100,8,32,1,31.0,36.9570007324
 Reduction,AmdRuntime - AMD Firepro W9100,16,1,1,8.0,5.38800001144
 FloydWarshall,AmdRuntime - AMD Firepro W9100,64,4,1,4.0,5015.81005859
 NBody,AmdRuntime - AMD Firepro W9100,64,1,1,20.0,1069140.0
 FloydWarshall,AmdRuntime - AMD Firepro W9100,64,4,1,7.0,13774.7998047
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,23.0,7344.87011719
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,64,4,1,4.0,5.78499984741
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,27.0,6789.37988281
 Reduction,AmdRuntime - AMD Firepro W9100,32,1,1,28.0,15.1929998398
 LUDecomposition,AmdRuntime - AMD Firepro W9100,1,256,1,3.0,221.972000122
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,32,8,1,23.0,5115.25976562
 NBody,AmdRuntime - AMD Firepro W9100,64,1,1,4.0,42958.8007812
+LUDecomposition,AmdRuntime - AMD Firepro W9100,128,2,1,28.0,2990.5300293
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,64,4,1,4.0,343.946990967
 SquareArray,AmdRuntime - AMD Firepro W9100,128,1,1,24.0,28.5690002441
 VectorAdd,AmdRuntime - AMD Firepro W9100,256,1,1,4.0,5.35099983215
@@ -308,24 +350,32 @@ Reduction,AmdRuntime - AMD Firepro W9100,64,1,1,20.0,11.7869997025
 MonteCarloAsian,AmdRuntime - AMD Firepro W9100,4,64,1,24.0102996826,2200.14990234
 VectorAdd,AmdRuntime - AMD Firepro W9100,256,1,1,8.0,9.7889995575
 Reduction,AmdRuntime - AMD Firepro W9100,64,1,1,16.0,11.5830001831
+Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,31.0,9808.91992188
 NBody,AmdRuntime - AMD Firepro W9100,64,1,1,24.0,1539000.0
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,8,16,1,11.0,14.3070001602
 Reduction,AmdRuntime - AMD Firepro W9100,256,1,1,4.0,5.29899978638
 NBody,AmdRuntime - AMD Firepro W9100,64,1,1,8.0,171571.0
+VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,32.0,39.3510017395
 SquareArray,AmdRuntime - AMD Firepro W9100,128,1,1,20.0,23.936000824
 LUDecomposition,AmdRuntime - AMD Firepro W9100,2,128,1,24.0,2404.86010742
 SquareArray,AmdRuntime - AMD Firepro W9100,256,1,1,8.0,9.86499977112
+FloydWarshall,AmdRuntime - AMD Firepro W9100,32,8,1,31.0,106818.0
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,16.0,4883.77978516
+LUDecomposition,AmdRuntime - AMD Firepro W9100,32,1,1,32.0,3559.36010742
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,7.0,2426.10009766
 VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,24.0,29.0890007019
 VectorAdd,AmdRuntime - AMD Firepro W9100,256,1,1,16.0,18.8040008545
+Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,27.0,8576.69042969
 LUDecomposition,AmdRuntime - AMD Firepro W9100,8,32,1,8.0,541.04699707
 NBody,AmdRuntime - AMD Firepro W9100,64,1,1,12.0,384977.0
+SquareArray,AmdRuntime - AMD Firepro W9100,256,1,1,32.0,38.6380004883
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,32,8,1,11.0,1970.40002441
 LUDecomposition,AmdRuntime - AMD Firepro W9100,2,64,1,20.0,1851.68994141
 LUDecomposition,AmdRuntime - AMD Firepro W9100,256,1,1,15.0,1405.20996094
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,16.0,2742.89990234
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,8,16,1,31.0,8666.29980469
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,16,16,1,19.0,23.311000824
+FloydWarshall,AmdRuntime - AMD Firepro W9100,256,1,1,27.0,87569.796875
 Reduction,AmdRuntime - AMD Firepro W9100,64,1,1,12.0,8.95600032806
 MonteCarloAsian,AmdRuntime - AMD Firepro W9100,256,1,1,15.9966001511,1495.76000977
 SquareArray,AmdRuntime - AMD Firepro W9100,128,1,1,16.0,18.8059997559

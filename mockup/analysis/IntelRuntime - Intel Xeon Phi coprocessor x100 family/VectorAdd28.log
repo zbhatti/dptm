@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,1024,1,1,28,2
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,2048,1,1,28,286.666,14.431,0.009,34.752,14.99,1.395
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,4096,1,1,28,310.695,16.276,0.006,39.301,13.316,1.291
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,8192,1,1,28,295.382,14.651,0.008,28.458,11.212,2.805
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,1,1,1,28,295.623,15.611,0.011,39.665,24.413,2.165
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,2,1,1,28,284.361,13.398,0.011,30.573,12.078,2.104
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,4,1,1,28,292.819,17.75,0.012,24.393,12.13,1.488
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,8,1,1,28,288.606,14.415,0.011,31.536,12.065,2.215
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,16,1,1,28,361.093,21.356,0.006,23.395,11.06,1.964
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,32,1,1,28,300.362,18.672,0.01,36.877,9.153,1.693
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,64,1,1,28,285.901,19.571,0.009,36.152,23.414,2.108
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,128,1,1,28,301.019,21.373,0.009,26.459,26.008,2.308
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,256,1,1,28,290.772,14.171,0.011,30.642,12.299,1.736
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,512,1,1,28,289.022,19.071,0.01,36.882,23.039,1.606
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,1024,1,1,28,288.728,13.898,0.009,35.068,18.523,1.778
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,2048,1,1,28,289.895,14.609,0.011,34.231,13.197,1.827
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,4096,1,1,28,289.388,19.819,0.011,31.242,13.126,1.842
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,7.34003e+06,8192,1,1,28,293.265,19.75,0.009,34.075,11.104,1.648

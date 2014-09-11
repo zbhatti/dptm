@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,maskwidth/F,maskheight/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,1,1,1,31,173.139,49.353,0.01,2722.81,11.54,1.634
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,2,1,1,31,222.359,52.012,0.009,2691.91,11.407,1.684
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,4,1,1,31,222.326,59.386,0.011,2694.01,12.794,1.439
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,8,1,1,31,218.15,50.371,0.01,2691.62,14.776,2.323
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,16,1,1,31,221.983,59.951,0.012,937.782,7.828,1.21
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,32,1,1,31,197.651,45.441,0.011,935.061,6.213,1.13
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,64,1,1,31,208.095,45.336,0.01,930.575,6.221,1.308
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,128,1,1,31,169.118,45.322,0.01,933.937,6.224,1.461
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,256,1,1,31,217.13,45.314,0.013,917.364,6.207,1.19
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,512,1,1,31,210.454,45.277,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,1024,1,1,31,170.496,48.625,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,2048,1,1,31,171.942,49.161,0.01,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,4096,1,1,31,170.515,48.513,0.01,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2896,2896,64,64,8192,1,1,31,171.261,48.998,0.01,-1,-1,-1

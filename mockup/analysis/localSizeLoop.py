@@ -2,8 +2,6 @@ from ROOT import *
 import numpy as np
 import os
 
-
-
 FileNames=[]
 #find files that end with .log and add them into FileNames array
 for root, dirs, files in os.walk("."):
@@ -24,7 +22,7 @@ Graphs={}
 data={}#data[filename]=[tree, Bounds[threads[]], Hists[threads[]], MeanRMS[threads[]], canvas, TGRAPHS]
 
 
-def plot_ONE_D(f,tree, optimalFile,devName):
+def plot_ONE_D(f,tree, optimalFile,devName,kerName):
 	threads=[] #array of xLocal
 	Bounds={} #dictionary with tuples (xLocal) as keys and [min,max] as values
 	Hists={}
@@ -80,7 +78,7 @@ def plot_ONE_D(f,tree, optimalFile,devName):
 	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	tree.GetEntry(0)
 	
-	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+"\n")
+	optimalFile.write(kerName+","+devName+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph(len(threads), x, t)
 	
 	title=""+tree.kernel[:-1]+devName+str(tree.MB)
@@ -99,7 +97,7 @@ def plot_ONE_D(f,tree, optimalFile,devName):
 	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
 	
 	
-def plot_TWO_D(f,tree, optimalFile,devName):
+def plot_TWO_D(f,tree, optimalFile,devName,kerName):
 	threads=[] #array of tuples (xLocal,yLocal)
 	Bounds={} #dictionary with tuples (X,Y) as keys and [min,max] as values
 	Hists={}
@@ -160,7 +158,7 @@ def plot_TWO_D(f,tree, optimalFile,devName):
 	
 	tree.GetEntry(0)
 	
-	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+"\n")
+	optimalFile.write(kerName+","+devName+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+"\n")
 	plot = TGraph2D("empty","empty", len(threads), x, y, t)
 	title = ""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
@@ -186,9 +184,9 @@ def plot_TWO_D(f,tree, optimalFile,devName):
 	Canvases[f].Close()
 	
 
-def plot_THREE_D(f,tree, optimalFile,devName):
+def plot_THREE_D(f,tree, optimalFile,devName,kerName):
 	threads=[] #array of tuples (xLocal,yLocal,zLocal)
-	Bounds={} #dictionary with tuples (X,Y,Z) as keys and [min,max] as values
+	Bounds={} #dictionary with tuple keys. (X,Y,Z) is key and [min,max] is value
 	Hists={}
 	MeanRMS={}
 	min =1000000000
@@ -251,7 +249,7 @@ def plot_THREE_D(f,tree, optimalFile,devName):
 	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	
 	tree.GetEntry(0)
-	optimalFile.write(tree.kernel[:-1]+","+devName+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+"\n")
+	optimalFile.write(kerName+","+devName+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+"\n")
 	
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("xThreads:yThreads:zThreads:t","","L&&colz",len(threads),0)
@@ -274,7 +272,7 @@ def plot_THREE_D(f,tree, optimalFile,devName):
 #make ttree for each device/kernel.log
 
 newFile=open("optimal.csv","w")
-newFile.write("kernel,device,x,y,z,mb,time\n")
+newFile.write("kernel/C,device/C,x/I,y/I,z/I,mb/F,time/F\n")
 newFile.close() #used to clear the preexisting file
 
 
@@ -290,19 +288,18 @@ for f in FileNames:
 	
 	slashIndex = f.rfind("/");
 	devName = f[2:slashIndex]
+	kerName = tree.kernel[:-1]
+	#print(str(kerName))
+	#print(str(devName))
 	
 	if tree.workDimension[0:3]=="ONE":
-		plot_ONE_D(f,tree, optimalFile,devName)
+		plot_ONE_D(f, tree, optimalFile, devName, str(kerName))
 	if tree.workDimension[0:3]=="TWO":
-		plot_TWO_D(f,tree, optimalFile,devName)
+		plot_TWO_D(f, tree, optimalFile, devName, str(kerName))
 	if tree.workDimension[0:3]=="THR":
-		plot_THREE_D(f,tree, optimalFile,devName)
+		plot_THREE_D(f, tree, optimalFile, devName, str(kerName))
+	
 	else:
 		continue
-	
-	#save minimum information
+		
 
-#read optimal for execution_device(kernelMB)
-#graph each kernel's performance at optimal levels dependent on MB on a canvas grouped with other devices
-optimalTree=TTree()
-tree.ReadFile("./optimal.csv")

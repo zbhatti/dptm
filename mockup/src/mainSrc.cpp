@@ -14,7 +14,7 @@ int main (int argc, const char* argv[]) {
 	
 	//take task scan argument:
 	for (int r=0;r<10;r++){
-		for (int j=8; j<=64; j=j+4){ 
+		for (int j=32; j<=64; j=j+4){ 
 			for (int i=0;i<5;i++){
 			fprintf(stderr, "Client:%d\n",i);
 				
@@ -47,8 +47,8 @@ int main (int argc, const char* argv[]) {
 				fprintf(stderr,"FWT, %d MB\n",j);
 				cliList[i]->addWGScan("FWT",j);
 				cliList[i]->runTasks();
-				//cliList[i]->printFile();
-				cliList[i]->printTimes();
+				cliList[i]->printFile();
+				//cliList[i]->printTimes();
 				
 				fprintf(stderr,"LUDecomposition, %d MB\n",j);
 				cliList[i]->addWGScan("LUDecomposition",j);
@@ -74,11 +74,13 @@ int main (int argc, const char* argv[]) {
 				cliList[i]->printFile();
 				//cliList[i]->printTimes();
 				
+				/*
 				fprintf(stderr,"NBody, %d MB\n",j);
 				cliList[i]->addWGScan("NBody",j);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				//cliList[i]->printTimes();
+				*/
 				
 				fprintf(stderr,"Reduction, %d MB\n",j);
 				cliList[i]->addWGScan("Reduction",j);
