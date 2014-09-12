@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,1024,1,1,20
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,2048,1,1,20,105.202,13.022,0.007,19.911,3.228,1.388
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,4096,1,1,20,103.913,12.668,0.009,27.254,3.225,1.358
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,8192,1,1,20,104.861,12.882,0.007,17.636,3.23,1.336
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,1,1,1,20,112.778,15.719,0.006,28.82,18.345,2.245
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,2,1,1,20,137.614,19.386,0.005,24.921,25.494,1.789
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,4,1,1,20,103.817,15.841,0.005,19.37,29.16,1.661
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,8,1,1,20,105.526,16.069,0.007,17.123,19.593,2.352
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,16,1,1,20,142.873,19.44,0.006,16.242,19.369,2.259
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,32,1,1,20,135.523,19.622,0.005,18.374,12.781,1.82
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,64,1,1,20,103.535,16.367,0.006,21.246,13.137,2.384
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,128,1,1,20,140.693,19.288,0.006,18.035,12.606,1.706
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,256,1,1,20,107.38,16.217,0.006,16.174,21.862,2.466
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,512,1,1,20,137.259,19.283,0.006,22.445,12.134,1.703
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,1024,1,1,20,103.619,15.788,0.005,19.788,18.061,1.746
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,2048,1,1,20,109.583,16.639,0.007,20.333,27.707,2.056
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,4096,1,1,20,105.983,16.538,0.006,19.571,12.996,1.765
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,5.24288e+06,8192,1,1,20,106.179,16.764,0.006,25.665,16.376,1.572

@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,1024,1,
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,2048,1,1,23,129.177,26.494,0.025,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,4096,1,1,23,129.163,27.101,0.01,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,8192,1,1,23,127.897,26.472,0.01,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,1,1,1,23,135.355,69.648,0.009,2097.08,9.409,1.625
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,2,1,1,23,173.778,72.501,0.009,2074.42,8.641,1.675
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,4,1,1,23,170.305,73.563,0.008,2073.14,9.546,2.351
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,8,1,1,23,177.475,77.523,0.011,2074.41,9.382,1.673
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,16,1,1,23,173.826,71.768,0.007,734.297,8.678,1.612
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,32,1,1,23,133.391,71.633,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,64,1,1,23,136.952,69.511,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,128,1,1,23,132.919,70.136,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,256,1,1,23,131.827,67.694,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,512,1,1,23,135.544,41.841,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,1024,1,1,23,130.502,51.913,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,2048,1,1,23,131.692,50.939,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,4096,1,1,23,128.953,41.464,0.007,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2508,2508,64,64,8192,1,1,23,126.89,41.115,0.006,-1,-1,-1

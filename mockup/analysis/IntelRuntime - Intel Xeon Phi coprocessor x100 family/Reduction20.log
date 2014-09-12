@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,1024,1,1,20,1
 Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,2048,1,1,20,100.723,16.987,0.008,6.671,0.266,2.316
 Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,4096,1,1,20,102.433,16.405,0.007,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,8192,1,1,20,106.389,14.832,0.004,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,1,1,1,20,110.044,18.854,0.013,8.636,12.898,2.289
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,2,1,1,20,142.195,21.3,0.009,6.234,9.886,2.044
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,4,1,1,20,135.008,19.35,0.005,5.673,4.527,2.578
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,8,1,1,20,133.611,19.037,0.005,5.247,1.587,2.338
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,16,1,1,20,137.369,19.527,0.007,4.848,1.508,2.091
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,32,1,1,20,139.704,19.074,0.005,6.721,0.918,3.115
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,64,1,1,20,139.772,19.017,0.004,7.195,0.31,1.972
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,128,1,1,20,130.448,17.125,0.003,6.026,0.392,1.577
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,256,1,1,20,105.331,17.16,0.008,9.147,0.292,1.972
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,512,1,1,20,116.729,17.176,0.007,4.446,0.228,2.431
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,1024,1,1,20,102.988,17.14,0.007,5.984,0.279,3.053
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,2048,1,1,20,103.159,16.919,0.008,8.278,0.31,2.368
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,4096,1,1,20,108.582,16.434,0.003,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,1.31072e+06,8192,1,1,20,102.557,14.252,0.013,-1,-1,-1
