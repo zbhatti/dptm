@@ -1,0 +1,10 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,1,1,1,6,29.7,3.203,0.001,7.753,1.971,0.147
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,2,1,1,6,30.874,3.245,0,4.281,1.895,0.052
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,4,1,1,6,30.541,3.236,0.001,2.45,1.944,0.086
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,8,1,1,6,31.199,3.277,0,1.586,1.942,0.052
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,16,1,1,6,31.487,3.571,0.001,1.039,1.942,0.053
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,32,1,1,6,32.658,3.505,0.001,0.816,1.939,0.052
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,64,1,1,6,33.358,3.592,0.001,0.597,1.904,0.053
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,128,1,1,6,34.107,3.548,0.001,0.497,1.844,0.048
+AMD Firepro W9100,SquareArray,ONE_D,1.57286e+06,256,1,1,6,33.794,3.524,0,0.503,1.796,0.062

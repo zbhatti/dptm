@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,1024,1,1,12
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,2048,1,1,12,79.993,9.643,0.007,11.656,17.002,1.375
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,4096,1,1,12,79.832,9.437,0.006,12.748,8.66,1.417
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,8192,1,1,12,82.804,9.809,0.006,14.138,6.782,1.63
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,1,1,1,12,67.568,7.927,0.006,21.568,7.275,1.827
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,2,1,1,12,70.751,9.222,0.006,14.877,6.947,1.567
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,4,1,1,12,66.747,9.171,0.005,12.262,12.502,1.91
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,8,1,1,12,89.152,14.248,0.006,11.788,3.207,1.509
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,16,1,1,12,61.233,9.103,0.006,11.514,4.453,1.58
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,32,1,1,12,66.29,9.243,0.004,10.79,14.934,1.95
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,64,1,1,12,88.881,13.924,0.005,16.634,17.542,1.377
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,128,1,1,12,61.256,9.006,0.005,15.791,4.119,1.218
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,256,1,1,12,60.017,8.532,0.005,8.622,20.02,1.267
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,512,1,1,12,60.223,8.577,0.005,9.978,9.959,1.201
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,1024,1,1,12,60.041,8.218,0.005,11.086,19.423,1.34
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,2048,1,1,12,60.152,7.506,0.005,10.046,7.114,1.385
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,4096,1,1,12,63.497,7.587,0.004,11.107,12.296,1.92
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,8192,1,1,12,83.194,12.459,0.006,9.57,10.788,1.508

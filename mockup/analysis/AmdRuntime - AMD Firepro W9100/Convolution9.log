@@ -1,0 +1,10 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,maskwidth/F,maskheight/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,1,1,1,9,51.193,8.524,0.002,3039.89,3.067,0.934
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,2,1,1,9,65.08,8.064,0.001,1520.69,3.098,0.08
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,4,1,1,9,70.45,7.805,0.001,761.199,3.063,0.129
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,8,1,1,9,52.976,7.79,0.002,381.399,3.089,0.088
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,16,1,1,9,71.301,7.979,0.002,191.534,3.061,0.075
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,32,1,1,9,69.223,8.15,0.001,96.51,3.075,0.073
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,64,1,1,9,70.708,7.799,0.002,64.662,3.055,0.072
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,128,1,1,9,57.742,7.414,0.002,63.638,3.089,0.125
+AMD Firepro W9100,Convolution,ONE_D,1619,1619,64,64,256,1,1,9,56.2,7.761,0.001,60.79,3.048,0.124

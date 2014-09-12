@@ -1,0 +1,15 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,maskwidth/F,maskheight/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,1,1,1,5,45.382,10.304,0.009,388.927,1.874,1.999
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,2,1,1,5,30.59,8.5,0.007,372.343,3.324,2.085
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,4,1,1,5,37.13,9.226,0.007,373.617,1.823,2.018
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,8,1,1,5,30.474,8.365,0.008,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,16,1,1,5,30.056,7.344,0.004,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,32,1,1,5,30.072,9.151,0.003,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,64,1,1,5,30.064,8.625,0.007,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,128,1,1,5,30.191,7.558,0.003,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,256,1,1,5,30.07,12.546,0.016,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,512,1,1,5,30.026,8.776,0.018,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,1024,1,1,5,30.108,7.741,0.005,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,2048,1,1,5,30.113,7.12,0.019,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,4096,1,1,5,30.126,7.054,0.005,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Convolution,ONE_D,1254,1254,64,64,8192,1,1,5,30.135,11.025,0.004,-1,-1,-1

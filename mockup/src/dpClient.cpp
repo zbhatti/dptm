@@ -35,10 +35,6 @@ dpClient::dpClient(int platform, int device){
 	cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
 	clErrChk(clGetPlatformIDs(16, platform_ids, NULL));
 	clErrChk(clGetDeviceIDs(platform_ids[platform], CL_DEVICE_TYPE_ALL, 16, device_ids, &numDevices));
-	//clErrChk(clGetPlatformInfo(platform_ids[platform], CL_PLATFORM_NAME, sizeof(platName), platName, NULL));
-	
-	
-	//clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_NAME, sizeof(devName), devName, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
 	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_ITEM_SIZES, sizeof(MaxWorkDim), &MaxWorkDim, NULL));
@@ -56,7 +52,11 @@ dpClient::dpClient(int platform, int device){
 //Add kernel task:, xLocal=1, yLocal=1, zLocal=1, MB=8 if not passed to this function
 void dpClient::addTask(std::string name, int xLocal, int yLocal, int zLocal, int MB){
 	//check that the wg arguments do not exceed the maxworkgroupsize of a device 
-	if((xLocal>(int)MaxWorkDim[0])||(yLocal>(int)MaxWorkDim[1])||(zLocal>(int)MaxWorkDim[2])||(xLocal*yLocal*zLocal>(int)MaxWorkGroupSize))
+	if(( xLocal>(int)MaxWorkDim[0]) ||
+			(yLocal>(int)MaxWorkDim[1]) ||
+			(zLocal>(int)MaxWorkDim[2]) ||
+			(xLocal*yLocal*zLocal>(int)MaxWorkGroupSize)
+		)
 		xLocal=yLocal=zLocal = 8;
 	
 	taskList.push_back(kernelFactory.makeTask(name, context, queue));
@@ -80,12 +80,14 @@ void dpClient::addWGScan(std::string name, int MB){
 	//make a temporary kernel to read work dimension from:
 	workDim = kernelFactory.makeTask(name, context, queue)->workDimension;
 	
+	//add a 1D wg kernel
 	if (workDim == ONE_D){
 		for (i=0; pow(2,i)<=MaxWorkGroupSize; i++){
 			addTask(name, pow(2,i),1,1, MB);
 		}
 	}
 	
+	//add a 2D wg kernel
 	if (workDim == TWO_D){
 		for(i=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
 			for(j=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
@@ -95,6 +97,7 @@ void dpClient::addWGScan(std::string name, int MB){
 		}
 	}
 	
+	//add a 3D wg kernel
 	if (workDim == THREE_D){
 		for(i=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
 			for(j=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
@@ -109,6 +112,7 @@ void dpClient::addWGScan(std::string name, int MB){
 	
 }
 
+//run a taskList. after finishing, clear the taskList
 void dpClient::runTasks(){
 	dpTiming timeTmp;
 	int err;
@@ -185,8 +189,8 @@ float dpClient::timeDiff(struct timeval start, struct timeval finish){
 	return (float) ((finish.tv_sec*1000000.0 + finish.tv_usec) - (start.tv_sec*1000000.0 + start.tv_usec))/(1000.0);
 }
 
-//print times, probably change to export the timeList instance
-void dpClient::printTimes(){
+//print times to stdout. this function clears the timeList when done
+void dpClient::printScreen(){
 	printf("%s\n",timeList.at(0).getVariables().c_str());
 	for (unsigned int i = 0; i < timeList.size(); i++){
 		if(i>0){
@@ -198,6 +202,7 @@ void dpClient::printTimes(){
 	timeList.clear();
 }
 
+//print times to files. this function clears the timeList when done
 void dpClient::printFile(){
 	std::ofstream fileOut;
 	std::ifstream fileIn;
@@ -229,6 +234,7 @@ void dpClient::printFile(){
 	timeList.clear();
 }
 
+//helping function to check if a file is empty
 //http://stackoverflow.com/questions/2390912/checking-for-an-empty-file-in-c
 bool dpClient::isEmpty(std::ifstream& pFile){
     return pFile.peek() == std::ifstream::traits_type::eof();

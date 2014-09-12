@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,1024,1,
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,2048,1,1,4,33.999,11.731,0.004,204.649,2.14,2.574
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,4096,1,1,4,31.462,8.418,0.004,199.841,2.096,2.596
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,8192,1,1,4,34.223,8.123,0.004,203.592,1.458,2.937
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,1,1,1,4,30.509,9.779,0.005,528.331,3.149,1.249
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,2,1,1,4,33.434,7.112,0.004,529.07,0.916,1.005
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,4,1,1,4,27.646,7.087,0.003,530.191,0.842,1.163
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,8,1,1,4,34.24,7.181,0.004,525.319,0.898,1.067
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,16,1,1,4,34.827,7.856,0.004,127.268,2.861,3.08
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,32,1,1,4,27.607,9.682,0.006,126.778,2.205,1.212
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,64,1,1,4,28.179,6.881,0.006,128.197,1.601,1.06
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,128,1,1,4,30.186,6.936,0.006,134.297,1.499,1.047
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,256,1,1,4,28.171,6.791,0.004,129.886,1.928,1.114
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,512,1,1,4,34.217,6.797,0.007,141.81,1.858,1.151
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,1024,1,1,4,31.286,6.563,0.005,159.059,1.989,1.088
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,2048,1,1,4,31.341,7.534,0.008,185.435,2.893,2.508
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,4096,1,1,4,31.549,5.385,0.009,193.978,1.425,3.064
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,1024,1024,64,64,8192,1,1,4,26.718,5.94,0.005,198.089,2.356,3.047

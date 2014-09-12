@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,1024,1,1,12,1
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,2048,1,1,12,163.619,9.31,0.009,12.013,7.836,1.742
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,4096,1,1,12,167.35,10.702,0.007,16.791,7.282,1.363
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,8192,1,1,12,164.758,11.187,0.009,24.767,7.964,1.943
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,1,1,1,12,127.12,6.3,0.008,20.635,7.501,1.834
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,2,1,1,12,169.344,13.849,0.007,17.814,4.393,1.549
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,4,1,1,12,126.072,8.17,0.007,13.274,4.208,1.497
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,8,1,1,12,124.138,10.038,0.007,19.04,5.937,2.674
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,16,1,1,12,122.959,8.428,0.007,13.251,5.777,1.602
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,32,1,1,12,127.931,10.001,0.006,11.569,6.552,1.621
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,64,1,1,12,129.445,10.035,0.006,11.525,7.425,1.627
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,128,1,1,12,129.467,8.409,0.006,15.582,5.266,1.443
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,256,1,1,12,123.159,7.947,0.007,9.553,21.306,1.388
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,512,1,1,12,126.62,9.83,0.007,16.373,6.514,1.506
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,1024,1,1,12,132.453,8.109,0.006,13.623,18.503,1.978
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,2048,1,1,12,167.694,11.888,0.006,16.22,12.93,1.784
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,4096,1,1,12,161.854,11.215,0.006,12.408,4.858,1.712
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,8192,1,1,12,127.792,7.786,0.008,16.028,4.884,1.462

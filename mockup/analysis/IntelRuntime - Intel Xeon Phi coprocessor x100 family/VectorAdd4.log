@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,1024,1,1,4,57
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,2048,1,1,4,60.156,5.161,0.005,5.137,0.737,1.269
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,4096,1,1,4,52.518,3.882,0.004,14.219,0.818,1.309
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,8192,1,1,4,57.534,4.424,0.004,6.043,0.822,1.413
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,1,1,1,4,58.718,3.568,0.006,9.608,3.872,1.506
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,2,1,1,4,60.292,5.378,0.006,10.039,7.907,1.557
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,4,1,1,4,57.119,5.191,0.005,8.367,2.022,1.475
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,8,1,1,4,54.278,4.407,0.006,17.991,1.444,1.296
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,16,1,1,4,54.631,4.482,0.004,23.179,0.966,1.256
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,32,1,1,4,57.043,4.45,0.005,19.417,1.383,1.242
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,64,1,1,4,55.533,4.481,0.005,10.461,0.954,2.028
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,128,1,1,4,53.599,4.37,0.007,22.432,0.963,1.297
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,256,1,1,4,57.494,4.647,0.006,8.902,1.456,1.187
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,512,1,1,4,55.624,4.349,0.005,7.761,1.909,1.248
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,1024,1,1,4,55.065,4.352,0.006,23.575,1.026,1.296
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,2048,1,1,4,57.529,5.265,0.006,4.905,0.989,1.192
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,4096,1,1,4,57.569,4.322,0.006,16.848,0.949,1.296
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,1.04858e+06,8192,1,1,4,62.149,5.178,0.008,5.054,1.098,1.218

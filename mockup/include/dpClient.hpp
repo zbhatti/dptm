@@ -52,7 +52,7 @@ class dpClient {
 		void addMBScan(std::string, int xLocal=1 , int yLocal=1, int zLocal=1); //need to change this to lookup optimal
 		void addWGScan(std::string, int MB = 8);
 		void runTasks();
-		void printTimes();
+		void printScreen();
 		void printFile();
 		char* getDev(){return devName;};
 		char* getPlat(){return platName;};
