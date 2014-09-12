@@ -1,13 +1,13 @@
 DPTM
 =========
 
-DPTM stands for Data Parallel Task Manager. It's objectives are:
+DPTM stands for Data Parallel Task Manager. Its objectives are to:
 
-  - Utilize GPGPU's 
-  - See the HTML in the right
-  - Magic
+  - Utilize parallel processors with minimum changes to existing serial code
+  - Manage and schedule tasks to insure full utilization of available hardware
+  - Be compatible with parallel APIs like OpenCL, CUDA, MPSS and more
 
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
+Specifically, as outlined by Dr. Amir Farbin:
 
 >The goal is to establish infrastructure for hybrid multi-core processor (ie CPU) and many-core co-processor (eg a GPU) computing in complex applications consisting of large numbers ofalgorithms, without major redesign and reworking of legacy software. The vision is that Task Parallel (TP) applications running on CPU cores schedule large numbers of Data Parallel (DP) computing tasks on available many-core co-processors, maximally utilizing the all available hard-ware resources. The project will be executed in the context of offline and trigger reconstruction of Large Hadron Collider (LHC) collisions, but will certainly have a broader impact because it is also applicable to particle interaction simulation (ie Geant4), streaming Data Acquisition Systems, statistical analysis, and other scientific applications.
 
