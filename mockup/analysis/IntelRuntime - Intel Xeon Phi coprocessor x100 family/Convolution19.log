@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,1024,1,
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,2048,1,1,19,105.203,20.657,0.008,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,4096,1,1,19,105.694,21.151,0.008,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,8192,1,1,19,105.351,21.232,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,1,1,1,19,108.032,32.886,0.008,2149.24,12.108,2.04
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,2,1,1,19,144.881,39.963,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,4,1,1,19,141.021,36.635,0.01,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,8,1,1,19,144.709,37,0.009,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,16,1,1,19,108.468,31.356,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,32,1,1,19,106.172,31.68,0.007,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,64,1,1,19,108.806,29.379,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,128,1,1,19,106.635,27.89,0.007,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,256,1,1,19,103.263,24.373,0.007,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,512,1,1,19,104.269,19.738,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,1024,1,1,19,107.296,20.156,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,2048,1,1,19,102.29,19.816,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,4096,1,1,19,110.233,33.216,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2289,2289,64,64,8192,1,1,19,106.544,32.239,0.008,-1,-1,-1
