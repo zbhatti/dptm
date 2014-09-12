@@ -20,18 +20,18 @@ Version
 
 2.0
 
-Tech
+Folder Structure
 -----------
 
-Dillinger uses a number of open source projects to work properly:
+The current version of this project has explored different smaller projects and this
+is reflected in the folder layout:
 
-* [Ace Editor] - awesome web-based text editor
-* [Marked] - a super fast port of Markdown to JavaScript
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh 
+* [aside] - standalone OpenCL programs used to test system stability
+* [doc] - contains the UML class diagram for the mockup folder currently
+* [mockup] - OpenCL kernel launcher with performance reports 
+* [prototype] - cuFFT implementation with a prototype task manager
+* [singleFFT] - FFTW, clFFT and cuFFT comparisons without the use of the task manager
+* [utilities] - OpenCL programs used to fetch information about the current PC's hardware
 
 Installation
 --------------
@@ -61,15 +61,9 @@ MIT
 
 
 **Free Software, Hell Yeah!**
-
-[john gruber]:http://daringfireball.net/
-[@thomasfuchs]:http://twitter.com/thomasfuchs
-[1]:http://daringfireball.net/projects/markdown/
-[marked]:https://github.com/chjj/marked
-[Ace Editor]:http://ace.ajax.org
-[node.js]:http://nodejs.org
-[Twitter Bootstrap]:http://twitter.github.com/bootstrap/
-[keymaster.js]:https://github.com/madrobby/keymaster
-[jQuery]:http://jquery.com
-[@tjholowaychuk]:http://twitter.com/tjholowaychuk
-[express]:http://expressjs.com
+[aside]:https://github.com/zbhatti/dptm/tree/master/aside
+[doc]:https://github.com/zbhatti/dptm/tree/master/doc
+[mockup]:https://github.com/zbhatti/dptm/tree/master/mockup
+[prototype]:https://github.com/zbhatti/dptm/tree/master/prototype
+[singleFFT]:https://github.com/zbhatti/dptm/tree/master/singleFFT
+[utilities]:https://github.com/zbhatti/dptm/tree/master/utilities
