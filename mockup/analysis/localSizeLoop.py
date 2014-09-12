@@ -28,11 +28,11 @@ def getBounds(tree):
 			Bounds[wgDim][0]=tree.execute
 	return [Bounds, threads]
 
-def plot_ONE_D(f,tree, optimalFile,devName,kerName):
+def plot_ONE_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	Hists={}
 	MeanRMS={}
 	min =1000000000
-	minP = 1
+	minP = 0
 	Canvases[f]=TCanvas(f)
 	
 	#get maximum and minimum times found for (xLocal,1,1)
@@ -51,16 +51,15 @@ def plot_ONE_D(f,tree, optimalFile,devName,kerName):
 		if not thr in Hists:
 			Hists[thr]= -1
 		
-		histname="execute,"+kerName+", "+str(tree.MB)+", "+devName+str(thr)
+		histname = kerName + str(tree.MB) + devName + str(thr[0]) +","+ str(thr[1]) +","+ str(thr[2])
 		h=TH1F(histname, histname, len(threads), Bounds[thr][0]*.9, Bounds[thr][1]*1.1)
 		tree.Draw("execute>>"+histname, "xLocal==" + str(thr[0]))
 		
 		MeanRMS[thr][0]=h.GetMean()
 		MeanRMS[thr][1]=h.GetRMS()
 		
-		Hists[thr]= h
+		Hists[thr]= h 
 		
-		#print str(thr[0])+str(thr[1])+str(h.GetMean())
 		x[i]= thr[0]
 		t[i]= h.GetMean()
 		if h.GetMean() < min:
@@ -88,10 +87,15 @@ def plot_ONE_D(f,tree, optimalFile,devName,kerName):
 	pic = "./results/" + f[2:-4]
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
-	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
+	
+	#used to keep data for use in main
+	if keepData:
+		data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot) 
+	else:
+		data[f]=(-1, -1, -1, -1, Canvases[f], -1)
 	
 	
-def plot_TWO_D(f,tree, optimalFile,devName,kerName):
+def plot_TWO_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	Hists={}
 	MeanRMS={}
 	min =1000000000
@@ -116,13 +120,12 @@ def plot_TWO_D(f,tree, optimalFile,devName,kerName):
 		if not thr in Hists:
 			Hists[thr]= -1
 		
-		histname="execute,"+kerName+", "+str(tree.MB)+", "+devName+str(thr)
+		histname = kerName + str(tree.MB) + devName + str(thr[0]) +","+ str(thr[1]) +","+ str(thr[2])
 		h=TH1F(histname, histname, len(threads), Bounds[thr][0]*.9, Bounds[thr][1]*1.1)
 		tree.Draw("execute>>"+histname, "xLocal==" + str(thr[0]) + "&&" + "yLocal==" + str(thr[1]) )
-		
+
 		MeanRMS[thr][0]=h.GetMean()
 		MeanRMS[thr][1]=h.GetRMS()
-		
 		Hists[thr]= h
 		
 		x[i]= thr[0]
@@ -133,7 +136,6 @@ def plot_TWO_D(f,tree, optimalFile,devName,kerName):
 			minP = thr
 		i=i+1
 
-	
 	minString= "min at: " + str(minP)+" in: " + str("%.2f"%min) + " ms"
 	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	
@@ -157,19 +159,25 @@ def plot_TWO_D(f,tree, optimalFile,devName,kerName):
 	
 	pic = "./results/" + f[2:-4]
 	
-	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot)
-	data[f][5].GetXaxis().SetTitle("xThreads")
-	data[f][5].GetYaxis().SetTitle("yThreads")
-	data[f][5].GetZaxis().SetTitle("time (ms)")
+	#used to keep data for use in main
+	if keepData:
+		data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot) 
+	else:
+		data[f]=(-1, -1, -1, -1, Canvases[f], -1)
+	
+	plot.GetXaxis().SetTitle("xThreads")
+	plot.GetYaxis().SetTitle("yThreads")
+	plot.GetZaxis().SetTitle("time (ms)")
+	
 	Canvases[f].Update()
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	
 
-def plot_THREE_D(f,tree, optimalFile,devName,kerName):
+def plot_THREE_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	Hists={}
 	MeanRMS={}
-	min =1000000000
+	min = 1000000000
 	minP = (0,0,0)
 	Canvases[f]=TCanvas(f)
 	
@@ -193,13 +201,13 @@ def plot_THREE_D(f,tree, optimalFile,devName,kerName):
 		if not thr in Hists:
 			Hists[thr]= -1
 		
-		histname="execute,"+kerName+", "+str(tree.MB)+", "+devName+str(thr)
+		histname = kerName + str(tree.MB) + devName + str(thr[0]) +","+ str(thr[1]) +","+ str(thr[2])
 		h=TH1F(histname, histname, len(threads), Bounds[thr][0]*.9, Bounds[thr][1]*1.1)
 		tree.Draw("execute>>"+histname, "xLocal==" + str(thr[0]) + "&&" + "yLocal==" + str(thr[1]) + "&&" + "zLocal==" + str(thr[2]))
 		MeanRMS[thr][0]=h.GetMean()
 		MeanRMS[thr][1]=h.GetRMS()
 		
-		Hists[thr]= h 
+		#Hists[thr]= h uncomment if this needs to be accessed outside this function
 		
 		xThreads[i]= thr[0]
 		yThreads[i]= thr[1]
@@ -234,15 +242,20 @@ def plot_THREE_D(f,tree, optimalFile,devName,kerName):
 	Canvases[f].Print(pic+".png")
 	Canvases[f].Close()
 	
-	data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], ntuple)
+	#used to keep data for use in main
+	if keepData:
+		data[f]=(tree, Bounds, Hists, MeanRMS, Canvases[f], plot) 
+	else:
+		data[f]=(-1, -1, -1, -1, Canvases[f], -1)
 
+
+################ MAIN ###################
 
 FileNames=[]
 #find files that end with .log and add them into FileNames array
 for root, dirs, files in os.walk("."):
 	for file in files:
 		if file.endswith(".log"):
-			print os.path.join(root, file)
 			FileNames.append(os.path.join(root, file))	
 
 #make ttree for each device/kernel.log
@@ -256,15 +269,12 @@ for f in FileNames:
 	tree=TTree()
 	tree.ReadFile(f,"",',')
 	
-	
 	tree.GetEntry(0);
 	optimalFile=open("optimal.csv","a")	
 	
 	slashIndex = f.rfind("/");
 	devName = f[2:slashIndex]
 	kerName = tree.kernel[:-1]
-	#print(str(kerName))
-	#print(str(devName))
 	
 	if tree.workDimension[0:3]=="ONE":
 		plot_ONE_D(f, tree, optimalFile, devName, str(kerName))
