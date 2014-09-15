@@ -560,6 +560,7 @@ void dpMonteCarloAsian::cleanUp(){
 	clErrChk(clReleaseProgram(program)); 
 
 	// Release program resources (input memory etc.)
+	free(randNum);
 	free(sigma);
 	free(price);
 	free(vega);

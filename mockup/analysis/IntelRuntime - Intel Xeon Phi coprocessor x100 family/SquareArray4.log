@@ -41,3 +41,17 @@ Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,1024,1,1,4,
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,2048,1,1,4,31.698,3.454,0.005,13.261,0.979,1.425
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,4096,1,1,4,31.259,3.476,0.005,19.032,15.923,1.272
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,8192,1,1,4,30.747,3.612,0.007,13.243,1.438,2.429
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,1,1,1,4,29.294,4.226,0.006,9.308,1.549,1.295
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,2,1,1,4,30.362,3.467,0.005,18.979,0.899,1.558
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,4,1,1,4,32.92,3.643,0.004,18.96,0.858,1.692
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,8,1,1,4,28.718,3.589,0.005,10.622,0.855,1.35
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,16,1,1,4,30.907,3.521,0.005,10.649,0.829,1.655
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,32,1,1,4,32.353,3.338,0.005,10.091,0.753,1.735
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,64,1,1,4,28.206,3.611,0.005,12.114,0.863,1.638
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,128,1,1,4,35.001,3.494,0.005,15.925,0.835,1.496
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,256,1,1,4,31.313,3.613,0.004,12.828,0.824,1.486
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,512,1,1,4,31.58,3.495,0.004,12.124,0.822,1.551
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,1024,1,1,4,26.748,3.514,0.004,11.586,0.828,1.534
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,2048,1,1,4,29.363,3.368,0.004,9.301,0.754,1.534
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,4096,1,1,4,28.003,4.038,0.004,15.19,2.197,1.576
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,1.04858e+06,8192,1,1,4,26.852,3.454,0.004,5.15,2.197,1.318

@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,1024,1,1,
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,2048,1,1,1,13.373,4.118,0.004,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,4096,1,1,1,13.378,4.095,0.005,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,8192,1,1,1,13.402,4.122,0.003,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,1,1,1,1,18.905,15.443,0.006,169.083,1.774,1.275
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,2,1,1,1,15.215,5.624,0.006,166.445,0.902,1.295
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,4,1,1,1,15.402,5.443,0.005,163.211,1.08,1.287
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,8,1,1,1,17.152,5.463,0.005,162.775,0.964,1.121
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,16,1,1,1,18.412,5.409,0.006,65.093,0.967,1.243
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,32,1,1,1,17.832,5.4,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,64,1,1,1,15.217,5.218,0.005,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,128,1,1,1,14.512,5.665,0.008,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,256,1,1,1,17.626,6.327,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,512,1,1,1,14.811,4.251,0.003,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,1024,1,1,1,13.801,4.114,0.004,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,2048,1,1,1,13.772,4.027,0.004,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,4096,1,1,1,13.711,4.069,0.004,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,724,724,64,64,8192,1,1,1,13.667,4.061,0.005,-1,-1,-1

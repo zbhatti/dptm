@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "dpClient.hpp"
 #define REPEAT 10
-#define MAXMB 44
-#define MINMB 26
+#define MAXMB 32
+#define MINMB 2
 int main (int argc, const char* argv[]) {
 	
 		//take platform and device argument:
@@ -17,7 +17,7 @@ int main (int argc, const char* argv[]) {
 	for (int r=0; r<REPEAT; r++){
 		for (int mb=MINMB; mb<=MAXMB; mb=mb+2){
 			for (int i=0; i<5; i++){
-			fprintf(stderr, "\n\n\n\n%s\n\n", cliList[i]->getDev());
+			fprintf(stderr, "\n\n\n\n%s-%s\n\n", cliList[i]->getPlat(),cliList[i]->getDev());
 				
 				/*
 				can't get every 4th integer

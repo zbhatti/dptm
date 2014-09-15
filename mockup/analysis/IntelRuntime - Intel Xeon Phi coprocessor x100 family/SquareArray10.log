@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,1024,1,1,10
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,2048,1,1,10,51.368,6.542,0.006,10.407,6.435,1.157
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,4096,1,1,10,53.467,6.676,0.004,8.282,6.519,1.495
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,8192,1,1,10,55.916,6.915,0.006,7.76,7.795,1.457
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,1,1,1,10,70.449,6.711,0.005,18.015,22.427,2.067
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,2,1,1,10,70.446,8.176,0.005,13.596,15.695,1.614
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,4,1,1,10,66.024,7.903,0.006,11.01,5.426,1.467
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,8,1,1,10,66.105,8.011,0.005,10.27,11.073,1.464
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,16,1,1,10,65.965,8.138,0.005,9.727,15.759,1.572
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,32,1,1,10,65.993,8.057,0.005,12.549,4.174,1.848
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,64,1,1,10,66.044,7.988,0.006,9.592,12.143,1.517
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,128,1,1,10,65.983,7.706,0.005,9.597,15.187,1.542
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,256,1,1,10,65.977,7.507,0.005,8.88,16.068,1.535
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,512,1,1,10,65.96,7.242,0.005,11.395,13.861,1.529
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,1024,1,1,10,65.904,7.023,0.006,7.499,6.202,1.842
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,2048,1,1,10,71.175,6.799,0.005,8.92,8.214,1.755
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,4096,1,1,10,72.769,6.457,0.005,8.426,6.533,1.796
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,2.62144e+06,8192,1,1,10,74.636,6.452,0.005,7.415,6.662,1.529

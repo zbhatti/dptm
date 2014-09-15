@@ -41,3 +41,17 @@ Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,1024,1,1,4,33.781,
 Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,2048,1,1,4,31.707,6.231,0.005,3.473,0.143,1.991
 Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,4096,1,1,4,35.325,4.947,0.004,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,8192,1,1,4,28.373,6.357,0.003,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,1,1,1,4,28.521,5.698,0.014,4.708,4.357,8.124
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,2,1,1,4,31.615,5.761,0.005,10.679,1.333,2.293
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,4,1,1,4,30.02,6.029,0.005,9.17,0.725,1.403
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,8,1,1,4,31.275,5.867,0.007,10.669,0.783,1.875
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,16,1,1,4,31.42,6.004,0.004,9.869,0.39,2.268
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,32,1,1,4,36.093,5.937,0.009,11.856,0.424,1.975
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,64,1,1,4,33.061,5.981,0.004,17.01,0.21,1.213
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,128,1,1,4,29.264,5.524,0.004,8.851,0.194,1.661
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,256,1,1,4,31.225,5.596,0.004,9.387,0.139,2.234
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,512,1,1,4,27.227,5.58,0.004,7.443,0.113,1.678
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,1024,1,1,4,31.229,5.658,0.003,3.927,0.222,1.767
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,2048,1,1,4,29.463,6.777,0.003,4.058,0.259,1.838
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,4096,1,1,4,32.846,5.408,0.004,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Reduction,ONE_D,262144,8192,1,1,4,28.798,7.191,0.003,-1,-1,-1
