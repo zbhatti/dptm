@@ -36,6 +36,16 @@ cd dptm
 ```
 Currently, only Red Hat flavor systems have been tested: [RHL6Installation]
 
+Devices Tested
+--------------
+* NVIDIA GTX 650
+* NVIDIA GTX 780
+* NVIDIA GTX Titan
+* NVIDIA Tesla K20Xm
+* AMD Firepro W9100
+* Intel Xeon E5-2695
+* Intel Xeon Phi x100
+
 [aside]:https://github.com/zbhatti/dptm/tree/master/aside
 [doc]:https://github.com/zbhatti/dptm/tree/master/doc
 [mockup]:https://github.com/zbhatti/dptm/tree/master/mockup
