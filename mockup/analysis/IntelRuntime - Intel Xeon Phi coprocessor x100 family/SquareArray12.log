@@ -41,3 +41,17 @@ Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,1024,1,1,12
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,2048,1,1,12,60.152,7.506,0.005,10.046,7.114,1.385
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,4096,1,1,12,63.497,7.587,0.004,11.107,12.296,1.92
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,8192,1,1,12,83.194,12.459,0.006,9.57,10.788,1.508
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,1,1,1,12,66.445,10.043,0.006,18.975,7.788,1.907
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,2,1,1,12,62.304,11.742,0.005,14.727,7.407,1.535
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,4,1,1,12,63.046,11.854,0.005,13.013,9.417,1.506
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,8,1,1,12,63.399,11.618,0.006,11.28,9.579,1.556
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,16,1,1,12,60.796,11.721,0.006,9.755,6.109,1.519
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,32,1,1,12,61.073,11.744,0.005,14.523,8.946,1.963
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,64,1,1,12,68.512,11.76,0.005,15.212,8.558,1.301
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,128,1,1,12,62.972,11.444,0.005,9.57,7.962,1.951
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,256,1,1,12,66.783,11.018,0.006,19.072,22.761,1.491
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,512,1,1,12,60.938,10.765,0.006,15.782,11.005,1.541
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,1024,1,1,12,60.835,10.574,0.006,8.913,6.296,1.729
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,2048,1,1,12,67.818,10.391,0.005,8.933,10.313,1.968
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,4096,1,1,12,80.759,10.059,0.006,11.347,5.568,1.956
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,3.14573e+06,8192,1,1,12,68.061,11.304,0.004,11.025,11.116,2.192

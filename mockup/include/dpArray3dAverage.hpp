@@ -19,6 +19,8 @@ class dpArray3dAverage: public dpKernel{
 		void memoryCopyIn();
 		void cleanUp();
 		void generate3dArray(float*, int);
+		int gcd(int,int);
+		int lcm(int,int);
 };
 
 #endif

@@ -149,10 +149,15 @@ dpFluidSimulation::dpFluidSimulation(cl_context ctx, cl_command_queue q){
 	"        of5678[nPos.s7].w = f5678.w;                                                               \n"
 	"}                                                                                                  \n";
 	
-	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	err = clBuildProgram(program, 0, NULL, "-D KHR_DP_EXTENSION", NULL, NULL); clErrChk(err);	
+	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); 
+	clErrChk(err);
+	
+	err = clBuildProgram(program, 0, NULL, "-D KHR_DP_EXTENSION", NULL, NULL); 
+	clErrChk(err);	
+	
 	programCheck(err, context, program);
-	kernel = clCreateKernel(program, "lbm", &err); clErrChk(err);
+	kernel = clCreateKernel(program, "lbm", &err); 
+	clErrChk(err);
 	
 }
 
@@ -188,7 +193,7 @@ void dpFluidSimulation::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 
 
 void dpFluidSimulation::init(){
-	iterations = 5;
+	iterations = 3;
 	
 	dataParameters.push_back(dims[0]);
 	dataParameters.push_back(dims[1]);
@@ -221,25 +226,43 @@ void dpFluidSimulation::init(){
 void dpFluidSimulation::memoryCopyOut(){
 	//MEMORY COPY OUT:
 	size_t temp = dims[0] * dims[1];
-	d_if0 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double) * temp,0,&err); clErrChk(err);
+	d_if0 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double) * temp,0,&err); 
+	clErrChk(err);
+	
 	clErrChk(clEnqueueWriteBuffer(queue,d_if0,1,0,sizeof(cl_double) * temp,h_if0,0, 0, 0));
-	d_if1234 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); clErrChk(err);
+	d_if1234 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); 
+	clErrChk(err);
+	
 	clErrChk(clEnqueueWriteBuffer(queue,d_if1234,1,0,sizeof(cl_double4) * temp,h_if1234,0, 0, 0));
-	d_if5678 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); clErrChk(err);
+	d_if5678 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); 
+	clErrChk(err);
+	
 	clErrChk(clEnqueueWriteBuffer(queue,d_if5678,1,0,sizeof(cl_double4) * temp,h_if5678,0, 0, 0));
-	d_of0 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double) * temp,0,&err); clErrChk(err);
-	d_of1234 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); clErrChk(err);
-	d_of5678 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); clErrChk(err);
+	d_of0 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double) * temp,0,&err); 
+	clErrChk(err);
+	
+	d_of1234 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); 
+	clErrChk(err);
+	
+	d_of5678 = clCreateBuffer(context,CL_MEM_READ_WRITE,sizeof(cl_double4) * temp,0,&err); 
+	clErrChk(err);
+	
 	clErrChk(clEnqueueCopyBuffer(queue,d_if0,d_of0,0, 0, sizeof(cl_double) * temp,0, 0, 0));
 	clErrChk(clEnqueueCopyBuffer(queue,d_if1234,d_of1234,0, 0, sizeof(cl_double4) * temp,0, 0, 0));
 	clErrChk(clEnqueueCopyBuffer(queue,d_if5678,d_of5678,0, 0, sizeof(cl_double4) * temp,0, 0, 0));
 
 	//Constant arrays
-	type = clCreateBuffer(context,CL_MEM_READ_ONLY,sizeof(cl_bool) * temp,0,&err); clErrChk(err);
-	weight = clCreateBuffer(context,CL_MEM_READ_ONLY,sizeof(cl_double) * 9,0,&err); clErrChk(err);
+	type = clCreateBuffer(context,CL_MEM_READ_ONLY,sizeof(cl_bool) * temp,0,&err); 
+	clErrChk(err);
+	
+	weight = clCreateBuffer(context,CL_MEM_READ_ONLY,sizeof(cl_double) * 9,0,&err); 
+	clErrChk(err);
+	
 	clErrChk(clEnqueueWriteBuffer(queue,weight,1, 0, sizeof(cl_double) * 9,w,0, 0, 0));
-	velocity = clCreateBuffer(context,CL_MEM_WRITE_ONLY | CL_MEM_ALLOC_HOST_PTR,sizeof(cl_double2) * temp,0, &err); clErrChk(err);
-	clFinish(queue);
+	velocity = clCreateBuffer(context,CL_MEM_WRITE_ONLY | CL_MEM_ALLOC_HOST_PTR,sizeof(cl_double2) * temp,0, &err); 
+	clErrChk(err);
+	
+	clErrChk(clFinish(queue));
 }
 void dpFluidSimulation::plan(){
 	// initialize direction buffer
@@ -311,7 +334,7 @@ int dpFluidSimulation::execute(){
 			safeExit = -1;
 		
 		clErrChk(clEnqueueReadBuffer(queue,velocity,CL_FALSE,0,sizeof(cl_double2) * temp,u,0, 0, NULL));
-		clFinish(queue);
+		clErrChk(clFinish(queue));
 		
 		//Read back the data into host buffer
 		if(i % 2){
@@ -344,13 +367,13 @@ int dpFluidSimulation::execute(){
 		d_if0 = temp0;
 		d_if1234 = temp1234;
 		d_if5678 = temp5678;
-		clFinish(queue);
+		clErrChk(clFinish(queue));
 		
-		if (safeExit <0)
+		if (safeExit == -1)
 			return -1;
 	}
 	
-	clFinish(queue);
+	clErrChk(clFinish(queue));
 	return 0;
 }
 

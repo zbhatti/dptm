@@ -1,0 +1,23 @@
+device/C,kernel/C,workDimension/C,actualMB/F,width/F,height/F,nSteps/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,1,1,1,30,471.603,281.166,0.007,1074.17,0.001,5.068
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,2,1,1,30,465.701,280.243,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,4,1,1,30,467.002,274.841,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,8,1,1,30,465.915,276.298,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,16,1,1,30,469.097,276.781,0.004,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,32,1,1,30,469.376,277.932,0.004,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,64,1,1,30,467.031,279.415,0.003,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,128,1,1,30,467.061,280.491,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,256,1,1,30,466.977,279.916,0.004,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,512,1,1,30,466.759,280.411,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,1024,1,1,30,473.508,276.891,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,1,1,1,30,475.427,273.373,0.005,1115.4,0.002,5.644
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,2,1,1,30,465.921,270.123,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,4,1,1,30,466.847,273.103,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,8,1,1,30,467.239,275.459,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,16,1,1,30,467.872,275.598,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,32,1,1,30,474.277,323.013,0.004,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,64,1,1,30,467.07,279.823,0.004,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,128,1,1,30,466.458,275.753,0.003,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,256,1,1,30,468.561,276.456,0.006,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,512,1,1,30,466.607,279.749,0.007,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,FluidSimulation,ONE_D,30,1983,1983,3,1024,1,1,30,466.61,280.146,0.006,-1,-1,-1

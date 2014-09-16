@@ -41,3 +41,17 @@ Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,1024,1,1,12,1
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,2048,1,1,12,167.694,11.888,0.006,16.22,12.93,1.784
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,4096,1,1,12,161.854,11.215,0.006,12.408,4.858,1.712
 Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,8192,1,1,12,127.792,7.786,0.008,16.028,4.884,1.462
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,1,1,1,12,173.165,10.36,0.006,21.288,13.319,1.487
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,2,1,1,12,170.871,11.414,0.008,14.801,6.093,1.503
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,4,1,1,12,165.329,9.909,0.023,18.619,7.502,1.475
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,8,1,1,12,161.664,9.357,0.006,12.096,8.306,1.654
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,16,1,1,12,168.125,11.045,0.006,11.019,4.074,1.163
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,32,1,1,12,161.584,8.165,0.006,15.539,11.946,1.637
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,64,1,1,12,176.091,11.078,0.005,16.261,5.012,1.39
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,128,1,1,12,161.561,8.871,0.009,12.639,12.629,1.812
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,256,1,1,12,165.932,11.579,0.006,13.927,8.527,1.428
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,512,1,1,12,174.353,10.754,0.005,16.628,7.433,1.283
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,1024,1,1,12,168.104,10.628,0.007,20.902,5.251,1.448
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,2048,1,1,12,163.647,9.024,0.01,16.066,8.704,1.532
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,4096,1,1,12,163.099,9.951,0.007,12.39,8.057,1.171
+Intel Xeon Phi coprocessor x100 family,VectorAdd,ONE_D,3.14573e+06,8192,1,1,12,162.379,9.529,0.006,21.192,8.669,1.108

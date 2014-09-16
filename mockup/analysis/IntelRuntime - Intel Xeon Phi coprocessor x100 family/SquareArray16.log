@@ -55,3 +55,17 @@ Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,1024,1,1,16,
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,2048,1,1,16,81.958,10.579,0.005,11.959,8.8,1.559
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,4096,1,1,16,114.186,13.662,0.007,18.569,10.072,1.378
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,8192,1,1,16,82.009,10.288,0.006,16.403,10.861,1.304
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,1,1,1,16,87.865,10.923,0.021,24.065,23.255,1.584
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,2,1,1,16,82.778,11.192,0.007,18.214,10.027,1.68
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,4,1,1,16,85.845,10.951,0.006,15.942,11.763,1.682
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,8,1,1,16,82.589,9.92,0.006,13.502,2.622,2.122
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,16,1,1,16,86.38,10.503,0.005,19.205,2.683,2.17
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,32,1,1,16,91.086,15.323,0.006,13.595,2.636,2.073
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,64,1,1,16,81.624,15.183,0.019,17.91,2.671,1.568
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,128,1,1,16,82.315,15.361,0.007,15.855,2.642,2.077
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,256,1,1,16,85.041,14.773,0.006,17.373,17.381,1.591
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,512,1,1,16,81.906,14.939,0.006,14.074,17.477,1.54
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,1024,1,1,16,82.22,13.518,0.021,12.793,10.086,2.153
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,2048,1,1,16,115.784,14.582,0.005,19.92,17.344,1.63
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,4096,1,1,16,81.929,10.907,0.005,21.733,9.631,1.572
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.1943e+06,8192,1,1,16,84.568,10.991,0.004,15.22,11.787,1.593

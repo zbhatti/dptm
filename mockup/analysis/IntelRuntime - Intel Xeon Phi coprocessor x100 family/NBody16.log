@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,1024,1,1,
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,2048,1,1,16,119.688,22.831,0.006,84140.5,0.002,5.863
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,4096,1,1,16,115.846,21.098,0.007,88288.3,0.002,6.682
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,8192,1,1,16,123.942,24.616,0.007,97168.7,0.034,6.37
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,1,1,1,16,93.832,25.522,0.01,1.00311e+06,0.002,5.654
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,2,1,1,16,125.543,25.704,0.006,1.00547e+06,0.002,5.559
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,4,1,1,16,128.183,26.8,0.007,1.00329e+06,0.002,6.059
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,8,1,1,16,129.075,26.934,0.007,1.00299e+06,0.002,6.738
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,16,1,1,16,129.549,27.513,0.009,60182.6,0.001,4.629
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,32,1,1,16,114.029,25.229,0.015,60166.6,0.001,4.455
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,64,1,1,16,116.774,21.42,0.005,60509.2,0.002,4.179
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,128,1,1,16,110.491,19.534,0.005,61393.1,0.002,4.452
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,256,1,1,16,127.531,22.243,0.007,63026.8,0.002,4.502
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,512,1,1,16,117.934,20.005,0.005,63199.6,0.001,4.302
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,1024,1,1,16,130.802,22.14,0.007,70172.1,0.002,4.657
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,2048,1,1,16,121.979,21.909,0.005,84101.4,0.001,4.398
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,4096,1,1,16,114.604,20.393,0.004,87683.2,0.002,4.98
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,1.04858e+06,0.005,1,8192,1,1,16,124.672,24.666,0.006,97292.2,0.002,7.222

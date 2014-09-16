@@ -1,0 +1,5 @@
+device/C,kernel/C,workDimension/C,cubeLength/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,Array3dAverage,THREE_D,101,1,1,1,3.93029,51.346,1.887,0.001,13.034,2.997,0.199
+Tesla K20Xm,Array3dAverage,THREE_D,101,1,1,1,3.93029,48.822,1.868,0.001,13.027,3.047,0.19
+Tesla K20Xm,Array3dAverage,THREE_D,101,1,1,1,3.93029,53.672,3.174,0.001,13,2.304,0.201
+Tesla K20Xm,Array3dAverage,THREE_D,101,1,1,1,3.93029,50.757,3.212,0.001,13.053,3.161,0.199

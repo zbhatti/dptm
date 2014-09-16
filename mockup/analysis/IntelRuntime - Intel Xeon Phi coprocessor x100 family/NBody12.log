@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,1024,1,1,12,90
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,2048,1,1,12,93.249,23.257,0.006,39345.7,0.001,5.059
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,4096,1,1,12,89.733,22.784,0.005,42219.5,0.001,5.659
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,8192,1,1,12,90.389,23.03,0.006,67221.7,0.001,5.798
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,1,1,1,12,71.723,17.54,0.009,563914,0.001,4.529
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,2,1,1,12,98.847,22.372,0.006,564459,0.002,4.79
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,4,1,1,12,96.471,21.244,0.005,564317,0.002,5.028
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,8,1,1,12,96.612,21.048,0.006,564427,0.001,4.632
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,16,1,1,12,94.378,21.35,0.007,33805.8,0.002,4.383
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,32,1,1,12,93.982,20.536,0.005,33893.5,0,4.472
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,64,1,1,12,99.921,19.756,0.006,34191.2,0.001,4.426
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,128,1,1,12,94.515,21.152,0.005,34238.3,0.001,4.27
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,256,1,1,12,94.932,20.592,0.008,34266.5,0,5.146
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,512,1,1,12,95.836,19.199,0.005,36846.1,0.001,5.853
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,1024,1,1,12,97.708,19.601,0.005,42064.9,0.001,4.748
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,2048,1,1,12,89.685,16.015,0.005,40238.7,0.001,4.691
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,4096,1,1,12,82.417,14.957,0.004,42241.9,0.001,4.615
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,786432,0.005,1,8192,1,1,12,92.669,16.786,0.005,59714.1,0.001,5.356

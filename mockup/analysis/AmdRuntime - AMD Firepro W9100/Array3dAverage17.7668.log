@@ -1,0 +1,5 @@
+device/C,kernel/C,workDimension/C,cubeLength/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+AMD Firepro W9100,Array3dAverage,THREE_D,167,1,1,1,17.7668,173.869,6.693,0.002,21.507,5.294,4.041
+AMD Firepro W9100,Array3dAverage,THREE_D,167,1,1,1,17.7668,169.783,7.229,0.002,21.41,5.412,1.337
+AMD Firepro W9100,Array3dAverage,THREE_D,167,1,1,1,17.7668,198.609,5.993,0.003,21.494,5.29,2.654
+AMD Firepro W9100,Array3dAverage,THREE_D,167,1,1,1,17.7668,171.125,6.186,0.003,21.418,4.138,1.839

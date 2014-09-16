@@ -1,0 +1,23 @@
+device/C,kernel/C,workDimension/C,actualMB/F,width/F,height/F,nSteps/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,1,1,1,44,685.69,141.125,0.004,2050.38,0.001,4.247
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,2,1,1,44,684.372,141.313,0.004,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,4,1,1,44,709.947,141.369,0.004,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,8,1,1,44,685.098,141.243,0.004,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,16,1,1,44,683.607,141.213,0.004,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,32,1,1,44,686.067,141.171,0.003,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,64,1,1,44,685.269,141.27,0.004,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,128,1,1,44,694.705,141.2,0.004,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,256,1,1,44,694.629,141.252,0.003,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,512,1,1,44,685.023,141.469,0.004,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,1024,1,1,44,688.251,141.479,0.003,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,1,1,1,44,683.434,283.055,0.006,2559.08,0.001,4.589
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,2,1,1,44,684.973,282.967,0.006,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,4,1,1,44,691.456,282.719,0.005,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,8,1,1,44,683.472,282.644,0.005,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,16,1,1,44,683.054,283.764,0.005,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,32,1,1,44,682.462,282.759,0.005,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,64,1,1,44,682.546,282.486,0.006,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,128,1,1,44,683.839,282.707,0.006,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,256,1,1,44,695.145,283.059,0.006,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,512,1,1,44,683.012,282.216,0.005,-1,-1,-1
+Tesla K20Xm,FluidSimulation,ONE_D,43,2401,2401,3,1024,1,1,44,694.421,283.202,0.006,-1,-1,-1

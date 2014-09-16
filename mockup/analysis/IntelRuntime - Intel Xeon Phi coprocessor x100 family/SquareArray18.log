@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,1024,1,1,18
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,2048,1,1,18,120.631,17.814,0.006,17.057,13.665,1.562
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,4096,1,1,18,125.333,16.999,0.005,14.888,19.564,1.72
 Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,8192,1,1,18,119.753,19.221,0.004,16.008,6.41,5.553
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,1,1,1,18,101.538,12.245,0.007,25.984,8.971,2.186
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,2,1,1,18,125.853,18.492,0.006,22.012,18.642,1.667
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,4,1,1,18,123.206,20.132,0.006,19.764,18.956,1.733
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,8,1,1,18,92.639,13.122,0.005,14.876,9.975,1.653
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,16,1,1,18,94.311,13.101,0.006,13.338,11.392,2.003
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,32,1,1,18,97.589,16.177,0.018,15.259,2.861,2.17
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,64,1,1,18,97.045,16.387,0.005,14.603,6.856,1.523
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,128,1,1,18,97.606,13.225,0.006,14.767,11.825,1.486
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,256,1,1,18,96.838,13.061,0.005,19,10.603,1.596
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,512,1,1,18,95.69,13.601,0.005,16.8,12.302,1.564
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,1024,1,1,18,94.876,13.06,0.005,16.693,12.791,1.562
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,2048,1,1,18,96.452,12.973,0.005,16.331,10.667,1.649
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,4096,1,1,18,97.843,13.031,0.007,18.159,12.312,1.578
+Intel Xeon Phi coprocessor x100 family,SquareArray,ONE_D,4.71859e+06,8192,1,1,18,95.938,12.944,0.005,16.262,12.247,1.563

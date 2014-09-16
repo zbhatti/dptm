@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "dpClient.hpp"
-#define REPEAT 10
-#define MAXMB 32
-#define MINMB 2
+#define REPEAT 4
+#define MAXMB 44
+#define MINMB 4
 int main (int argc, const char* argv[]) {
 	
 		//take platform and device argument:
@@ -15,18 +15,18 @@ int main (int argc, const char* argv[]) {
 	
 	//take task scan argument:
 	for (int r=0; r<REPEAT; r++){
-		for (int mb=MINMB; mb<=MAXMB; mb=mb+2){
+		for (int mb=MINMB; mb<=MAXMB; mb=mb+4){
 			for (int i=0; i<5; i++){
-			fprintf(stderr, "\n\n\n\n%s-%s\n\n", cliList[i]->getPlat(),cliList[i]->getDev());
+			fprintf(stderr, "\n\n#######################\n%s-%s\n#######################\n\n", cliList[i]->getPlat(),cliList[i]->getDev());
 				
 				/*
-				can't get every 4th integer
+				//intel platform crashes
 				fprintf(stderr,"Array3dAverage, %d MB\n",mb);
 				cliList[i]->addWGScan("Array3dAverage",mb);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				//cliList[i]->printScreen();
-				*/
+				
 				
 				fprintf(stderr,"Convolution, %d MB\n",mb);
 				cliList[i]->addWGScan("Convolution",mb);
@@ -40,14 +40,14 @@ int main (int argc, const char* argv[]) {
 				cliList[i]->printFile();
 				//cliList[i]->printScreen();
 				
-				/*
-				crashes horrendously on NVIDIA
+				
+				
 				fprintf(stderr,"FluidSimulation, %d MB\n",mb);
 				cliList[i]->addWGScan("FluidSimulation",mb);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				//cliList[i]->printScreen();
-				*/
+				
 				
 				fprintf(stderr,"FWT, %d MB\n",mb);
 				cliList[i]->addWGScan("FWT",mb);
@@ -78,16 +78,16 @@ int main (int argc, const char* argv[]) {
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				//cliList[i]->printScreen();
+				*/
 				
-				/*
-				extremely slow kernel
+				//extremely slow kernel
 				fprintf(stderr,"NBody, %d MB\n",mb);
 				cliList[i]->addWGScan("NBody",mb);
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				//cliList[i]->printScreen();
-				*/
 				
+				/*
 				fprintf(stderr,"Reduction, %d MB\n",mb);
 				cliList[i]->addWGScan("Reduction",mb);
 				cliList[i]->runTasks();
@@ -105,7 +105,7 @@ int main (int argc, const char* argv[]) {
 				cliList[i]->runTasks();
 				cliList[i]->printFile();
 				//cliList[i]->printScreen();
-				
+				*/
 			}
 		}
 	}

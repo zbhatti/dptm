@@ -1,629 +1,1915 @@
 ########## FluidSimulation ##########
-8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,582.68,8,16,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,650.20,8,1,1
-NVIDIA CUDA - Tesla K20Xm,832.37,64,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,517.59,16,16,1
-AMD Accelerated Parallel Processing - Hawaii,595.58,8,1,1
-
-128.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8859.02,64,4,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7380.56,128,64,1
-NVIDIA CUDA - Tesla K20Xm,9963.82,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8305.62,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,8628.52,2,8,1
-
 2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,176.16,128,8,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,104.69,128,16,1
-NVIDIA CUDA - Tesla K20Xm,149.58,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,157.00,32,1,1
-AMD Accelerated Parallel Processing - Hawaii,128.13,4,2,1
-
-0.5
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,47.61,64,4,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,31.15,64,2,1
-NVIDIA CUDA - Tesla K20Xm,40.90,64,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,35.03,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,37.83,128,2,1
-
-32.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1800.14,128,8,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1472.37,2,2,1
-NVIDIA CUDA - Tesla K20Xm,2479.25,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,2387.35,64,8,1
-AMD Accelerated Parallel Processing - Hawaii,2136.43,2,2,1
-
-
-########## MatrixTranspose ##########
-16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,57.24,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8.39,64,1,1
-NVIDIA CUDA - Tesla K20Xm,17.20,32,8,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,25.07,256,32,1
-AMD Accelerated Parallel Processing - Hawaii,18.91,16,8,1
-
-1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,5.95,256,2,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2.32,512,16,1
-NVIDIA CUDA - Tesla K20Xm,1.49,512,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.12,512,16,1
-AMD Accelerated Parallel Processing - Hawaii,3.17,8,16,1
+NvidiaRuntime - Tesla K20Xm,98.93,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,109.69,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,56.75,64,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,78.48,2,1,1
+AmdRuntime - AMD Firepro W9100,63.26,64,1,1
 
 4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,19.61,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.25,32,1,1
-NVIDIA CUDA - Tesla K20Xm,4.59,32,16,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,15.62,256,32,1
-AMD Accelerated Parallel Processing - Hawaii,5.81,16,8,1
+NvidiaRuntime - Tesla K20Xm,184.10,4,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,161.09,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,113.90,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,195.36,2,1,1
+AmdRuntime - AMD Firepro W9100,136.79,4,1,1
 
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,178.55,256,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,25.15,8,2,1
-NVIDIA CUDA - Tesla K20Xm,67.52,32,4,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,83.57,64,128,1
-AMD Accelerated Parallel Processing - Hawaii,75.34,256,1,1
+6.0
+NvidiaRuntime - Tesla K20Xm,422.26,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,286.26,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,192.23,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,197.22,1,1,1
+AmdRuntime - AMD Firepro W9100,237.59,8,1,1
+
+8.0
+NvidiaRuntime - Tesla K20Xm,378.01,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,287.01,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,224.85,256,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,241.23,1024,1,1
+AmdRuntime - AMD Firepro W9100,274.79,8,1,1
+
+10.0
+NvidiaRuntime - Tesla K20Xm,609.36,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,463.71,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,315.18,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,352.52,1,1,1
+AmdRuntime - AMD Firepro W9100,353.95,8,1,1
+
+12.0
+NvidiaRuntime - Tesla K20Xm,729.53,2,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,502.89,2,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,394.49,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,523.70,2,1,1
+AmdRuntime - AMD Firepro W9100,412.15,4,1,1
+
+14.0
+NvidiaRuntime - Tesla K20Xm,696.70,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,549.15,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,453.28,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,482.97,1,1,1
+AmdRuntime - AMD Firepro W9100,447.23,8,1,1
+
+16.0
+NvidiaRuntime - Tesla K20Xm,972.03,8,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,630.37,8,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,585.78,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,588.09,8,1,1
+AmdRuntime - AMD Firepro W9100,538.72,32,1,1
+
+18.0
+NvidiaRuntime - Tesla K20Xm,840.33,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,778.87,32,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,526.61,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,672.42,512,1,1
+AmdRuntime - AMD Firepro W9100,575.57,8,1,1
+
+20.0
+NvidiaRuntime - Tesla K20Xm,885.66,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,693.85,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,602.34,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,701.63,1,1,1
+AmdRuntime - AMD Firepro W9100,647.70,8,1,1
+
+22.0
+NvidiaRuntime - Tesla K20Xm,1028.22,2,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,872.28,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,651.48,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,718.23,2,1,1
+AmdRuntime - AMD Firepro W9100,672.36,4,1,1
+
+24.0
+NvidiaRuntime - Tesla K20Xm,1421.60,2,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,820.49,2,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,694.14,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,838.66,2,1,1
+AmdRuntime - AMD Firepro W9100,830.55,8,1,1
+
+26.0
+NvidiaRuntime - Tesla K20Xm,1549.09,2,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1059.43,2,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,721.76,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1048.20,2,1,1
+AmdRuntime - AMD Firepro W9100,897.59,8,1,1
+
+28.0
+NvidiaRuntime - Tesla K20Xm,1662.64,4,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,976.45,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,863.23,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,745.22,4,1,1
+AmdRuntime - AMD Firepro W9100,967.25,8,1,1
+
+30.0
+NvidiaRuntime - Tesla K20Xm,1782.51,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1074.17,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,912.66,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,789.60,1,1,1
+AmdRuntime - AMD Firepro W9100,1035.78,4,1,1
+
+32.0
+NvidiaRuntime - Tesla K20Xm,1890.20,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1319.87,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,913.40,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1066.34,512,1,1
+AmdRuntime - AMD Firepro W9100,1109.76,8,1,1
+
+34.0
+NvidiaRuntime - Tesla K20Xm,1593.97,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1189.21,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,964.22,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1109.16,1,1,1
+AmdRuntime - AMD Firepro W9100,1057.12,8,1,1
+
+36.0
+NvidiaRuntime - Tesla K20Xm,1697.31,4,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1286.88,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,997.07,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1199.74,4,1,1
+AmdRuntime - AMD Firepro W9100,1441.95,8,1,1
+
+38.0
+NvidiaRuntime - Tesla K20Xm,2205.31,8,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1285.97,8,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1146.56,8,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1808.26,8,1,1
+AmdRuntime - AMD Firepro W9100,1262.97,8,1,1
+
+40.0
+NvidiaRuntime - Tesla K20Xm,2270.09,2,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1362.95,2,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1148.82,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1408.70,1,1,1
+AmdRuntime - AMD Firepro W9100,1326.32,128,1,1
+
+42.0
+NvidiaRuntime - Tesla K20Xm,1961.19,2,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1457.87,2,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1152.29,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2029.88,2,1,1
+AmdRuntime - AMD Firepro W9100,1298.55,8,1,1
+
+44.0
+NvidiaRuntime - Tesla K20Xm,2050.38,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1549.26,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1701.12,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1452.53,1,1,1
+AmdRuntime - AMD Firepro W9100,1345.32,8,1,1
 
 
 ########## Convolution ##########
-16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2029.53,256,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1937.94,64,1,1
-NVIDIA CUDA - Tesla K20Xm,21355.70,1024,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4459.44,64,1,1
-AMD Accelerated Parallel Processing - Hawaii,4883.72,256,1,1
-
 1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,75.65,32,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,80.64,4,1,1
-NVIDIA CUDA - Tesla K20Xm,1274.39,512,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,139.25,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,293.01,128,1,1
+NvidiaRuntime - Tesla K20Xm,2594.29,16,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,132.29,8,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,140.55,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,168.95,16,1,1
+AmdRuntime - AMD Firepro W9100,601.40,256,1,1
 
 4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,337.98,8,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,384.14,4,1,1
-NVIDIA CUDA - Tesla K20Xm,8801.22,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,551.66,32,1,1
-AMD Accelerated Parallel Processing - Hawaii,1202.88,256,1,1
+NvidiaRuntime - Tesla K20Xm,5256.63,1024,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,383.64,8,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,420.11,64,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,525.20,32,1,1
+AmdRuntime - AMD Firepro W9100,1202.87,256,1,1
 
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8042.35,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7689.54,32,1,1
-NVIDIA CUDA - Tesla K20Xm,86245.70,1024,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,86432.90,128,1,1
-AMD Accelerated Parallel Processing - Hawaii,19684.50,256,1,1
+5.0
+NvidiaRuntime - Tesla K20Xm,7927.64,4,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,414.02,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,388.93,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,542.99,2,1,1
+AmdRuntime - AMD Firepro W9100,1813.76,256,1,1
+
+7.0
+NvidiaRuntime - Tesla K20Xm,10605.80,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,550.13,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,511.36,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,688.80,64,1,1
+AmdRuntime - AMD Firepro W9100,2426.10,256,1,1
+
+9.0
+NvidiaRuntime - Tesla K20Xm,13288.90,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,711.42,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,637.60,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,923.78,1,1,1
+AmdRuntime - AMD Firepro W9100,3039.89,256,1,1
+
+11.0
+NvidiaRuntime - Tesla K20Xm,15964.20,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,847.01,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,753.95,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1088.35,1,1,1
+AmdRuntime - AMD Firepro W9100,3651.55,256,1,1
+
+13.0
+NvidiaRuntime - Tesla K20Xm,18648.20,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,978.49,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,871.86,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1269.31,1,1,1
+AmdRuntime - AMD Firepro W9100,4265.67,256,1,1
+
+16.0
+NvidiaRuntime - Tesla K20Xm,21351.10,1024,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1995.46,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1934.29,256,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4513.46,32,1,1
+AmdRuntime - AMD Firepro W9100,4883.78,256,1,1
+
+17.0
+NvidiaRuntime - Tesla K20Xm,24036.00,16,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1214.56,16,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1185.95,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1719.37,16,1,1
+AmdRuntime - AMD Firepro W9100,5497.71,256,1,1
+
+19.0
+NvidiaRuntime - Tesla K20Xm,26714.80,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1398.72,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1268.90,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2164.85,1,1,1
+AmdRuntime - AMD Firepro W9100,6110.50,128,1,1
+
+21.0
+NvidiaRuntime - Tesla K20Xm,29412.00,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1509.30,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1388.61,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1910.95,1,1,1
+AmdRuntime - AMD Firepro W9100,6727.35,256,1,1
+
+23.0
+NvidiaRuntime - Tesla K20Xm,32150.40,16,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1644.56,16,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1498.49,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2098.48,16,1,1
+AmdRuntime - AMD Firepro W9100,7344.87,256,1,1
+
+25.0
+NvidiaRuntime - Tesla K20Xm,34791.70,4,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1793.11,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1644.42,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2416.78,2,1,1
+AmdRuntime - AMD Firepro W9100,7963.15,256,1,1
+
+27.0
+NvidiaRuntime - Tesla K20Xm,37544.80,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1989.23,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1744.85,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2643.24,1,1,1
+AmdRuntime - AMD Firepro W9100,8576.69,256,1,1
+
+29.0
+NvidiaRuntime - Tesla K20Xm,40189.00,16,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2062.47,16,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1883.10,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2742.53,16,1,1
+AmdRuntime - AMD Firepro W9100,9192.36,64,1,1
+
+31.0
+NvidiaRuntime - Tesla K20Xm,42884.70,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2100.41,256,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1993.38,256,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2722.81,256,1,1
+AmdRuntime - AMD Firepro W9100,9808.92,256,1,1
+
+33.0
+NvidiaRuntime - Tesla K20Xm,45575.50,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2405.61,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2115.64,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3210.88,1,1,1
+AmdRuntime - AMD Firepro W9100,10424.80,256,1,1
+
+36.0
+NvidiaRuntime - Tesla K20Xm,48285.60,1024,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3189.48,8,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3158.29,64,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4790.11,128,1,1
+AmdRuntime - AMD Firepro W9100,11044.60,256,1,1
+
+37.0
+NvidiaRuntime - Tesla K20Xm,50975.40,16,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2598.80,16,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2382.05,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3270.04,16,1,1
+AmdRuntime - AMD Firepro W9100,11660.10,256,1,1
+
+39.0
+NvidiaRuntime - Tesla K20Xm,53672.70,4,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2826.48,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2494.94,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3854.68,4,1,1
+AmdRuntime - AMD Firepro W9100,12277.00,256,1,1
+
+41.0
+NvidiaRuntime - Tesla K20Xm,56371.00,4,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3012.04,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2622.44,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4270.16,4,1,1
+AmdRuntime - AMD Firepro W9100,12894.20,256,1,1
+
+43.0
+NvidiaRuntime - Tesla K20Xm,59064.60,16,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2993.45,16,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2745.78,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4025.35,16,1,1
+AmdRuntime - AMD Firepro W9100,13510.40,256,1,1
 
 
 ########## FloydWarshall ##########
-16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,80091.60,64,8,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,8706.62,64,32,1
-NVIDIA CUDA - Tesla K20Xm,43603.30,32,4,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,28254.10,2048,2,1
-AMD Accelerated Parallel Processing - Hawaii,38123.10,256,1,1
-
 1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1481.06,512,2,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,206.32,512,8,1
-NVIDIA CUDA - Tesla K20Xm,617.32,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,661.26,256,8,1
-AMD Accelerated Parallel Processing - Hawaii,777.36,64,2,1
+NvidiaRuntime - Tesla K20Xm,1951.94,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3638.80,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,465.42,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1479.94,4,4,1
+AmdRuntime - AMD Firepro W9100,1920.34,64,4,1
 
 4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,10453.20,64,4,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1108.79,64,32,1
-NVIDIA CUDA - Tesla K20Xm,5483.33,32,4,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4264.79,1024,1,1
-AMD Accelerated Parallel Processing - Hawaii,5083.37,128,2,1
+NvidiaRuntime - Tesla K20Xm,5471.24,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10399.60,16,32,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1124.47,64,32,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4094.51,1024,2,1
+AmdRuntime - AMD Firepro W9100,5015.81,128,2,1
 
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,634853.00,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,63174.50,4096,2,1
-NVIDIA CUDA - Tesla K20Xm,348578.00,32,4,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,217550.00,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,300990.00,256,1,1
+5.0
+NvidiaRuntime - Tesla K20Xm,10029.00,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,18736.70,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1993.97,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,7215.30,2,2,1
+AmdRuntime - AMD Firepro W9100,9087.46,256,1,1
+
+7.0
+NvidiaRuntime - Tesla K20Xm,15432.30,8,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,28391.90,8,8,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2986.34,8,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,10768.50,8,8,1
+AmdRuntime - AMD Firepro W9100,13774.80,64,4,1
+
+9.0
+NvidiaRuntime - Tesla K20Xm,21570.80,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,39623.40,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4024.08,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,14746.80,1,1,1
+AmdRuntime - AMD Firepro W9100,19120.70,128,2,1
+
+11.0
+NvidiaRuntime - Tesla K20Xm,28284.80,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,52130.90,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5293.79,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,19262.20,1,1,1
+AmdRuntime - AMD Firepro W9100,24912.70,256,1,1
+
+13.0
+NvidiaRuntime - Tesla K20Xm,35640.30,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,65340.80,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6912.04,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,24037.40,1,1,1
+AmdRuntime - AMD Firepro W9100,31284.20,64,2,1
+
+16.0
+NvidiaRuntime - Tesla K20Xm,43590.80,32,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,80484.40,32,32,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7800.34,64,16,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,29430.00,2048,2,1
+AmdRuntime - AMD Firepro W9100,38251.20,256,1,1
+
+17.0
+NvidiaRuntime - Tesla K20Xm,52004.40,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,94648.10,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10342.10,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,33253.00,4,4,1
+AmdRuntime - AMD Firepro W9100,45432.90,128,2,1
+
+19.0
+NvidiaRuntime - Tesla K20Xm,60817.70,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,111613.00,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11013.00,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,41290.60,1,1,1
+AmdRuntime - AMD Firepro W9100,53150.10,256,1,1
+
+21.0
+NvidiaRuntime - Tesla K20Xm,70171.60,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,127685.00,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,12538.20,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,47544.70,1,1,1
+AmdRuntime - AMD Firepro W9100,61049.40,256,1,1
+
+23.0
+NvidiaRuntime - Tesla K20Xm,79976.40,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,146728.00,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,14310.00,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,53064.80,4,4,1
+AmdRuntime - AMD Firepro W9100,69734.40,256,1,1
+
+25.0
+NvidiaRuntime - Tesla K20Xm,90159.90,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,164829.00,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16760.90,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,57063.00,2,2,1
+AmdRuntime - AMD Firepro W9100,78306.00,256,1,1
+
+27.0
+NvidiaRuntime - Tesla K20Xm,100760.00,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,184726.00,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17987.40,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,64079.50,1,1,1
+AmdRuntime - AMD Firepro W9100,87569.80,256,1,1
+
+29.0
+NvidiaRuntime - Tesla K20Xm,111799.00,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,221190.00,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,20597.70,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,75094.80,4,4,1
+AmdRuntime - AMD Firepro W9100,96891.50,1,128,1
+
+31.0
+NvidiaRuntime - Tesla K20Xm,123172.00,16,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,240377.00,16,16,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,22348.10,16,16,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,77662.60,16,16,1
+AmdRuntime - AMD Firepro W9100,106818.00,32,8,1
+
+33.0
+NvidiaRuntime - Tesla K20Xm,134801.00,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,247335.00,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,24171.90,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,88530.10,1,1,1
+AmdRuntime - AMD Firepro W9100,117014.00,32,8,1
+
+36.0
+NvidiaRuntime - Tesla K20Xm,146999.00,32,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,285146.00,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,26939.20,64,32,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,96429.20,512,8,1
+AmdRuntime - AMD Firepro W9100,127331.00,256,1,1
+
+37.0
+NvidiaRuntime - Tesla K20Xm,159351.00,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,295020.00,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,28512.80,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,104622.00,4,4,1
+AmdRuntime - AMD Firepro W9100,138080.00,256,1,1
+
+39.0
+NvidiaRuntime - Tesla K20Xm,172086.00,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,324969.00,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,30740.70,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,113351.00,2,2,1
+AmdRuntime - AMD Firepro W9100,149030.00,64,4,1
+
+41.0
+NvidiaRuntime - Tesla K20Xm,185101.00,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,341355.00,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,33295.10,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,121272.00,2,2,1
+AmdRuntime - AMD Firepro W9100,160452.00,64,4,1
+
+43.0
+NvidiaRuntime - Tesla K20Xm,198455.00,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,364556.00,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,35388.40,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,131929.00,4,4,1
+AmdRuntime - AMD Firepro W9100,171709.00,128,2,1
 
 
 ########## MonteCarloAsian ##########
-8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,960.11,4,16,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,557.21,32,8,1
-NVIDIA CUDA - Tesla K20Xm,4616.16,4,32,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1328.77,64,1,1
-AMD Accelerated Parallel Processing - Hawaii,2006.79,256,1,1
+20.022600174
+NvidiaRuntime - Tesla K20Xm,-1.00,2,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,869.76,1,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,594.71,2,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1237.20,2,4,1
+AmdRuntime - AMD Firepro W9100,1774.18,4,64,1
 
-32.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3736.93,16,16,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2334.86,1,16,1
-NVIDIA CUDA - Tesla K20Xm,18275.80,2,64,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5269.04,512,1,1
-AMD Accelerated Parallel Processing - Hawaii,7803.34,64,2,1
+41.9900016785
+NvidiaRuntime - Tesla K20Xm,7237.73,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1946.35,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1199.60,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2633.78,1,2,1
+AmdRuntime - AMD Firepro W9100,3842.96,4,64,1
 
 2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,201.26,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,161.16,32,2,1
-NVIDIA CUDA - Tesla K20Xm,1152.84,2,64,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,373.02,128,2,1
-AMD Accelerated Parallel Processing - Hawaii,504.28,8,8,1
-
-128.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,12224.20,128,1,1
-NVIDIA CUDA - Tesla K20Xm,73289.10,32,4,1
-AMD Accelerated Parallel Processing - Hawaii,29328.20,4,64,1
-
-
-########## Array3dAverage ##########
-512.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1545.86,512,1,2
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,232.24,512,8,2
-NVIDIA CUDA - Tesla K20Xm,1815.10,32,1,4
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1391.48,512,1,4
-AMD Accelerated Parallel Processing - Hawaii,642.37,64,1,4
-
-1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.52,8,16,4
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.77,64,16,4
-NVIDIA CUDA - Tesla K20Xm,3.24,8,8,8
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,6.00,64,8,16
-AMD Accelerated Parallel Processing - Hawaii,2.30,16,1,4
+NvidiaRuntime - Tesla K20Xm,342.72,2,64,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,98.59,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,79.51,8,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,151.52,32,1,1
+AmdRuntime - AMD Firepro W9100,206.24,8,8,1
 
 8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,22.36,128,4,2
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,5.74,16,4,2
-NVIDIA CUDA - Tesla K20Xm,44.25,64,2,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.72,128,1,8
-AMD Accelerated Parallel Processing - Hawaii,10.07,32,2,2
+NvidiaRuntime - Tesla K20Xm,1377.37,4,32,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,407.64,2,32,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,227.91,16,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,522.58,128,1,1
+AmdRuntime - AMD Firepro W9100,768.79,64,4,1
 
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,204.06,128,2,4
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,32.45,128,8,2
-NVIDIA CUDA - Tesla K20Xm,206.28,64,2,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,161.01,256,1,8
-AMD Accelerated Parallel Processing - Hawaii,75.26,128,2,1
+18.0
+NvidiaRuntime - Tesla K20Xm,3183.13,4,32,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,757.16,2,32,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512.39,16,16,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1164.06,16,16,1
+AmdRuntime - AMD Firepro W9100,1740.95,128,2,1
+
+21.9971008301
+NvidiaRuntime - Tesla K20Xm,3752.98,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1022.00,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,597.74,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1380.58,1,2,1
+AmdRuntime - AMD Firepro W9100,1963.83,8,8,1
+
+38.0083007812
+NvidiaRuntime - Tesla K20Xm,6587.96,4,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1480.62,4,8,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1051.35,4,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2391.67,4,4,1
+AmdRuntime - AMD Firepro W9100,3683.61,256,1,1
+
+30.0312004089
+NvidiaRuntime - Tesla K20Xm,5186.22,2,64,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1200.32,16,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1006.77,32,8,1
+AmdRuntime - AMD Firepro W9100,2980.73,64,2,1
+
+32.0
+NvidiaRuntime - Tesla K20Xm,5528.25,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1513.77,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,913.98,128,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1987.08,128,1,1
+AmdRuntime - AMD Firepro W9100,2861.82,1,256,1
+
+14.0284004211
+NvidiaRuntime - Tesla K20Xm,2414.05,2,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,602.95,2,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,472.50,2,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,878.63,2,4,1
+AmdRuntime - AMD Firepro W9100,1368.94,32,2,1
+
+40.0093002319
+NvidiaRuntime - Tesla K20Xm,6858.45,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1582.80,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1144.26,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2444.71,1,2,1
+AmdRuntime - AMD Firepro W9100,3977.73,128,2,1
+
+3.99915003777
+NvidiaRuntime - Tesla K20Xm,681.68,2,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,169.13,2,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,114.23,1,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,262.01,2,4,1
+AmdRuntime - AMD Firepro W9100,391.39,8,32,1
+
+28.007900238
+NvidiaRuntime - Tesla K20Xm,4793.89,2,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1096.62,1,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,768.20,2,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1787.06,2,4,1
+AmdRuntime - AMD Firepro W9100,2535.81,1,256,1
+
+25.9988002777
+NvidiaRuntime - Tesla K20Xm,4441.27,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1025.66,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,768.74,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1628.84,1,2,1
+AmdRuntime - AMD Firepro W9100,2347.05,1,128,1
+
+44.0186004639
+NvidiaRuntime - Tesla K20Xm,7587.00,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2040.99,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1201.26,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2764.06,1,2,1
+AmdRuntime - AMD Firepro W9100,3979.80,2,64,1
+
+10.0198001862
+NvidiaRuntime - Tesla K20Xm,1723.78,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,436.42,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,356.62,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,631.65,1,2,1
+AmdRuntime - AMD Firepro W9100,968.58,1,256,1
+
+24.0102996826
+NvidiaRuntime - Tesla K20Xm,4240.02,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,990.70,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,750.20,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1532.92,1,2,1
+AmdRuntime - AMD Firepro W9100,2200.15,128,2,1
+
+11.997300148
+NvidiaRuntime - Tesla K20Xm,-1.00,1,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,492.97,1,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,352.08,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,764.27,1,2,1
+AmdRuntime - AMD Firepro W9100,1042.90,8,32,1
+
+15.9966001511
+NvidiaRuntime - Tesla K20Xm,2749.64,4,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,777.34,4,8,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,442.41,4,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,997.06,4,4,1
+AmdRuntime - AMD Firepro W9100,1495.76,1,256,1
+
+6.01610994339
+NvidiaRuntime - Tesla K20Xm,1035.01,4,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,243.50,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,211.63,4,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,395.85,2,8,1
+AmdRuntime - AMD Firepro W9100,604.04,1,256,1
+
+35.9922981262
+NvidiaRuntime - Tesla K20Xm,6189.53,2,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1390.53,2,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1000.21,2,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2251.53,2,4,1
+AmdRuntime - AMD Firepro W9100,3560.46,16,16,1
+
+34.0312004089
+NvidiaRuntime - Tesla K20Xm,5808.55,8,16,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1556.93,4,8,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,907.41,8,16,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2202.53,32,2,1
+AmdRuntime - AMD Firepro W9100,3326.67,1,256,1
+
+
+########## MatrixTranspose ##########
+1.0
+NvidiaRuntime - Tesla K20Xm,2.45,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11.54,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.64,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6.53,4,1,1
+AmdRuntime - AMD Firepro W9100,3.58,4,32,1
+
+4.0
+NvidiaRuntime - Tesla K20Xm,4.57,32,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,13.95,512,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.34,4,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,9.48,32,256,1
+AmdRuntime - AMD Firepro W9100,5.78,64,4,1
+
+5.0
+NvidiaRuntime - Tesla K20Xm,6.64,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,20.66,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.98,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,12.44,2,1,1
+AmdRuntime - AMD Firepro W9100,7.75,64,4,1
+
+7.0
+NvidiaRuntime - Tesla K20Xm,8.77,8,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,29.03,8,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.77,8,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,15.52,8,1,1
+AmdRuntime - AMD Firepro W9100,9.83,4,32,1
+
+9.0
+NvidiaRuntime - Tesla K20Xm,10.81,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,28.93,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.50,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,17.75,1,1,1
+AmdRuntime - AMD Firepro W9100,12.03,128,1,1
+
+11.0
+NvidiaRuntime - Tesla K20Xm,-1.00,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,45.89,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.70,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,20.40,1,1,1
+AmdRuntime - AMD Firepro W9100,14.31,8,16,1
+
+13.0
+NvidiaRuntime - Tesla K20Xm,14.82,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,44.37,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7.57,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,23.01,1,1,1
+AmdRuntime - AMD Firepro W9100,16.62,64,2,1
+
+16.0
+NvidiaRuntime - Tesla K20Xm,17.12,256,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,69.89,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.56,1024,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,25.69,16,32,1
+AmdRuntime - AMD Firepro W9100,18.88,64,2,1
+
+17.0
+NvidiaRuntime - Tesla K20Xm,19.22,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,54.63,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9.89,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,28.70,4,4,1
+AmdRuntime - AMD Firepro W9100,21.08,16,16,1
+
+19.0
+NvidiaRuntime - Tesla K20Xm,-1.00,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,61.32,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.28,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,32.12,1,1,1
+AmdRuntime - AMD Firepro W9100,23.31,128,1,1
+
+21.0
+NvidiaRuntime - Tesla K20Xm,23.42,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,65.50,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9.30,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,37.89,1,1,1
+AmdRuntime - AMD Firepro W9100,25.58,16,8,1
+
+23.0
+NvidiaRuntime - Tesla K20Xm,25.54,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,71.35,2,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11.81,4,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,35.27,4,4,1
+AmdRuntime - AMD Firepro W9100,27.91,8,16,1
+
+25.0
+NvidiaRuntime - Tesla K20Xm,27.71,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,87.81,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.65,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,37.74,2,2,1
+AmdRuntime - AMD Firepro W9100,30.14,8,16,1
+
+27.0
+NvidiaRuntime - Tesla K20Xm,29.77,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,90.37,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,12.58,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,42.30,1,1,1
+AmdRuntime - AMD Firepro W9100,32.45,16,16,1
+
+29.0
+NvidiaRuntime - Tesla K20Xm,31.85,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,104.29,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,18.02,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,43.79,4,2,1
+AmdRuntime - AMD Firepro W9100,34.73,128,1,1
+
+31.0
+NvidiaRuntime - Tesla K20Xm,33.71,16,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,105.28,8,16,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,14.30,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,47.73,8,8,1
+AmdRuntime - AMD Firepro W9100,36.96,8,32,1
+
+33.0
+NvidiaRuntime - Tesla K20Xm,36.07,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,94.47,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,15.47,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,49.50,1,1,1
+AmdRuntime - AMD Firepro W9100,41.09,64,2,1
+
+36.0
+NvidiaRuntime - Tesla K20Xm,38.20,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,109.00,4,128,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,14.70,16,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,55.77,32,256,1
+AmdRuntime - AMD Firepro W9100,42.70,16,8,1
+
+37.0
+NvidiaRuntime - Tesla K20Xm,40.17,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,114.15,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,15.79,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,53.16,4,4,1
+AmdRuntime - AMD Firepro W9100,45.06,16,8,1
+
+39.0
+NvidiaRuntime - Tesla K20Xm,42.45,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,113.21,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17.72,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,57.99,2,2,1
+AmdRuntime - AMD Firepro W9100,47.99,128,1,1
+
+41.0
+NvidiaRuntime - Tesla K20Xm,44.58,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,127.69,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17.62,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,57.32,2,2,1
+AmdRuntime - AMD Firepro W9100,50.53,64,2,1
+
+43.0
+NvidiaRuntime - Tesla K20Xm,46.68,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128.60,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16.17,4,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,60.68,4,4,1
+AmdRuntime - AMD Firepro W9100,53.52,16,8,1
 
 
 ########## VectorAdd ##########
-0.5
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2.52,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.89,8192,1,1
-NVIDIA CUDA - Tesla K20Xm,0.80,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5.41,8192,1,1
-AMD Accelerated Parallel Processing - Hawaii,3.12,64,1,1
-
-1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.45,256,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.77,2048,1,1
-NVIDIA CUDA - Tesla K20Xm,1.49,1024,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5.75,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,2.29,256,1,1
-
 2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,9.66,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.16,512,1,1
-NVIDIA CUDA - Tesla K20Xm,2.53,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.37,8192,1,1
-AMD Accelerated Parallel Processing - Hawaii,3.51,256,1,1
+NvidiaRuntime - Tesla K20Xm,2.37,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.58,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1.01,4096,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6.21,4096,1,1
+AmdRuntime - AMD Firepro W9100,3.46,128,1,1
 
 4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,19.44,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.91,4096,1,1
-NVIDIA CUDA - Tesla K20Xm,4.49,1024,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,10.16,8192,1,1
-AMD Accelerated Parallel Processing - Hawaii,5.40,128,1,1
+NvidiaRuntime - Tesla K20Xm,4.44,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17.80,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.44,128,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,9.19,8192,1,1
+AmdRuntime - AMD Firepro W9100,5.35,128,1,1
 
-32.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,94.32,16,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11.93,8,1,1
-NVIDIA CUDA - Tesla K20Xm,33.07,512,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,42.37,32,1,1
-AMD Accelerated Parallel Processing - Hawaii,38.13,256,1,1
+6.0
+NvidiaRuntime - Tesla K20Xm,6.45,32,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,19.13,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.23,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,11.49,2048,1,1
+AmdRuntime - AMD Firepro W9100,7.81,128,1,1
 
 8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,30.97,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.59,512,1,1
-NVIDIA CUDA - Tesla K20Xm,8.62,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,14.30,32,1,1
-AMD Accelerated Parallel Processing - Hawaii,10.04,128,1,1
+NvidiaRuntime - Tesla K20Xm,8.31,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,29.27,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.88,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,14.32,256,1,1
+AmdRuntime - AMD Firepro W9100,9.79,256,1,1
 
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,185.75,256,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,20.65,4096,1,1
-NVIDIA CUDA - Tesla K20Xm,65.79,512,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,80.06,128,1,1
-AMD Accelerated Parallel Processing - Hawaii,75.33,128,1,1
+10.0
+NvidiaRuntime - Tesla K20Xm,10.58,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,35.70,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.32,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,17.02,1024,1,1
+AmdRuntime - AMD Firepro W9100,12.39,128,1,1
+
+12.0
+NvidiaRuntime - Tesla K20Xm,-1.00,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,50.15,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.28,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,19.58,64,1,1
+AmdRuntime - AMD Firepro W9100,14.75,128,1,1
+
+14.0
+NvidiaRuntime - Tesla K20Xm,14.65,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,43.83,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7.27,8,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,22.23,8,1,1
+AmdRuntime - AMD Firepro W9100,17.09,128,1,1
 
 16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,64.93,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.62,2,1,1
-NVIDIA CUDA - Tesla K20Xm,16.82,256,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.65,32,1,1
-AMD Accelerated Parallel Processing - Hawaii,18.80,128,1,1
+NvidiaRuntime - Tesla K20Xm,16.76,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,53.22,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.88,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,25.49,32,1,1
+AmdRuntime - AMD Firepro W9100,18.80,256,1,1
+
+18.0
+NvidiaRuntime - Tesla K20Xm,18.76,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,59.19,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.14,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,26.71,4096,1,1
+AmdRuntime - AMD Firepro W9100,21.98,128,1,1
+
+20.0
+NvidiaRuntime - Tesla K20Xm,20.82,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,78.79,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7.69,256,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,31.53,8,1,1
+AmdRuntime - AMD Firepro W9100,24.40,128,1,1
+
+22.0
+NvidiaRuntime - Tesla K20Xm,22.90,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,71.16,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.23,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,30.09,64,1,1
+AmdRuntime - AMD Firepro W9100,26.46,128,1,1
+
+24.0
+NvidiaRuntime - Tesla K20Xm,24.77,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,88.19,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.82,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,34.67,16,1,1
+AmdRuntime - AMD Firepro W9100,29.09,128,1,1
+
+26.0
+NvidiaRuntime - Tesla K20Xm,27.01,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,78.88,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9.48,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,38.29,512,1,1
+AmdRuntime - AMD Firepro W9100,31.24,128,1,1
+
+28.0
+NvidiaRuntime - Tesla K20Xm,29.10,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,99.05,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.25,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,39.38,16,1,1
+AmdRuntime - AMD Firepro W9100,33.83,64,1,1
+
+30.0
+NvidiaRuntime - Tesla K20Xm,31.26,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,104.78,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,13.07,64,1,1
+AmdRuntime - AMD Firepro W9100,36.03,128,1,1
+
+32.0
+NvidiaRuntime - Tesla K20Xm,33.17,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,102.87,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.18,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,43.81,8,1,1
+AmdRuntime - AMD Firepro W9100,39.35,128,1,1
+
+34.0
+NvidiaRuntime - Tesla K20Xm,35.16,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,100.30,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.27,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,48.42,8,1,1
+AmdRuntime - AMD Firepro W9100,40.28,256,1,1
+
+36.0
+NvidiaRuntime - Tesla K20Xm,37.16,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,112.64,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,15.65,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,47.66,4,1,1
+AmdRuntime - AMD Firepro W9100,42.59,128,1,1
+
+38.0
+NvidiaRuntime - Tesla K20Xm,39.36,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,122.03,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,13.28,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,51.72,8192,1,1
+AmdRuntime - AMD Firepro W9100,45.04,128,1,1
+
+40.0
+NvidiaRuntime - Tesla K20Xm,41.37,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,124.94,32,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,12.75,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,53.40,16,1,1
+AmdRuntime - AMD Firepro W9100,47.38,128,1,1
+
+42.0
+NvidiaRuntime - Tesla K20Xm,43.05,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,121.92,32,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,14.27,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,52.84,8,1,1
+AmdRuntime - AMD Firepro W9100,50.27,128,1,1
+
+44.0
+NvidiaRuntime - Tesla K20Xm,45.57,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,137.80,32,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,13.46,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,58.01,4,1,1
+AmdRuntime - AMD Firepro W9100,52.57,128,1,1
+
+
+########## Array3dAverage ##########
+1.95311999321
+NvidiaRuntime - Tesla K20Xm,6.47,16,8,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,18.06,16,16,2
+AmdRuntime - AMD Firepro W9100,4.80,16,4,2
+
+13.932299614
+NvidiaRuntime - Tesla K20Xm,45.23,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,46.81,2,2,2
+AmdRuntime - AMD Firepro W9100,17.01,2,2,2
+
+30.5175991058
+NvidiaRuntime - Tesla K20Xm,32.14,8,2,8
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,57.46,8,8,4
+AmdRuntime - AMD Firepro W9100,9.87,8,4,8
+
+3.375
+NvidiaRuntime - Tesla K20Xm,2.38,16,16,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.85,16,8,8
+AmdRuntime - AMD Firepro W9100,1.53,16,16,1
+
+1.0
+NvidiaRuntime - Tesla K20Xm,3.31,16,8,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.67,16,4,2
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1.84,32,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,7.00,64,64,2
+AmdRuntime - AMD Firepro W9100,3.10,4,4,8
+
+8.0
+NvidiaRuntime - Tesla K20Xm,26.12,32,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,28.93,128,4,2
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.56,16,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,22.46,16,2,1
+AmdRuntime - AMD Firepro W9100,10.23,64,1,4
+
+37.9118995667
+NvidiaRuntime - Tesla K20Xm,122.22,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128.35,1,1,1
+AmdRuntime - AMD Firepro W9100,45.54,1,1,1
+
+9.80893039703
+NvidiaRuntime - Tesla K20Xm,31.94,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,31.00,1,1,1
+AmdRuntime - AMD Firepro W9100,12.37,1,1,1
+
+31.4423007965
+NvidiaRuntime - Tesla K20Xm,58.25,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,55.45,1,2,2
+AmdRuntime - AMD Firepro W9100,19.18,2,2,2
+
+43.4518013
+NvidiaRuntime - Tesla K20Xm,140.22,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,126.33,1,1,1
+AmdRuntime - AMD Firepro W9100,51.43,1,1,1
+
+16.8264007568
+NvidiaRuntime - Tesla K20Xm,17.57,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,43.73,4,4,4
+AmdRuntime - AMD Firepro W9100,5.99,4,4,4
+
+39.5210990906
+NvidiaRuntime - Tesla K20Xm,127.37,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,113.26,1,1,2
+AmdRuntime - AMD Firepro W9100,47.30,2,2,2
+
+41.7368011475
+NvidiaRuntime - Tesla K20Xm,134.68,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,124.72,1,2,2
+AmdRuntime - AMD Firepro W9100,50.03,2,2,2
+
+28.7229003906
+NvidiaRuntime - Tesla K20Xm,29.88,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,40.99,4,1,4
+AmdRuntime - AMD Firepro W9100,9.50,4,2,4
+
+32.3855018616
+NvidiaRuntime - Tesla K20Xm,33.87,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,39.79,4,4,4
+AmdRuntime - AMD Firepro W9100,10.98,4,2,4
+
+27.0
+NvidiaRuntime - Tesla K20Xm,28.11,64,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,59.33,32,4,8
+AmdRuntime - AMD Firepro W9100,9.00,32,8,1
+
+36.3469009399
+NvidiaRuntime - Tesla K20Xm,37.91,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,43.69,4,2,1
+AmdRuntime - AMD Firepro W9100,12.44,4,4,2
+
+29.6112003326
+NvidiaRuntime - Tesla K20Xm,95.43,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,116.20,1,1,2
+AmdRuntime - AMD Firepro W9100,35.06,2,2,2
+
+20.7968997955
+NvidiaRuntime - Tesla K20Xm,21.81,16,4,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,50.21,16,8,8
+AmdRuntime - AMD Firepro W9100,7.50,16,1,16
+
+31.9116001129
+NvidiaRuntime - Tesla K20Xm,103.06,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,95.28,1,1,1
+AmdRuntime - AMD Firepro W9100,37.81,1,1,1
+
+35.8349990845
+NvidiaRuntime - Tesla K20Xm,115.76,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,111.86,1,1,1
+AmdRuntime - AMD Firepro W9100,42.44,1,1,1
+
+11.8718996048
+NvidiaRuntime - Tesla K20Xm,38.60,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,42.49,1,2,2
+AmdRuntime - AMD Firepro W9100,14.65,2,2,2
+
+27.8526000977
+NvidiaRuntime - Tesla K20Xm,89.96,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,86.39,2,2,1
+AmdRuntime - AMD Firepro W9100,33.09,2,2,2
+
+17.4496002197
+NvidiaRuntime - Tesla K20Xm,32.26,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,42.74,2,1,1
+AmdRuntime - AMD Firepro W9100,11.01,2,2,2
+
+9.59570026398
+NvidiaRuntime - Tesla K20Xm,17.64,8,8,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,28.35,8,4,8
+AmdRuntime - AMD Firepro W9100,6.45,8,4,8
+
+19.410900116
+NvidiaRuntime - Tesla K20Xm,36.10,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,37.63,4,4,2
+AmdRuntime - AMD Firepro W9100,12.25,4,4,4
+
+5.35937976837
+NvidiaRuntime - Tesla K20Xm,3.66,16,2,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,49.73,16,16,4
+AmdRuntime - AMD Firepro W9100,1.50,16,1,8
+
+5.95434999466
+NvidiaRuntime - Tesla K20Xm,19.56,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,23.59,4,4,4
+AmdRuntime - AMD Firepro W9100,7.98,4,2,4
+
+38.4434013367
+NvidiaRuntime - Tesla K20Xm,40.62,8,2,8
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,57.42,4,8,4
+AmdRuntime - AMD Firepro W9100,13.27,8,4,8
+
+35.3278999329
+NvidiaRuntime - Tesla K20Xm,65.74,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,63.22,2,2,2
+AmdRuntime - AMD Firepro W9100,21.61,2,2,2
+
+25.7539997101
+NvidiaRuntime - Tesla K20Xm,83.25,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,102.75,1,1,1
+AmdRuntime - AMD Firepro W9100,30.71,1,1,1
+
+0.00195311999414
+NvidiaRuntime - Tesla K20Xm,-1.00,0,0,0
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,-1.00,0,0,0
+AmdRuntime - AMD Firepro W9100,0.22,1,256,1
+
+3.81469988823
+NvidiaRuntime - Tesla K20Xm,7.34,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7.37,4,4,4
+AmdRuntime - AMD Firepro W9100,3.29,4,4,2
+
+23.7637004852
+NvidiaRuntime - Tesla K20Xm,76.85,8,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,88.04,8,1,2
+AmdRuntime - AMD Firepro W9100,28.54,8,4,8
+
+17.7667999268
+NvidiaRuntime - Tesla K20Xm,57.54,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,81.69,1,1,1
+AmdRuntime - AMD Firepro W9100,21.51,1,1,1
+
+15.9197998047
+NvidiaRuntime - Tesla K20Xm,51.62,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,65.34,1,1,1
+AmdRuntime - AMD Firepro W9100,19.29,1,1,1
+
+19.7513999939
+NvidiaRuntime - Tesla K20Xm,63.92,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,78.51,1,1,1
+AmdRuntime - AMD Firepro W9100,23.71,1,1,1
+
+42.875
+NvidiaRuntime - Tesla K20Xm,80.28,32,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,76.08,32,2,8
+AmdRuntime - AMD Firepro W9100,26.27,32,2,4
+
+3.93028998375
+NvidiaRuntime - Tesla K20Xm,13.03,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,18.87,1,1,1
+AmdRuntime - AMD Firepro W9100,5.82,1,1,1
+
+37.3852996826
+NvidiaRuntime - Tesla K20Xm,69.34,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,61.85,1,1,2
+AmdRuntime - AMD Firepro W9100,23.63,2,2,2
+
+18.0879001617
+NvidiaRuntime - Tesla K20Xm,11.44,8,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,23.51,8,2,8
+AmdRuntime - AMD Firepro W9100,3.64,8,4,4
+
+25.3474006653
+NvidiaRuntime - Tesla K20Xm,47.15,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,43.16,4,4,1
+AmdRuntime - AMD Firepro W9100,15.66,4,4,4
+
+15.625
+NvidiaRuntime - Tesla K20Xm,29.52,32,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,34.74,32,16,1
+AmdRuntime - AMD Firepro W9100,10.05,32,1,8
+
+33.8353996277
+NvidiaRuntime - Tesla K20Xm,109.27,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,101.50,1,1,1
+AmdRuntime - AMD Firepro W9100,40.10,1,1,1
+
+21.8785991669
+NvidiaRuntime - Tesla K20Xm,70.82,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,75.52,1,1,1
+AmdRuntime - AMD Firepro W9100,26.22,1,1,1
+
+13.3964996338
+NvidiaRuntime - Tesla K20Xm,14.27,8,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,47.52,8,2,8
+AmdRuntime - AMD Firepro W9100,4.79,8,8,4
+
+33.3474006653
+NvidiaRuntime - Tesla K20Xm,61.90,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,57.83,1,1,2
+AmdRuntime - AMD Firepro W9100,21.43,2,2,2
+
+40.6189002991
+NvidiaRuntime - Tesla K20Xm,42.76,4,4,4
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,48.11,4,4,2
+AmdRuntime - AMD Firepro W9100,13.66,4,4,4
+
+21.5139007568
+NvidiaRuntime - Tesla K20Xm,40.09,2,2,2
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,38.99,2,2,1
+AmdRuntime - AMD Firepro W9100,13.55,2,2,2
+
+11.3906002045
+NvidiaRuntime - Tesla K20Xm,11.96,16,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,44.87,16,4,16
+AmdRuntime - AMD Firepro W9100,4.23,16,1,16
+
+34.3280982971
+NvidiaRuntime - Tesla K20Xm,36.33,16,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,53.87,16,8,8
+AmdRuntime - AMD Firepro W9100,11.42,16,16,1
 
 
 ########## Reduction ##########
-0.5
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.48,64,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.60,512,1,1
-NVIDIA CUDA - Tesla K20Xm,0.20,64,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.88,1024,1,1
-AMD Accelerated Parallel Processing - Hawaii,17.25,256,1,1
-
-1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.79,32,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.02,8,1,1
-NVIDIA CUDA - Tesla K20Xm,0.41,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.08,1024,1,1
-AMD Accelerated Parallel Processing - Hawaii,1.64,16,1,1
-
 2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,12.48,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.36,2048,1,1
-NVIDIA CUDA - Tesla K20Xm,0.68,64,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.33,1024,1,1
-AMD Accelerated Parallel Processing - Hawaii,2.13,256,1,1
+NvidiaRuntime - Tesla K20Xm,0.87,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1.26,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,0.88,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4.16,1024,1,1
+AmdRuntime - AMD Firepro W9100,2.87,256,1,1
 
 4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.20,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.50,512,1,1
-NVIDIA CUDA - Tesla K20Xm,1.00,64,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.62,1024,1,1
-AMD Accelerated Parallel Processing - Hawaii,2.42,1,1,1
+NvidiaRuntime - Tesla K20Xm,1.51,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.47,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,0.93,128,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,5.63,1024,1,1
+AmdRuntime - AMD Firepro W9100,5.30,256,1,1
+
+6.0
+NvidiaRuntime - Tesla K20Xm,2.17,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.34,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1.01,64,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,5.17,2048,1,1
+AmdRuntime - AMD Firepro W9100,5.02,64,1,1
 
 8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,27.64,64,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.12,64,1,1
-NVIDIA CUDA - Tesla K20Xm,1.71,32,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.48,2048,1,1
-AMD Accelerated Parallel Processing - Hawaii,6.15,4,1,1
+NvidiaRuntime - Tesla K20Xm,2.82,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.21,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.20,128,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,9.58,2048,1,1
+AmdRuntime - AMD Firepro W9100,5.39,16,1,1
 
-128.0
-NVIDIA CUDA - Tesla K20Xm,20.82,128,1,1
+10.0
+NvidiaRuntime - Tesla K20Xm,3.48,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.34,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.56,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6.18,512,1,1
+AmdRuntime - AMD Firepro W9100,4.29,256,1,1
 
 12.0
-NVIDIA CUDA - Tesla K20Xm,2.25,128,1,1
+NvidiaRuntime - Tesla K20Xm,-1.00,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,31.55,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.05,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6.70,32,1,1
+AmdRuntime - AMD Firepro W9100,8.96,256,1,1
+
+14.0
+NvidiaRuntime - Tesla K20Xm,4.78,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.33,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.55,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,8.24,2048,1,1
+AmdRuntime - AMD Firepro W9100,7.31,256,1,1
 
 16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,33.28,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.80,16,1,1
-NVIDIA CUDA - Tesla K20Xm,2.97,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,7.24,128,1,1
-AMD Accelerated Parallel Processing - Hawaii,8.38,256,1,1
+NvidiaRuntime - Tesla K20Xm,5.44,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,31.22,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.17,64,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,7.96,128,1,1
+AmdRuntime - AMD Firepro W9100,11.58,32,1,1
+
+18.0
+NvidiaRuntime - Tesla K20Xm,6.11,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11.95,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.48,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,7.98,128,1,1
+AmdRuntime - AMD Firepro W9100,8.64,64,1,1
 
 20.0
-NVIDIA CUDA - Tesla K20Xm,3.57,128,1,1
+NvidiaRuntime - Tesla K20Xm,6.81,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11.55,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.40,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,8.78,512,1,1
+AmdRuntime - AMD Firepro W9100,11.79,64,1,1
+
+22.0
+NvidiaRuntime - Tesla K20Xm,7.48,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,42.89,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.80,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,8.99,128,1,1
+AmdRuntime - AMD Firepro W9100,15.01,128,1,1
 
 24.0
-NVIDIA CUDA - Tesla K20Xm,4.26,128,1,1
+NvidiaRuntime - Tesla K20Xm,8.07,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,26.82,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.69,8,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,9.43,32,1,1
+AmdRuntime - AMD Firepro W9100,13.01,64,1,1
+
+26.0
+NvidiaRuntime - Tesla K20Xm,8.66,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,25.51,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.39,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,9.73,256,1,1
+AmdRuntime - AMD Firepro W9100,13.06,128,1,1
 
 28.0
-NVIDIA CUDA - Tesla K20Xm,4.86,64,1,1
+NvidiaRuntime - Tesla K20Xm,9.37,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,25.82,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.77,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,13.90,512,1,1
+AmdRuntime - AMD Firepro W9100,15.19,32,1,1
+
+30.0
+NvidiaRuntime - Tesla K20Xm,9.99,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,15.40,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.40,16,1,1
+AmdRuntime - AMD Firepro W9100,14.01,32,1,1
 
 32.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,27.35,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,5.20,16,1,1
-NVIDIA CUDA - Tesla K20Xm,5.67,64,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,11.19,128,1,1
-AMD Accelerated Parallel Processing - Hawaii,17.40,256,1,1
+NvidiaRuntime - Tesla K20Xm,10.63,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32.94,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.41,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,10.56,256,1,1
+AmdRuntime - AMD Firepro W9100,19.84,128,1,1
+
+34.0
+NvidiaRuntime - Tesla K20Xm,11.26,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17.71,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3.98,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,11.03,64,1,1
+AmdRuntime - AMD Firepro W9100,18.75,64,1,1
 
 36.0
-NVIDIA CUDA - Tesla K20Xm,6.21,128,1,1
+NvidiaRuntime - Tesla K20Xm,11.93,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,42.81,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9.21,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,11.55,64,1,1
+AmdRuntime - AMD Firepro W9100,18.52,64,1,1
+
+38.0
+NvidiaRuntime - Tesla K20Xm,12.65,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,20.48,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.11,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,12.34,16,1,1
+AmdRuntime - AMD Firepro W9100,19.45,256,1,1
 
 40.0
-NVIDIA CUDA - Tesla K20Xm,6.92,128,1,1
+NvidiaRuntime - Tesla K20Xm,13.21,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,20.61,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.07,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,13.35,128,1,1
+AmdRuntime - AMD Firepro W9100,17.91,64,1,1
+
+42.0
+NvidiaRuntime - Tesla K20Xm,13.86,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,20.45,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.73,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,13.12,128,1,1
+AmdRuntime - AMD Firepro W9100,18.50,256,1,1
 
 44.0
-NVIDIA CUDA - Tesla K20Xm,7.43,128,1,1
-
-48.0
-NVIDIA CUDA - Tesla K20Xm,8.10,128,1,1
-
-52.0
-NVIDIA CUDA - Tesla K20Xm,8.80,64,1,1
-
-56.0
-NVIDIA CUDA - Tesla K20Xm,9.37,128,1,1
-
-60.0
-NVIDIA CUDA - Tesla K20Xm,9.99,128,1,1
-
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,35.97,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.95,64,1,1
-NVIDIA CUDA - Tesla K20Xm,10.62,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,17.38,512,1,1
-AMD Accelerated Parallel Processing - Hawaii,30.25,64,1,1
-
-68.0
-NVIDIA CUDA - Tesla K20Xm,11.26,128,1,1
-
-72.0
-NVIDIA CUDA - Tesla K20Xm,11.95,128,1,1
-
-76.0
-NVIDIA CUDA - Tesla K20Xm,12.51,128,1,1
-
-80.0
-NVIDIA CUDA - Tesla K20Xm,13.15,128,1,1
-
-84.0
-NVIDIA CUDA - Tesla K20Xm,13.82,128,1,1
-
-88.0
-NVIDIA CUDA - Tesla K20Xm,14.41,128,1,1
-
-92.0
-NVIDIA CUDA - Tesla K20Xm,15.19,128,1,1
-
-96.0
-NVIDIA CUDA - Tesla K20Xm,15.84,128,1,1
-
-100.0
-NVIDIA CUDA - Tesla K20Xm,16.34,128,1,1
-
-104.0
-NVIDIA CUDA - Tesla K20Xm,16.98,128,1,1
-
-108.0
-NVIDIA CUDA - Tesla K20Xm,17.67,128,1,1
-
-112.0
-NVIDIA CUDA - Tesla K20Xm,18.23,128,1,1
-
-116.0
-NVIDIA CUDA - Tesla K20Xm,19.01,128,1,1
-
-120.0
-NVIDIA CUDA - Tesla K20Xm,19.56,128,1,1
-
-124.0
-NVIDIA CUDA - Tesla K20Xm,20.17,128,1,1
-
-
-########## MatrixMultiplication ##########
-127.972999573
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,95876.70,16,32,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,23424.90,32,32,1
-NVIDIA CUDA - Tesla K20Xm,207163.00,32,32,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,279960.00,16,4,1
-AMD Accelerated Parallel Processing - Hawaii,69239.50,16,16,1
-
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,34436.60,1,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,88976.20,4096,1,1
-NVIDIA CUDA - Tesla K20Xm,75224.30,32,32,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,95573.30,512,1,1
-AMD Accelerated Parallel Processing - Hawaii,23229.50,16,16,1
-
-4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,124.58,16,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,206.20,4,1,1
-NVIDIA CUDA - Tesla K20Xm,1632.15,64,2,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,1324.13,32,1,1
-AMD Accelerated Parallel Processing - Hawaii,353.77,64,4,1
-
-1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,17.70,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,16.00,128,1,1
-NVIDIA CUDA - Tesla K20Xm,101.74,64,2,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,145.55,128,1,1
-AMD Accelerated Parallel Processing - Hawaii,41.33,64,4,1
-
-16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1019.60,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,912.64,32,1,1
-NVIDIA CUDA - Tesla K20Xm,9104.76,32,32,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,11666.60,128,1,1
-AMD Accelerated Parallel Processing - Hawaii,2773.06,16,16,1
-
-31.9932003021
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,10336.30,4,4,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2502.20,8,4,1
-NVIDIA CUDA - Tesla K20Xm,25921.10,16,16,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,14942.60,16,16,1
-AMD Accelerated Parallel Processing - Hawaii,8687.80,8,16,1
-
-7.99829006195
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,505.92,8,2,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,177.60,8,8,1
-NVIDIA CUDA - Tesla K20Xm,3226.85,8,8,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,525.51,8,8,1
-AMD Accelerated Parallel Processing - Hawaii,972.09,8,16,1
-
-1.99957001209
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,118.02,4,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,24.38,4,4,1
-NVIDIA CUDA - Tesla K20Xm,394.63,4,4,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,61.72,1,4,1
-AMD Accelerated Parallel Processing - Hawaii,123.60,16,8,1
-
-
-########## FWT ##########
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2111.71,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,149.91,128,1,1
-NVIDIA CUDA - Tesla K20Xm,923.96,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,647.64,2048,1,1
-AMD Accelerated Parallel Processing - Hawaii,877.17,128,1,1
-
-1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,43.50,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,4.49,256,1,1
-NVIDIA CUDA - Tesla K20Xm,17.21,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,13.54,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,12.78,128,1,1
-
-2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,67.14,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7.56,256,1,1
-NVIDIA CUDA - Tesla K20Xm,23.23,256,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.84,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,23.48,128,1,1
-
-4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,142.09,64,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11.57,1024,1,1
-NVIDIA CUDA - Tesla K20Xm,48.49,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,45.94,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,46.74,128,1,1
-
-0.5
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,25.85,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.26,512,1,1
-NVIDIA CUDA - Tesla K20Xm,4.75,256,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,8.36,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,5.99,256,1,1
-
-32.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1017.63,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,76.86,256,1,1
-NVIDIA CUDA - Tesla K20Xm,442.77,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,317.56,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,420.65,128,1,1
-
-8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,252.32,128,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,20.32,128,1,1
-NVIDIA CUDA - Tesla K20Xm,101.46,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,81.33,1024,1,1
-AMD Accelerated Parallel Processing - Hawaii,97.43,128,1,1
-
-16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,491.37,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,36.32,1024,1,1
-NVIDIA CUDA - Tesla K20Xm,212.08,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,158.23,2048,1,1
-AMD Accelerated Parallel Processing - Hawaii,201.97,256,1,1
+NvidiaRuntime - Tesla K20Xm,14.36,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,22.33,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7.13,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,13.87,32,1,1
+AmdRuntime - AMD Firepro W9100,19.92,128,1,1
 
 
 ########## LUDecomposition ##########
-0.5
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7877.25,2,256,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1410.45,16,32,1
-NVIDIA CUDA - Tesla K20Xm,7510.58,512,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4894.28,32,16,1
-AMD Accelerated Parallel Processing - Hawaii,3565.21,64,4,1
-
-32.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7754.17,1,512,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1346.82,512,1,1
-NVIDIA CUDA - Tesla K20Xm,7505.59,512,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5034.20,8,64,1
-AMD Accelerated Parallel Processing - Hawaii,3527.56,32,1,1
-
 2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7784.54,1,512,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1395.86,1,512,1
-NVIDIA CUDA - Tesla K20Xm,7507.72,2,256,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5014.53,256,2,1
-AMD Accelerated Parallel Processing - Hawaii,3614.80,2,16,1
+NvidiaRuntime - Tesla K20Xm,126.04,8,16,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,229.81,128,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,125.84,128,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,179.44,16,8,1
+AmdRuntime - AMD Firepro W9100,110.82,128,1,1
 
-128.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,65703.10,8,128,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11489.80,1024,1,1
-NVIDIA CUDA - Tesla K20Xm,59526.60,1,1024,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,34175.40,256,4,1
-AMD Accelerated Parallel Processing - Hawaii,26074.70,4,8,1
+3.0
+NvidiaRuntime - Tesla K20Xm,342.46,4,64,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,517.13,2,128,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,138.86,64,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,368.91,32,8,1
+AmdRuntime - AMD Firepro W9100,221.97,32,8,1
+
+6.0
+NvidiaRuntime - Tesla K20Xm,626.13,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,738.73,128,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,207.08,128,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,561.09,32,8,1
+AmdRuntime - AMD Firepro W9100,379.17,64,4,1
 
 8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7774.15,1,512,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1324.36,256,2,1
-NVIDIA CUDA - Tesla K20Xm,7508.42,64,8,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5020.94,32,16,1
-AMD Accelerated Parallel Processing - Hawaii,3563.57,8,32,1
+NvidiaRuntime - Tesla K20Xm,955.07,1,256,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1116.75,128,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,281.28,16,32,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,822.42,256,1,1
+AmdRuntime - AMD Firepro W9100,541.05,128,2,1
 
+9.0
+NvidiaRuntime - Tesla K20Xm,1324.62,128,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1458.12,1,256,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,350.33,128,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1009.61,4,128,1
+AmdRuntime - AMD Firepro W9100,728.28,8,32,1
 
-########## SquareArray ##########
-0.5
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.71,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.50,2048,1,1
-NVIDIA CUDA - Tesla K20Xm,0.91,256,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,3.35,8192,1,1
-AMD Accelerated Parallel Processing - Hawaii,1.82,128,1,1
+12.0
+NvidiaRuntime - Tesla K20Xm,-1.00,2,256,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1964.87,8,32,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,449.35,128,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1280.26,2,256,1
+AmdRuntime - AMD Firepro W9100,933.87,4,64,1
 
-64.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,179.74,256,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,15.31,4096,1,1
-NVIDIA CUDA - Tesla K20Xm,64.22,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,75.97,8,1,1
-AMD Accelerated Parallel Processing - Hawaii,75.36,128,1,1
+14.0
+NvidiaRuntime - Tesla K20Xm,2195.21,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2407.49,1,128,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,488.05,1,512,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1562.82,256,2,1
+AmdRuntime - AMD Firepro W9100,1174.24,8,32,1
 
-2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,11.13,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1.03,1024,1,1
-NVIDIA CUDA - Tesla K20Xm,2.36,512,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,6.52,4096,1,1
-AMD Accelerated Parallel Processing - Hawaii,3.93,128,1,1
+15.0
+NvidiaRuntime - Tesla K20Xm,2668.20,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2861.37,4,128,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,559.34,128,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1944.49,8,64,1
+AmdRuntime - AMD Firepro W9100,1405.21,256,1,1
 
-4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,15.05,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,2.66,512,1,1
-NVIDIA CUDA - Tesla K20Xm,4.36,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,9.02,8192,1,1
-AMD Accelerated Parallel Processing - Hawaii,5.48,256,1,1
+18.0
+NvidiaRuntime - Tesla K20Xm,3179.82,1,512,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3335.90,8,64,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,867.89,256,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2199.40,128,4,1
+AmdRuntime - AMD Firepro W9100,1623.18,1,256,1
+
+20.0
+NvidiaRuntime - Tesla K20Xm,-1.00,32,16,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3920.59,2,256,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,755.73,16,32,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2474.69,32,16,1
+AmdRuntime - AMD Firepro W9100,1851.69,64,4,1
+
+22.0
+NvidiaRuntime - Tesla K20Xm,4298.95,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4504.11,1,512,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,829.41,512,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2914.96,16,32,1
+AmdRuntime - AMD Firepro W9100,2122.98,8,32,1
+
+24.0
+NvidiaRuntime - Tesla K20Xm,4900.81,128,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5216.42,16,32,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,920.82,512,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3135.68,2,256,1
+AmdRuntime - AMD Firepro W9100,2404.86,2,128,1
+
+26.0
+NvidiaRuntime - Tesla K20Xm,5516.66,8,64,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10125.30,4,128,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1015.40,16,32,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3527.52,4,128,1
+AmdRuntime - AMD Firepro W9100,2691.16,64,4,1
+
+28.0
+NvidiaRuntime - Tesla K20Xm,6141.34,128,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6368.30,8,64,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1093.62,32,16,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3976.89,512,1,1
+AmdRuntime - AMD Firepro W9100,2990.53,128,2,1
+
+30.0
+NvidiaRuntime - Tesla K20Xm,6815.49,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7080.25,1,512,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1196.46,32,32,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4298.65,16,32,1
+AmdRuntime - AMD Firepro W9100,3223.62,16,2,1
 
 32.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,96.79,512,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,9.16,2,1,1
-NVIDIA CUDA - Tesla K20Xm,32.21,256,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,41.28,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,38.25,128,1,1
+NvidiaRuntime - Tesla K20Xm,7495.80,1,512,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,13789.80,1,512,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1345.76,64,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4785.41,32,16,1
+AmdRuntime - AMD Firepro W9100,3559.36,32,1,1
 
-8.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,44.65,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,3.39,256,1,1
-NVIDIA CUDA - Tesla K20Xm,8.33,256,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,13.45,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,10.11,256,1,1
+34.0
+NvidiaRuntime - Tesla K20Xm,8212.92,256,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8514.25,1,512,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1424.11,1,1024,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,5183.62,16,32,1
+AmdRuntime - AMD Firepro W9100,3903.04,4,64,1
 
-16.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,48.43,1024,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.49,4,1,1
-NVIDIA CUDA - Tesla K20Xm,16.23,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,23.29,256,1,1
-AMD Accelerated Parallel Processing - Hawaii,18.88,128,1,1
+35.0
+NvidiaRuntime - Tesla K20Xm,8932.45,256,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9563.98,2,256,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1511.05,8,128,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,5604.33,1,512,1
+AmdRuntime - AMD Firepro W9100,4239.01,16,16,1
+
+38.0
+NvidiaRuntime - Tesla K20Xm,9688.86,16,32,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9939.74,1,512,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1616.20,1,1024,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,5974.76,1,512,1
+AmdRuntime - AMD Firepro W9100,4514.65,64,4,1
+
+40.0
+NvidiaRuntime - Tesla K20Xm,10485.50,32,32,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11132.20,8,64,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1716.78,2,512,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6375.96,1,1024,1
+AmdRuntime - AMD Firepro W9100,4938.19,16,16,1
+
+42.0
+NvidiaRuntime - Tesla K20Xm,11272.30,256,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11609.70,64,16,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1855.83,16,64,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6848.32,8,128,1
+AmdRuntime - AMD Firepro W9100,5202.82,16,16,1
+
+44.0
+NvidiaRuntime - Tesla K20Xm,12093.10,1024,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,12410.50,2,512,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1952.17,16,64,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,7332.55,32,32,1
+AmdRuntime - AMD Firepro W9100,5607.63,64,4,1
+
+
+########## FWT ##########
+32.0
+NvidiaRuntime - Tesla K20Xm,442.65,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1031.15,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,73.00,1024,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,318.43,1024,1,1
+AmdRuntime - AMD Firepro W9100,420.51,128,1,1
 
 1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6.21,256,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,0.74,8192,1,1
-NVIDIA CUDA - Tesla K20Xm,1.00,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,4.19,8192,1,1
-AMD Accelerated Parallel Processing - Hawaii,2.52,256,1,1
+NvidiaRuntime - Tesla K20Xm,9.52,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32.48,256,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.89,512,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,13.59,4096,1,1
+AmdRuntime - AMD Firepro W9100,12.33,256,1,1
+
+2.0
+NvidiaRuntime - Tesla K20Xm,23.10,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,71.12,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.21,2048,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,24.56,4096,1,1
+AmdRuntime - AMD Firepro W9100,23.33,256,1,1
+
+4.0
+NvidiaRuntime - Tesla K20Xm,48.19,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,146.24,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11.19,256,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,42.79,4096,1,1
+AmdRuntime - AMD Firepro W9100,47.38,128,1,1
+
+8.0
+NvidiaRuntime - Tesla K20Xm,101.12,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,250.60,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,18.82,1024,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,80.81,8192,1,1
+AmdRuntime - AMD Firepro W9100,97.40,128,1,1
+
+16.0
+NvidiaRuntime - Tesla K20Xm,212.00,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,507.24,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,40.04,512,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,157.83,256,1,1
+AmdRuntime - AMD Firepro W9100,201.91,128,1,1
+
+
+########## MatrixMultiplication ##########
+1.0
+NvidiaRuntime - Tesla K20Xm,393.70,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,60.46,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,22.86,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,59.02,1,4,1
+AmdRuntime - AMD Firepro W9100,123.18,4,16,1
+
+4.0
+NvidiaRuntime - Tesla K20Xm,1145.80,128,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,232.54,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,126.58,256,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1266.45,32,1,1
+AmdRuntime - AMD Firepro W9100,343.95,64,4,1
+
+5.0
+NvidiaRuntime - Tesla K20Xm,1787.14,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,286.23,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,213.98,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,302.07,2,2,1
+AmdRuntime - AMD Firepro W9100,626.06,8,8,1
+
+7.0
+NvidiaRuntime - Tesla K20Xm,3221.60,8,8,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,500.61,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,184.49,8,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,506.10,8,8,1
+AmdRuntime - AMD Firepro W9100,1042.06,8,8,1
+
+9.0
+NvidiaRuntime - Tesla K20Xm,4441.69,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,467.88,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,401.69,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,909.70,1,1,1
+AmdRuntime - AMD Firepro W9100,1477.68,128,2,1
+
+11.0
+NvidiaRuntime - Tesla K20Xm,-1.00,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,798.44,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,554.34,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1207.53,1,1,1
+AmdRuntime - AMD Firepro W9100,1970.40,16,16,1
+
+13.0
+NvidiaRuntime - Tesla K20Xm,7542.09,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,812.74,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,792.10,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6947.83,1,1,1
+AmdRuntime - AMD Firepro W9100,2450.12,16,16,1
+
+16.0
+NvidiaRuntime - Tesla K20Xm,9109.00,32,32,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1028.33,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,914.26,16,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,12214.20,128,1,1
+AmdRuntime - AMD Firepro W9100,2742.90,16,16,1
+
+17.0
+NvidiaRuntime - Tesla K20Xm,11027.20,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1144.18,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,986.28,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3352.76,4,4,1
+AmdRuntime - AMD Firepro W9100,3541.14,16,16,1
+
+19.0
+NvidiaRuntime - Tesla K20Xm,-1.00,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1373.57,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1859.74,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,4292.43,1,1,1
+AmdRuntime - AMD Firepro W9100,4231.50,16,16,1
+
+21.0
+NvidiaRuntime - Tesla K20Xm,14931.80,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1698.23,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1399.57,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,5470.10,1,1,1
+AmdRuntime - AMD Firepro W9100,4577.31,16,16,1
+
+23.0
+NvidiaRuntime - Tesla K20Xm,17094.60,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1679.24,4,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1628.62,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6985.05,4,4,1
+AmdRuntime - AMD Firepro W9100,5115.26,32,8,1
+
+25.0
+NvidiaRuntime - Tesla K20Xm,19241.00,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2365.49,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1887.00,1,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,8054.03,2,2,1
+AmdRuntime - AMD Firepro W9100,5861.50,16,16,1
+
+27.0
+NvidiaRuntime - Tesla K20Xm,21550.90,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2915.13,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2143.54,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,10553.60,1,1,1
+AmdRuntime - AMD Firepro W9100,6789.38,16,16,1
+
+29.0
+NvidiaRuntime - Tesla K20Xm,23893.60,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4688.20,4,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2279.74,4,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,12813.30,4,4,1
+AmdRuntime - AMD Firepro W9100,8156.08,64,4,1
+
+31.0
+NvidiaRuntime - Tesla K20Xm,25849.10,16,16,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10111.40,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2635.39,16,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,14160.50,16,16,1
+AmdRuntime - AMD Firepro W9100,8666.30,8,16,1
+
+33.0
+NvidiaRuntime - Tesla K20Xm,28797.30,1,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9295.04,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3069.43,1,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,18567.20,1,1,1
+AmdRuntime - AMD Firepro W9100,9104.59,16,16,1
+
+36.0
+NvidiaRuntime - Tesla K20Xm,30631.20,64,16,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,12134.10,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3145.16,16,8,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,39741.80,128,1,1
+AmdRuntime - AMD Firepro W9100,9459.28,8,16,1
+
+37.0
+NvidiaRuntime - Tesla K20Xm,34034.00,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9057.89,2,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3475.65,4,4,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,24066.00,1,4,1
+AmdRuntime - AMD Firepro W9100,10588.80,16,16,1
+
+39.0
+NvidiaRuntime - Tesla K20Xm,36798.70,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,15985.10,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3654.73,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,27364.60,2,2,1
+AmdRuntime - AMD Firepro W9100,12512.50,16,16,1
+
+41.0
+NvidiaRuntime - Tesla K20Xm,39653.10,2,2,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17447.40,2,2,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,3974.25,2,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,33637.00,2,2,1
+AmdRuntime - AMD Firepro W9100,13688.40,16,16,1
+
+43.0
+NvidiaRuntime - Tesla K20Xm,42733.90,4,4,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17643.20,4,4,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4194.96,4,2,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,35535.90,4,4,1
+AmdRuntime - AMD Firepro W9100,13508.90,16,16,1
 
 
 ########## NBody ##########
-0.5
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,1603.92,2,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,7982.40,8,1,1
-NVIDIA CUDA - Tesla K20Xm,7823.35,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,5104.42,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,3352.00,256,1,1
-
-1.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,6179.67,4,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,31890.30,8,1,1
-NVIDIA CUDA - Tesla K20Xm,54603.70,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,20406.20,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,13410.00,64,1,1
-
-2.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,24455.20,2,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,127511.00,8,1,1
-NVIDIA CUDA - Tesla K20Xm,147062.00,128,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,81540.30,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,53508.20,64,1,1
+32.0
+NvidiaRuntime - Tesla K20Xm,7619670.00,64,1,1
 
 4.0
-AMD Accelerated Parallel Processing - Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,97382.70,2,1,1
-Intel(R) OpenCL -       Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz,510308.00,8,1,1
-NVIDIA CUDA - Tesla K20Xm,710405.00,64,1,1
-Intel(R) OpenCL - Intel(R) Many Integrated Core Acceleration Card,326066.00,16,1,1
-AMD Accelerated Parallel Processing - Hawaii,214737.00,64,1,1
+NvidiaRuntime - Tesla K20Xm,119127.00,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,19487.80,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17894.00,8,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,62647.60,16,1,1
+AmdRuntime - AMD Firepro W9100,42958.80,64,1,1
 
 8.0
-NVIDIA CUDA - Tesla K20Xm,2348650.00,128,1,1
+NvidiaRuntime - Tesla K20Xm,476299.00,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,77886.00,2,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,71477.70,8,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,250443.00,16,1,1
+AmdRuntime - AMD Firepro W9100,171571.00,64,1,1
+
+12.0
+NvidiaRuntime - Tesla K20Xm,1071480.00,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,175214.00,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,160787.00,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,564132.00,16,1,1
+AmdRuntime - AMD Firepro W9100,384977.00,64,1,1
 
 16.0
-NVIDIA CUDA - Tesla K20Xm,9394920.00,128,1,1
+NvidiaRuntime - Tesla K20Xm,1905200.00,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,311437.00,4,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,285864.00,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1043550.00,32,1,1
+AmdRuntime - AMD Firepro W9100,684617.00,64,1,1
+
+20.0
+NvidiaRuntime - Tesla K20Xm,2976610.00,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,486682.00,8,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,447580.00,64,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,1568040.00,32,1,1
+AmdRuntime - AMD Firepro W9100,1069140.00,64,1,1
+
+24.0
+NvidiaRuntime - Tesla K20Xm,4286060.00,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,701108.00,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,642940.00,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,2256500.00,16,1,1
+AmdRuntime - AMD Firepro W9100,1539000.00,64,1,1
+
+28.0
+NvidiaRuntime - Tesla K20Xm,5833360.00,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,954650.00,1,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,875542.00,8,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,3069490.00,64,1,1
+AmdRuntime - AMD Firepro W9100,2093990.00,64,1,1
+
+
+########## SquareArray ##########
+2.0
+NvidiaRuntime - Tesla K20Xm,2.33,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.72,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,0.84,2048,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,6.20,8192,1,1
+AmdRuntime - AMD Firepro W9100,3.45,64,1,1
+
+4.0
+NvidiaRuntime - Tesla K20Xm,4.30,1024,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.99,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.09,2,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,9.84,8192,1,1
+AmdRuntime - AMD Firepro W9100,5.89,256,1,1
+
+6.0
+NvidiaRuntime - Tesla K20Xm,6.29,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,17.21,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2.98,2048,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,12.35,8192,1,1
+AmdRuntime - AMD Firepro W9100,7.75,128,1,1
+
+8.0
+NvidiaRuntime - Tesla K20Xm,8.31,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,36.63,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4.34,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,15.16,2048,1,1
+AmdRuntime - AMD Firepro W9100,9.86,256,1,1
+
+10.0
+NvidiaRuntime - Tesla K20Xm,10.06,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,29.67,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.00,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,16.47,8192,1,1
+AmdRuntime - AMD Firepro W9100,12.42,128,1,1
+
+12.0
+NvidiaRuntime - Tesla K20Xm,-1.00,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,50.70,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.11,256,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,20.09,16,1,1
+AmdRuntime - AMD Firepro W9100,14.78,256,1,1
+
+14.0
+NvidiaRuntime - Tesla K20Xm,14.25,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,39.24,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.88,32,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,22.44,512,1,1
+AmdRuntime - AMD Firepro W9100,17.07,128,1,1
+
+16.0
+NvidiaRuntime - Tesla K20Xm,16.20,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,77.63,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,5.99,4096,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,26.34,8,1,1
+AmdRuntime - AMD Firepro W9100,18.81,128,1,1
+
+18.0
+NvidiaRuntime - Tesla K20Xm,18.15,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,53.44,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,6.23,4096,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,27.34,16,1,1
+AmdRuntime - AMD Firepro W9100,21.87,256,1,1
+
+20.0
+NvidiaRuntime - Tesla K20Xm,20.23,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,62.59,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7.34,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,28.27,8,1,1
+AmdRuntime - AMD Firepro W9100,23.94,128,1,1
+
+22.0
+NvidiaRuntime - Tesla K20Xm,22.26,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,70.78,1024,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,12.62,16,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,31.67,16,1,1
+AmdRuntime - AMD Firepro W9100,26.61,128,1,1
+
+24.0
+NvidiaRuntime - Tesla K20Xm,24.19,1024,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,75.50,256,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,7.87,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,35.23,32,1,1
+AmdRuntime - AMD Firepro W9100,28.57,128,1,1
+
+26.0
+NvidiaRuntime - Tesla K20Xm,25.96,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,75.47,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.81,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,36.31,64,1,1
+AmdRuntime - AMD Firepro W9100,31.26,128,1,1
+
+28.0
+NvidiaRuntime - Tesla K20Xm,28.14,1024,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,82.46,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8.82,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,39.11,8,1,1
+AmdRuntime - AMD Firepro W9100,33.16,128,1,1
+
+30.0
+NvidiaRuntime - Tesla K20Xm,29.87,64,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,86.09,512,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11.11,512,1,1
+AmdRuntime - AMD Firepro W9100,35.94,128,1,1
+
+32.0
+NvidiaRuntime - Tesla K20Xm,32.24,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,96.32,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.22,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,43.21,32,1,1
+AmdRuntime - AMD Firepro W9100,38.64,256,1,1
+
+34.0
+NvidiaRuntime - Tesla K20Xm,34.24,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,100.33,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,9.97,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,44.70,32,1,1
+AmdRuntime - AMD Firepro W9100,40.33,256,1,1
+
+36.0
+NvidiaRuntime - Tesla K20Xm,35.95,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,111.34,32,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,11.64,8192,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,48.43,16,1,1
+AmdRuntime - AMD Firepro W9100,42.92,128,1,1
+
+38.0
+NvidiaRuntime - Tesla K20Xm,38.28,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,106.11,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.85,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,52.61,16,1,1
+AmdRuntime - AMD Firepro W9100,44.84,128,1,1
+
+40.0
+NvidiaRuntime - Tesla K20Xm,40.22,128,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,110.11,64,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.97,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,54.13,16,1,1
+AmdRuntime - AMD Firepro W9100,47.18,128,1,1
+
+42.0
+NvidiaRuntime - Tesla K20Xm,42.09,512,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,126.17,128,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,10.33,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,56.34,8,1,1
+AmdRuntime - AMD Firepro W9100,50.21,128,1,1
+
+44.0
+NvidiaRuntime - Tesla K20Xm,44.01,256,1,1
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,136.09,32,1,1
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,13.37,4,1,1
+IntelRuntime - Intel Xeon Phi coprocessor x100 family,57.33,16,1,1
+AmdRuntime - AMD Firepro W9100,52.67,128,1,1
 
 

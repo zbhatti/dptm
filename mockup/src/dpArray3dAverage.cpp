@@ -1,5 +1,6 @@
 #include "dpArray3dAverage.hpp"
 #include "errorCheck.hpp"
+#include <numeric>
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
 dpArray3dAverage::dpArray3dAverage(cl_context ctx, cl_command_queue q){
@@ -48,13 +49,24 @@ dpArray3dAverage::dpArray3dAverage(cl_context ctx, cl_command_queue q){
 
 void dpArray3dAverage::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 
+	int MAX;
+	unsigned int bytes = dataMB * 1048576;
 	localSize[0] = xLocal;
 	localSize[1] = yLocal;
 	localSize[2] = zLocal;
 	
+	MAX = std::max(xLocal, std::max(yLocal, zLocal) );
+	Alength = MAX;
+	
 	//scan up to MB size specified to set dimensions of 3d array
-	for (int i =0; pow(2,i)*pow(2,i)*pow(2,i) *sizeof(float)/(float) 1048576 <= dataMB;i++)
-		Alength = pow(2,i);
+	if (Alength*Alength*Alength*sizeof(float) > bytes)
+		Alength = 8;
+	
+	else{
+		for (; pow(Alength + MAX,3)*sizeof(float)<= bytes;){
+			Alength = Alength + MAX;
+		}
+	}
 	
 	MB = Alength*Alength*Alength*sizeof(float) / (float) 1048576;
 }
@@ -125,3 +137,18 @@ void dpArray3dAverage::generate3dArray(float *A, int N){
 		}
 	}
 }
+
+// http://programmingknowledgeblog.blogspot.com/2013/04/c-program-to-find-hcf-n-lcm-of-two.html
+
+int dpArray3dAverage::lcm(int a, int b){
+	int c = a * b;
+	while (a != b){
+		if (a > b)
+			a = a - b;
+		else
+			b = b - a;
+	}
+	return c/a;
+
+}
+

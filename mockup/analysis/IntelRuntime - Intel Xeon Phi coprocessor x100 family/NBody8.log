@@ -27,3 +27,17 @@ Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,1024,1,1,8,64.
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,2048,1,1,8,62.348,12.077,0.004,21912.2,0,5.447
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,4096,1,1,8,61.212,12.287,0.003,24177.6,0.001,5.877
 Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,8192,1,1,8,63.218,13.648,0.004,39812.5,0.001,7.871
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,1,1,1,8,47.974,13.368,0.006,250499,0.001,3.973
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,2,1,1,8,67.688,11.668,0.004,250659,0.002,3.763
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,4,1,1,8,67.437,12.481,0.005,250936,0.001,3.726
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,8,1,1,8,68.649,13.253,0.005,250932,0.001,4.011
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,16,1,1,8,63.989,14.375,0.005,15059.7,0,4.016
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,32,1,1,8,62.002,13.048,0.004,15132.7,0.001,4.042
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,64,1,1,8,60.864,13.045,0.005,15347.4,0.001,3.944
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,128,1,1,8,63.163,13.319,0.003,15774.8,0.001,4.418
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,256,1,1,8,65.249,13.46,0.004,15792.6,0,3.76
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,512,1,1,8,62.913,13.068,0.004,17535.2,0.001,3.993
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,1024,1,1,8,65.243,13.24,0.003,21034.1,0,4.056
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,2048,1,1,8,61.82,13.462,0.004,21896.8,0.001,4.016
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,4096,1,1,8,63.821,13.084,0.003,24236.3,0.001,4.657
+Intel Xeon Phi coprocessor x100 family,NBody,ONE_D,524288,0.005,1,8192,1,1,8,59.953,14.073,0.003,39880.1,0.001,6.68

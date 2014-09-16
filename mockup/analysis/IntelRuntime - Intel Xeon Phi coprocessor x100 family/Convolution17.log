@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,1024,1,
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,2048,1,1,17,98.176,29.402,0.006,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,4096,1,1,17,97.356,29.131,0.006,-1,-1,-1
 Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,8192,1,1,17,97.891,29.067,0.007,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,1,1,1,17,127.227,33.815,0.01,1684.6,9.705,1.352
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,2,1,1,17,127.62,33.765,0.008,1698.82,8.928,1.153
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,4,1,1,17,126.442,33.643,0.008,1697.66,8.858,1.431
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,8,1,1,17,118.424,31.98,0.005,1686.62,8.861,1.342
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,16,1,1,17,122.7,32.04,0.006,551.594,9.156,1.219
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,32,1,1,17,96.936,30.214,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,64,1,1,17,92.208,28.517,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,128,1,1,17,92.188,28.869,0.005,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,256,1,1,17,99.318,28.554,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,512,1,1,17,94.606,28.268,0.007,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,1024,1,1,17,93.78,27.769,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,2048,1,1,17,98.98,27.746,0.006,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,4096,1,1,17,96.283,27.827,0.005,-1,-1,-1
+Intel Xeon Phi coprocessor x100 family,Convolution,ONE_D,2172,2172,64,64,8192,1,1,17,93.903,28.114,0.006,-1,-1,-1
