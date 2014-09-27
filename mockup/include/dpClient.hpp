@@ -13,6 +13,11 @@
 #include <sstream>
 #include <algorithm>
 
+#include <cuda.h>//cuda functions
+#include <cuda_runtime.h>//cuda functions
+#include <cufft.h>
+
+
 #ifdef __APPLE__
 	#include <OpenCL/opencl.h>
 #else

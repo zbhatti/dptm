@@ -9,6 +9,7 @@
 #include <sys/types.h>//shared memory
 #include <sys/ipc.h>//shared memory
 #include <sys/shm.h>//shared memory
+#include <time.h> //for random seed and timing
 #include <sys/time.h> //for random seed and timing
 #include <errno.h>
 #include <string.h>

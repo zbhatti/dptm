@@ -53,8 +53,10 @@ for ker in kernels:
 #format floats into python arrays and sort them
 for ker in kernels:
 	for dev in devices:
-	
+		
 		n = len(data[ker][dev][0])
+		if n == 0:
+			continue
 		
 		#copy lists out of data:
 		mbList = data[ker][dev][0]
@@ -91,6 +93,9 @@ for ker in kernels:
 	
 	for dev in devices:
 		n = len(data[ker][dev][0])
+		if n == 0:
+			continue
+		
 		devGraph = TGraph(n, data[ker][dev][0], data[ker][dev][1])
 		devGraph.SetTitle(dev)
 		devGraph.SetLineColor(color)

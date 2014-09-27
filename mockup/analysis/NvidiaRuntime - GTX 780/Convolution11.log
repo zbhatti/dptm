@@ -1,0 +1,12 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,maskwidth/F,maskheight/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+GTX 780,Convolution,ONE_D,1773,1773,64,64,1,1,1,11,60.789,8.398,0.001,12096.3,3.278,0.187
+GTX 780,Convolution,ONE_D,1773,1773,64,64,2,1,1,11,60.409,8.437,0.001,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,4,1,1,11,60.227,8.354,0.001,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,8,1,1,11,60.433,8.445,0.001,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,16,1,1,11,60.314,8.336,0.001,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,32,1,1,11,60.238,8.377,0,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,64,1,1,11,60.558,8.385,0.001,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,128,1,1,11,60.154,8.339,0,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,256,1,1,11,60.154,8.339,0.001,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,512,1,1,11,60.169,8.365,0.001,-1,-1,-1
+GTX 780,Convolution,ONE_D,1773,1773,64,64,1024,1,1,11,60.404,8.345,0.001,-1,-1,-1

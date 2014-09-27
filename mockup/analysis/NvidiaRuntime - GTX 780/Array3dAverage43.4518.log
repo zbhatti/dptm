@@ -1,0 +1,2 @@
+device/C,kernel/C,workDimension/C,cubeLength/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+GTX 780,Array3dAverage,THREE_D,225,1,1,1,43.4518,438.278,14.996,0.002,119.163,22.066,0.43

@@ -10,6 +10,7 @@
 #include <sys/ipc.h>//shared memory
 #include <sys/shm.h>//shared memory
 #include <sys/time.h> //for random seed and timing
+#include <time.h> //for random seed and timing
 #include <errno.h>
 #include <string.h>
 #ifdef __APPLE__
@@ -64,7 +65,7 @@ void populateSizes(int A[], int MaxVectors){
 		}
 		k=Power2;
 	//}
-	A[a] = 9999999999;
+	A[a] = 999999999;
 	qsort(A, a, sizeof(int), compareFunction);
 }
 

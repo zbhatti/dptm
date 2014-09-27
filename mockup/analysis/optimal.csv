@@ -104,6 +104,7 @@ VectorAdd,NvidiaRuntime - Tesla K20Xm,512,1,1,12.0,-1.0
 VectorAdd,NvidiaRuntime - Tesla K20Xm,128,1,1,38.0,39.3600006104
 SquareArray,NvidiaRuntime - Tesla K20Xm,1024,1,1,28.0,28.1380004883
 Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,2.0,0.870000004768
+NBody,NvidiaRuntime - Tesla K20Xm,64,1,1,40.0,11905700.0
 FloydWarshall,NvidiaRuntime - Tesla K20Xm,32,4,1,16.0,43590.8007812
 Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,24.0,8.0670003891
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,16,8,1,31.0,33.7130012512
@@ -116,6 +117,7 @@ Array3dAverage,NvidiaRuntime - Tesla K20Xm,0,0,0,0.00195311999414,-1.0
 Array3dAverage,NvidiaRuntime - Tesla K20Xm,64,2,1,27.0,28.1130008698
 Reduction,NvidiaRuntime - Tesla K20Xm,128,1,1,8.0,2.81900000572
 MonteCarloAsian,NvidiaRuntime - Tesla K20Xm,1,2,1,10.0198001862,1723.7800293
+NBody,NvidiaRuntime - Tesla K20Xm,64,1,1,36.0,9643860.0
 VectorAdd,NvidiaRuntime - Tesla K20Xm,512,1,1,14.0,14.6459999084
 VectorAdd,NvidiaRuntime - Tesla K20Xm,32,1,1,6.0,6.45300006866
 MatrixTranspose,NvidiaRuntime - Tesla K20Xm,4,4,1,29.0,31.8540000916
@@ -351,7 +353,7 @@ MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,4,1,3.99915
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,37.0,3475.64990234
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,753.950012207
 SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,22.0,12.6169996262
-NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,28.0,875542.0
+NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,1,1,28.0,875542.0
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,33.0,15.468000412
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,20.0,7.69299983978
 FluidSimulation,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,14.0,453.279998779
@@ -378,6 +380,7 @@ Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,24.0,3.687999
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,31.0,14.3020000458
 Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,8.0,3.20000004768
 MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,10.0198001862,356.618988037
+NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,36.0,1505790.0
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,14.0,7.26800012589
 VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,1,1,6.0,3.2349998951
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,29.0,18.0160007477
@@ -406,7 +409,7 @@ VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,30.0,13.0729
 LUDecomposition,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,16,1,28.0,1093.61999512
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,4.0,126.582000732
 SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192,1,1,24.0,7.86800003052
-VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,4.0,2.4430000782
+VectorAdd,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192,1,1,4.0,2.4430000782
 Reduction,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,1,1,20.0,3.40199995041
 FloydWarshall,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,41.0,33295.1015625
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,1,1,41.0,2622.43994141
@@ -486,6 +489,7 @@ MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,41
 MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,44.0186004639,1201.26000977
 MatrixTranspose,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,21.0,9.29800033569
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,43.0,2745.7800293
+NBody,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,32.0,1309520.0
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,21.0,1399.56994629
 Convolution,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,13.0,871.861999512
 MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,2,1,16.0,914.262023926
@@ -519,6 +523,243 @@ SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,1,1,14.0,5.880
 SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096,1,1,16.0,5.9889998436
 MonteCarloAsian,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,4,1,35.9922981262,1000.21002197
 SquareArray,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2048,1,1,2.0,0.837999999523
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,27.0,0.855000019073
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,28.0,0.458000004292
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,19.0,217.569000244
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,39.0,1.25699996948
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,36.0,0.569000005722
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,43.0,1.37800002098
+SquareArray,CUDA - Tesla K20Xm,1,1,1,44.0,0.508000016212
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,23.0,0.754000008106
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,7.0,57.2869987488
+SquareArray,CUDA - Tesla K20Xm,1,1,1,12.0,0.173999994993
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,43.0,678.327026367
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,39.0,598.448974609
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,16.0,0.601999998093
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,20.0,0.337000012398
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,7.0,0.324999988079
+SquareArray,CUDA - Tesla K20Xm,1,1,1,4.0,0.0989999994636
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,12.0,0.22499999404
+SquareArray,CUDA - Tesla K20Xm,1,1,1,28.0,0.340000003576
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,31.0,0.955999970436
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,4.0,0.202000007033
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,27.0,352.095001221
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,23.0,271.627990723
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,4.0,16.9740009308
+SquareArray,CUDA - Tesla K20Xm,1,1,1,24.0,0.300000011921
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,4.0,0.104000002146
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,8.0,0.163000002503
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,36.0,394.480987549
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,11.0,0.446000009775
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,32.0,0.510999977589
+SquareArray,CUDA - Tesla K20Xm,1,1,1,20.0,0.254000008106
+SquareArray,CUDA - Tesla K20Xm,1,1,1,8.0,0.129999995232
+SquareArray,CUDA - Tesla K20Xm,1,1,1,36.0,0.425999999046
+SquareArray,CUDA - Tesla K20Xm,1,1,1,40.0,0.469000011683
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,24.0,0.402000010014
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,16.0,0.287999987602
+SquareArray,CUDA - Tesla K20Xm,1,1,1,32.0,0.379999995232
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,11.0,113.136001587
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,36.0,1.10800004005
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,16.0,133.781005859
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,40.0,0.629999995232
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,31.0,355.024993896
+MatrixTranspose,CUDA - Tesla K20Xm,1,1,1,19.0,0.623000025749
+VectorAdd,CUDA - Tesla K20Xm,1,1,1,44.0,0.683000028133
+SquareArray,CUDA - Tesla K20Xm,1,1,1,16.0,0.216000005603
+Reduction,NvidiaRuntime - GTX 780,128,1,1,36.0,8.28299999237
+LUDecomposition,NvidiaRuntime - GTX 780,4,256,1,40.0,9336.96972656
+MatrixTranspose,NvidiaRuntime - GTX 780,1,1,1,27.0,25.3579998016
+FluidSimulation,NvidiaRuntime - GTX 780,2,1,1,24.0,1414.01000977
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,28.0,24.8169994354
+FloydWarshall,NvidiaRuntime - GTX 780,2,2,1,39.0,132896.0
+LUDecomposition,NvidiaRuntime - GTX 780,2,256,1,12.0,1552.95996094
+MatrixMultiplication,NvidiaRuntime - GTX 780,1,1,1,19.0,10465.2998047
+MatrixTranspose,NvidiaRuntime - GTX 780,2,2,1,39.0,36.3289985657
+MonteCarloAsian,NvidiaRuntime - GTX 780,2,4,1,20.022600174,2771.4699707
+FluidSimulation,NvidiaRuntime - GTX 780,1,1,1,44.0,2576.47998047
+FloydWarshall,NvidiaRuntime - GTX 780,1,1,1,11.0,21864.6992188
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,36.0,31.7660007477
+MatrixTranspose,NvidiaRuntime - GTX 780,4,4,1,43.0,39.8829994202
+FloydWarshall,NvidiaRuntime - GTX 780,4,4,1,43.0,153297.0
+Convolution,NvidiaRuntime - GTX 780,1,1,1,19.0,20266.9003906
+MatrixTranspose,NvidiaRuntime - GTX 780,4,4,1,23.0,21.7560005188
+FluidSimulation,NvidiaRuntime - GTX 780,8,1,1,16.0,930.65802002
+MatrixMultiplication,NvidiaRuntime - GTX 780,8,8,1,7.0,2620.12011719
+Reduction,NvidiaRuntime - GTX 780,128,1,1,32.0,7.3860001564
+Convolution,NvidiaRuntime - GTX 780,4,1,1,39.0,40583.1015625
+FluidSimulation,NvidiaRuntime - GTX 780,32,1,1,8.0,465.062988281
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,12.0,10.4320001602
+Array3dAverage,NvidiaRuntime - GTX 780,32,4,1,3.375,1.88699996471
+MonteCarloAsian,NvidiaRuntime - GTX 780,2,64,1,8.0,1097.0300293
+Array3dAverage,NvidiaRuntime - GTX 780,64,1,2,1.0,0.488000005484
+NBody,NvidiaRuntime - GTX 780,512,1,1,16.0,1482650.0
+FloydWarshall,NvidiaRuntime - GTX 780,4,4,1,23.0,61846.3007812
+MonteCarloAsian,NvidiaRuntime - GTX 780,1,2,1,11.997300148,1643.31994629
+MatrixMultiplication,NvidiaRuntime - GTX 780,4,4,1,43.0,34328.3984375
+MatrixMultiplication,NvidiaRuntime - GTX 780,2,2,1,39.0,29627.5
+Array3dAverage,NvidiaRuntime - GTX 780,8,2,8,38.4434013367,35.0830001831
+FluidSimulation,NvidiaRuntime - GTX 780,1,1,1,20.0,1178.33996582
+MonteCarloAsian,NvidiaRuntime - GTX 780,2,4,1,28.007900238,3885.30004883
+MatrixTranspose,NvidiaRuntime - GTX 780,32,4,1,16.0,13.3330001831
+Convolution,NvidiaRuntime - GTX 780,128,1,1,4.0,4008.2199707
+Array3dAverage,NvidiaRuntime - GTX 780,32,4,1,8.0,22.0119991302
+MonteCarloAsian,NvidiaRuntime - GTX 780,2,4,1,3.99915003777,576.288024902
+Convolution,NvidiaRuntime - GTX 780,1,1,1,11.0,12096.2998047
+Array3dAverage,NvidiaRuntime - GTX 780,2,2,2,27.8526000977,76.2570037842
+Array3dAverage,NvidiaRuntime - GTX 780,4,4,4,19.410900116,30.5849990845
+Array3dAverage,NvidiaRuntime - GTX 780,1,1,1,3.93028998375,10.906999588
+NBody,NvidiaRuntime - GTX 780,512,1,1,28.0,4598070.0
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,20.0,17.7369995117
+FloydWarshall,NvidiaRuntime - GTX 780,1,1,1,19.0,47024.3984375
+Array3dAverage,NvidiaRuntime - GTX 780,2,2,2,35.3278999329,55.8269996643
+Array3dAverage,NvidiaRuntime - GTX 780,16,4,2,11.3906002045,10.2460002899
+MatrixTranspose,NvidiaRuntime - GTX 780,8,8,1,7.0,6.66800022125
+MonteCarloAsian,NvidiaRuntime - GTX 780,2,64,1,32.0,4450.56005859
+FluidSimulation,NvidiaRuntime - GTX 780,4,1,1,36.0,2101.54003906
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,4.0,3.55500006676
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,12.0,10.7060003281
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,28.0,24.1669998169
+NBody,NvidiaRuntime - GTX 780,512,1,1,40.0,9305040.0
+FloydWarshall,NvidiaRuntime - GTX 780,32,8,1,16.0,34020.3984375
+Reduction,NvidiaRuntime - GTX 780,128,1,1,24.0,5.53100013733
+MatrixTranspose,NvidiaRuntime - GTX 780,16,16,1,31.0,29.0419998169
+Array3dAverage,NvidiaRuntime - GTX 780,16,8,1,34.3280982971,31.1730003357
+Array3dAverage,NvidiaRuntime - GTX 780,0,0,0,0.00195311999414,-1.0
+Array3dAverage,NvidiaRuntime - GTX 780,32,4,1,27.0,24.216999054
+Reduction,NvidiaRuntime - GTX 780,128,1,1,8.0,1.85599994659
+NBody,NvidiaRuntime - GTX 780,512,1,1,36.0,7588190.0
+Array3dAverage,NvidiaRuntime - GTX 780,2,2,2,11.8718996048,32.5970001221
+FloydWarshall,NvidiaRuntime - GTX 780,32,4,1,4.0,4253.56005859
+NBody,NvidiaRuntime - GTX 780,512,1,1,20.0,2319110.0
+FloydWarshall,NvidiaRuntime - GTX 780,8,8,1,7.0,11934.2001953
+Array3dAverage,NvidiaRuntime - GTX 780,1,1,1,19.7513999939,54.0600013733
+Reduction,NvidiaRuntime - GTX 780,128,1,1,40.0,9.19799995422
+Convolution,NvidiaRuntime - GTX 780,16,1,1,23.0,24330.9003906
+MatrixTranspose,NvidiaRuntime - GTX 780,256,1,1,4.0,3.38700008392
+MatrixMultiplication,NvidiaRuntime - GTX 780,1,1,1,27.0,17310.0
+FluidSimulation,NvidiaRuntime - GTX 780,2,1,1,12.0,715.146972656
+Reduction,NvidiaRuntime - GTX 780,128,1,1,28.0,6.44199991226
+LUDecomposition,NvidiaRuntime - GTX 780,4,64,1,3.0,303.963012695
+FWT,NvidiaRuntime - GTX 780,128,1,1,4.0,41.2070007324
+MatrixMultiplication,NvidiaRuntime - GTX 780,4,4,1,23.0,13784.7998047
+NBody,NvidiaRuntime - GTX 780,128,1,1,4.0,91990.8984375
+LUDecomposition,NvidiaRuntime - GTX 780,128,4,1,28.0,5467.91992188
+Array3dAverage,NvidiaRuntime - GTX 780,8,4,4,18.0879001617,9.84700012207
+MatrixMultiplication,NvidiaRuntime - GTX 780,32,16,1,4.0,927.354003906
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,24.0,20.6940002441
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,4.0,3.63899993896
+Array3dAverage,NvidiaRuntime - GTX 780,4,4,4,3.81469988823,6.08799982071
+Reduction,NvidiaRuntime - GTX 780,128,1,1,20.0,4.61800003052
+Array3dAverage,NvidiaRuntime - GTX 780,1,1,1,35.8349990845,98.0149993896
+MonteCarloAsian,NvidiaRuntime - GTX 780,1,2,1,24.0102996826,3329.97998047
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,8.0,7.17700004578
+Reduction,NvidiaRuntime - GTX 780,128,1,1,16.0,3.68700003624
+FluidSimulation,NvidiaRuntime - GTX 780,2,1,1,40.0,2336.73999023
+MatrixMultiplication,NvidiaRuntime - GTX 780,32,32,1,36.0,25245.8007812
+Convolution,NvidiaRuntime - GTX 780,128,1,1,31.0,32468.5
+NBody,NvidiaRuntime - GTX 780,512,1,1,24.0,3335940.0
+FloydWarshall,NvidiaRuntime - GTX 780,32,4,1,36.0,114535.0
+FWT,NvidiaRuntime - GTX 780,128,1,1,32.0,363.368011475
+Array3dAverage,NvidiaRuntime - GTX 780,1,1,1,15.9197998047,43.6489982605
+MatrixTranspose,NvidiaRuntime - GTX 780,1,1,1,11.0,9.95100021362
+Array3dAverage,NvidiaRuntime - GTX 780,2,2,2,31.4423007965,49.672000885
+Reduction,NvidiaRuntime - GTX 780,128,1,1,4.0,0.930000007153
+NBody,NvidiaRuntime - GTX 780,512,1,1,8.0,372175.0
+Array3dAverage,NvidiaRuntime - GTX 780,8,4,4,23.7637004852,65.1169967651
+FluidSimulation,NvidiaRuntime - GTX 780,4,1,1,28.0,1632.33996582
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,32.0,28.3099994659
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,20.0,17.2900009155
+LUDecomposition,NvidiaRuntime - GTX 780,1,512,1,24.0,4359.06005859
+Array3dAverage,NvidiaRuntime - GTX 780,1,1,1,43.4518013,119.163002014
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,8.0,6.9889998436
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,36.0,31.0219993591
+FloydWarshall,NvidiaRuntime - GTX 780,16,8,1,31.0,95124.8984375
+Array3dAverage,NvidiaRuntime - GTX 780,1,1,1,31.9116001129,87.3870010376
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,40.0,34.5349998474
+Convolution,NvidiaRuntime - GTX 780,128,1,1,16.0,16195.2001953
+LUDecomposition,NvidiaRuntime - GTX 780,1,512,1,32.0,6671.00976562
+Convolution,NvidiaRuntime - GTX 780,64,1,1,7.0,8047.54003906
+Array3dAverage,NvidiaRuntime - GTX 780,16,4,2,20.7968997955,8.24400043488
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,24.0,21.1840000153
+Array3dAverage,NvidiaRuntime - GTX 780,32,4,1,15.625,25.1450004578
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,16.0,14.2250003815
+Convolution,NvidiaRuntime - GTX 780,1,1,1,27.0,28386.9003906
+LUDecomposition,NvidiaRuntime - GTX 780,128,2,1,8.0,865.507995605
+NBody,NvidiaRuntime - GTX 780,512,1,1,12.0,836446.0
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,32.0,27.6180000305
+MatrixMultiplication,NvidiaRuntime - GTX 780,1,1,1,11.0,4533.91015625
+LUDecomposition,NvidiaRuntime - GTX 780,4,128,1,20.0,3313.97998047
+MatrixTranspose,NvidiaRuntime - GTX 780,128,1,1,36.0,31.1289997101
+FWT,NvidiaRuntime - GTX 780,128,1,1,8.0,77.986000061
+FluidSimulation,NvidiaRuntime - GTX 780,4,1,1,4.0,231.604003906
+LUDecomposition,NvidiaRuntime - GTX 780,64,8,1,15.0,2396.7199707
+MonteCarloAsian,NvidiaRuntime - GTX 780,1,2,1,44.0186004639,6127.39990234
+Array3dAverage,NvidiaRuntime - GTX 780,8,8,4,30.5175991058,27.545999527
+Convolution,NvidiaRuntime - GTX 780,16,1,1,43.0,44708.5
+NBody,NvidiaRuntime - GTX 780,512,1,1,32.0,6046990.0
+MatrixMultiplication,NvidiaRuntime - GTX 780,32,32,1,16.0,7398.47998047
+Array3dAverage,NvidiaRuntime - GTX 780,2,2,2,39.5210990906,108.14099884
+VectorAdd,NvidiaRuntime - GTX 780,128,1,1,40.0,35.4239997864
+LUDecomposition,NvidiaRuntime - GTX 780,1,1024,1,44.0,10766.7998047
+LUDecomposition,NvidiaRuntime - GTX 780,1,512,1,35.0,7949.64990234
+MatrixMultiplication,NvidiaRuntime - GTX 780,16,16,1,31.0,21067.1992188
+Array3dAverage,NvidiaRuntime - GTX 780,32,4,1,42.875,62.8180007935
+MatrixTranspose,NvidiaRuntime - GTX 780,1,1,1,19.0,18.1590003967
+Convolution,NvidiaRuntime - GTX 780,128,1,1,36.0,36587.0
+FloydWarshall,NvidiaRuntime - GTX 780,1,1,1,27.0,77804.203125
+Reduction,NvidiaRuntime - GTX 780,128,1,1,12.0,2.77399992943
+FluidSimulation,NvidiaRuntime - GTX 780,64,1,1,32.0,1873.23999023
+MonteCarloAsian,NvidiaRuntime - GTX 780,1,2,1,40.0093002319,5564.79980469
+FWT,NvidiaRuntime - GTX 780,128,1,1,16.0,163.235992432
+FWT,NvidiaRuntime - GTX 780,128,1,1,2.0,17.6919994354
+MonteCarloAsian,NvidiaRuntime - GTX 780,4,8,1,15.9966001511,2223.08007812
+SquareArray,NvidiaRuntime - GTX 780,128,1,1,16.0,13.8199996948
+MonteCarloAsian,NvidiaRuntime - GTX 780,2,4,1,35.9922981262,5008.62988281
+MatrixTranspose,CUDA - GTX 780,1,1,1,27.0,0.852999985218
+VectorAdd,CUDA - GTX 780,1,1,1,28.0,0.455000013113
+MatrixMultiplication,CUDA - GTX 780,1,1,1,19.0,212.891998291
+MatrixTranspose,CUDA - GTX 780,1,1,1,39.0,1.2539999485
+VectorAdd,CUDA - GTX 780,1,1,1,36.0,0.566999971867
+MatrixTranspose,CUDA - GTX 780,1,1,1,43.0,1.3789999485
+SquareArray,CUDA - GTX 780,1,1,1,44.0,0.505999982357
+MatrixTranspose,CUDA - GTX 780,1,1,1,23.0,0.754000008106
+MatrixMultiplication,CUDA - GTX 780,1,1,1,7.0,57.2719993591
+SquareArray,CUDA - GTX 780,1,1,1,12.0,0.171000003815
+MatrixMultiplication,CUDA - GTX 780,1,1,1,43.0,679.726013184
+MatrixMultiplication,CUDA - GTX 780,1,1,1,39.0,598.706970215
+MatrixTranspose,CUDA - GTX 780,1,1,1,16.0,0.551999986172
+VectorAdd,CUDA - GTX 780,1,1,1,20.0,0.33599999547
+MatrixTranspose,CUDA - GTX 780,1,1,1,7.0,0.326000005007
+SquareArray,CUDA - GTX 780,1,1,1,4.0,0.0879999995232
+VectorAdd,CUDA - GTX 780,1,1,1,12.0,0.224000006914
+SquareArray,CUDA - GTX 780,1,1,1,28.0,0.338999986649
+MatrixTranspose,CUDA - GTX 780,1,1,1,31.0,0.955999970436
+MatrixTranspose,CUDA - GTX 780,1,1,1,4.0,0.202000007033
+MatrixMultiplication,CUDA - GTX 780,1,1,1,27.0,352.32598877
+MatrixMultiplication,CUDA - GTX 780,1,1,1,23.0,271.644989014
+MatrixMultiplication,CUDA - GTX 780,1,1,1,4.0,16.9750003815
+SquareArray,CUDA - GTX 780,1,1,1,24.0,0.298000007868
+VectorAdd,CUDA - GTX 780,1,1,1,4.0,0.104000002146
+VectorAdd,CUDA - GTX 780,1,1,1,8.0,0.162000000477
+MatrixMultiplication,CUDA - GTX 780,1,1,1,36.0,394.790985107
+MatrixTranspose,CUDA - GTX 780,1,1,1,11.0,0.446999996901
+VectorAdd,CUDA - GTX 780,1,1,1,32.0,0.509000003338
+SquareArray,CUDA - GTX 780,1,1,1,20.0,0.254000008106
+SquareArray,CUDA - GTX 780,1,1,1,8.0,0.130999997258
+SquareArray,CUDA - GTX 780,1,1,1,36.0,0.426999986172
+SquareArray,CUDA - GTX 780,1,1,1,40.0,0.465999990702
+VectorAdd,CUDA - GTX 780,1,1,1,24.0,0.402999997139
+VectorAdd,CUDA - GTX 780,1,1,1,16.0,0.287999987602
+SquareArray,CUDA - GTX 780,1,1,1,32.0,0.381999999285
+MatrixMultiplication,CUDA - GTX 780,1,1,1,11.0,113.242996216
+MatrixTranspose,CUDA - GTX 780,1,1,1,36.0,1.10899996758
+MatrixMultiplication,CUDA - GTX 780,1,1,1,16.0,133.710006714
+VectorAdd,CUDA - GTX 780,1,1,1,40.0,0.630999982357
+MatrixMultiplication,CUDA - GTX 780,1,1,1,31.0,354.929992676
+MatrixTranspose,CUDA - GTX 780,1,1,1,19.0,0.621999979019
+VectorAdd,CUDA - GTX 780,1,1,1,44.0,0.686999976635
+SquareArray,CUDA - GTX 780,1,1,1,16.0,0.216000005603
 LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,512,1,34.0,8514.25
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,41.0,127.693000793
 Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,36.0,42.8100013733
@@ -636,6 +877,7 @@ Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,0,0,0,0.00195311
 Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,4,8,27.0,59.3339996338
 Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,8.0,5.20900011063
 MonteCarloAsian,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,10.0198001862,436.415985107
+NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,1,1,36.0,1578980.0
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,14.0,43.8269996643
 VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,6.0,19.1280002594
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,29.0,104.290000916
@@ -668,7 +910,7 @@ LUDecomposition,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,64,1,28.0,636
 Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,2,8,18.0879001617,23.5060005188
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,4.0,232.544998169
 SquareArray,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,24.0,75.5049972534
-VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,4.0,17.8010005951
+VectorAdd,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,4.0,17.8010005951
 Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,4,3.81469988823,7.36999988556
 Reduction,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,20.0,11.5530004501
 FloydWarshall,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,41.0,341355.0
@@ -685,7 +927,7 @@ MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,1.0,
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,36.0,12134.0996094
 Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,37.9118995667,128.350006104
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,31.0,2100.40991211
-NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,24.0,701108.0
+NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,1,1,24.0,701108.0
 Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,21.8785991669,75.5230026245
 FloydWarshall,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024,1,1,36.0,285146.0
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,1,1,1.0,132.291000366
@@ -766,6 +1008,7 @@ MonteCarloAsian,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,44.018600
 MatrixTranspose,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,21.0,65.5019989014
 Array3dAverage,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,8,4,30.5175991058,57.4570007324
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,43.0,2993.44995117
+NBody,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,32.0,1247470.0
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,21.0,1698.22998047
 Convolution,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,13.0,978.492004395
 MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,16.0,1028.32995605
@@ -896,6 +1139,7 @@ Reduction,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,24.0,9.43
 MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8,8,1,31.0,47.7299995422
 Reduction,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2048,1,1,8.0,9.57999992371
 MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,2,1,10.0198001862,631.645019531
+NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,36.0,5091770.0
 VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8,1,1,14.0,22.2290000916
 VectorAdd,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2048,1,1,6.0,11.4949998856
 MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,2,1,29.0,43.7900009155
@@ -937,7 +1181,7 @@ FluidSimulation,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,1,1,2.0,
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,4,1,1.0,59.0209999084
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128,1,1,36.0,39741.8007812
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256,1,1,31.0,2722.81005859
-NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,24.0,2256500.0
+NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,24.0,2256500.0
 FloydWarshall,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,8,1,36.0,96429.203125
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,1.0,168.95300293
 MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,2.0,151.522003174
@@ -1001,6 +1245,7 @@ MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,2,1
 MonteCarloAsian,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,2,1,44.0186004639,2764.06005859
 MatrixTranspose,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,21.0,37.8870010376
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,1,1,43.0,4025.35009766
+NBody,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64,1,1,32.0,4022240.0
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,21.0,5470.10009766
 Convolution,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,13.0,1269.31005859
 MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128,1,1,16.0,12214.2001953
@@ -1139,6 +1384,7 @@ VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,12.0,14.7510004044
 VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,38.0,45.0369987488
 SquareArray,AmdRuntime - AMD Firepro W9100,128,1,1,28.0,33.158000946
 Reduction,AmdRuntime - AMD Firepro W9100,256,1,1,2.0,2.87400007248
+NBody,AmdRuntime - AMD Firepro W9100,64,1,1,40.0,4000020.0
 FloydWarshall,AmdRuntime - AMD Firepro W9100,256,1,1,16.0,38251.1992188
 Reduction,AmdRuntime - AMD Firepro W9100,64,1,1,24.0,13.0059995651
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,8,32,1,31.0,36.9570007324
@@ -1151,6 +1397,7 @@ Array3dAverage,AmdRuntime - AMD Firepro W9100,1,256,1,0.00195311999414,0.2189999
 Array3dAverage,AmdRuntime - AMD Firepro W9100,32,8,1,27.0,9.0
 Reduction,AmdRuntime - AMD Firepro W9100,16,1,1,8.0,5.38800001144
 MonteCarloAsian,AmdRuntime - AMD Firepro W9100,1,256,1,10.0198001862,968.580993652
+NBody,AmdRuntime - AMD Firepro W9100,64,1,1,36.0,3459790.0
 VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,14.0,17.093000412
 VectorAdd,AmdRuntime - AMD Firepro W9100,128,1,1,6.0,7.8109998703
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,128,1,1,29.0,34.7340011597
@@ -1281,6 +1528,7 @@ MonteCarloAsian,AmdRuntime - AMD Firepro W9100,2,64,1,44.0186004639,3979.8000488
 MatrixTranspose,AmdRuntime - AMD Firepro W9100,16,8,1,21.0,25.5760002136
 Array3dAverage,AmdRuntime - AMD Firepro W9100,8,4,8,30.5175991058,9.86900043488
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,43.0,13510.4003906
+NBody,AmdRuntime - AMD Firepro W9100,64,1,1,32.0,2734260.0
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,21.0,4577.31005859
 Convolution,AmdRuntime - AMD Firepro W9100,256,1,1,13.0,4265.66992188
 MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,16.0,2742.89990234

@@ -1,0 +1,11 @@
+device/C,kernel/C,workDimension/C,width/F,height/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.916,8.193,0.009,0.754,12.029,0.519
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.737,8.239,0.008,0.754,12.36,0.197
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.578,8.266,0.008,0.753,12.357,0.183
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.525,8.365,0.009,0.753,12.341,0.185
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.706,8.322,0.008,0.755,12.425,0.18
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,127.233,8.408,0.008,0.758,12.345,0.187
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.542,8.248,0.008,0.756,12.582,0.181
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.559,8.292,0.007,0.753,12.389,0.177
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.672,8.329,0.008,0.753,12.439,0.19
+Tesla K20Xm,MatrixTranspose,TWO_D,2508,2508,1,1,1,23,124.68,8.277,0.008,0.755,12.449,0.184

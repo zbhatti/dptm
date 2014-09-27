@@ -8,6 +8,8 @@ void nameFixer(int platform, int device, char*plat, char*dev){
 		strcpy(plat, "NvidiaRuntime");
 		if (device == 0)
 			strcpy(dev, "Tesla K20Xm");
+		if (device == 1)
+			strcpy(dev, "GTX 780");
 	}
 	
 	if (platform == 1){
@@ -25,27 +27,58 @@ void nameFixer(int platform, int device, char*plat, char*dev){
 		if (device == 1)
 			strcpy(dev, "Intel Xeon Phi coprocessor x100 family");
 	}
+	
+		if (platform == 3){
+		strcpy(plat, "CUDA");
+		if (device == 0)
+			strcpy(dev, "Tesla K20Xm");
+		if (device == 1)
+			strcpy(dev, "GTX 780");
+	}
+	
 }
 
 //set up context and queue on a device and retrieve 
 //device information for other methods
 dpClient::dpClient(int platform, int device){
-	unsigned int numDevices;
-	int err;
-	cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
-	clErrChk(clGetPlatformIDs(16, platform_ids, NULL));
-	clErrChk(clGetDeviceIDs(platform_ids[platform], CL_DEVICE_TYPE_ALL, 16, device_ids, &numDevices));
-	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL));
-	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
-	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_ITEM_SIZES, sizeof(MaxWorkDim), &MaxWorkDim, NULL));
-	clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_MEM_ALLOC_SIZE , sizeof(MaxMemAlloc), &MaxMemAlloc, NULL));
+	
 	nameFixer(platform, device, platName, devName);
 	fprintf(stderr,"On Platform %s\n", platName);
 	fprintf(stderr,"using device %s\n", devName);
+	//OpenCL
+	if (platform != 3){
+		unsigned int numDevices;
+		int err;
+		cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
+		clErrChk(clGetPlatformIDs(16, platform_ids, NULL));
+		clErrChk(clGetDeviceIDs(platform_ids[platform], CL_DEVICE_TYPE_ALL, 16, device_ids, &numDevices));
+		clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_GROUP_SIZE , sizeof(MaxWorkGroupSize), &MaxWorkGroupSize, NULL));
+		clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
+		clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_ITEM_SIZES, sizeof(MaxWorkDim), &MaxWorkDim, NULL));
+		clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_MEM_ALLOC_SIZE , sizeof(MaxMemAlloc), &MaxMemAlloc, NULL));
+		
+		props[1] = (cl_context_properties) platform_ids[platform];
+		context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err); 
+		clErrChk(err);
+		queue = clCreateCommandQueue( context, device_ids[device], 0, &err); 
+		clErrChk(err);
+	}
 	
-	props[1] = (cl_context_properties) platform_ids[platform];
-	context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err); clErrChk(err);
-	queue = clCreateCommandQueue( context, device_ids[device], 0, &err); clErrChk(err);
+	
+	//CUDA
+	else{
+		//CLIENT:
+		cudaDeviceProp properties;
+		cudaGetDeviceProperties(&properties, device);
+		fprintf(stderr, "%s\n", properties.name);
+		//fprintf(stderr,"Device %d has %d multiProcessors. \n",device, properties.multiProcessorCount);
+		//fprintf(stderr,"Selected Device %d.\n",device);
+		cudaSetDevice(device);
+		MaxWorkGroupSize = 1;
+		MaxMemAlloc = 100000;
+	}
+
+	
 }
 
 
@@ -217,7 +250,6 @@ void dpClient::printFile(){
 	for (unsigned int i=0; i<timeList.size(); i++){
 		//get filename to save to at ./device/kernelname.log
 		tmpString << tmp << "/" << timeList.at(i).name.c_str() << timeList.at(i).MB << ".log";
-		//fprintf(stderr,"%s\n",tmp,tmpString.str().c_str());
 		fileOut.open(tmpString.str().c_str(), std::ofstream::app );
 		fileIn.open(tmpString.str().c_str() );
 		

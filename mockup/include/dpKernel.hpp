@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <string>
 #include <vector>
+#define __float128 long double
 #ifdef __APPLE__
 	#include <OpenCL/opencl.h>
 #else

@@ -1,5 +1,4 @@
 #include "dpKernelFactory.hpp"
-#include "dpFFT.hpp"
 #include "dpMatrixMultiplication.hpp"
 #include "dpSquareArray.hpp"
 #include "dpRotateImage.hpp"
@@ -15,6 +14,12 @@
 #include "dpArray3dAverage.hpp"
 #include "dpMonteCarloAsian.hpp"
 #include "dpReduction.hpp"
+//#include "dpCudaFFT.hpp" excluding until fixed
+//#include "dpFFT.hpp" excluding until fixed
+#include "dpCudaSquareArray.hpp"
+#include "dpCudaVectorAdd.hpp"
+#include "dpCudaMatrixMultiplication.hpp"
+#include "dpCudaMatrixTranspose.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
@@ -29,10 +34,10 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 			
 		if (!name.compare("RotateImage"))
 			return new dpRotateImage(context, queue);
-		
+		/*
 		if (!name.compare("FFT"))
 			return new dpFFT(context, queue);
-		
+		*/
 		if (!name.compare("FWT"))
 			return new dpFWT(context, queue);
 		
@@ -69,6 +74,23 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		if(!name.compare("Array3dAverage"))
 			return new dpArray3dAverage(context,queue);
 		
+		/*
+		if(!name.compare("CudaFFT"))
+			return new dpCudaFFT(context,queue);
+		*/
+		
+		if(!name.compare("CudaSquareArray"))
+			return new dpCudaSquareArray(context,queue);
+			
+		if(!name.compare("CudaVectorAdd"))
+			return new dpCudaVectorAdd(context,queue);
+		
+		if(!name.compare("CudaMatrixMultiplication"))
+			return new dpCudaMatrixMultiplication(context,queue);
+			
+		if(!name.compare("CudaMatrixTranspose"))
+			return new dpCudaMatrixTranspose(context,queue);
+			
 		else	//need better return case here
 			return new dpSquareArray(context, queue);
  }

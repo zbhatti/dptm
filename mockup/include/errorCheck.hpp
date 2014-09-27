@@ -9,14 +9,11 @@
 	#include <CL/opencl.h>
 #endif
 
-#define ERRORLINE fprintf(stderr,"Line: %d\n",__LINE__);
+#include <cuda.h>
+#include <cuda_runtime.h>
 
 const char* get_error_string(cl_int);
 void clAssert(cl_int, const char*, int);
+void cudaAssert(cudaError code, const char *file, int line);
 void programCheck(cl_int, cl_context, cl_program);
-
-//#define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
-
-
-
 

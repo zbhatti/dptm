@@ -1,0 +1,12 @@
+device/C,kernel/C,workDimension/C,actualMB/F,width/F,height/F,nSteps/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,1,1,1,20,309.999,63.882,0.003,1178.34,0,3.114
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,2,1,1,20,315.916,63.953,0.017,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,4,1,1,20,314.697,63.859,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,8,1,1,20,314.028,63.905,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,16,1,1,20,314.188,63.91,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,32,1,1,20,318.73,63.851,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,64,1,1,20,313.843,63.862,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,128,1,1,20,314.049,63.831,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,256,1,1,20,314.117,64.067,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,512,1,1,20,313.99,63.831,0.003,-1,-1,-1
+GTX 780,FluidSimulation,ONE_D,19,1619,1619,3,1024,1,1,20,314.435,63.984,0.003,-1,-1,-1

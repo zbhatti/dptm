@@ -49,49 +49,49 @@ void dpMatrixTranspose::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[2] = 1;
 
 	//for (int i =0; pow(2,i)*pow(2,i)*sizeof(float)/(float) 1048576 <= dataMB;i++){
-	//	size_x = pow(2,i);
-	//	size_y = pow(2,i);
+	//	M = pow(2,i);
+	//	N = pow(2,i);
 	//}
 	
-	size_x=(int)sqrt(dataMB*1048576/sizeof(float));
-	size_y=size_x;
+	M=(int)sqrt(dataMB*1048576/sizeof(float));
+	N=M;
 	
-	MB = size_x*size_y*sizeof(float)/1048576;
+	MB = M*N*sizeof(float)/1048576;
 }
 
 void dpMatrixTranspose::init(){
 
-	dataParameters.push_back(size_x);
-	dataParameters.push_back(size_y);
+	dataParameters.push_back(M);
+	dataParameters.push_back(N);
 	dataNames.push_back("width");
 	dataNames.push_back("height");
 	
-	mem_size = sizeof(float) * size_x * size_y;
+	mem_size = sizeof(float) * M * N;
 	// allocate and initalize host memory
-	h_idata = (float*)malloc(mem_size);
-	h_odata = (float*)malloc(mem_size);
-	generateMatrix(h_idata, size_x, size_y);
+	Ain = (float*)malloc(mem_size);
+	Aout = (float*)malloc(mem_size);
+	generateMatrix(Ain, M, N);
 
 }
 
 void dpMatrixTranspose::memoryCopyOut(){
 
-	d_idata = clCreateBuffer(context, CL_MEM_READ_ONLY, size_x*size_y*sizeof(float), NULL, &err); clErrChk(err);
-	d_odata = clCreateBuffer(context, CL_MEM_WRITE_ONLY, size_x*size_y*sizeof(float), NULL, &err); clErrChk(err);
+	Ain_d = clCreateBuffer(context, CL_MEM_READ_ONLY, M*N*sizeof(float), NULL, &err); clErrChk(err);
+	Aout_d = clCreateBuffer(context, CL_MEM_WRITE_ONLY, M*N*sizeof(float), NULL, &err); clErrChk(err);
 	
-	clErrChk(clEnqueueWriteBuffer(queue, d_idata, CL_FALSE, 0, size_x*size_y*sizeof(float), h_idata, 0, NULL, NULL));
+	clErrChk(clEnqueueWriteBuffer(queue, Ain_d, CL_FALSE, 0, M*N*sizeof(float), Ain, 0, NULL, NULL));
 	clFinish(queue);
 }
 
 void dpMatrixTranspose::plan(){
 	size_t offset = 0;
-	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *) &d_odata)); //need to double check the pointers
-	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void *) &d_idata));
+	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *) &Aout_d)); //need to double check the pointers
+	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void *) &Ain_d));
 	clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &offset));
-	clErrChk(clSetKernelArg(kernel, 3, sizeof(int), &size_x));
-	clErrChk(clSetKernelArg(kernel, 4, sizeof(int), &size_y));
-	globalSize[0] = size_x;
-	globalSize[1] = size_y;
+	clErrChk(clSetKernelArg(kernel, 3, sizeof(int), &M));
+	clErrChk(clSetKernelArg(kernel, 4, sizeof(int), &N));
+	globalSize[0] = M;
+	globalSize[1] = N;
 }
 
 int dpMatrixTranspose::execute(){
@@ -104,16 +104,16 @@ int dpMatrixTranspose::execute(){
 }
 
 void dpMatrixTranspose::memoryCopyIn(){
-		clErrChk(clEnqueueReadBuffer(queue, d_odata, CL_TRUE, 0, size_x * size_y * sizeof(float), h_odata, 0, NULL, NULL));
+		clErrChk(clEnqueueReadBuffer(queue, Aout_d, CL_TRUE, 0, M * N * sizeof(float), Aout, 0, NULL, NULL));
 		clFinish(queue);
 }
 
 void dpMatrixTranspose::cleanUp(){
-	free(h_idata);
-	free(h_odata);
+	free(Ain);
+	free(Aout);
 	clReleaseProgram(program);
-	clReleaseMemObject(d_idata);
-	clReleaseMemObject(d_odata);
+	clReleaseMemObject(Ain_d);
+	clReleaseMemObject(Aout_d);
 	clReleaseKernel(kernel);
 }
 

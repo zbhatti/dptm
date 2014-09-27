@@ -53,34 +53,30 @@ void dpVectorAdd::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[1] = 1;
 	localSize[2] = 1;
 	
-	//for(int i =0; pow(2,i)*sizeof(cl_float)/(float) 1048576 <dataMB; i++)
-	//	iNumElements=pow(2,i);
+	Asize = dataMB*1048576/sizeof(cl_float);
 	
-	
-	iNumElements = dataMB*1048576/sizeof(cl_float);
-	
-	MB= iNumElements*sizeof(cl_float)/1048576;
+	MB= Asize*sizeof(cl_float)/1048576;
 }
 
 void dpVectorAdd::init(){
-	dataParameters.push_back(iNumElements);
+	dataParameters.push_back(Asize);
 	dataNames.push_back("nElements");
 	
 	// Allocate and initialize host arrays 
-	srcA = (float *)malloc(sizeof(cl_float) * iNumElements);
-	srcB = (float *)malloc(sizeof(cl_float) * iNumElements);
-	dst = (float *)malloc(sizeof(cl_float) * iNumElements);
-	generateArray(srcA, iNumElements);
-	generateArray(srcB, iNumElements);
+	srcA = (float *)malloc(sizeof(cl_float) * Asize);
+	srcB = (float *)malloc(sizeof(cl_float) * Asize);
+	dst = (float *)malloc(sizeof(cl_float) * Asize);
+	generateArray(srcA, Asize);
+	generateArray(srcB, Asize);
 }
 
 void dpVectorAdd::memoryCopyOut(){
-	cmDevSrcA = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_float) * iNumElements, NULL, &err); clErrChk(err);
-	cmDevSrcB = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_float) * iNumElements, NULL, &err); clErrChk(err);
-	cmDevDst = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(cl_float) * iNumElements, NULL, &err); clErrChk(err);
+	cmDevSrcA = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_float) * Asize, NULL, &err); clErrChk(err);
+	cmDevSrcB = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_float) * Asize, NULL, &err); clErrChk(err);
+	cmDevDst = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(cl_float) * Asize, NULL, &err); clErrChk(err);
 	
-	clErrChk(clEnqueueWriteBuffer(queue, cmDevSrcA, CL_FALSE, 0, sizeof(cl_float) * iNumElements, srcA, 0, NULL, NULL));
-	clErrChk(clEnqueueWriteBuffer(queue, cmDevSrcB, CL_FALSE, 0, sizeof(cl_float) * iNumElements, srcB, 0, NULL, NULL));
+	clErrChk(clEnqueueWriteBuffer(queue, cmDevSrcA, CL_FALSE, 0, sizeof(cl_float) * Asize, srcA, 0, NULL, NULL));
+	clErrChk(clEnqueueWriteBuffer(queue, cmDevSrcB, CL_FALSE, 0, sizeof(cl_float) * Asize, srcB, 0, NULL, NULL));
 	clFinish(queue);
 }
 
@@ -89,8 +85,8 @@ void dpVectorAdd::plan(){
 	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void*)&cmDevSrcA));
 	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void*)&cmDevSrcB));
 	clErrChk(clSetKernelArg(kernel, 2, sizeof(cl_mem), (void*)&cmDevDst));
-	clErrChk(clSetKernelArg(kernel, 3, sizeof(cl_int), (void*)&iNumElements));
-	globalSize[0] = iNumElements;
+	clErrChk(clSetKernelArg(kernel, 3, sizeof(cl_int), (void*)&Asize));
+	globalSize[0] = Asize;
 }
 
 int dpVectorAdd::execute(){
@@ -103,7 +99,7 @@ int dpVectorAdd::execute(){
 }
 
 void dpVectorAdd::memoryCopyIn(){
-	clErrChk(clEnqueueReadBuffer(queue, cmDevDst, CL_TRUE, 0, sizeof(cl_float) * iNumElements, dst, 0, NULL, NULL));
+	clErrChk(clEnqueueReadBuffer(queue, cmDevDst, CL_TRUE, 0, sizeof(cl_float) * Asize, dst, 0, NULL, NULL));
 	clFinish(queue);
 }
 

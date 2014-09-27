@@ -4,10 +4,10 @@
 
 class dpMatrixTranspose: public dpKernel{
 	
-	cl_mem d_odata, d_idata;
-	float* h_idata, *h_odata;
+	cl_mem Aout_d, Ain_d;
+	float* Ain, *Aout;
 	size_t mem_size;
-	unsigned int size_x, size_y;
+	unsigned int M, N;
 	
 	public:
 		dpMatrixTranspose(cl_context, cl_command_queue);

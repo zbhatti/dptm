@@ -1,8 +1,5 @@
 #include "errorCheck.hpp"
-
-//void clErrChk(cl_int ans){ 
-//	clAssert((ans), __FILE__, __LINE__); 
-//}
+#include <string>
 
 const char* get_error_string(cl_int err){
 	switch(err){
@@ -61,6 +58,13 @@ const char* get_error_string(cl_int err){
 void clAssert(cl_int code, const char *file, int line){
    if (code != 0){
       fprintf(stderr,"clErrChk: %s %s %d\n", get_error_string(code), file, line);
+      //exit(code);
+   }
+}
+
+void cudaAssert(cudaError code, const char *file, int line){
+   if (code != cudaSuccess){
+      fprintf(stderr,"cudaErrChk: %s %s %d\n", cudaGetErrorString(code), file, line);
       //exit(code);
    }
 }
