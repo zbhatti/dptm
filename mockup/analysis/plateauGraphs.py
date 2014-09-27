@@ -107,6 +107,7 @@ for ker in kernels:
 
 	mg.Draw("APL")
 	leg.Draw()
+	c.SetLogy(1)
 	c.Update()
 	mg.GetXaxis().SetTitle("Megabytes")
 	mg.GetYaxis().SetTitle("Time (s)")
