@@ -111,5 +111,6 @@ for ker in kernels:
 	mg.GetXaxis().SetTitle("Megabytes")
 	mg.GetYaxis().SetTitle("Time (s)")
 	c.Print("./results/optimal/"+ker+".png")
+	c.Print("./results/optimal/"+ker+".pdf")
 	
 #tree.Print()
