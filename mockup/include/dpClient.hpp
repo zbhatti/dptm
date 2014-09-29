@@ -34,8 +34,6 @@ class dpClient {
 		cl_device_id device_ids[16];
 		cl_context context;
 		cl_command_queue queue;
-		cl_program program;
-		cl_kernel kernel;
 		size_t MaxWorkGroupSize;
 		size_t MaxWorkDim[3];
 		cl_ulong MaxMemAlloc;
