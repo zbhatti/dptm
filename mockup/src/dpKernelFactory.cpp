@@ -14,12 +14,16 @@
 #include "dpArray3dAverage.hpp"
 #include "dpMonteCarloAsian.hpp"
 #include "dpReduction.hpp"
+#include "dpEmpty.hpp"
+#include "dpNoMemory.hpp"
 //#include "dpCudaFFT.hpp" excluding until fixed
 //#include "dpFFT.hpp" excluding until fixed
 #include "dpCudaSquareArray.hpp"
 #include "dpCudaVectorAdd.hpp"
 #include "dpCudaMatrixMultiplication.hpp"
 #include "dpCudaMatrixTranspose.hpp"
+#include "dpCudaEmpty.hpp"
+#include "dpCudaNoMemory.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
@@ -38,8 +42,12 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		if (!name.compare("FFT"))
 			return new dpFFT(context, queue);
 		*/
-		if (!name.compare("FWT"))
-			return new dpFWT(context, queue);
+		
+//		if (!name.compare("NoMemory"))
+//			return new dpNoMemory(context, queue);
+//		
+//		if (!name.compare("Empty"))
+//			return new dpEmpty(context, queue);
 		
 		if (!name.compare("FloydWarshall"))
 			return new dpFloydWarshall(context, queue);
@@ -90,6 +98,12 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 			
 		if(!name.compare("CudaMatrixTranspose"))
 			return new dpCudaMatrixTranspose(context,queue);
+			
+//		if (!name.compare("CudaNoMemory"))
+//			return new dpCudaNoMemory(context, queue);
+//		
+//		if (!name.compare("CudaEmpty"))
+//			return new dpCudaEmpty(context, queue);
 			
 		else	//need better return case here
 			return new dpSquareArray(context, queue);

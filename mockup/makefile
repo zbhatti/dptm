@@ -18,8 +18,12 @@ dpMatrixTranspose.cpp \
 dpVectorAdd.cpp \
 dpLUDecomposition.cpp \
 dpNBody.cpp \
+dpEmpty.cpp \
+dpNoMemory.cpp \
 dpFWT.cpp \
 dpFFT.cpp \
+dpCudaEmpty.cpp \
+dpCudaNoMemory.cpp \
 dpCudaFFT.cpp \
 dpCudaSquareArray.cpp \
 dpCudaVectorAdd.cpp \
@@ -65,6 +69,12 @@ obj/dpArray3dAverage.o: src/dpArray3dAverage.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 	
 obj/dpConvolution.o: src/dpConvolution.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
+	
+obj/dpEmpty.o: src/dpEmpty.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 
+	
+obj/dpNoMemory.o: src/dpNoMemory.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
 	
 obj/dpFFT.o: src/dpFFT.cpp
@@ -124,6 +134,12 @@ obj/dpCudaMatrixMultiplication.o: src/dpCudaMatrixMultiplication.cu
 
 obj/dpCudaMatrixTranspose.o: src/dpCudaMatrixTranspose.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
+	
+obj/dpCudaEmpty.o: src/dpCudaEmpty.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 
+	
+obj/dpCudaNoMemory.o: src/dpCudaNoMemory.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
 
 #HELPER FUNCTIONS:
 obj/errorCheck.o: src/errorCheck.cpp

@@ -21,7 +21,7 @@ int main (int argc, const char* argv[]) {
 	//take task scan argument:
 	for (int r=0; r<REPEAT; r++){
 		for (int mb=MINMB; mb<=MAXMB; mb=mb+INC){
-			for (int i=6; i<NDEVICES; i++){
+			for (int i=0; i<6; i++){
 				fprintf(stderr, "\n\n#######################\n%s-%s\n#######################\n\n", cliList[i]->getPlat(),cliList[i]->getDev());
 				
 				//CUDA Devices
@@ -74,13 +74,14 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->runTasks();
 					cliList[i]->printFile();
 					//cliList[i]->printScreen();
+					*/
 					
 					fprintf(stderr,"FluidSimulation, %d MB\n",mb);
 					cliList[i]->addWGScan("FluidSimulation",mb);
 					cliList[i]->runTasks();
 					cliList[i]->printFile();
 					//cliList[i]->printScreen();
-
+					/*
 					fprintf(stderr,"FWT, %d MB\n",mb);
 					cliList[i]->addWGScan("FWT",mb);
 					cliList[i]->runTasks();
