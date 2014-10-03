@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "dpClient.hpp"
-#define REPEAT 10
-#define MAXMB 1024
-#define MINMB 128
-#define INC 128
+#define REPEAT 100
+#define MAXMB 44
+#define MINMB 4
+#define INC 4
 #define NDEVICES 8
-#define RUNFILE //cliList[i]->runTasks(); cliList[i]->printFile();
-#define RUNSCREEN cliList[i]->runTasks(); cliList[i]->printScreen();
+#define RUNFILE cliList[i]->runTasks(); cliList[i]->printFile();
+#define RUNSCREEN //cliList[i]->runTasks(); cliList[i]->printScreen();
 
 int main (int argc, const char* argv[]) {
 		//take platform and device argument:
