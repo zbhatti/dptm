@@ -30,8 +30,8 @@
 
 class dpClient {
 	private:
-		cl_platform_id platform_ids[16];
-		cl_device_id device_ids[16];
+		int device;
+		int platform;
 		cl_context context;
 		cl_command_queue queue;
 		size_t MaxWorkGroupSize;

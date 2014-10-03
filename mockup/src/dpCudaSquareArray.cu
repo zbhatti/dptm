@@ -60,14 +60,37 @@ void dpCudaSquareArray::memoryCopyOut(){
 void dpCudaSquareArray::plan(){
 	BEGIN
 	blockSize = props.maxThreadsPerBlock;
-	nBlocks = Asize/blockSize - Asize%blockSize + blockSize;
+	nBlocks = Asize/blockSize; //nblocks = ceil(Asize/blockSize)
+		if (Asize%blockSize != 0)
+			nBlocks++;
+		nKernels=1;
+    lastBlock=0;
+		
+		if(nBlocks>65535) {
+			while(nBlocks>65535) {
+				nBlocks-=65535;
+				nKernels++;
+			}
+			if (nBlocks!=0){
+				lastBlock=nBlocks;
+				nKernels++;
+			}
+			nBlocks = 65535;
+		}
 	END
+	
 }
 
 int dpCudaSquareArray::execute(){
+	//printf("Asize: %d, nBlocks: %d, blockSize: %d, nKernels: %d\n",Asize, nBlocks, blockSize, nKernels);	
 	cudaError_t err;
 	BEGIN
-	squareArray <<< nBlocks, blockSize >>> (Ain_d, Aout_d, Asize);
+	int NB=nBlocks;
+	for (int run=0;run<nKernels;run++) {
+		if (lastBlock!=0 && run == nKernels-1)
+			NB = lastBlock; 
+		squareArray <<< NB, blockSize >>> (Ain_d, Aout_d, Asize);
+	}
 	err = cudaPeekAtLastError() ;
 	cudaErrChk(err);
 	cudaErrChk(cudaDeviceSynchronize());

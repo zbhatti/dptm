@@ -5,6 +5,7 @@ IDIR=-I./include -I/opt/AMDAPP/include -I/usr/local/cuda/include
 LIBDIR= -L/usr/lib64  -L/opt/clFFT/src/package/lib64 -L/usr/local/cuda/lib64
 LDFLAGS=  -lOpenCL -lcudart
 #exclude main files due to having multiple main definitions at linking time:
+#cuda .cu files are replaced with .cpp for consistency in SRCLIST variable
 SRCLIST= \
 errorCheck.cpp \
 dpKernel.cpp \
@@ -135,11 +136,11 @@ obj/dpCudaMatrixMultiplication.o: src/dpCudaMatrixMultiplication.cu
 obj/dpCudaMatrixTranspose.o: src/dpCudaMatrixTranspose.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 	
-obj/dpCudaEmpty.o: src/dpCudaEmpty.cpp
-	g++ $(CFLAGS) $(IDIR) -o $@ $< 
+obj/dpCudaEmpty.o: src/dpCudaEmpty.cu
+	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 	
-obj/dpCudaNoMemory.o: src/dpCudaNoMemory.cpp
-	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
+obj/dpCudaNoMemory.o: src/dpCudaNoMemory.cu
+	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 
 #HELPER FUNCTIONS:
 obj/errorCheck.o: src/errorCheck.cpp

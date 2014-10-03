@@ -1,11 +1,11 @@
 device/C,kernel/C,workDimension/C,N/F,P/F,M/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,53.866,3.602,0.009,16.974,1.412,0.251
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.674,3.037,0.008,14.941,1.493,0.2
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.697,3.089,0.009,14.931,1.497,0.202
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.716,3.088,0.008,14.939,1.524,0.201
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.891,3.047,0.009,14.929,1.504,0.198
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.941,3.057,0.008,14.896,1.533,0.204
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.589,3.124,0.008,14.937,1.499,0.199
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.7,3.085,0.008,14.907,1.496,0.199
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.909,3.046,0.008,14.95,1.495,0.213
-Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.9,3.053,0.009,14.956,1.502,0.199
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,53.604,3.885,0.011,20.027,1.705,0.315
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.6,3.801,0.009,20.017,1.742,0.256
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,40.456,3.3,0.011,20.019,1.461,0.329
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.664,3.517,0.009,20.02,1.716,0.251
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.714,3.286,0.011,20.018,1.458,0.269
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.66,3.297,0.011,20.028,1.449,0.253
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.59,3.531,0.009,20.019,1.792,0.253
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.656,3.281,0.01,20.022,1.526,0.253
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.547,3.529,0.01,20.028,1.757,0.251
+Tesla K20Xm,MatrixMultiplication,TWO_D,1024,1024,1024,1,1,1,4,39.729,3.269,0.011,20.011,1.457,0.254

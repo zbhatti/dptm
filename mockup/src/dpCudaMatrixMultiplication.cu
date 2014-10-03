@@ -54,6 +54,7 @@ dpCudaMatrixMultiplication::dpCudaMatrixMultiplication(cl_context ctx, cl_comman
 	
 	cudaGetDevice(&device);
 	cudaGetDeviceProperties(&props, device);
+	
 }
 
 void dpCudaMatrixMultiplication::setup(int dataMB, int xLocal, int yLocal, int zLocal){
@@ -127,6 +128,7 @@ void dpCudaMatrixMultiplication::plan(){
 }
 
 int dpCudaMatrixMultiplication::execute(){
+	//printf("Kernel SAYS: %s\n", props.name);
 	dim3 grid(nBlocks.x, nBlocks.y);
 	dim3 block(blockSize.x, blockSize.y);
 	cudaError_t err;

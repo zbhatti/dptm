@@ -40,13 +40,18 @@ void nameFixer(int platform, int device, char*plat, char*dev){
 
 //set up context and queue on a device and retrieve 
 //device information for other methods
-dpClient::dpClient(int platform, int device){
+dpClient::dpClient(int plat, int dev){
+	platform = plat;
+	device = dev;
 	
 	nameFixer(platform, device, platName, devName);
 	fprintf(stderr,"On Platform %s\n", platName);
 	fprintf(stderr,"using device %s\n", devName);
+	
 	//OpenCL
 	if (platform != 3){
+		cl_platform_id platform_ids[16];
+		cl_device_id device_ids[16];
 		unsigned int numDevices;
 		int err;
 		cl_context_properties props[3] = {CL_CONTEXT_PLATFORM,0,0};
@@ -64,36 +69,30 @@ dpClient::dpClient(int platform, int device){
 		clErrChk(err);
 	}
 	
-	
 	//CUDA
 	else{
 		//CLIENT:
 		cudaDeviceProp properties;
 		cudaGetDeviceProperties(&properties, device);
-		fprintf(stderr, "%s\n", properties.name);
-		//fprintf(stderr,"Device %d has %d multiProcessors. \n",device, properties.multiProcessorCount);
-		//fprintf(stderr,"Selected Device %d.\n",device);
 		cudaSetDevice(device);
 		MaxWorkGroupSize = 1;
 		MaxMemAlloc = 100000;
 	}
-
 	
 }
 
 
 //Add kernel task:, xLocal=1, yLocal=1, zLocal=1, MB=8 if not passed to this function
 void dpClient::addTask(std::string name, int xLocal, int yLocal, int zLocal, int MB){
+	cudaSetDevice(device);
 	//check that the wg arguments do not exceed the maxworkgroupsize of a device 
-	if(( xLocal>(int)MaxWorkDim[0]) ||
-			(yLocal>(int)MaxWorkDim[1]) ||
-			(zLocal>(int)MaxWorkDim[2]) ||
-			(xLocal*yLocal*zLocal>(int)MaxWorkGroupSize)
-		)
+	if(( xLocal>(int)MaxWorkDim[0]) || (yLocal>(int)MaxWorkDim[1]) ||
+			(zLocal>(int)MaxWorkDim[2]) || (xLocal*yLocal*zLocal>(int)MaxWorkGroupSize))
 		xLocal=yLocal=zLocal = 8;
 	
 	taskList.push_back(kernelFactory.makeTask(name, context, queue));
 	taskList.at(taskList.size()-1)->setup(MB,xLocal,yLocal,zLocal);
+	
 }
 
 //Add scan over data size at a constant workgroupdimension, default xLocal=yLocal=zLocal=1
@@ -147,6 +146,7 @@ void dpClient::addWGScan(std::string name, int MB){
 
 //run a taskList. after finishing, clear the taskList
 void dpClient::runTasks(){
+	cudaSetDevice(device);
 	dpTiming timeTmp;
 	int err;
 	

@@ -13,6 +13,8 @@ class dpCudaSquareArray: public dpKernel{
 	cudaEvent_t begin, end;
 	float delTime;
 	struct cudaDeviceProp props;
+	int nKernels;
+	int lastBlock;
 	
 	public:
 		dpCudaSquareArray(cl_context, cl_command_queue);

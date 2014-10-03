@@ -6,2219 +6,562 @@ On Platform AmdRuntime
 using device AMD Firepro W9100
 On Platform AmdRuntime
 using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
-clErrChk: CL_INVALID_DEVICE src/dpClient.cpp 55
-clErrChk: CL_INVALID_DEVICE src/dpClient.cpp 56
-clErrChk: CL_INVALID_DEVICE src/dpClient.cpp 57
-clErrChk: CL_INVALID_DEVICE src/dpClient.cpp 58
-clErrChk: CL_INVALID_DEVICE src/dpClient.cpp 62
-clErrChk: CL_INVALID_CONTEXT src/dpClient.cpp 64
 On Platform IntelRuntime
 using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
 On Platform IntelRuntime
 using device Intel Xeon Phi coprocessor x100 family
 On Platform CUDA
 using device Tesla K20Xm
-Tesla K20Xm
 On Platform CUDA
 using device GTX 780
-GeForce GTX 780
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+NvidiaRuntime-Tesla K20Xm @ 4MiB
+########################
 
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
+Empty, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+NvidiaRuntime-GTX 780 @ 4MiB
+########################
 
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
+Empty, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+AmdRuntime-AMD Firepro W9100 @ 4MiB
+########################
 
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
+Empty, 4 MB
+NoMemory, 4 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 4MiB
+########################
 
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
+Empty, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 4MiB
+########################
 
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
+Empty, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 4MiB
+########################
 
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
+Empty, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+CUDA-Tesla K20Xm @ 4MiB
+########################
 
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
+CudaEmpty, 4 MB
+CudaNoMemory, 4 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+CUDA-GTX 780 @ 4MiB
+########################
 
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
+CudaEmpty, 4 MB
+CudaNoMemory, 4 MB
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
 
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
+Empty, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
 
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
+Empty, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
 
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
+Empty, 8 MB
+NoMemory, 8 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
 
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
+Empty, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
 
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
+Empty, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
 
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
+Empty, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 8 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+CUDA-Tesla K20Xm @ 8MiB
+########################
 
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
+CudaEmpty, 8 MB
+CudaNoMemory, 8 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+CUDA-GTX 780 @ 8MiB
+########################
 
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
+CudaEmpty, 8 MB
+CudaNoMemory, 8 MB
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+NvidiaRuntime-Tesla K20Xm @ 12MiB
+########################
 
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
+Empty, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+NvidiaRuntime-GTX 780 @ 12MiB
+########################
 
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
+Empty, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+AmdRuntime-AMD Firepro W9100 @ 12MiB
+########################
 
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
+Empty, 12 MB
+NoMemory, 12 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 12MiB
+########################
 
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
+Empty, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 12MiB
+########################
 
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
+Empty, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 12MiB
+########################
 
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
+Empty, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 12 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+CUDA-Tesla K20Xm @ 12MiB
+########################
 
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
+CudaEmpty, 12 MB
+CudaNoMemory, 12 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+CUDA-GTX 780 @ 12MiB
+########################
 
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
+CudaEmpty, 12 MB
+CudaNoMemory, 12 MB
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+NvidiaRuntime-Tesla K20Xm @ 16MiB
+########################
 
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
+Empty, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+NvidiaRuntime-GTX 780 @ 16MiB
+########################
 
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
+Empty, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
 
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
+Empty, 16 MB
+NoMemory, 16 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
+########################
 
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
+Empty, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
+########################
 
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
+Empty, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 16MiB
+########################
 
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
+Empty, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 16 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+CUDA-Tesla K20Xm @ 16MiB
+########################
 
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
+CudaEmpty, 16 MB
+CudaNoMemory, 16 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+CUDA-GTX 780 @ 16MiB
+########################
 
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
+CudaEmpty, 16 MB
+CudaNoMemory, 16 MB
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+NvidiaRuntime-Tesla K20Xm @ 20MiB
+########################
 
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
+Empty, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+NvidiaRuntime-GTX 780 @ 20MiB
+########################
 
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
+Empty, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+AmdRuntime-AMD Firepro W9100 @ 20MiB
+########################
 
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
+Empty, 20 MB
+NoMemory, 20 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 20MiB
+########################
 
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
+Empty, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 20MiB
+########################
 
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
+Empty, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 20MiB
+########################
 
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
+Empty, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 20 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+CUDA-Tesla K20Xm @ 20MiB
+########################
 
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
+CudaEmpty, 20 MB
+CudaNoMemory, 20 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+CUDA-GTX 780 @ 20MiB
+########################
 
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
+CudaEmpty, 20 MB
+CudaNoMemory, 20 MB
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+NvidiaRuntime-Tesla K20Xm @ 24MiB
+########################
 
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
+Empty, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+NvidiaRuntime-GTX 780 @ 24MiB
+########################
 
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
+Empty, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+AmdRuntime-AMD Firepro W9100 @ 24MiB
+########################
 
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
+Empty, 24 MB
+NoMemory, 24 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 24MiB
+########################
 
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
+Empty, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 24MiB
+########################
 
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
+Empty, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 24MiB
+########################
 
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
+Empty, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 24 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+CUDA-Tesla K20Xm @ 24MiB
+########################
 
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
+CudaEmpty, 24 MB
+CudaNoMemory, 24 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+CUDA-GTX 780 @ 24MiB
+########################
 
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
+CudaEmpty, 24 MB
+CudaNoMemory, 24 MB
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+NvidiaRuntime-Tesla K20Xm @ 4MiB
+########################
 
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
+Empty, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+NvidiaRuntime-GTX 780 @ 4MiB
+########################
 
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
+Empty, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpEmpty.cpp 40
+NoMemory, 4 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpNoMemory.cpp 40
 
 
-#######################
-CUDA-Tesla K20Xm
-#######################
+########################
+AmdRuntime-AMD Firepro W9100 @ 4MiB
+########################
 
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
+Empty, 4 MB
+NoMemory, 4 MB
 
 
-#######################
-CUDA-GTX 780
-#######################
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 4MiB
+########################
 
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 4 MB
-CudaVectorAdd, 4 MB
-CudaMatrixMultiplication, 4 MB
-CudaMatrixTranspose, 4 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 8 MB
-CudaVectorAdd, 8 MB
-CudaMatrixMultiplication, 8 MB
-CudaMatrixTranspose, 8 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 12 MB
-CudaVectorAdd, 12 MB
-CudaMatrixMultiplication, 12 MB
-CudaMatrixTranspose, 12 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 16 MB
-CudaVectorAdd, 16 MB
-CudaMatrixMultiplication, 16 MB
-CudaMatrixTranspose, 16 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 20 MB
-CudaVectorAdd, 20 MB
-CudaMatrixMultiplication, 20 MB
-CudaMatrixTranspose, 20 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 24 MB
-CudaVectorAdd, 24 MB
-CudaMatrixMultiplication, 24 MB
-CudaMatrixTranspose, 24 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 28 MB
-CudaVectorAdd, 28 MB
-CudaMatrixMultiplication, 28 MB
-CudaMatrixTranspose, 28 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 32 MB
-CudaVectorAdd, 32 MB
-CudaMatrixMultiplication, 32 MB
-CudaMatrixTranspose, 32 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 36 MB
-CudaVectorAdd, 36 MB
-CudaMatrixMultiplication, 36 MB
-CudaMatrixTranspose, 36 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 40 MB
-CudaVectorAdd, 40 MB
-CudaMatrixMultiplication, 40 MB
-CudaMatrixTranspose, 40 MB
-
-
-#######################
-CUDA-Tesla K20Xm
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
-
-
-#######################
-CUDA-GTX 780
-#######################
-
-CudaSquareArray, 44 MB
-CudaVectorAdd, 44 MB
-CudaMatrixMultiplication, 44 MB
-CudaMatrixTranspose, 44 MB
+Empty, 4 MB
