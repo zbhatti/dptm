@@ -1,177 +1,154 @@
 kernel/C,device/C,x/I,y/I,z/I,mb/F,time/F
-NoMemory,NvidiaRuntime - Tesla K20Xm,256,1,1,44.0,0.0280000008643
-NoMemory,NvidiaRuntime - Tesla K20Xm,128,1,1,20.0,0.0480000004172
-Empty,NvidiaRuntime - Tesla K20Xm,256,1,1,28.0,0.0909999981523
-Empty,NvidiaRuntime - Tesla K20Xm,512,1,1,24.0,0.0839999988675
-Empty,NvidiaRuntime - Tesla K20Xm,64,1,1,36.0,0.423000007868
-NoMemory,NvidiaRuntime - Tesla K20Xm,256,1,1,8.0,0.0280000008643
-NoMemory,NvidiaRuntime - Tesla K20Xm,128,1,1,4.0,0.0280000008643
-NoMemory,NvidiaRuntime - Tesla K20Xm,256,1,1,12.0,0.0280000008643
-NoMemory,NvidiaRuntime - Tesla K20Xm,256,1,1,28.0,0.0469999983907
-Empty,NvidiaRuntime - Tesla K20Xm,256,1,1,40.0,0.082000002265
-Empty,NvidiaRuntime - Tesla K20Xm,64,1,1,44.0,0.0560000017285
-NoMemory,NvidiaRuntime - Tesla K20Xm,128,1,1,24.0,0.0289999991655
-Empty,NvidiaRuntime - Tesla K20Xm,32,1,1,16.0,0.0769999995828
-NoMemory,NvidiaRuntime - Tesla K20Xm,256,1,1,16.0,0.0280000008643
-NoMemory,NvidiaRuntime - Tesla K20Xm,128,1,1,40.0,0.0270000007004
-NoMemory,NvidiaRuntime - Tesla K20Xm,128,1,1,36.0,0.0270000007004
-Empty,NvidiaRuntime - Tesla K20Xm,256,1,1,12.0,0.0850000008941
-Empty,NvidiaRuntime - Tesla K20Xm,256,1,1,4.0,0.268999993801
-NoMemory,NvidiaRuntime - Tesla K20Xm,256,1,1,32.0,0.0280000008643
-Empty,NvidiaRuntime - Tesla K20Xm,256,1,1,32.0,0.0540000014007
-Empty,NvidiaRuntime - Tesla K20Xm,256,1,1,20.0,0.0799999982119
-Empty,NvidiaRuntime - Tesla K20Xm,512,1,1,8.0,0.300999999046
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,44.0,0.136000007391
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,20.0,0.216999992728
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,28.0,0.418999999762
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,24.0,0.231000006199
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,36.0,0.508000016212
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,8.0,0.12800000608
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,4.0,0.157000005245
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,12.0,0.20000000298
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,28.0,0.208000004292
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,40.0,0.25
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,44.0,0.238999992609
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,24.0,0.10000000149
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,16.0,0.143999993801
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,16.0,0.136000007391
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64,1,1,40.0,0.150999993086
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,36.0,0.192000001669
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,1,1,12.0,0.433999985456
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,1,1,4.0,0.605000019073
-NoMemory,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,1,1,32.0,0.405999988317
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32,1,1,32.0,0.243000000715
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,20.0,0.151999995112
-Empty,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,8.0,0.245000004768
-NoMemory,CUDA - Tesla K20Xm,1,1,1,44.0,0.0659999996424
-NoMemory,CUDA - Tesla K20Xm,1,1,1,20.0,0.0649999976158
-Empty,CUDA - Tesla K20Xm,1,1,1,28.0,0.0890000015497
-Empty,CUDA - Tesla K20Xm,1,1,1,24.0,0.0879999995232
-Empty,CUDA - Tesla K20Xm,1,1,1,36.0,0.131999999285
-NoMemory,CUDA - Tesla K20Xm,1,1,1,8.0,0.0649999976158
-NoMemory,CUDA - Tesla K20Xm,1,1,1,4.0,0.0450000017881
-NoMemory,CUDA - Tesla K20Xm,1,1,1,12.0,0.0649999976158
-NoMemory,CUDA - Tesla K20Xm,1,1,1,28.0,0.0630000010133
-Empty,CUDA - Tesla K20Xm,1,1,1,40.0,0.0909999981523
-Empty,CUDA - Tesla K20Xm,1,1,1,44.0,0.0879999995232
-NoMemory,CUDA - Tesla K20Xm,1,1,1,24.0,0.0640000030398
-Empty,CUDA - Tesla K20Xm,1,1,1,16.0,0.104000002146
-NoMemory,CUDA - Tesla K20Xm,1,1,1,16.0,0.0670000016689
-NoMemory,CUDA - Tesla K20Xm,1,1,1,40.0,0.0460000000894
-NoMemory,CUDA - Tesla K20Xm,1,1,1,36.0,0.0630000010133
-Empty,CUDA - Tesla K20Xm,1,1,1,12.0,0.101999998093
-Empty,CUDA - Tesla K20Xm,1,1,1,4.0,0.0560000017285
-NoMemory,CUDA - Tesla K20Xm,1,1,1,32.0,0.0640000030398
-Empty,CUDA - Tesla K20Xm,1,1,1,32.0,0.103000000119
-Empty,CUDA - Tesla K20Xm,1,1,1,20.0,0.0890000015497
-Empty,CUDA - Tesla K20Xm,1,1,1,8.0,0.0860000029206
-NoMemory,NvidiaRuntime - GTX 780,128,1,1,44.0,0.0250000003725
-NoMemory,NvidiaRuntime - GTX 780,256,1,1,20.0,0.0250000003725
-Empty,NvidiaRuntime - GTX 780,512,1,1,28.0,0.0289999991655
-Empty,NvidiaRuntime - GTX 780,256,1,1,24.0,0.0289999991655
-Empty,NvidiaRuntime - GTX 780,512,1,1,36.0,0.0320000015199
-NoMemory,NvidiaRuntime - GTX 780,256,1,1,8.0,0.0250000003725
-NoMemory,NvidiaRuntime - GTX 780,128,1,1,4.0,0.0250000003725
-NoMemory,NvidiaRuntime - GTX 780,256,1,1,12.0,0.0250000003725
-NoMemory,NvidiaRuntime - GTX 780,256,1,1,28.0,0.0240000002086
-Empty,NvidiaRuntime - GTX 780,256,1,1,40.0,0.0289999991655
-Empty,NvidiaRuntime - GTX 780,256,1,1,44.0,0.0280000008643
-NoMemory,NvidiaRuntime - GTX 780,128,1,1,24.0,0.0250000003725
-Empty,NvidiaRuntime - GTX 780,64,1,1,16.0,0.0329999998212
-NoMemory,NvidiaRuntime - GTX 780,256,1,1,16.0,0.0250000003725
-NoMemory,NvidiaRuntime - GTX 780,128,1,1,40.0,0.0250000003725
-NoMemory,NvidiaRuntime - GTX 780,128,1,1,36.0,0.0250000003725
-Empty,NvidiaRuntime - GTX 780,512,1,1,12.0,0.0320000015199
-Empty,NvidiaRuntime - GTX 780,64,1,1,4.0,0.0280000008643
-NoMemory,NvidiaRuntime - GTX 780,256,1,1,32.0,0.0250000003725
-Empty,NvidiaRuntime - GTX 780,256,1,1,32.0,0.0289999991655
-Empty,NvidiaRuntime - GTX 780,256,1,1,20.0,0.0340000018477
-Empty,NvidiaRuntime - GTX 780,16,1,1,8.0,0.0289999991655
-NoMemory,CUDA - GTX 780,1,1,1,44.0,0.054999999702
-NoMemory,CUDA - GTX 780,1,1,1,20.0,0.0540000014007
-Empty,CUDA - GTX 780,1,1,1,28.0,0.0570000000298
-Empty,CUDA - GTX 780,1,1,1,24.0,0.0560000017285
-Empty,CUDA - GTX 780,1,1,1,36.0,0.0610000006855
-NoMemory,CUDA - GTX 780,1,1,1,8.0,0.0560000017285
-NoMemory,CUDA - GTX 780,1,1,1,4.0,0.0390000008047
-NoMemory,CUDA - GTX 780,1,1,1,12.0,0.0579999983311
-NoMemory,CUDA - GTX 780,1,1,1,28.0,0.054999999702
-Empty,CUDA - GTX 780,1,1,1,40.0,0.0410000011325
-Empty,CUDA - GTX 780,1,1,1,44.0,0.0599999986589
-NoMemory,CUDA - GTX 780,1,1,1,24.0,0.054999999702
-Empty,CUDA - GTX 780,1,1,1,16.0,0.0630000010133
-NoMemory,CUDA - GTX 780,1,1,1,16.0,0.0579999983311
-NoMemory,CUDA - GTX 780,1,1,1,40.0,0.0399999991059
-NoMemory,CUDA - GTX 780,1,1,1,36.0,0.0619999989867
-Empty,CUDA - GTX 780,1,1,1,12.0,0.0649999976158
-Empty,CUDA - GTX 780,1,1,1,4.0,0.0450000017881
-NoMemory,CUDA - GTX 780,1,1,1,32.0,0.0579999983311
-Empty,CUDA - GTX 780,1,1,1,32.0,0.0640000030398
-Empty,CUDA - GTX 780,1,1,1,20.0,0.0590000003576
-Empty,CUDA - GTX 780,1,1,1,8.0,0.0560000017285
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,44.0,0.331999987364
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,20.0,0.282000005245
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,28.0,0.351000010967
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,24.0,0.25799998641
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,36.0,0.31400001049
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,8.0,0.226999998093
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,4.0,0.178000003099
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,12.0,0.296000003815
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,28.0,0.349000006914
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,40.0,0.32800000906
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,44.0,0.416999995708
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,24.0,0.185000002384
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,16.0,0.360000014305
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,16.0,0.31099998951
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,40.0,0.226999998093
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,36.0,0.314999997616
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,12.0,0.216999992728
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,4.0,0.735000014305
-NoMemory,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,32.0,0.209999993443
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,32.0,0.303000003099
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,20.0,0.324999988079
-Empty,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512,1,1,8.0,0.250999987125
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,44.0,1.32000005245
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256,1,1,20.0,1.29499995708
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,28.0,1.32000005245
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,24.0,1.36099994183
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,36.0,1.92499995232
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,8.0,1.36600005627
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,4.0,1.45399999619
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256,1,1,12.0,1.44599997997
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,28.0,1.3409999609
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,40.0,1.32799994946
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,44.0,1.60199999809
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,24.0,1.26699995995
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,16.0,1.22899997234
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128,1,1,16.0,1.24500000477
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,40.0,1.34300005436
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,36.0,1.33200001717
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,12.0,1.31299996376
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,4.0,1.82700002193
-NoMemory,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128,1,1,32.0,1.20000004768
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,32.0,1.61500000954
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,20.0,1.34599995613
-Empty,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512,1,1,8.0,1.52900004387
-NoMemory,AmdRuntime - AMD Firepro W9100,16,1,1,44.0,0.507000029087
-NoMemory,AmdRuntime - AMD Firepro W9100,32,1,1,20.0,0.569999992847
-Empty,AmdRuntime - AMD Firepro W9100,16,1,1,28.0,0.717000007629
-Empty,AmdRuntime - AMD Firepro W9100,16,1,1,24.0,0.750999987125
-Empty,AmdRuntime - AMD Firepro W9100,16,1,1,36.0,0.819000005722
-NoMemory,AmdRuntime - AMD Firepro W9100,16,1,1,8.0,0.513000011444
-NoMemory,AmdRuntime - AMD Firepro W9100,64,1,1,4.0,0.425000011921
-NoMemory,AmdRuntime - AMD Firepro W9100,32,1,1,12.0,0.439999997616
-NoMemory,AmdRuntime - AMD Firepro W9100,16,1,1,28.0,0.29699999094
-Empty,AmdRuntime - AMD Firepro W9100,8,1,1,40.0,0.716000020504
-Empty,AmdRuntime - AMD Firepro W9100,16,1,1,44.0,0.699000000954
-NoMemory,AmdRuntime - AMD Firepro W9100,32,1,1,24.0,0.493999987841
-Empty,AmdRuntime - AMD Firepro W9100,16,1,1,16.0,0.869000017643
-NoMemory,AmdRuntime - AMD Firepro W9100,16,1,1,16.0,0.601000010967
-NoMemory,AmdRuntime - AMD Firepro W9100,4,1,1,40.0,0.448000013828
-NoMemory,AmdRuntime - AMD Firepro W9100,64,1,1,36.0,0.586000025272
-Empty,AmdRuntime - AMD Firepro W9100,64,1,1,12.0,0.745999991894
-Empty,AmdRuntime - AMD Firepro W9100,64,1,1,4.0,1.65299999714
-NoMemory,AmdRuntime - AMD Firepro W9100,16,1,1,32.0,0.379000008106
-Empty,AmdRuntime - AMD Firepro W9100,8,1,1,32.0,0.702000021935
-Empty,AmdRuntime - AMD Firepro W9100,16,1,1,20.0,0.839999973774
-Empty,AmdRuntime - AMD Firepro W9100,16,1,1,8.0,0.773999989033
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,8,8,1,639.0,170048.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,1,1,1,19.0,12964.2998047
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,16,16,1,831.0,252459.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,8,8,1,7.0,3219.12011719
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,16,16,1,703.0,196280.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,4,4,1,43.0,42822.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,2,2,1,39.0,36876.1992188
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,32,32,1,256.0,42733.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,64,16,1,576.0,145134.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,1,1,1,27.0,21544.9003906
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,32,32,1,64.0,5354.83007812
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,4,4,1,23.0,17086.0996094
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,64,8,1,4.0,1149.08996582
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,4,4,1,447.0,99523.203125
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,64,16,1,36.0,30714.6992188
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,32,32,1,127.0,15099.5
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,1,1,1,11.0,5955.10986328
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,32,32,1,16.0,9109.11035156
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,16,16,1,31.0,25994.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,4,4,1,767.0,223862.0
+MatrixMultiplication,NvidiaRuntime - Tesla K20Xm,32,32,1,1024.0,343404.0
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,13.0,792.101989746
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,1859.73999023
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,17.0,986.276977539
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8,8,1,7.0,184.494003296
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,2,1,43.0,4194.95996094
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,5.0,213.98399353
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,1,1,39.0,3654.72998047
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,2,1,25.0,1887.0
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,37.0,3475.64990234
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,33.0,3069.42993164
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,2143.54003906
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,23.0,1628.61999512
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256,1,1,4.0,126.582000732
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,1.0,22.8600006104
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,8,1,36.0,3145.15991211
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,9.0,401.692993164
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,554.343017578
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,41.0,3974.25
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,21.0,1399.56994629
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,2,1,16.0,914.262023926
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,2,1,29.0,2279.73999023
+MatrixMultiplication,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16,2,1,31.0,2635.38989258
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,639.0,43320.0
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,19.0,258.058990479
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,831.0,61670.3984375
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,7.0,62.0670013428
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,703.0,47997.1015625
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,43.0,818.932983398
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,39.0,724.939025879
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,256.0,10069.7998047
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,191.0,7564.43994141
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,511.0,33424.8984375
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,576.0,33949.8984375
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,27.0,426.569000244
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,64.0,1257.65002441
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,23.0,328.963012695
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,4.0,20.0270004272
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,319.0,16343.0
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,447.0,26399.5
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,36.0,531.221008301
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,127.0,3550.81005859
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,11.0,120.339996338
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,959.0,85602.296875
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,16.0,158.037994385
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,31.0,469.721008301
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,383.0,21646.6992188
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,767.0,59488.5
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,895.0,77146.0
+MatrixMultiplication,CUDA - Tesla K20Xm,1,1,1,1024.0,80691.8984375
+MatrixMultiplication,NvidiaRuntime - GTX 780,1,1,1,19.0,10416.7001953
+MatrixMultiplication,NvidiaRuntime - GTX 780,8,8,1,7.0,2622.42993164
+MatrixMultiplication,NvidiaRuntime - GTX 780,4,4,1,23.0,13464.5996094
+MatrixMultiplication,NvidiaRuntime - GTX 780,64,8,1,4.0,930.580993652
+MatrixMultiplication,NvidiaRuntime - GTX 780,1,1,1,11.0,4533.45019531
+MatrixMultiplication,NvidiaRuntime - GTX 780,32,32,1,16.0,7433.43017578
+MatrixMultiplication,CUDA - GTX 780,1,1,1,19.0,218.147003174
+MatrixMultiplication,CUDA - GTX 780,1,1,1,7.0,57.3269996643
+MatrixMultiplication,CUDA - GTX 780,1,1,1,43.0,678.864013672
+MatrixMultiplication,CUDA - GTX 780,1,1,1,39.0,599.234008789
+MatrixMultiplication,CUDA - GTX 780,1,1,1,27.0,353.128997803
+MatrixMultiplication,CUDA - GTX 780,1,1,1,23.0,272.354003906
+MatrixMultiplication,CUDA - GTX 780,1,1,1,4.0,16.9650001526
+MatrixMultiplication,CUDA - GTX 780,1,1,1,36.0,395.291992188
+MatrixMultiplication,CUDA - GTX 780,1,1,1,11.0,113.224998474
+MatrixMultiplication,CUDA - GTX 780,1,1,1,16.0,133.776000977
+MatrixMultiplication,CUDA - GTX 780,1,1,1,31.0,387.589996338
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,13.0,812.739990234
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,19.0,1373.56994629
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,17.0,1144.18005371
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,7.0,500.611999512
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,43.0,17643.1992188
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,5.0,286.234985352
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,39.0,15985.0996094
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,25.0,2365.48999023
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,4,1,37.0,9057.88964844
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,33.0,9295.04003906
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,27.0,2915.12988281
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,2,1,23.0,1679.23999023
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,4.0,232.544998169
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,1.0,60.4550018311
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,36.0,12134.0996094
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,9.0,467.882995605
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,11.0,798.442993164
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2,2,1,41.0,17447.4003906
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1,1,1,21.0,1698.22998047
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128,1,1,16.0,1028.32995605
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,2,1,29.0,4688.20019531
+MatrixMultiplication,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4,4,1,31.0,10111.4003906
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,13.0,6947.83007812
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,19.0,4292.43017578
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,4,1,17.0,3352.76000977
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8,8,1,7.0,506.100006104
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,4,1,43.0,35535.8984375
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,2,1,5.0,302.071014404
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,2,1,39.0,27364.5996094
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,2,1,25.0,8054.02978516
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,4,1,37.0,24066.0
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,33.0,18567.1992188
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,27.0,10553.5996094
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,4,1,23.0,6985.04980469
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32,1,1,4.0,1266.44995117
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,4,1,1.0,59.0209999084
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128,1,1,36.0,39741.8007812
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,9.0,909.70098877
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,11.0,1207.5300293
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2,2,1,41.0,33637.0
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1,1,1,21.0,5470.10009766
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128,1,1,16.0,12214.2001953
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4,4,1,29.0,12813.2998047
+MatrixMultiplication,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16,16,1,31.0,14160.5
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,13.0,2450.12011719
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,19.0,4231.5
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,17.0,3541.13989258
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,8,8,1,7.0,1042.06005859
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,43.0,13508.9003906
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,8,8,1,5.0,626.059997559
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,39.0,12512.5
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,25.0,5861.5
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,37.0,10588.7998047
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,33.0,9104.58984375
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,27.0,6789.37988281
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,32,8,1,23.0,5115.25976562
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,64,4,1,4.0,343.946990967
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,4,16,1,1.0,123.182998657
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,8,16,1,36.0,9459.28027344
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,128,2,1,9.0,1477.68005371
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,11.0,1970.40002441
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,41.0,13688.4003906
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,21.0,4577.31005859
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,16,16,1,16.0,2742.89990234
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,64,4,1,29.0,8156.08007812
+MatrixMultiplication,AmdRuntime - AMD Firepro W9100,8,16,1,31.0,8666.29980469

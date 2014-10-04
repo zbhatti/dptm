@@ -1,0 +1,2 @@
+device/C,kernel/C,workDimension/C,N/F,P/F,M/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,MatrixMultiplication,TWO_D,15325,15325,15325,1,1,1,895,9280.55,630.929,0.009,77146,438.644,7.276

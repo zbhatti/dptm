@@ -44,6 +44,7 @@ class dpClient {
 		dpKernelFactory kernelFactory;
 		char devName[256];
 		char platName[256];
+		char type[256];
 		bool isEmpty(std::ifstream&);
 		//void getOptimalWG(std::string, int);
 		//void getOptimalMB(std::string, int, int, int);
@@ -59,5 +60,6 @@ class dpClient {
 		void printFile();
 		char* getDev(){return devName;};
 		char* getPlat(){return platName;};
+		char* getType(){return type;};
 		std::vector<dpTiming> getTimes(){return timeList;};
 };

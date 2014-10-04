@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "dpClient.hpp"
-#define REPEAT 100
-#define MAXMB 44
-#define MINMB 4
-#define INC 4
+#define REPEAT 10
+#define MAXMB 1024
+#define MINMB 64
+#define INC 64
 #define NDEVICES 8
 #define RUNFILE cliList[i]->runTasks(); cliList[i]->printFile();
 #define RUNSCREEN //cliList[i]->runTasks(); cliList[i]->printScreen();
@@ -18,17 +18,17 @@ int main (int argc, const char* argv[]) {
 		dpClient intelPhi(2,1);
 		dpClient cudaTesla(3,0);
 		dpClient cuda780(3,1);
-		dpClient* cliList[NDEVICES] = {&nvidiaTesla, &nvidia780, &amdHawaii, &amdCPU, &intelCPU, &intelPhi, &cudaTesla, &cuda780}; 
-	
+		//dpClient* cliList[NDEVICES] = {&nvidiaTesla, &nvidia780, &amdHawaii, &amdCPU, &intelCPU, &intelPhi, &cudaTesla, &cuda780}; 
+		dpClient* cliList[4] = {&nvidiaTesla, &cudaTesla};
 
 	//take task scan argument:
 	for (int r=0; r<REPEAT; r++){
 		for (int mb=MINMB; mb<=MAXMB; mb=mb+INC){
-			for (int i=0; i<NDEVICES; i++){
+			for (int i=0; i<2; i++){
 				fprintf(stderr, "\n\n########################\n%s-%s @ %dMiB\n########################\n\n", cliList[i]->getPlat(),cliList[i]->getDev(), mb);
 				
 				//CUDA Devices
-				if (i>=6){
+				if ( !strcmp(cliList[i]->getType(),"CUDA")){
 /*
 					fprintf(stderr,"CudaSquareArray, %d MB\n",mb);
 					cliList[i]->addTask("CudaSquareArray",1,1,1,mb);
@@ -39,17 +39,17 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addTask("CudaVectorAdd",1,1,1,mb);
 					RUNFILE
 					RUNSCREEN
-					
+*/					
 					fprintf(stderr,"CudaMatrixMultiplication, %d MB\n",mb);
 					cliList[i]->addTask("CudaMatrixMultiplication",1,1,1,mb);
 					RUNFILE
 					RUNSCREEN
-					
+/*					
 					fprintf(stderr,"CudaMatrixTranspose, %d MB\n",mb);
 					cliList[i]->addTask("CudaMatrixTranspose",1,1,1,mb);
 					RUNFILE
 					RUNSCREEN
-*/					
+					
 					fprintf(stderr,"CudaEmpty, %d MB\n", mb);
 					cliList[i]->addTask("CudaEmpty",1,1,1,mb);
 					RUNFILE
@@ -59,6 +59,7 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addTask("CudaNoMemory",1,1,1,mb);
 					RUNFILE
 					RUNSCREEN
+*/					
 				}
 				
 				//OpenCL
@@ -73,13 +74,13 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addWGScan("Convolution",mb);
 					RUNFILE
 					RUNSCREEN
-*/
+
 					
 					fprintf(stderr,"Empty, %d MB\n",mb);
 					cliList[i]->addWGScan("Empty",mb);
 					RUNFILE
 					RUNSCREEN
-/*
+
 					fprintf(stderr,"FloydWarshall, %d MB\n",mb); 
 					cliList[i]->addWGScan("FloydWarshall",mb);  
 					RUNFILE
@@ -99,12 +100,12 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addWGScan("LUDecomposition",mb);
 					RUNFILE
 					RUNSCREEN
-					
+*/					
 					fprintf(stderr,"MatrixMultiplication, %d MB\n",mb);
 					cliList[i]->addWGScan("MatrixMultiplication",mb);
 					RUNFILE
 					RUNSCREEN
-					
+/*					
 					fprintf(stderr,"MatrixTranspose, %d MB\n",mb);
 					cliList[i]->addWGScan("MatrixTranspose",mb);
 					RUNFILE
@@ -114,13 +115,12 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addWGScan("MonteCarloAsian",mb);
 					RUNFILE
 					RUNSCREEN
-*/					
+					
 					fprintf(stderr,"NoMemory, %d MB\n",mb);
 					cliList[i]->addWGScan("NoMemory",mb);
 					RUNFILE
 					RUNSCREEN
-					
-/*
+
 					//extremely slow kernel
 					fprintf(stderr,"NBody, %d MB\n",mb);
 					cliList[i]->addWGScan("NBody",mb);

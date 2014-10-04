@@ -106,6 +106,8 @@ def plot_TWO_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	ret = getBounds(tree)
 	Bounds = ret[0] #dictionary with tuples (X,Y,1) as keys and [min,max] as values
 	threads = ret[1] #array of tuples (xLocal,yLocal,1)
+	if (len(threads) ==0):
+		return
 	
 	Canvases[f].cd()
 	x = np.zeros(len(threads), dtype=float)
@@ -256,7 +258,7 @@ FileNames=[]
 for root, dirs, files in os.walk("."):
 	for file in files:
 		if file.endswith(".log"):
-			if "Empty" in file or "NoMemory" in file:
+			if "Multiplication" in file:
 				FileNames.append(os.path.join(root, file))	
 
 #make ttree for each device/kernel.log

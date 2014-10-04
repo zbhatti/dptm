@@ -61,6 +61,7 @@ dpClient::dpClient(int plat, int dev){
 		clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(MaxComputeUnits), &MaxComputeUnits, NULL));
 		clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_WORK_ITEM_SIZES, sizeof(MaxWorkDim), &MaxWorkDim, NULL));
 		clErrChk(clGetDeviceInfo(device_ids[device], CL_DEVICE_MAX_MEM_ALLOC_SIZE , sizeof(MaxMemAlloc), &MaxMemAlloc, NULL));
+		strcpy(type, "OpenCL");
 		
 		props[1] = (cl_context_properties) platform_ids[platform];
 		context = clCreateContext(props, 1, &device_ids[device], NULL, NULL, &err); 
@@ -77,6 +78,7 @@ dpClient::dpClient(int plat, int dev){
 		cudaSetDevice(device);
 		MaxWorkGroupSize = 1;
 		MaxMemAlloc = 100000;
+		strcpy(type, "CUDA");
 	}
 	
 }
@@ -112,33 +114,39 @@ void dpClient::addWGScan(std::string name, int MB){
 	//make a temporary kernel to read work dimension from:
 	workDim = kernelFactory.makeTask(name, context, queue)->workDimension;
 	
-	//add a 1D wg kernel
+	//add 1D wg kernels
 	if (workDim == ONE_D){
 		for (i=0; pow(2,i)<=MaxWorkGroupSize; i++){
 			addTask(name, pow(2,i),1,1, MB);
 		}
 	}
 	
-	//add a 2D wg kernel
+	j=2;
+	//add 2D wg kernels starting at (4,4)
 	if (workDim == TWO_D){
-		for(i=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
-			for(j=0; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
+		for(i=2; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
+			for(j=2; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
 				addTask(name, pow(2,i), pow(2,j),1,MB);
 			}
-			j=0;
+			j=2;
 		}
 	}
 	
-	//add a 3D wg kernel
+	
+	
+	
+	j=2;
+	k=2;
+	//add 3D wg kernels starting at (4,4,4)
 	if (workDim == THREE_D){
-		for(i=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
-			for(j=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
-				for(k=0; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; k++){
+		for(i=2; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; i++){
+			for(j=2; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; j++){
+				for(k=2; pow(2,i)*pow(2,j)*pow(2,k)<=MaxWorkGroupSize; k++){
 					addTask(name, pow(2,i), pow(2,j), pow(2,k),MB);
 				}
-				k=0;
+				k=2;
 			}
-			j=0;
+			j=2;
 		}
 	}
 	
