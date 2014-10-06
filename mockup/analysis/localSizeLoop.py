@@ -258,8 +258,7 @@ FileNames=[]
 for root, dirs, files in os.walk("."):
 	for file in files:
 		if file.endswith(".log"):
-			if "Multiplication" in file:
-				FileNames.append(os.path.join(root, file))	
+			FileNames.append(os.path.join(root, file))	
 
 #make ttree for each device/kernel.log
 newFile=open("optimal.csv","w")

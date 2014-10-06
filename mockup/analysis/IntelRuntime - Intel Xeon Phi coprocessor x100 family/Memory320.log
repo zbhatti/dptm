@@ -13,3 +13,17 @@ Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,1024,1,1,320,165
 Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,2048,1,1,320,1656.57,54.637,0.009,161.651,131.764,4.935
 Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,4096,1,1,320,1656.34,54.751,0.01,164.338,118.675,4.641
 Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,8192,1,1,320,1655.76,54.2,0.009,165.202,118.165,4.522
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,1,1,1,320,1658.71,52.864,0.008,362.662,116.995,4.912
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,2,1,1,320,1660.36,54.799,0.026,258.708,115.96,4.579
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,4,1,1,320,1654.78,54.518,0.009,204.741,116.407,4.356
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,8,1,1,320,1654.04,54.475,0.01,174.611,119.48,4.418
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,16,1,1,320,1675.32,54.209,0.009,161.536,118.169,6.54
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,32,1,1,320,1682.56,54.925,0.008,164.787,141.39,5.753
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,64,1,1,320,1727.85,58.098,0.009,161.8,117.51,4.558
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,128,1,1,320,1656.71,54.996,0.01,161.656,129.697,4.785
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,256,1,1,320,1653.01,53.257,0.009,164.701,122.573,5.005
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,512,1,1,320,1656.27,54.964,0.009,163.748,120.967,4.398
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,1024,1,1,320,1671.4,53.625,0.009,164.697,116.048,4.736
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,2048,1,1,320,1657.17,54.849,0.01,162.129,115.938,4.737
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,4096,1,1,320,1670.81,54.3,0.009,165.635,136.335,5.163
+Intel Xeon Phi coprocessor x100 family,Memory,ONE_D,8.38861e+07,8192,1,1,320,1655.96,54.588,0.01,163.203,118.14,4.631
