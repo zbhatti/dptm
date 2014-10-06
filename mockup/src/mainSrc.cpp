@@ -5,8 +5,8 @@
 #define MINMB 64
 #define INC 64
 #define NDEVICES 8
-#define RUNFILE cliList[i]->runTasks(); cliList[i]->printFile();
-#define RUNSCREEN //cliList[i]->runTasks(); cliList[i]->printScreen();
+#define RUNFILE //cliList[i]->runTasks(); cliList[i]->printFile();
+#define RUNSCREEN cliList[i]->runTasks(); cliList[i]->printScreen();
 
 int main (int argc, const char* argv[]) {
 		//take platform and device argument:
@@ -18,13 +18,12 @@ int main (int argc, const char* argv[]) {
 		dpClient intelPhi(2,1);
 		dpClient cudaTesla(3,0);
 		dpClient cuda780(3,1);
-		//dpClient* cliList[NDEVICES] = {&nvidiaTesla, &nvidia780, &amdHawaii, &amdCPU, &intelCPU, &intelPhi, &cudaTesla, &cuda780}; 
-		dpClient* cliList[4] = {&nvidiaTesla, &cudaTesla};
+		dpClient* cliList[NDEVICES] = {&nvidiaTesla, &nvidia780, &amdHawaii, &amdCPU, &intelCPU, &intelPhi, &cudaTesla, &cuda780};
 
 	//take task scan argument:
 	for (int r=0; r<REPEAT; r++){
 		for (int mb=MINMB; mb<=MAXMB; mb=mb+INC){
-			for (int i=0; i<2; i++){
+			for (int i=0; i<NDEVICES; i++){
 				fprintf(stderr, "\n\n########################\n%s-%s @ %dMiB\n########################\n\n", cliList[i]->getPlat(),cliList[i]->getDev(), mb);
 				
 				//CUDA Devices
@@ -39,12 +38,12 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addTask("CudaVectorAdd",1,1,1,mb);
 					RUNFILE
 					RUNSCREEN
-*/					
+	
 					fprintf(stderr,"CudaMatrixMultiplication, %d MB\n",mb);
 					cliList[i]->addTask("CudaMatrixMultiplication",1,1,1,mb);
 					RUNFILE
 					RUNSCREEN
-/*					
+					
 					fprintf(stderr,"CudaMatrixTranspose, %d MB\n",mb);
 					cliList[i]->addTask("CudaMatrixTranspose",1,1,1,mb);
 					RUNFILE
@@ -60,6 +59,16 @@ int main (int argc, const char* argv[]) {
 					RUNFILE
 					RUNSCREEN
 */					
+					fprintf(stderr,"CudaMemory, %d MB\n", mb);
+					cliList[i]->addTask("CudaMemory",1,1,1,mb);
+					RUNFILE
+					RUNSCREEN
+					
+					fprintf(stderr,"CudaComputation, %d MB\n", mb);
+					cliList[i]->addTask("CudaComputation",1,1,1,mb);
+					RUNFILE
+					RUNSCREEN
+					
 				}
 				
 				//OpenCL
@@ -74,8 +83,12 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addWGScan("Convolution",mb);
 					RUNFILE
 					RUNSCREEN
-
-					
+*/
+					fprintf(stderr,"Computation, %d MB\n",mb);
+					cliList[i]->addWGScan("Computation",mb);
+					RUNFILE
+					RUNSCREEN
+/*					
 					fprintf(stderr,"Empty, %d MB\n",mb);
 					cliList[i]->addWGScan("Empty",mb);
 					RUNFILE
@@ -100,17 +113,22 @@ int main (int argc, const char* argv[]) {
 					cliList[i]->addWGScan("LUDecomposition",mb);
 					RUNFILE
 					RUNSCREEN
-*/					
+					
 					fprintf(stderr,"MatrixMultiplication, %d MB\n",mb);
 					cliList[i]->addWGScan("MatrixMultiplication",mb);
 					RUNFILE
 					RUNSCREEN
-/*					
+					
 					fprintf(stderr,"MatrixTranspose, %d MB\n",mb);
 					cliList[i]->addWGScan("MatrixTranspose",mb);
 					RUNFILE
 					RUNSCREEN
-					
+*/					
+					fprintf(stderr,"Memory, %d MB\n",mb);
+					cliList[i]->addWGScan("Memory",mb);
+					RUNFILE
+					RUNSCREEN
+/*					
 					fprintf(stderr,"MonteCarloAsian, %d MB\n",mb);
 					cliList[i]->addWGScan("MonteCarloAsian",mb);
 					RUNFILE

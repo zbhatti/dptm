@@ -14,6 +14,8 @@ dpSquareArray.cpp \
 dpRotateImage.cpp \
 dpMatrixMultiplication.cpp \
 dpConvolution.cpp \
+dpComputation.cpp \
+dpMemory.cpp \
 dpMersenneTwister.cpp \
 dpMatrixTranspose.cpp \
 dpVectorAdd.cpp \
@@ -25,6 +27,8 @@ dpFWT.cpp \
 dpFFT.cpp \
 dpCudaEmpty.cpp \
 dpCudaNoMemory.cpp \
+dpCudaComputation.cpp \
+dpCudaMemory.cpp \
 dpCudaFFT.cpp \
 dpCudaSquareArray.cpp \
 dpCudaVectorAdd.cpp \
@@ -71,7 +75,10 @@ obj/dpArray3dAverage.o: src/dpArray3dAverage.cpp
 	
 obj/dpConvolution.o: src/dpConvolution.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
-	
+
+obj/dpComputation.o: src/dpComputation.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
+
 obj/dpEmpty.o: src/dpEmpty.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 	
@@ -108,6 +115,9 @@ obj/dpMonteCarloAsian.o: src/dpMonteCarloAsian.cpp
 obj/dpNBody.o: src/dpNBody.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
+obj/dpMemory.o: src/dpMemory.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 
+	
 obj/dpReduction.o: src/dpReduction.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
 	
@@ -142,6 +152,12 @@ obj/dpCudaEmpty.o: src/dpCudaEmpty.cu
 obj/dpCudaNoMemory.o: src/dpCudaNoMemory.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 
+obj/dpCudaMemory.o: src/dpCudaMemory.cu
+	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
+	
+obj/dpCudaComputation.o: src/dpCudaComputation.cu
+	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
+	
 #HELPER FUNCTIONS:
 obj/errorCheck.o: src/errorCheck.cpp
 	g++ $(CFLAGS) $(INCCUDA) -o $@ $<

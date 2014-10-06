@@ -58,7 +58,9 @@ void dpCudaVectorAdd::memoryCopyOut(){
 void dpCudaVectorAdd::plan(){
 	BEGIN
 	blockSize = props.maxThreadsPerBlock;
-	nBlocks = Asize/blockSize - Asize%blockSize + blockSize;
+	nBlocks = Asize/blockSize; //nblocks = ceil(Asize/blockSize)
+	if (Asize%blockSize != 0)
+		nBlocks++;
 	END
 }
 

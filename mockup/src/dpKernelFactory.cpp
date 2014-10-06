@@ -3,6 +3,8 @@
 #include "dpSquareArray.hpp"
 #include "dpRotateImage.hpp"
 #include "dpConvolution.hpp"
+#include "dpComputation.hpp"
+#include "dpMemory.hpp"
 #include "dpMersenneTwister.hpp"
 #include "dpMatrixTranspose.hpp"
 #include "dpVectorAdd.hpp"
@@ -20,6 +22,8 @@
 //#include "dpFFT.hpp" excluding until fixed
 #include "dpCudaSquareArray.hpp"
 #include "dpCudaVectorAdd.hpp"
+#include "dpCudaMemory.hpp"
+#include "dpCudaComputation.hpp"
 #include "dpCudaMatrixMultiplication.hpp"
 #include "dpCudaMatrixTranspose.hpp"
 #include "dpCudaEmpty.hpp"
@@ -29,7 +33,10 @@
 #define __dpKernelFactory_H_INCLUDED__
 
 dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_command_queue queue){	
-
+		
+		if (!name.compare("Computation"))
+      return new dpComputation(context, queue);
+		
     if (!name.compare("SquareArray"))
       return new dpSquareArray(context, queue);
 			
@@ -42,6 +49,9 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		if (!name.compare("FFT"))
 			return new dpFFT(context, queue);
 		*/
+		
+		if (!name.compare("Memory"))
+			return new dpMemory(context, queue);
 		
 		if (!name.compare("NoMemory"))
 			return new dpNoMemory(context, queue);
@@ -104,6 +114,12 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		
 		if (!name.compare("CudaEmpty"))
 			return new dpCudaEmpty(context, queue);
+			
+		if (!name.compare("CudaMemory"))
+			return new dpCudaMemory(context, queue);
+			
+		if (!name.compare("CudaComputation"))
+			return new dpCudaComputation(context, queue);
 			
 		else	//need better return case here
 			return new dpSquareArray(context, queue);

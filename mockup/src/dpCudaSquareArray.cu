@@ -60,42 +60,33 @@ void dpCudaSquareArray::memoryCopyOut(){
 void dpCudaSquareArray::plan(){
 	BEGIN
 	blockSize = props.maxThreadsPerBlock;
+	lastBlock = 0;
 	nBlocks = Asize/blockSize; //nblocks = ceil(Asize/blockSize)
-		if (Asize%blockSize != 0)
-			nBlocks++;
-		nKernels=1;
-    lastBlock=0;
-		
-		if(nBlocks>65535) {
-			while(nBlocks>65535) {
-				nBlocks-=65535;
-				nKernels++;
-			}
-			if (nBlocks!=0){
-				lastBlock=nBlocks;
-				nKernels++;
-			}
-			nBlocks = 65535;
-		}
+	if (Asize%blockSize != 0)
+		nBlocks++;
+	if (nBlocks > 65535)
+		nBlocks = 65535;
+	nKernels = nBlocks / 65535;
+	if (nKernels == 0){
+		lastBlock = nBlocks; //run normally
+	}
+	else 
+		lastBlock = nBlocks % 65535; //run repeated
 	END
 	
 }
 
 int dpCudaSquareArray::execute(){
-	//printf("Asize: %d, nBlocks: %d, blockSize: %d, nKernels: %d\n",Asize, nBlocks, blockSize, nKernels);	
 	cudaError_t err;
 	BEGIN
-	int NB=nBlocks;
-	for (int run=0;run<nKernels;run++) {
-		if (lastBlock!=0 && run == nKernels-1)
-			NB = lastBlock; 
-		squareArray <<< NB, blockSize >>> (Ain_d, Aout_d, Asize);
-	}
+	for (int i = 0; i < nKernels; i++)
+		squareArray <<< nBlocks, blockSize >>> (A_d + (i*blockSize*nBlocks*sizeof(float)), B_d + (i*blockSize*nBlocks*sizeof(float)), Asize);
+	if (lastBlock != 0)
+		squareArray <<<lastBlock, blockSize >>> (A_d + (nKernels*blockSize*nBlocks*sizeof(float)), B_d + (nKernels*blockSize*nBlocks*sizeof(float)), Asize);
 	err = cudaPeekAtLastError() ;
 	cudaErrChk(err);
 	cudaErrChk(cudaDeviceSynchronize());
 	END
-	//printf("%0.3f,",delTime);
 	if(err!=cudaSuccess)
 		return -1;
 	return 0;

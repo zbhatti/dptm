@@ -1,0 +1,2 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,Memory,ONE_D,1.17441e+08,1,1,1,448,2321.22,313.66,0.012,3.475,245.74,2.372
