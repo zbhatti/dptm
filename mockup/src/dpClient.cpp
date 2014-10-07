@@ -121,14 +121,14 @@ void dpClient::addWGScan(std::string name, int MB){
 		}
 	}
 	
-	j=2;
-	//add 2D wg kernels starting at (4,4)
+	j=3;
+	//add 2D wg kernels starting at (8,8)
 	if (workDim == TWO_D){
-		for(i=2; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
-			for(j=2; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
+		for(i=3; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; i++){
+			for(j=3; pow(2,i)*pow(2,j)<=MaxWorkGroupSize; j++){
 				addTask(name, pow(2,i), pow(2,j),1,MB);
 			}
-			j=2;
+			j=3;
 		}
 	}
 	

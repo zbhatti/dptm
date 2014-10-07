@@ -80,9 +80,9 @@ int dpCudaSquareArray::execute(){
 	cudaError_t err;
 	BEGIN
 	for (int i = 0; i < nKernels; i++)
-		squareArray <<< nBlocks, blockSize >>> (A_d + (i*blockSize*nBlocks*sizeof(float)), B_d + (i*blockSize*nBlocks*sizeof(float)), Asize);
+		squareArray <<< nBlocks, blockSize >>> (Ain + (i*blockSize*nBlocks*sizeof(float)), Aout + (i*blockSize*nBlocks*sizeof(float)), Asize);
 	if (lastBlock != 0)
-		squareArray <<<lastBlock, blockSize >>> (A_d + (nKernels*blockSize*nBlocks*sizeof(float)), B_d + (nKernels*blockSize*nBlocks*sizeof(float)), Asize);
+		squareArray <<<lastBlock, blockSize >>> (Ain + (nKernels*blockSize*nBlocks*sizeof(float)), Aout + (nKernels*blockSize*nBlocks*sizeof(float)), Asize);
 	err = cudaPeekAtLastError() ;
 	cudaErrChk(err);
 	cudaErrChk(cudaDeviceSynchronize());

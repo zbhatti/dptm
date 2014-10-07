@@ -39,13 +39,15 @@ def plot_ONE_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	ret = getBounds(tree)
 	Bounds = ret[0] #dictionary with tuples (X,1,1) as keys and [min,max] as values
 	threads = ret[1] #array of tuples (xLocal,1,1)
+	if (len(threads) ==0):
+		return
 	
 	Canvases[f].cd()
 	x = np.zeros(len(threads), dtype=float) #xLocal
 	t = np.zeros(len(threads), dtype=float) #execution time
 	
 	i=0
-	for thr in threads: #where thr is an integer
+	for thr in threads:
 		if not thr in MeanRMS:
 			MeanRMS[thr]=[-1,-1]
 		if not thr in Hists:
@@ -71,7 +73,7 @@ def plot_ONE_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	tree.GetEntry(0)
 	
-	optimalFile.write(kerName+","+devName+","+str(minP)+",1,1,"+str(tree.MB)+","+str(tree.execute)+"\n")
+	optimalFile.write(kerName+","+devName+","+str(minP)+",1,1,"+str(tree.MB)+","+str(min)+"\n")
 	plot = TGraph(len(threads), x, t)
 	
 	title=""+tree.kernel[:-1]+devName+str(tree.MB)
@@ -144,7 +146,7 @@ def plot_TWO_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	tree.GetEntry(0)
 	
 	graphName = kerName+", "+devName+", "+str(tree.MB)
-	optimalFile.write(kerName+","+devName+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(tree.execute)+"\n")
+	optimalFile.write(kerName+","+devName+","+str(minP[0])+","+str(minP[1])+","+"1"+","+str(tree.MB)+","+str(min)+"\n")
 	plot = TGraph2D(graphName,"empty", len(threads), x, y, t)
 	title = ""+tree.kernel[:-1]+devName+str(tree.MB)
 	plot.SetTitle(title)
@@ -187,6 +189,8 @@ def plot_THREE_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	ret = getBounds(tree)
 	Bounds = ret[0] #dictionary with tuple keys. (X,Y,Z) is key and [min,max] is value
 	threads = ret[1] #array of tuples (xLocal,yLocal,zLocal)
+	if (len(threads) ==0):
+		return
 	
 	Canvases[f].cd()
 	xThreads = np.zeros(len(threads), dtype=float)
@@ -226,7 +230,7 @@ def plot_THREE_D(f,tree, optimalFile,devName,kerName, keepData = false):
 	minLabel = TPaveLabel(.65,.83,.90,.9,minString,"NDC")
 	
 	tree.GetEntry(0)
-	optimalFile.write(kerName+","+devName+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(tree.execute)+"\n")
+	optimalFile.write(kerName+","+devName+","+str(minP[0])+","+str(minP[1])+","+str(minP[2])+","+str(tree.MB)+","+str(min)+"\n")
 	
 	ntuple.SetMarkerStyle(20)
 	ntuple.Draw("xThreads:yThreads:zThreads:t","","L&&colz",len(threads),0)
@@ -258,7 +262,7 @@ FileNames=[]
 for root, dirs, files in os.walk("."):
 	for file in files:
 		if file.endswith(".log"):
-			FileNames.append(os.path.join(root, file))	
+				FileNames.append(os.path.join(root, file))	
 
 #make ttree for each device/kernel.log
 newFile=open("optimal.csv","w")
