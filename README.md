@@ -23,21 +23,21 @@ is reflected in the folder layout:
   * _matrixMultiplication_ - used to test different openCL implementations of matrixMultiplication and determine library linking compatibility
   * _monteCarlo_ - unaltered monteCarlo example from Intel SDK
   * _squareArray_ - used to compare consisitency of squareArray implemented with OpenCL and CUDA
-* [doc] - contains the UML class diagram for the mockup folder
-* [mockup] - OpenCL kernel launcher with performance reports
+* [doc] - contains some additional documentation
+* [kernelProfiler] - OpenCL kernel launcher with performance reports
   * _analysis_ 
-    * _Platform - Device_ - contains raw data from dpClientSrc with printFile enabled
-    * _results_
+    * _kernelMB_
       * _Platform - Device_ - contains graphs for time(x,y,z,mb)
     * _optimal_ - contains curves for time(mb) for each kernel on each device
   * _include_ - header files
   * _obj_ - object files
+  * _raw_ - contains raw data from dpClientSrc with printFile enabled
   * _src_ - source files
-* [prototype] - cuFFT implementation with a prototype task manager
+* [toyDPTM] - cuFFT implementation with a prototype task manager
   * _client.cu_ - makes requests to dptm.cu using IPC
   * *wrapper_FFT.cu* - launches kernel on command from dptm.cu
   * _dptm.cu_ - takes client.cu requests and combines them to give to wrapper_FFT.cu
-* [singleFFT] -  FFTW, clFFT and cuFFT comparisons without the use of the task manager
+* [FFTComparison] -  FFTW, clFFT and cuFFT comparisons without the use of the task manager
   * _analysis_
     * _oroduruin_ - raw data from tests run on the local OSX computer
     * _AFSuper_ - raw data from tests run on the local Red Hat computer
@@ -68,9 +68,9 @@ Devices Tested
 
 [aside]:https://github.com/zbhatti/dptm/tree/master/aside
 [doc]:https://github.com/zbhatti/dptm/tree/master/doc
-[mockup]:https://github.com/zbhatti/dptm/tree/master/mockup
-[prototype]:https://github.com/zbhatti/dptm/tree/master/prototype
-[singleFFT]:https://github.com/zbhatti/dptm/tree/master/singleFFT
+[kernelProfiler]:https://github.com/zbhatti/dptm/tree/master/kernelProfiler
+[toyDPTM]:https://github.com/zbhatti/dptm/tree/master/toyDPTM
+[FFTComparison]:https://github.com/zbhatti/dptm/tree/master/FFTComparison
 [utilities]:https://github.com/zbhatti/dptm/tree/master/utilities
 [RHL6Installation]:https://github.com/zbhatti/dptm/wiki/Setup-Scientific-Linux-6
 [Gitdptm]:git@github.com:zbhatti/dptm.git
