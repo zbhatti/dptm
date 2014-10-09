@@ -1,0 +1,3 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,SquareArray,ONE_D,8.38861e+07,1,1,1,320,1658.18,223.333,0.012,3.474,173.879,1.855
+Tesla K20Xm,SquareArray,ONE_D,8.38861e+07,1,1,1,320,1653.74,223.488,0.012,3.478,177.791,1.884

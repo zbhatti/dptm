@@ -1,0 +1,23 @@
+device/C,kernel/C,workDimension/C,a/F,b/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,1,1,1,256,0.007,0,0.001,0.238,0,0.099
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,2,1,1,256,0.004,0,0,0.225,0,0.069
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,4,1,1,256,0.004,0,0.001,0.266,0,0.08
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,8,1,1,256,0.004,0,0,0.274,0,0.083
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,16,1,1,256,0.004,0,0.001,0.221,0,0.079
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,32,1,1,256,0.004,0,0,0.14,0,0.04
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,64,1,1,256,0.005,0,0.001,0.09,0.001,0.066
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,128,1,1,256,0.004,0,0,0.077,0,0.06
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,256,1,1,256,0.004,0,0.001,0.063,0.001,0.067
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,512,1,1,256,0.004,0,0,0.051,0,0.034
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,799,561,1024,1,1,256,0.003,0,0.001,-1,-1,-1
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,1,1,1,256,0.009,0,0.001,0.389,0,0.144
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,2,1,1,256,0.005,0,0,0.253,0,0.078
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,4,1,1,256,0.005,0,0,0.167,0,0.056
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,8,1,1,256,0.005,0.001,0,0.162,0,0.054
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,16,1,1,256,0.004,0,0.001,0.211,0,0.081
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,32,1,1,256,0.005,0,0.001,0.139,0.001,0.052
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,64,1,1,256,0.004,0,0.001,0.063,0,0.044
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,128,1,1,256,0.005,0,0.001,0.048,0.001,0.045
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,256,1,1,256,0.005,0,0,0.044,0,0.041
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,512,1,1,256,0.004,0,0.001,0.06,0.001,0.072
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Computation,ONE_D,89,606,1024,1,1,256,0.005,0,0,-1,-1,-1

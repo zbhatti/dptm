@@ -1,0 +1,2 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+GTX 780,SquareArray,ONE_D,1.00663e+08,1,1,1,384,1985.93,267.644,0.012,2.808,199.507,2.011

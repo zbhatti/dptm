@@ -1,0 +1,13 @@
+<rm
+   name=".svn/prop-base/AnalyzeVectSize.py.svn-revert"/>
+<modify-entry
+   committed-rev="141"
+   committed-date="2014-06-09T16:20:20.946888Z"
+   name="AnalyzeVectSize.py"
+   checksum="df6893cac92a622e730746f752fcf505"
+   last-author="zxb0111"/>
+<delete-changelist
+   name="AnalyzeVectSize.py"/>
+<committed
+   name="AnalyzeVectSize.py"
+   revision="141"/>

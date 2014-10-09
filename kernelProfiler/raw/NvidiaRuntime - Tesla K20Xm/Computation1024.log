@@ -1,0 +1,12 @@
+device/C,kernel/C,workDimension/C,a/F,b/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,Computation,ONE_D,254,731,1,1,1,1024,0.005,0,0.001,0.05,0,0.009
+Tesla K20Xm,Computation,ONE_D,254,731,2,1,1,1024,0.003,0,0,0.017,0,0.008
+Tesla K20Xm,Computation,ONE_D,254,731,4,1,1,1024,0.003,0,0,0.017,0,0.007
+Tesla K20Xm,Computation,ONE_D,254,731,8,1,1,1024,0.003,0,0,0.016,0,0.006
+Tesla K20Xm,Computation,ONE_D,254,731,16,1,1,1024,0.003,0,0.001,0.016,0,0.007
+Tesla K20Xm,Computation,ONE_D,254,731,32,1,1,1024,0.003,0,0,0.015,0,0.006
+Tesla K20Xm,Computation,ONE_D,254,731,64,1,1,1024,0.003,0,0.001,0.015,0,0.006
+Tesla K20Xm,Computation,ONE_D,254,731,128,1,1,1024,0.004,0,0,0.015,0,0.006
+Tesla K20Xm,Computation,ONE_D,254,731,256,1,1,1024,0.003,0,0,0.016,0,0.006
+Tesla K20Xm,Computation,ONE_D,254,731,512,1,1,1024,0.003,0.001,0,0.015,0,0.006
+Tesla K20Xm,Computation,ONE_D,254,731,1024,1,1,1024,0.003,0,0,-1,-1,-1

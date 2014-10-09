@@ -1,0 +1,12 @@
+device/C,kernel/C,workDimension/C,a/F,b/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+GTX 780,Computation,ONE_D,844,46,1,1,1,960,0.008,0,0,0.04,0,0.006
+GTX 780,Computation,ONE_D,844,46,2,1,1,960,0.003,0,0,0.017,0,0.007
+GTX 780,Computation,ONE_D,844,46,4,1,1,960,0.003,0,0,0.015,0,0.006
+GTX 780,Computation,ONE_D,844,46,8,1,1,960,0.003,0,0,0.014,0,0.005
+GTX 780,Computation,ONE_D,844,46,16,1,1,960,0.003,0,0.001,0.013,0,0.005
+GTX 780,Computation,ONE_D,844,46,32,1,1,960,0.003,0,0,0.013,0.001,0.005
+GTX 780,Computation,ONE_D,844,46,64,1,1,960,0.003,0,0,0.013,0,0.005
+GTX 780,Computation,ONE_D,844,46,128,1,1,960,0.003,0,0,0.014,0,0.005
+GTX 780,Computation,ONE_D,844,46,256,1,1,960,0.003,0,0,0.013,0,0.005
+GTX 780,Computation,ONE_D,844,46,512,1,1,960,0.003,0,0,0.013,0,0.005
+GTX 780,Computation,ONE_D,844,46,1024,1,1,960,0.003,0,0.001,-1,-1,-1

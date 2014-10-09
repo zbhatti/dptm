@@ -1,0 +1,4 @@
+device/C,kernel/C,workDimension/C,N/F,P/F,M/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+GTX 780,MatrixMultiplication,TWO_D,4096,4096,4096,1,1,1,64,875.993,52.018,0.012,969.489,35.796,1.168
+GTX 780,MatrixMultiplication,TWO_D,4096,4096,4096,1,1,1,64,875.652,52.571,0.012,968.885,34.483,1.087
+GTX 780,MatrixMultiplication,TWO_D,4096,4096,4096,1,1,1,64,875.984,52.429,0.012,965.392,34.531,1.171

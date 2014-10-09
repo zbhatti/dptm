@@ -5,8 +5,8 @@
 #define MINMB 64
 #define INC 64
 #define NDEVICES 8
-#define RUNFILE //cliList[i]->runTasks(); cliList[i]->printFile();
-#define RUNSCREEN cliList[i]->runTasks(); cliList[i]->printScreen();
+#define RUNFILE cliList[i]->runTasks(); cliList[i]->printFile();
+#define RUNSCREEN //cliList[i]->runTasks(); cliList[i]->printScreen();
 
 int main (int argc, const char* argv[]) {
 		//take platform and device argument:
@@ -19,12 +19,12 @@ int main (int argc, const char* argv[]) {
 		dpClient cudaTesla(3,0);
 		dpClient cuda780(3,1);
 		//dpClient* cliList[NDEVICES] = {&nvidiaTesla, &nvidia780, &amdHawaii, &amdCPU, &intelCPU, &intelPhi, &cudaTesla, &cuda780};
-		dpClient* cliList[NDEVICES] = {&nvidia780, &amdHawaii, &amdCPU, &intelCPU, &intelPhi, &cuda780};
+		dpClient* cliList[6] = {&nvidia780, &amdHawaii, &amdCPU, &intelCPU, &intelPhi, &cuda780};
 
 	//take task scan argument:
 	for (int r=0; r<REPEAT; r++){
 		for (int mb=MINMB; mb<=MAXMB; mb=mb+INC){
-			for (int i=0; i<NDEVICES; i++){
+			for (int i=0; i<6; i++){
 				fprintf(stderr, "\n\n########################\n%s-%s @ %dMiB\n########################\n\n", cliList[i]->getPlat(),cliList[i]->getDev(), mb);
 				
 				//CUDA Devices

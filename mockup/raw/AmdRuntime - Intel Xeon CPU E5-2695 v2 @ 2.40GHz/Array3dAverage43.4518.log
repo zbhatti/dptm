@@ -1,0 +1,5 @@
+device/C,kernel/C,workDimension/C,cubeLength/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Array3dAverage,THREE_D,225,1,1,1,43.4518,440.632,25.283,0.004,126.326,21.083,1.202
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Array3dAverage,THREE_D,225,1,1,1,43.4518,439.386,25.973,0.004,123.502,22.697,1.192
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Array3dAverage,THREE_D,225,1,1,1,43.4518,482.881,24.956,0.004,125.562,21.11,1.21
+Intel Xeon CPU E5-2695 v2 @ 2.40GHz,Array3dAverage,THREE_D,225,1,1,1,43.4518,507.093,32.207,0.002,131.1,22.646,1.439

@@ -1,0 +1,19 @@
+device/C,kernel/C,workDimension/C,a/F,b/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+AMD Firepro W9100,Computation,ONE_D,580,794,1,1,1,320,0.007,0,0.002,0.865,0.001,0.09
+AMD Firepro W9100,Computation,ONE_D,580,794,2,1,1,320,0.005,0,0.001,0.413,0,0.029
+AMD Firepro W9100,Computation,ONE_D,580,794,4,1,1,320,0.003,0,0.001,0.424,0.001,0.053
+AMD Firepro W9100,Computation,ONE_D,580,794,8,1,1,320,0.004,0,0,0.383,0,0.026
+AMD Firepro W9100,Computation,ONE_D,580,794,16,1,1,320,0.003,0,0,0.384,0,0.025
+AMD Firepro W9100,Computation,ONE_D,580,794,32,1,1,320,0.003,0,0,0.393,0,0.025
+AMD Firepro W9100,Computation,ONE_D,580,794,64,1,1,320,0.004,0,0.001,0.377,0,0.026
+AMD Firepro W9100,Computation,ONE_D,580,794,128,1,1,320,0.003,0,0,0.412,0.001,0.026
+AMD Firepro W9100,Computation,ONE_D,580,794,256,1,1,320,0.003,0,0.001,0.39,0,0.028
+AMD Firepro W9100,Computation,ONE_D,375,344,1,1,1,320,0.008,0,0.002,0.858,0,0.084
+AMD Firepro W9100,Computation,ONE_D,375,344,2,1,1,320,0.004,0,0.001,0.397,0,0.028
+AMD Firepro W9100,Computation,ONE_D,375,344,4,1,1,320,0.004,0,0,0.415,0.001,0.057
+AMD Firepro W9100,Computation,ONE_D,375,344,8,1,1,320,0.003,0,0,0.397,0,0.052
+AMD Firepro W9100,Computation,ONE_D,375,344,16,1,1,320,0.003,0,0.001,0.406,0,0.055
+AMD Firepro W9100,Computation,ONE_D,375,344,32,1,1,320,0.003,0,0,0.396,0.001,0.026
+AMD Firepro W9100,Computation,ONE_D,375,344,64,1,1,320,0.003,0,0,0.376,0,0.025
+AMD Firepro W9100,Computation,ONE_D,375,344,128,1,1,320,0.004,0,0,0.398,0.001,0.027
+AMD Firepro W9100,Computation,ONE_D,375,344,256,1,1,320,0.003,0,0,0.373,0,0.026

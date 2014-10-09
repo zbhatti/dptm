@@ -1,0 +1,21 @@
+These are the arguments for each client type. Some of the arguments (*) are not implemented but still must be passed
+
+ClientStandaloneCUDA GpuSelect MaxVectors MinVectors StepSize repeat
+ClientStandaloneOpenCL PlatformSelect DeviceSelect MaxVectors MinVectors StepSize* Repeat
+ClientStandaloneCPU Nthreads MaxVectors MinVectors StepSize Repeat
+ClientStandaloneCPUThreadLoop NVectors MaxThreads MinThreads StepSize Repeat
+
+RunMultiAllTypes GPU NClients Version
+StartSimultaneousTest MaxClients Version 
+
+current data in Analysis/ is from 0 to 10000000 vectors in steps of 100000 repeated 100 times
+
+OpenCL on AFSuper: 
+    Platform 0 is NVIDIA
+        Device 0 is K20x
+    Platform 1 is AMD
+        Device 0 is Hawaii (sudo)
+        Device 1 is CPU
+    Platform 2 is Intel
+        Device 0 is CPU
+        Device 1 is Phi

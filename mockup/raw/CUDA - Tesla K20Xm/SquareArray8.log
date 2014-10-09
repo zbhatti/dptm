@@ -1,0 +1,11 @@
+device/C,kernel/C,workDimension/C,nElements/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,56.086,3.652,0.01,0.145,4.681,0.239
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,41.404,3.029,0.011,0.139,3.047,0.185
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.716,3.033,0.009,0.135,3.051,0.187
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.639,3.028,0.011,0.138,3.073,0.181
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.736,3.027,0.01,0.138,3.054,0.188
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.918,3.067,0.011,0.152,3.073,0.188
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.753,3.337,0.01,0.136,3.663,0.181
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.68,3.038,0.011,0.138,3.074,0.188
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.764,3.018,0.011,0.137,3.11,0.18
+Tesla K20Xm,SquareArray,ONE_D,2.09715e+06,1,1,1,8,40.658,3.059,0.011,0.138,3.073,0.181

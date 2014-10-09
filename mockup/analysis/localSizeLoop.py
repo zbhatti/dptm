@@ -259,7 +259,7 @@ def plot_THREE_D(f,tree, optimalFile,devName,kerName, keepData = false):
 
 FileNames=[]
 #find files that end with .log and add them into FileNames array
-for root, dirs, files in os.walk("."):
+for root, dirs, files in os.walk("../raw"):
 	for file in files:
 		if file.endswith(".log"):
 				FileNames.append(os.path.join(root, file))	

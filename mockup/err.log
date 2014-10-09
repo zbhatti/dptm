@@ -17,1593 +17,940 @@ using device GTX 780
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 64MiB
-########################
-
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
-
-
-########################
 NvidiaRuntime-GTX 780 @ 64MiB
 ########################
 
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
+MatrixMultiplication, 64 MB
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 64MiB
 ########################
 
-Computation, 64 MB
-Memory, 64 MB
+MatrixMultiplication, 64 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
+MatrixMultiplication, 64 MB
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
+MatrixMultiplication, 64 MB
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
 ########################
 
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 64MiB
-########################
-
-CudaMemory, 64 MB
-CudaComputation, 64 MB
+MatrixMultiplication, 64 MB
 
 
 ########################
 CUDA-GTX 780 @ 64MiB
 ########################
 
-CudaMemory, 64 MB
-CudaComputation, 64 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 128MiB
-########################
-
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
+CudaMatrixMultiplication, 64 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 128MiB
 ########################
 
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
+MatrixMultiplication, 128 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 128MiB
 ########################
 
-Computation, 128 MB
-Memory, 128 MB
+MatrixMultiplication, 128 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
+MatrixMultiplication, 128 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
+MatrixMultiplication, 128 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
 ########################
 
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 128MiB
-########################
-
-CudaMemory, 128 MB
-CudaComputation, 128 MB
+MatrixMultiplication, 128 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 CUDA-GTX 780 @ 128MiB
 ########################
 
-CudaMemory, 128 MB
-CudaComputation, 128 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 192MiB
-########################
-
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
+CudaMatrixMultiplication, 128 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 192MiB
 ########################
 
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
+MatrixMultiplication, 192 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 192MiB
 ########################
 
-Computation, 192 MB
-Memory, 192 MB
+MatrixMultiplication, 192 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
+MatrixMultiplication, 192 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
+MatrixMultiplication, 192 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
 ########################
 
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 192MiB
-########################
-
-CudaMemory, 192 MB
-CudaComputation, 192 MB
+MatrixMultiplication, 192 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 CUDA-GTX 780 @ 192MiB
 ########################
 
-CudaMemory, 192 MB
-CudaComputation, 192 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 256MiB
-########################
-
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
+CudaMatrixMultiplication, 192 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 256MiB
 ########################
 
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
+MatrixMultiplication, 256 MB
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 256MiB
 ########################
 
-Computation, 256 MB
-Memory, 256 MB
+MatrixMultiplication, 256 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
+MatrixMultiplication, 256 MB
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
+MatrixMultiplication, 256 MB
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
 ########################
 
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 256MiB
-########################
-
-CudaMemory, 256 MB
-CudaComputation, 256 MB
+MatrixMultiplication, 256 MB
 
 
 ########################
 CUDA-GTX 780 @ 256MiB
 ########################
 
-CudaMemory, 256 MB
-CudaComputation, 256 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 320MiB
-########################
-
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
+CudaMatrixMultiplication, 256 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 320MiB
 ########################
 
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
+MatrixMultiplication, 320 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 320MiB
 ########################
 
-Computation, 320 MB
-Memory, 320 MB
+MatrixMultiplication, 320 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
+MatrixMultiplication, 320 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
+MatrixMultiplication, 320 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
 ########################
 
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 320MiB
-########################
-
-CudaMemory, 320 MB
-CudaComputation, 320 MB
+MatrixMultiplication, 320 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 CUDA-GTX 780 @ 320MiB
 ########################
 
-CudaMemory, 320 MB
-CudaComputation, 320 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 384MiB
-########################
-
-Computation, 384 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 384 MB
+CudaMatrixMultiplication, 320 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 384MiB
 ########################
 
-Computation, 384 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 384 MB
+MatrixMultiplication, 384 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 384MiB
 ########################
 
-Computation, 384 MB
-Memory, 384 MB
+MatrixMultiplication, 384 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-Computation, 384 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 384 MB
+MatrixMultiplication, 384 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-Computation, 384 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 384 MB
+MatrixMultiplication, 384 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 384MiB
 ########################
 
-Computation, 384 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 384 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 384MiB
-########################
-
-CudaMemory, 384 MB
-CudaComputation, 384 MB
+MatrixMultiplication, 384 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 CUDA-GTX 780 @ 384MiB
 ########################
 
-CudaMemory, 384 MB
-CudaComputation, 384 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 448MiB
-########################
-
-Computation, 448 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 448 MB
+CudaMatrixMultiplication, 384 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 448MiB
 ########################
 
-Computation, 448 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 448 MB
+MatrixMultiplication, 448 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 448MiB
 ########################
 
-Computation, 448 MB
-Memory, 448 MB
+MatrixMultiplication, 448 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-Computation, 448 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 448 MB
+MatrixMultiplication, 448 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-Computation, 448 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 448 MB
+MatrixMultiplication, 448 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 448MiB
 ########################
 
-Computation, 448 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 448 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 448MiB
-########################
-
-CudaMemory, 448 MB
-CudaComputation, 448 MB
+MatrixMultiplication, 448 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 CUDA-GTX 780 @ 448MiB
 ########################
 
-CudaMemory, 448 MB
-CudaComputation, 448 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 512MiB
-########################
-
-Computation, 512 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 512 MB
+CudaMatrixMultiplication, 448 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 512MiB
 ########################
 
-Computation, 512 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 512 MB
+MatrixMultiplication, 512 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 512MiB
 ########################
 
-Computation, 512 MB
-Memory, 512 MB
+MatrixMultiplication, 512 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 512MiB
 ########################
 
-Computation, 512 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 512 MB
+MatrixMultiplication, 512 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 512MiB
 ########################
 
-Computation, 512 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 512 MB
+MatrixMultiplication, 512 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 512MiB
 ########################
 
-Computation, 512 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 512 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 512MiB
-########################
-
-CudaMemory, 512 MB
-CudaComputation, 512 MB
+MatrixMultiplication, 512 MB
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
+clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpMatrixMultiplication.cpp 101
 
 
 ########################
 CUDA-GTX 780 @ 512MiB
 ########################
 
-CudaMemory, 512 MB
-CudaComputation, 512 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 576MiB
-########################
-
-Computation, 576 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 576 MB
+CudaMatrixMultiplication, 512 MB
 
 
 ########################
 NvidiaRuntime-GTX 780 @ 576MiB
 ########################
 
-Computation, 576 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 576 MB
+MatrixMultiplication, 576 MB
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 576MiB
 ########################
 
-Computation, 576 MB
-Memory, 576 MB
+MatrixMultiplication, 576 MB
 
 
 ########################
 AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 576MiB
 ########################
 
-Computation, 576 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 576 MB
+MatrixMultiplication, 576 MB
 
 
 ########################
 IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 576MiB
 ########################
 
-Computation, 576 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 576 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 576MiB
-########################
-
-Computation, 576 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 576 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 576MiB
-########################
-
-CudaMemory, 576 MB
-CudaComputation, 576 MB
-
-
-########################
-CUDA-GTX 780 @ 576MiB
-########################
-
-CudaMemory, 576 MB
-CudaComputation, 576 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 640MiB
-########################
-
-Computation, 640 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 640 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 640MiB
-########################
-
-Computation, 640 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 640 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 640MiB
-########################
-
-Computation, 640 MB
-Memory, 640 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 640MiB
-########################
-
-Computation, 640 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 640 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 640MiB
-########################
-
-Computation, 640 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 640 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 640MiB
-########################
-
-Computation, 640 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 640 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 640MiB
-########################
-
-CudaMemory, 640 MB
-CudaComputation, 640 MB
-
-
-########################
-CUDA-GTX 780 @ 640MiB
-########################
-
-CudaMemory, 640 MB
-CudaComputation, 640 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 704MiB
-########################
-
-Computation, 704 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 704 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 704MiB
-########################
-
-Computation, 704 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 704 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 704MiB
-########################
-
-Computation, 704 MB
-Memory, 704 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 704MiB
-########################
-
-Computation, 704 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 704 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 704MiB
-########################
-
-Computation, 704 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 704 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 704MiB
-########################
-
-Computation, 704 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 704 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 704MiB
-########################
-
-CudaMemory, 704 MB
-CudaComputation, 704 MB
-
-
-########################
-CUDA-GTX 780 @ 704MiB
-########################
-
-CudaMemory, 704 MB
-CudaComputation, 704 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 768MiB
-########################
-
-Computation, 768 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 768 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 768MiB
-########################
-
-Computation, 768 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 768 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 768MiB
-########################
-
-Computation, 768 MB
-Memory, 768 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 768MiB
-########################
-
-Computation, 768 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 768 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 768MiB
-########################
-
-Computation, 768 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 768 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 768MiB
-########################
-
-Computation, 768 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 768 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 768MiB
-########################
-
-CudaMemory, 768 MB
-CudaComputation, 768 MB
-
-
-########################
-CUDA-GTX 780 @ 768MiB
-########################
-
-CudaMemory, 768 MB
-CudaComputation, 768 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 832MiB
-########################
-
-Computation, 832 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 832 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 832MiB
-########################
-
-Computation, 832 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 832 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 832MiB
-########################
-
-Computation, 832 MB
-Memory, 832 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 832MiB
-########################
-
-Computation, 832 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 832 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 832MiB
-########################
-
-Computation, 832 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 832 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 832MiB
-########################
-
-Computation, 832 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 832 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 832MiB
-########################
-
-CudaMemory, 832 MB
-CudaComputation, 832 MB
-
-
-########################
-CUDA-GTX 780 @ 832MiB
-########################
-
-CudaMemory, 832 MB
-CudaComputation, 832 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 896MiB
-########################
-
-Computation, 896 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 896 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 896MiB
-########################
-
-Computation, 896 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 896 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 896MiB
-########################
-
-Computation, 896 MB
-Memory, 896 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 896MiB
-########################
-
-Computation, 896 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 896 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 896MiB
-########################
-
-Computation, 896 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 896 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 896MiB
-########################
-
-Computation, 896 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 896 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 896MiB
-########################
-
-CudaMemory, 896 MB
-CudaComputation, 896 MB
-
-
-########################
-CUDA-GTX 780 @ 896MiB
-########################
-
-CudaMemory, 896 MB
-CudaComputation, 896 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 960MiB
-########################
-
-Computation, 960 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 960 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 960MiB
-########################
-
-Computation, 960 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 960 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 960MiB
-########################
-
-Computation, 960 MB
-Memory, 960 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 960MiB
-########################
-
-Computation, 960 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 960 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 960MiB
-########################
-
-Computation, 960 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 960 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 960MiB
-########################
-
-Computation, 960 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 960 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 960MiB
-########################
-
-CudaMemory, 960 MB
-CudaComputation, 960 MB
-
-
-########################
-CUDA-GTX 780 @ 960MiB
-########################
-
-CudaMemory, 960 MB
-CudaComputation, 960 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 1024MiB
-########################
-
-Computation, 1024 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 1024 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 1024MiB
-########################
-
-Computation, 1024 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 1024 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 1024MiB
-########################
-
-Computation, 1024 MB
-Memory, 1024 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 1024MiB
-########################
-
-Computation, 1024 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 1024 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 1024MiB
-########################
-
-Computation, 1024 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 1024 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 1024MiB
-########################
-
-Computation, 1024 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 1024 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 1024MiB
-########################
-
-CudaMemory, 1024 MB
-CudaComputation, 1024 MB
-
-
-########################
-CUDA-GTX 780 @ 1024MiB
-########################
-
-CudaMemory, 1024 MB
-CudaComputation, 1024 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 64MiB
-########################
-
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 64MiB
-########################
-
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
-########################
-
-Computation, 64 MB
-Memory, 64 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
-########################
-
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
-########################
-
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
-########################
-
-Computation, 64 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 64 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 64MiB
-########################
-
-CudaMemory, 64 MB
-CudaComputation, 64 MB
-
-
-########################
-CUDA-GTX 780 @ 64MiB
-########################
-
-CudaMemory, 64 MB
-CudaComputation, 64 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 128MiB
-########################
-
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 128MiB
-########################
-
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
-########################
-
-Computation, 128 MB
-Memory, 128 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
-########################
-
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
-########################
-
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
-########################
-
-Computation, 128 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 128 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 128MiB
-########################
-
-CudaMemory, 128 MB
-CudaComputation, 128 MB
-
-
-########################
-CUDA-GTX 780 @ 128MiB
-########################
-
-CudaMemory, 128 MB
-CudaComputation, 128 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 192MiB
-########################
-
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 192MiB
-########################
-
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
-########################
-
-Computation, 192 MB
-Memory, 192 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
-########################
-
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
-########################
-
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
-########################
-
-Computation, 192 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 192 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 192MiB
-########################
-
-CudaMemory, 192 MB
-CudaComputation, 192 MB
-
-
-########################
-CUDA-GTX 780 @ 192MiB
-########################
-
-CudaMemory, 192 MB
-CudaComputation, 192 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 256MiB
-########################
-
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 256MiB
-########################
-
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
-########################
-
-Computation, 256 MB
-Memory, 256 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
-########################
-
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
-########################
-
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
-########################
-
-Computation, 256 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 256 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 256MiB
-########################
-
-CudaMemory, 256 MB
-CudaComputation, 256 MB
-
-
-########################
-CUDA-GTX 780 @ 256MiB
-########################
-
-CudaMemory, 256 MB
-CudaComputation, 256 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 320MiB
-########################
-
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 320MiB
-########################
-
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
-########################
-
-Computation, 320 MB
-Memory, 320 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
-########################
-
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
-########################
-
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
-########################
-
-Computation, 320 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 320 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 320MiB
-########################
-
-CudaMemory, 320 MB
-CudaComputation, 320 MB
-
-
-########################
-CUDA-GTX 780 @ 320MiB
-########################
-
-CudaMemory, 320 MB
-CudaComputation, 320 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 384MiB
-########################
-
-Computation, 384 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 384 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 384MiB
-########################
-
-Computation, 384 MB
-clErrChk: CL_INVALID_WORK_GROUP_SIZE src/dpComputation.cpp 72
-Memory, 384 MB
+MatrixMultiplication, 576 MB
