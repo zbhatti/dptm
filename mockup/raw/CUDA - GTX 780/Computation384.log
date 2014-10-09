@@ -1,2 +1,0 @@
-device/C,kernel/C,workDimension/C,a/F,b/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
-GTX 780,Computation,ONE_D,589,829,1,1,1,384,0.008,0.014,0.01,0.039,0.009,0

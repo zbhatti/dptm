@@ -1,2 +1,0 @@
-device/C,kernel/C,workDimension/C,N/F,P/F,M/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
-GTX 780,MatrixMultiplication,TWO_D,11585,11585,11585,1,1,1,511,5310.99,348.656,0.011,27593.1,277.555,4.376

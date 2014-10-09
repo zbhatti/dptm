@@ -1,7 +1,0 @@
-device/C,kernel/C,workDimension/C,N/F,P/F,M/F,xLocal/I,yLocal/I,zLocal/I,MB/F,init/F,memoryCopyOut/F,plan/F,execute/F,memoryCopyIn/F,cleanUp/F
-AMD Firepro W9100,MatrixMultiplication,TWO_D,5792,5792,5792,8,8,1,127,1324.43,74.705,0.005,1569.3,77.082,16.861
-AMD Firepro W9100,MatrixMultiplication,TWO_D,5792,5792,5792,8,16,1,127,1370.82,75.715,0.003,1333.02,75.076,17.854
-AMD Firepro W9100,MatrixMultiplication,TWO_D,5792,5792,5792,8,32,1,127,1391.64,71.074,0.005,1351.32,73.448,17.93
-AMD Firepro W9100,MatrixMultiplication,TWO_D,5792,5792,5792,16,8,1,127,1371.8,73.82,0.004,1579.35,73.8,17.866
-AMD Firepro W9100,MatrixMultiplication,TWO_D,5792,5792,5792,16,16,1,127,1383.55,73.179,0.005,1204.08,71.327,18.154
-AMD Firepro W9100,MatrixMultiplication,TWO_D,5792,5792,5792,32,8,1,127,1380.83,72.167,0.004,1253.21,72.47,17.933
