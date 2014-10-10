@@ -4,8 +4,8 @@
 #define MAXMB 1024
 #define MINMB 64
 #define INC 64
-#define RUNFILE cliList[i]->runTasks(); cliList[i]->printFile();
-#define RUNSCREEN //cliList[i]->runTasks(); cliList[i]->printScreen();
+#define RUNFILE //cliList[i]->runTasks(); cliList[i]->printFile();
+#define RUNSCREEN cliList[i]->runTasks(); cliList[i]->printScreen();
 
 int main (int argc, const char* argv[]) {
 		//take platform and device argument:

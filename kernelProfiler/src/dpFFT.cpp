@@ -1,7 +1,6 @@
-/*
-#include "dpFFT.hpp"
+/* #include "dpFFT.hpp"
 #include "errorCheck.hpp"
-#include <clFFT.h>
+#include "clFFT.h"
 #define clErrChk(ans) { clAssert((ans), __FILE__, __LINE__); }
 
 dpFFT::dpFFT(cl_context ctx, cl_command_queue q){
@@ -93,4 +92,4 @@ void dpFFT::generateInterleaved(float *A, int N){
 		A[i+1] = rand() / (RAND_MAX/99999.9 + 1);
 	}
 }
-*/
+ */

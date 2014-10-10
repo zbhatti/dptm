@@ -1,11 +1,9 @@
 #include "dpKernelFactory.hpp"
 #include "dpMatrixMultiplication.hpp"
 #include "dpSquareArray.hpp"
-#include "dpRotateImage.hpp"
 #include "dpConvolution.hpp"
 #include "dpComputation.hpp"
 #include "dpMemory.hpp"
-#include "dpMersenneTwister.hpp"
 #include "dpMatrixTranspose.hpp"
 #include "dpVectorAdd.hpp"
 #include "dpLUDecomposition.hpp"
@@ -18,8 +16,8 @@
 #include "dpReduction.hpp"
 #include "dpEmpty.hpp"
 #include "dpNoMemory.hpp"
-//#include "dpCudaFFT.hpp" excluding until fixed
-//#include "dpFFT.hpp" excluding until fixed
+//#include "dpCudaFFT.hpp" //excluding until fixed
+//#include "dpFFT.hpp" //excluding until fixed
 #include "dpCudaSquareArray.hpp"
 #include "dpCudaVectorAdd.hpp"
 #include "dpCudaMemory.hpp"
@@ -43,8 +41,6 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		if (!name.compare("MatrixMultiplication"))
 			return new dpMatrixMultiplication(context, queue);
 			
-		if (!name.compare("RotateImage"))
-			return new dpRotateImage(context, queue);
 		/*
 		if (!name.compare("FFT"))
 			return new dpFFT(context, queue);
@@ -79,9 +75,6 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		
 		if (!name.compare("MatrixTranspose"))
 			return new dpMatrixTranspose(context, queue);
-		
-		if (!name.compare("MersenneTwister"))
-			return new dpMersenneTwister(context,queue);
 		
 		if (!name.compare("Convolution"))
 			return new dpConvolution(context,queue);

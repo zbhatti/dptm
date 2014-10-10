@@ -1,5 +1,5 @@
 #include "dpKernel.hpp"
-#include <clFFT.h>
+#include "clFFT.h"
 
 #ifndef __dpFFT_H_INCLUDED__
 #define __dpFFT_H_INCLUDED__

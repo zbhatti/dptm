@@ -11,12 +11,10 @@ errorCheck.cpp \
 dpKernel.cpp \
 dpClient.cpp \
 dpSquareArray.cpp \
-dpRotateImage.cpp \
 dpMatrixMultiplication.cpp \
 dpConvolution.cpp \
 dpComputation.cpp \
 dpMemory.cpp \
-dpMersenneTwister.cpp \
 dpMatrixTranspose.cpp \
 dpVectorAdd.cpp \
 dpLUDecomposition.cpp \
@@ -47,7 +45,7 @@ OBJECTS=$(addprefix obj/, $(SRCLIST))
 
 all: main
 
-main: dpClientSrc dpClientShell 
+main: dpClientSrc dpClientShell
 
 dpClientSrc: $(OBJECTS:.cpp=.o)
 	g++ $(CFLAGS) $(INCCUDA) -o obj/mainSrc.o src/mainSrc.cpp
@@ -58,7 +56,6 @@ dpClientShell: $(OBJECTS:.cpp=.o)
 	g++ $(OBJECTS:.cpp=.o) obj/mainShell.o -g -std=c++11 -o $@ $(LIBDIR) $(LDFLAGS)
 
 
-	
 #EXECUTION:
 obj/dpClient.o: src/dpClient.cpp
 	g++ $(CFLAGS) $(INCCUDA) -o $@ $<
@@ -67,7 +64,7 @@ obj/dpKernel.o: src/dpKernel.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $<
 
 obj/dpKernelFactory.o: src/dpKernelFactory.cpp
-	g++ $(CFLAGS) $(IDIR) -o $@ $< 
+	g++ $(CFLAGS) $(IDIR) -I/opt/clFFT/src/include -o $@ $< 
 	
 ##KERNELS:
 obj/dpArray3dAverage.o: src/dpArray3dAverage.cpp
@@ -87,7 +84,7 @@ obj/dpNoMemory.o: src/dpNoMemory.cpp
 	
 obj/dpFFT.o: src/dpFFT.cpp
 	g++ $(CFLAGS) -I./include -I/opt/AMDAPP/include -I/opt/clFFT/src/include -o $@ $< 
-	
+
 obj/dpFloydWarshall.o: src/dpFloydWarshall.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 	
@@ -105,9 +102,6 @@ obj/dpMatrixMultiplication.o: src/dpMatrixMultiplication.cpp
 	
 obj/dpMatrixTranspose.o: src/dpMatrixTranspose.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
-	
-obj/dpMersenneTwister.o: src/dpMersenneTwister.cpp
-	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
 obj/dpMonteCarloAsian.o: src/dpMonteCarloAsian.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
@@ -121,9 +115,6 @@ obj/dpMemory.o: src/dpMemory.cpp
 obj/dpReduction.o: src/dpReduction.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
 	
-obj/dpRotateImage.o: src/dpRotateImage.cpp
-	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
-	
 obj/dpSquareArray.o: src/dpSquareArray.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
@@ -131,7 +122,7 @@ obj/dpVectorAdd.o: src/dpVectorAdd.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
 #CUDA KERNELS:
-obj/dpCudaFFT.o: src/dpCudaFFT.cpp
+obj/dpCudaFFT.o: src/dpCudaFFT.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $<
 	
 obj/dpCudaSquareArray.o: src/dpCudaSquareArray.cu

@@ -21,43 +21,99 @@ std::vector<std::string> split(const std::string &s, char delim) {
     return elems;
 }
 
-//all values should have defaults
 int main (int argc, const char* argv[]) {
 	string inputString;
+	int platform;
+	int device;
+	int mbStart;
+	int mbEnd;
+	int mbIncrement;
+	int repeat;
+	int printScreen = 1;
+	int printFile = 0;
+	std::vector<std::string> kernels;
+	std::vector<dpClient> clientList;
 	
-	int platform = 0;
-	int device = 0;
-	string kernel = "";
-	int MB = 4;
-	int xLocal = 4;
-	int yLocal = 4;
-	int zLocal = 4;
 	
-	getline (cin,inputString);
-	stringstream(inputString) >> platform;
-	getline (cin,inputString);
-	stringstream(inputString) >> device;
-	dpClient client(platform, device);
-	
-	while(1){
-		
-		getline (cin,inputString);
-		if (!inputString.compare("RUN")) //use string compare method
-			break;
-		
-		std::vector<std::string> parameters = split(inputString, ',');
-		
-		kernel = parameters.at(0);
-		stringstream(parameters.at(1)) >> MB;
-		stringstream(parameters.at(2)) >> xLocal;
-		stringstream(parameters.at(3)) >> yLocal;
-		stringstream(parameters.at(4)) >> zLocal;
-		fprintf(stderr,"adding: %s,%d,%d,%d,%d\n",kernel.c_str(),MB,xLocal,yLocal,zLocal);
-		client.addTask(kernel,xLocal,yLocal,zLocal,MB);
+	//add Devices Loop
+	getline(cin,inputString);
+	printf("%s\n", inputString.c_str());
+	for(getline(cin,inputString); inputString[0] != '#'; getline(cin,inputString) ){
+		std::vector<std::string> params = split(inputString, ',');
+		stringstream(params.at(0)) >> platform;
+		stringstream(params.at(1)) >> device;
+		dpClient client(platform, device);
+		clientList.push_back(client);
 	}
-
-	client.runTasks();
-	client.printScreen();
-	//client.printFile();
-
+	
+	//populate Kernels Loop
+	printf("%s\n", inputString.c_str());
+	for(getline(cin,inputString); inputString[0] != '#'; getline(cin,inputString) ){
+		kernels.push_back(inputString);
+	}
+	
+	printf("%s\n", inputString.c_str());
+	
+	if (!inputString.compare("#MBSTART:")){
+		getline(cin,inputString);
+		stringstream(inputString) >> mbStart;
+		getline(cin,inputString);
+	}
+	
+	if (!inputString.compare("#MBEND:")){
+		getline(cin,inputString);
+		stringstream(inputString) >> mbEnd;
+		getline(cin,inputString);
+	}
+	
+	if (!inputString.compare("#MBINCREMENT:")){
+		getline(cin,inputString);
+		stringstream(inputString) >> mbIncrement;
+		getline(cin,inputString);
+	}
+	
+	if (!inputString.compare("#REPEAT:")){
+		getline(cin,inputString);
+		stringstream(inputString) >> repeat;
+		getline(cin,inputString);
+	}
+	
+	if (!inputString.compare("#PRINTSCREEN:")){
+		getline(cin,inputString);
+		stringstream(inputString) >> printScreen;
+		getline(cin,inputString);
+	}
+	
+	if (!inputString.compare("#PRINTFILE:")){
+		getline(cin,inputString);
+		stringstream(inputString) >> printFile;
+		getline(cin,inputString);
+	}
+	
+	for(int r = 0; r < repeat; r++){
+		for(int mb = mbStart; mb < mbEnd; mb += mbIncrement){
+			for(unsigned int c=0; c < clientList.size(); c++){
+				fprintf(stderr,"\n\n########################\n%s-%s @ %dMiB\n########################\n\n", clientList.at(c).getPlat(), clientList.at(c).getDev(), mb);
+				for(unsigned int k=0; k < kernels.size(); k++){
+					
+					if (!strcmp(clientList.at(c).getType(),"CUDA") && !kernels.at(k).find("Cuda")){ //Cuda client and cuda kernel
+						fprintf(stderr,"adding CUDA: %s\n",kernels.at(k).c_str());
+						clientList.at(c).addTask(kernels.at(k),1,1,1,mb);
+					}
+					
+					
+					
+					if(!strcmp(clientList.at(c).getType(),"OpenCL")  && kernels.at(k).find("Cuda")){ //OpenCL client and NOT cuda kernel
+						fprintf(stderr,"adding OpenCL: %s\n",kernels.at(k).c_str());
+						clientList.at(c).addWGScan(kernels.at(k),mb);
+					}
+				}
+				clientList.at(c).runTasks();
+				if(printScreen)
+					clientList.at(c).printScreen();
+				if(printFile)
+					clientList.at(c).printFile();
+			}
+		}
+	}
 }
