@@ -36,6 +36,7 @@ class dpKernel{
 		std::vector<float> dataParameters;
 		workGroupSpace workDimension;
 		void FillerFunction();
+		std::string getFile(std::string);
 		virtual void setup(int,int,int,int) = 0;
 		virtual void init() = 0;
 		virtual void memoryCopyOut(void) = 0;

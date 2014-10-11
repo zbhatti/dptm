@@ -8,8 +8,7 @@
 3,0
 3,1
 #KERNELS:
-SquareArray
-CudaSquareArray
+Oxxxxx
 #MBSTART:
 2
 #MBEND:

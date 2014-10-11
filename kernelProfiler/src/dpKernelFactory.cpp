@@ -13,6 +13,7 @@
 #include "dpFluidSimulation.hpp"
 #include "dpArray3dAverage.hpp"
 #include "dpMonteCarloAsian.hpp"
+#include "dpOxxxxx.hpp"
 #include "dpReduction.hpp"
 #include "dpEmpty.hpp"
 #include "dpNoMemory.hpp"
@@ -81,6 +82,9 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		
 		if (!name.compare("NBody"))
 			return new dpNBody(context,queue);
+		
+		if (!name.compare("Oxxxxx"))
+			return new dpOxxxxx(context,queue);
 		
 		if(!name.compare("Array3dAverage"))
 			return new dpArray3dAverage(context,queue);

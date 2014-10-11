@@ -16,6 +16,7 @@ dpConvolution.cpp \
 dpComputation.cpp \
 dpMemory.cpp \
 dpMatrixTranspose.cpp \
+dpOxxxxx.cpp \
 dpVectorAdd.cpp \
 dpLUDecomposition.cpp \
 dpNBody.cpp \
@@ -103,15 +104,18 @@ obj/dpMatrixMultiplication.o: src/dpMatrixMultiplication.cpp
 obj/dpMatrixTranspose.o: src/dpMatrixTranspose.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
+obj/dpMemory.o: src/dpMemory.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
+	
 obj/dpMonteCarloAsian.o: src/dpMonteCarloAsian.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
 obj/dpNBody.o: src/dpNBody.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
-obj/dpMemory.o: src/dpMemory.cpp
+obj/dpOxxxxx.o: src/dpOxxxxx.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
-	
+
 obj/dpReduction.o: src/dpReduction.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
 	
