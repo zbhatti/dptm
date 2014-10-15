@@ -159,9 +159,6 @@ obj/errorCheck.o: src/errorCheck.cpp
 
 obj/dpTiming.o: src/dpTiming.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
-	
-obj/bmpfuncs.o: src/bmpfuncs.cpp
-	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
 clean:
 	rm dpClient* clfft.kernel*
