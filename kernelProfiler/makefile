@@ -50,11 +50,11 @@ main: dpClientSrc dpClientShell
 
 dpClientSrc: $(OBJECTS:.cpp=.o)
 	g++ $(CFLAGS) $(INCCUDA) -o obj/mainSrc.o src/mainSrc.cpp
-	g++ $(OBJECTS:.cpp=.o) obj/mainSrc.o -g -std=c++11 -o $@ $(LIBDIR) $(LDFLAGS)
+	g++ $(OBJECTS:.cpp=.o) obj/mainSrc.o -g -std=c++11 -o $@ $(LIBDIR) $(LDFLAGS) $(IDIR)
 
 dpClientShell: $(OBJECTS:.cpp=.o)
-	g++ $(CFLAGS) $(INCCUDA) -o obj/mainShell.o src/mainShell.cpp
-	g++ $(OBJECTS:.cpp=.o) obj/mainShell.o -g -std=c++11 -o $@ $(LIBDIR) $(LDFLAGS)
+	g++ $(CFLAGS) $(INCCUDA) -o obj/mainShell.o src/mainShell.cpp 
+	g++ $(OBJECTS:.cpp=.o) obj/mainShell.o -g -std=c++11 -o $@ $(LIBDIR) $(LDFLAGS) $(IDIR)
 
 
 #EXECUTION:

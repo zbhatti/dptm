@@ -27,7 +27,7 @@ class dpKernel{
 		size_t localSize[3];
 		size_t globalSize[3];
 		float MB;
-		const char* kernelString;
+		const char* kernelString; 
 		cl_int err;
 		
 	public:
