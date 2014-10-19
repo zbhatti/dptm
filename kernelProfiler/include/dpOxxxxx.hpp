@@ -1,12 +1,13 @@
 #include "dpKernel.hpp"
-
+#include "cmplx.h"
 #ifndef __dpOxxxxx_H_INCLUDED__
 #define __dpOxxxxx_H_INCLUDED__
 
 class dpOxxxxx: public dpKernel{
-	cl_mem Ain_d, Aout_d;
-	float *Ain, *Aout;
-	int Asize;
+	cl_mem P_d, Fo_d;
+	double *P; // P is .. double; P is array of 4 ..double; P is array of 4 pointer to double
+	cmplx *Fo;
+	int Psize;
 	
 	public:
 		dpOxxxxx(cl_context, cl_command_queue);
@@ -17,7 +18,7 @@ class dpOxxxxx: public dpKernel{
 		int execute();
 		void memoryCopyIn();
 		void cleanUp();
-		void generateArray(float*, int);
+		void generateArray(double *P, int);
 };
 
 #endif

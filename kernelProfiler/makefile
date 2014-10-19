@@ -1,7 +1,7 @@
 CFLAGS=-c -Wall -Wno-comment -Wno-write-strings -g
 NVCCFLAGS=-c -g --compiler-options -Wno-write-strings 
 INCCUDA=-I./include -I/opt/AMDAPP/include -I/usr/local/cuda/include
-IDIR=-I./include -I/opt/AMDAPP/include -I/usr/local/cuda/include
+IDIR=-I./include -I/opt/AMDAPP/include -I/usr/local/cuda/include -I/usr/include/c++/4.4.7 -I/usr/include/c++/4.4.4/x86_64-redhat-linux
 LIBDIR= -L/usr/lib64  -L/opt/clFFT/src/package/lib64 -L/usr/local/cuda/lib64
 LDFLAGS=  -lOpenCL -lcudart
 #exclude main files due to having multiple main definitions at linking time:
@@ -39,8 +39,7 @@ dpArray3dAverage.cpp \
 dpReduction.cpp \
 dpMonteCarloAsian.cpp \
 dpTiming.cpp \
-dpKernelFactory.cpp \
-bmpfuncs.cpp
+dpKernelFactory.cpp
 SOURCES=$(addprefix src/, $(SRCLIST))
 OBJECTS=$(addprefix obj/, $(SRCLIST))
 
