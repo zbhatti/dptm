@@ -1,1206 +1,2172 @@
-On Platform NvidiaRuntime
-using device Tesla K20Xm
-On Platform NvidiaRuntime
-using device GTX 780
 On Platform AmdRuntime
 using device AMD Firepro W9100
-On Platform AmdRuntime
-using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
-On Platform IntelRuntime
-using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
-On Platform IntelRuntime
-using device Intel Xeon Phi coprocessor x100 family
-On Platform CUDA
-using device Tesla K20Xm
-On Platform CUDA
-using device GTX 780
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 16MiB
 ########################
 
-SquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 32MiB
 ########################
 
-SquareArray, 64 MB
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 64MiB
 ########################
 
-SquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 80MiB
 ########################
 
-SquareArray, 64 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
-########################
-
-SquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 96MiB
 ########################
 
-SquareArray, 64 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 64MiB
-########################
-
-CudaSquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 112MiB
 ########################
 
-CudaSquareArray, 64 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 128MiB
-########################
-
-SquareArray, 128 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 128MiB
-########################
-
-SquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 128MiB
 ########################
 
-SquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 144MiB
 ########################
 
-SquareArray, 128 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
-########################
-
-SquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 160MiB
 ########################
 
-SquareArray, 128 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 128MiB
-########################
-
-CudaSquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 176MiB
 ########################
 
-CudaSquareArray, 128 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 192MiB
-########################
-
-SquareArray, 192 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 192MiB
-########################
-
-SquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 192MiB
 ########################
 
-SquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 208MiB
 ########################
 
-SquareArray, 192 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
-########################
-
-SquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 224MiB
 ########################
 
-SquareArray, 192 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 192MiB
-########################
-
-CudaSquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 240MiB
 ########################
 
-CudaSquareArray, 192 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 256MiB
-########################
-
-SquareArray, 256 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 256MiB
-########################
-
-SquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 256MiB
 ########################
 
-SquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 272MiB
 ########################
 
-SquareArray, 256 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
-########################
-
-SquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 288MiB
 ########################
 
-SquareArray, 256 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 256MiB
-########################
-
-CudaSquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 304MiB
 ########################
 
-CudaSquareArray, 256 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 320MiB
-########################
-
-SquareArray, 320 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 320MiB
-########################
-
-SquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 320MiB
 ########################
 
-SquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 336MiB
 ########################
 
-SquareArray, 320 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
-########################
-
-SquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 352MiB
 ########################
 
-SquareArray, 320 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 320MiB
-########################
-
-CudaSquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 368MiB
 ########################
 
-CudaSquareArray, 320 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 384MiB
-########################
-
-SquareArray, 384 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 384MiB
-########################
-
-SquareArray, 384 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 384MiB
 ########################
 
-SquareArray, 384 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
+AmdRuntime-AMD Firepro W9100 @ 400MiB
 ########################
 
-SquareArray, 384 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
-########################
-
-SquareArray, 384 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 384MiB
+AmdRuntime-AMD Firepro W9100 @ 416MiB
 ########################
 
-SquareArray, 384 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 384MiB
-########################
-
-CudaSquareArray, 384 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+AmdRuntime-AMD Firepro W9100 @ 432MiB
 ########################
 
-CudaSquareArray, 384 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 448MiB
-########################
-
-SquareArray, 448 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 448MiB
-########################
-
-SquareArray, 448 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 448MiB
 ########################
 
-SquareArray, 448 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 464MiB
 ########################
 
-SquareArray, 448 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 480MiB
 ########################
 
-SquareArray, 448 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 496MiB
 ########################
 
-SquareArray, 448 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 16MiB
 ########################
 
-CudaSquareArray, 448 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 32MiB
 ########################
 
-CudaSquareArray, 448 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 512MiB
+AmdRuntime-AMD Firepro W9100 @ 48MiB
 ########################
 
-SquareArray, 512 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 512MiB
-########################
-
-SquareArray, 512 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 512MiB
-########################
-
-SquareArray, 512 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 512MiB
-########################
-
-SquareArray, 512 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 512MiB
-########################
-
-SquareArray, 512 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 512MiB
-########################
-
-SquareArray, 512 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 512MiB
-########################
-
-CudaSquareArray, 512 MB
-
-
-########################
-CUDA-GTX 780 @ 512MiB
-########################
-
-CudaSquareArray, 512 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 576MiB
-########################
-
-SquareArray, 576 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 576MiB
-########################
-
-SquareArray, 576 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 576MiB
-########################
-
-SquareArray, 576 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 576MiB
-########################
-
-SquareArray, 576 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 576MiB
-########################
-
-SquareArray, 576 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 576MiB
-########################
-
-SquareArray, 576 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 576MiB
-########################
-
-CudaSquareArray, 576 MB
-
-
-########################
-CUDA-GTX 780 @ 576MiB
-########################
-
-CudaSquareArray, 576 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 640MiB
-########################
-
-SquareArray, 640 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 640MiB
-########################
-
-SquareArray, 640 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 640MiB
-########################
-
-SquareArray, 640 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 640MiB
-########################
-
-SquareArray, 640 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 640MiB
-########################
-
-SquareArray, 640 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 640MiB
-########################
-
-SquareArray, 640 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 640MiB
-########################
-
-CudaSquareArray, 640 MB
-
-
-########################
-CUDA-GTX 780 @ 640MiB
-########################
-
-CudaSquareArray, 640 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 704MiB
-########################
-
-SquareArray, 704 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 704MiB
-########################
-
-SquareArray, 704 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 704MiB
-########################
-
-SquareArray, 704 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 704MiB
-########################
-
-SquareArray, 704 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 704MiB
-########################
-
-SquareArray, 704 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 704MiB
-########################
-
-SquareArray, 704 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 704MiB
-########################
-
-CudaSquareArray, 704 MB
-
-
-########################
-CUDA-GTX 780 @ 704MiB
-########################
-
-CudaSquareArray, 704 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 768MiB
-########################
-
-SquareArray, 768 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 768MiB
-########################
-
-SquareArray, 768 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 768MiB
-########################
-
-SquareArray, 768 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 768MiB
-########################
-
-SquareArray, 768 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 768MiB
-########################
-
-SquareArray, 768 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 768MiB
-########################
-
-SquareArray, 768 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 768MiB
-########################
-
-CudaSquareArray, 768 MB
-
-
-########################
-CUDA-GTX 780 @ 768MiB
-########################
-
-CudaSquareArray, 768 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 832MiB
-########################
-
-SquareArray, 832 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 832MiB
-########################
-
-SquareArray, 832 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 832MiB
-########################
-
-SquareArray, 832 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 832MiB
-########################
-
-SquareArray, 832 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 832MiB
-########################
-
-SquareArray, 832 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 832MiB
-########################
-
-SquareArray, 832 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 832MiB
-########################
-
-CudaSquareArray, 832 MB
-
-
-########################
-CUDA-GTX 780 @ 832MiB
-########################
-
-CudaSquareArray, 832 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 896MiB
-########################
-
-SquareArray, 896 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 896MiB
-########################
-
-SquareArray, 896 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 896MiB
-########################
-
-SquareArray, 896 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 896MiB
-########################
-
-SquareArray, 896 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 896MiB
-########################
-
-SquareArray, 896 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 896MiB
-########################
-
-SquareArray, 896 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 896MiB
-########################
-
-CudaSquareArray, 896 MB
-
-
-########################
-CUDA-GTX 780 @ 896MiB
-########################
-
-CudaSquareArray, 896 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 960MiB
-########################
-
-SquareArray, 960 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 960MiB
-########################
-
-SquareArray, 960 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 960MiB
-########################
-
-SquareArray, 960 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 960MiB
-########################
-
-SquareArray, 960 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 960MiB
-########################
-
-SquareArray, 960 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 960MiB
-########################
-
-SquareArray, 960 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 960MiB
-########################
-
-CudaSquareArray, 960 MB
-
-
-########################
-CUDA-GTX 780 @ 960MiB
-########################
-
-CudaSquareArray, 960 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 1024MiB
-########################
-
-SquareArray, 1024 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 1024MiB
-########################
-
-SquareArray, 1024 MB
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 1024MiB
-########################
-
-SquareArray, 1024 MB
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 1024MiB
-########################
-
-SquareArray, 1024 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 1024MiB
-########################
-
-SquareArray, 1024 MB
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 1024MiB
-########################
-
-SquareArray, 1024 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 1024MiB
-########################
-
-CudaSquareArray, 1024 MB
-
-
-########################
-CUDA-GTX 780 @ 1024MiB
-########################
-
-CudaSquareArray, 1024 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 64MiB
-########################
-
-SquareArray, 64 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 64MiB
-########################
-
-SquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 64MiB
 ########################
 
-SquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 80MiB
 ########################
 
-SquareArray, 64 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
-########################
-
-SquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 96MiB
 ########################
 
-SquareArray, 64 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 64MiB
-########################
-
-CudaSquareArray, 64 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 112MiB
 ########################
 
-CudaSquareArray, 64 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 128MiB
-########################
-
-SquareArray, 128 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 128MiB
-########################
-
-SquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 128MiB
 ########################
 
-SquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 144MiB
 ########################
 
-SquareArray, 128 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
-########################
-
-SquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 160MiB
 ########################
 
-SquareArray, 128 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 128MiB
-########################
-
-CudaSquareArray, 128 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 176MiB
 ########################
 
-CudaSquareArray, 128 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 192MiB
-########################
-
-SquareArray, 192 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 192MiB
-########################
-
-SquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 192MiB
 ########################
 
-SquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 208MiB
 ########################
 
-SquareArray, 192 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
-########################
-
-SquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 224MiB
 ########################
 
-SquareArray, 192 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 192MiB
-########################
-
-CudaSquareArray, 192 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 240MiB
 ########################
 
-CudaSquareArray, 192 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 256MiB
-########################
-
-SquareArray, 256 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 256MiB
-########################
-
-SquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 256MiB
 ########################
 
-SquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 272MiB
 ########################
 
-SquareArray, 256 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
-########################
-
-SquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 288MiB
 ########################
 
-SquareArray, 256 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 256MiB
-########################
-
-CudaSquareArray, 256 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 304MiB
 ########################
 
-CudaSquareArray, 256 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 320MiB
-########################
-
-SquareArray, 320 MB
-
-
-########################
-NvidiaRuntime-GTX 780 @ 320MiB
-########################
-
-SquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
 AmdRuntime-AMD Firepro W9100 @ 320MiB
 ########################
 
-SquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 336MiB
 ########################
 
-SquareArray, 320 MB
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
-########################
-
-SquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 352MiB
 ########################
 
-SquareArray, 320 MB
-
-
-########################
-CUDA-Tesla K20Xm @ 320MiB
-########################
-
-CudaSquareArray, 320 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 368MiB
 ########################
 
-CudaSquareArray, 320 MB
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 384MiB
-########################
-
-SquareArray, 384 MB
+adding OpenCL: Oxxxxx
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 384MiB
+AmdRuntime-AMD Firepro W9100 @ 384MiB
 ########################
 
-SquareArray, 384 MB
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 32MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 48MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 64MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 80MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 96MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 112MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 128MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 144MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 160MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx

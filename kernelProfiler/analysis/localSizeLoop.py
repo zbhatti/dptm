@@ -225,6 +225,7 @@ FileNames=[]
 for root, dirs, files in os.walk("../raw"):
 	for file in files:
 		if file.endswith(".log"):
+			if "xxxx" in file:
 				FileNames.append(os.path.join(root, file))	
 
 #make ttree for each device/kernel.log
