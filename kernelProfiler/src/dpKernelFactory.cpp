@@ -27,6 +27,7 @@
 #include "dpCudaMatrixTranspose.hpp"
 #include "dpCudaEmpty.hpp"
 #include "dpCudaNoMemory.hpp"
+#include "dpCudaOxxxxx.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
@@ -117,6 +118,9 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 			
 		if (!name.compare("CudaComputation"))
 			return new dpCudaComputation(context, queue);
+			
+		if (!name.compare("CudaOxxxxx"))
+			return new dpCudaOxxxxx(context, queue);
 			
 		else	//need better return case here
 			return new dpSquareArray(context, queue);

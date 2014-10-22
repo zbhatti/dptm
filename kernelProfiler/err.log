@@ -1,2172 +1,4344 @@
-On Platform AmdRuntime
-using device AMD Firepro W9100
+On Platform CUDA
+using device Tesla K20Xm
+On Platform CUDA
+using device GTX 780
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-Tesla K20Xm @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-GTX 780 @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-Tesla K20Xm @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-GTX 780 @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-Tesla K20Xm @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-GTX 780 @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-Tesla K20Xm @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-GTX 780 @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-Tesla K20Xm @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-GTX 780 @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-Tesla K20Xm @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-GTX 780 @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-Tesla K20Xm @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-GTX 780 @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-Tesla K20Xm @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-GTX 780 @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-Tesla K20Xm @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-GTX 780 @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-Tesla K20Xm @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-GTX 780 @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-Tesla K20Xm @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-GTX 780 @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-Tesla K20Xm @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-GTX 780 @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-Tesla K20Xm @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-GTX 780 @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-Tesla K20Xm @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-GTX 780 @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-Tesla K20Xm @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-GTX 780 @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-Tesla K20Xm @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-GTX 780 @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-Tesla K20Xm @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-GTX 780 @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-Tesla K20Xm @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-GTX 780 @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-Tesla K20Xm @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-GTX 780 @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-Tesla K20Xm @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-GTX 780 @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-Tesla K20Xm @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-GTX 780 @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-Tesla K20Xm @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-GTX 780 @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-Tesla K20Xm @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-GTX 780 @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-Tesla K20Xm @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-GTX 780 @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-Tesla K20Xm @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-GTX 780 @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-Tesla K20Xm @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-GTX 780 @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-Tesla K20Xm @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-GTX 780 @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-Tesla K20Xm @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-GTX 780 @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-Tesla K20Xm @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-GTX 780 @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-Tesla K20Xm @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-GTX 780 @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-Tesla K20Xm @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-GTX 780 @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-Tesla K20Xm @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-GTX 780 @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-Tesla K20Xm @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-GTX 780 @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-Tesla K20Xm @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-GTX 780 @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-Tesla K20Xm @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-GTX 780 @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-Tesla K20Xm @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-GTX 780 @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-Tesla K20Xm @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-GTX 780 @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-Tesla K20Xm @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-GTX 780 @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-Tesla K20Xm @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-GTX 780 @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-Tesla K20Xm @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-GTX 780 @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-Tesla K20Xm @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-GTX 780 @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-Tesla K20Xm @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-GTX 780 @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-Tesla K20Xm @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-GTX 780 @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-Tesla K20Xm @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-GTX 780 @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-Tesla K20Xm @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-GTX 780 @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-Tesla K20Xm @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-GTX 780 @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-Tesla K20Xm @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-GTX 780 @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-Tesla K20Xm @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-GTX 780 @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-Tesla K20Xm @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-GTX 780 @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-Tesla K20Xm @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-GTX 780 @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-Tesla K20Xm @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-GTX 780 @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-Tesla K20Xm @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-GTX 780 @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-Tesla K20Xm @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-GTX 780 @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-Tesla K20Xm @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-GTX 780 @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-Tesla K20Xm @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-GTX 780 @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-Tesla K20Xm @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-GTX 780 @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-Tesla K20Xm @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-GTX 780 @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-Tesla K20Xm @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-GTX 780 @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-Tesla K20Xm @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-GTX 780 @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-Tesla K20Xm @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-GTX 780 @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-Tesla K20Xm @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-GTX 780 @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-Tesla K20Xm @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-GTX 780 @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-Tesla K20Xm @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-GTX 780 @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-Tesla K20Xm @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-GTX 780 @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-Tesla K20Xm @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-GTX 780 @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-Tesla K20Xm @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-GTX 780 @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-Tesla K20Xm @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-GTX 780 @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-Tesla K20Xm @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-GTX 780 @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-Tesla K20Xm @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-GTX 780 @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-Tesla K20Xm @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-GTX 780 @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-Tesla K20Xm @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-GTX 780 @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-Tesla K20Xm @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-GTX 780 @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-Tesla K20Xm @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-GTX 780 @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-Tesla K20Xm @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-GTX 780 @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-Tesla K20Xm @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-GTX 780 @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-Tesla K20Xm @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-GTX 780 @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-Tesla K20Xm @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-GTX 780 @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-Tesla K20Xm @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-GTX 780 @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-Tesla K20Xm @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-GTX 780 @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-Tesla K20Xm @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-GTX 780 @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-Tesla K20Xm @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-GTX 780 @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-Tesla K20Xm @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-GTX 780 @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-Tesla K20Xm @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-GTX 780 @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-Tesla K20Xm @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-GTX 780 @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-Tesla K20Xm @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-GTX 780 @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-Tesla K20Xm @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-GTX 780 @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-Tesla K20Xm @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-GTX 780 @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-Tesla K20Xm @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-GTX 780 @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-Tesla K20Xm @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-GTX 780 @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-Tesla K20Xm @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-GTX 780 @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-Tesla K20Xm @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-GTX 780 @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-Tesla K20Xm @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-GTX 780 @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-Tesla K20Xm @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-GTX 780 @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-Tesla K20Xm @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-GTX 780 @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-Tesla K20Xm @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-GTX 780 @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-Tesla K20Xm @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-GTX 780 @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-Tesla K20Xm @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-GTX 780 @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-Tesla K20Xm @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-GTX 780 @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-Tesla K20Xm @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-GTX 780 @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-Tesla K20Xm @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-GTX 780 @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-Tesla K20Xm @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-GTX 780 @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-Tesla K20Xm @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-GTX 780 @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-Tesla K20Xm @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-GTX 780 @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-Tesla K20Xm @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-GTX 780 @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-Tesla K20Xm @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-GTX 780 @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-Tesla K20Xm @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-GTX 780 @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-Tesla K20Xm @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-GTX 780 @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-Tesla K20Xm @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-GTX 780 @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-Tesla K20Xm @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-GTX 780 @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-Tesla K20Xm @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-GTX 780 @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-Tesla K20Xm @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-GTX 780 @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-Tesla K20Xm @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-GTX 780 @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-Tesla K20Xm @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-GTX 780 @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-Tesla K20Xm @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-GTX 780 @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-Tesla K20Xm @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-GTX 780 @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-Tesla K20Xm @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-GTX 780 @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-Tesla K20Xm @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-GTX 780 @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-Tesla K20Xm @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-GTX 780 @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-Tesla K20Xm @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-GTX 780 @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-Tesla K20Xm @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-GTX 780 @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-Tesla K20Xm @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-GTX 780 @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-Tesla K20Xm @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-GTX 780 @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-Tesla K20Xm @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-GTX 780 @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-Tesla K20Xm @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-GTX 780 @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-Tesla K20Xm @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-GTX 780 @ 16MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-Tesla K20Xm @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-GTX 780 @ 32MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-Tesla K20Xm @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-GTX 780 @ 48MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-Tesla K20Xm @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-GTX 780 @ 64MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-Tesla K20Xm @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-GTX 780 @ 80MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-Tesla K20Xm @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-GTX 780 @ 96MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-Tesla K20Xm @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-GTX 780 @ 112MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-Tesla K20Xm @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-GTX 780 @ 128MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-Tesla K20Xm @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-GTX 780 @ 144MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-Tesla K20Xm @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-GTX 780 @ 160MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-Tesla K20Xm @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-GTX 780 @ 176MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-Tesla K20Xm @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-GTX 780 @ 192MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-Tesla K20Xm @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-GTX 780 @ 208MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-Tesla K20Xm @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-GTX 780 @ 224MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-Tesla K20Xm @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-GTX 780 @ 240MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-Tesla K20Xm @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 16MiB
+CUDA-GTX 780 @ 256MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 32MiB
+CUDA-Tesla K20Xm @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 48MiB
+CUDA-GTX 780 @ 272MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 64MiB
+CUDA-Tesla K20Xm @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 80MiB
+CUDA-GTX 780 @ 288MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 96MiB
+CUDA-Tesla K20Xm @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 112MiB
+CUDA-GTX 780 @ 304MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 128MiB
+CUDA-Tesla K20Xm @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 144MiB
+CUDA-GTX 780 @ 320MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 160MiB
+CUDA-Tesla K20Xm @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 176MiB
+CUDA-GTX 780 @ 336MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 192MiB
+CUDA-Tesla K20Xm @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 208MiB
+CUDA-GTX 780 @ 352MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 224MiB
+CUDA-Tesla K20Xm @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 240MiB
+CUDA-GTX 780 @ 368MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 256MiB
+CUDA-Tesla K20Xm @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 272MiB
+CUDA-GTX 780 @ 384MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 288MiB
+CUDA-Tesla K20Xm @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 304MiB
+CUDA-GTX 780 @ 400MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 320MiB
+CUDA-Tesla K20Xm @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 336MiB
+CUDA-GTX 780 @ 416MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 352MiB
+CUDA-Tesla K20Xm @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 368MiB
+CUDA-GTX 780 @ 432MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 384MiB
+CUDA-Tesla K20Xm @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 400MiB
+CUDA-GTX 780 @ 448MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 416MiB
+CUDA-Tesla K20Xm @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 432MiB
+CUDA-GTX 780 @ 464MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 448MiB
+CUDA-Tesla K20Xm @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 464MiB
+CUDA-GTX 780 @ 480MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 480MiB
+CUDA-Tesla K20Xm @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 496MiB
+CUDA-GTX 780 @ 496MiB
 ########################
 
-adding OpenCL: Oxxxxx
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 16MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 32MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 48MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 64MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 80MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 96MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 112MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 128MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 144MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 160MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 176MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 192MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 208MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 224MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 240MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 256MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 272MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 288MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 304MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 320MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 336MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 352MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 368MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 384MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 400MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 416MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 432MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 448MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 464MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 480MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-Tesla K20Xm @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx
+
+
+########################
+CUDA-GTX 780 @ 496MiB
+########################
+
+adding CUDA: CudaOxxxxx

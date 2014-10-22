@@ -2,64 +2,126 @@
 ########## Oxxxxx ##########
 
 ----- 16MiB -----
+CUDA - GTX 780, 0.26ms
+CUDA - Tesla K20Xm, 0.33ms
 AmdRuntime - AMD Firepro W9100, 0.49ms
 
 ----- 32MiB -----
+CUDA - Tesla K20Xm, 0.60ms
+AmdRuntime - AMD Firepro W9100, 0.71ms
 
 ----- 48MiB -----
+CUDA - Tesla K20Xm, 0.87ms
+AmdRuntime - AMD Firepro W9100, 2.39ms
 
 ----- 64MiB -----
+CUDA - Tesla K20Xm, 1.14ms
+AmdRuntime - AMD Firepro W9100, 2.86ms
 
 ----- 80MiB -----
+CUDA - Tesla K20Xm, 1.42ms
+AmdRuntime - AMD Firepro W9100, 3.27ms
 
 ----- 96MiB -----
+CUDA - Tesla K20Xm, 1.67ms
+AmdRuntime - AMD Firepro W9100, 3.88ms
 
 ----- 112MiB -----
+CUDA - Tesla K20Xm, 1.95ms
+AmdRuntime - AMD Firepro W9100, 4.52ms
 
 ----- 128MiB -----
+CUDA - Tesla K20Xm, 2.20ms
+AmdRuntime - AMD Firepro W9100, 5.16ms
 
 ----- 144MiB -----
+CUDA - Tesla K20Xm, 2.46ms
+AmdRuntime - AMD Firepro W9100, 5.97ms
 
 ----- 160MiB -----
+CUDA - Tesla K20Xm, 2.73ms
+AmdRuntime - AMD Firepro W9100, 6.90ms
 
 ----- 176MiB -----
+CUDA - Tesla K20Xm, 3.00ms
+AmdRuntime - AMD Firepro W9100, 7.18ms
 
 ----- 192MiB -----
+CUDA - Tesla K20Xm, 3.26ms
+AmdRuntime - AMD Firepro W9100, 7.74ms
 
 ----- 208MiB -----
+CUDA - Tesla K20Xm, 3.52ms
+AmdRuntime - AMD Firepro W9100, 9.37ms
 
 ----- 224MiB -----
+CUDA - Tesla K20Xm, 3.78ms
+AmdRuntime - AMD Firepro W9100, 9.53ms
 
 ----- 240MiB -----
+CUDA - Tesla K20Xm, 4.04ms
+AmdRuntime - AMD Firepro W9100, 10.09ms
 
 ----- 256MiB -----
+CUDA - Tesla K20Xm, 4.31ms
+AmdRuntime - AMD Firepro W9100, 11.17ms
 
 ----- 272MiB -----
+CUDA - Tesla K20Xm, 4.56ms
+AmdRuntime - AMD Firepro W9100, 12.15ms
 
 ----- 288MiB -----
+CUDA - Tesla K20Xm, 4.84ms
+AmdRuntime - AMD Firepro W9100, 11.24ms
 
 ----- 304MiB -----
+CUDA - Tesla K20Xm, 5.11ms
+AmdRuntime - AMD Firepro W9100, 13.81ms
 
 ----- 320MiB -----
+CUDA - Tesla K20Xm, 5.38ms
+AmdRuntime - AMD Firepro W9100, 13.66ms
 
 ----- 336MiB -----
+CUDA - Tesla K20Xm, 5.63ms
+AmdRuntime - AMD Firepro W9100, 16.05ms
 
 ----- 352MiB -----
+CUDA - Tesla K20Xm, 5.90ms
+AmdRuntime - AMD Firepro W9100, 17.53ms
 
 ----- 368MiB -----
+CUDA - Tesla K20Xm, 6.17ms
+AmdRuntime - AMD Firepro W9100, 16.20ms
 
 ----- 384MiB -----
+CUDA - Tesla K20Xm, 6.43ms
+AmdRuntime - AMD Firepro W9100, 15.83ms
 
 ----- 400MiB -----
+CUDA - Tesla K20Xm, 6.69ms
+AmdRuntime - AMD Firepro W9100, 17.52ms
 
 ----- 416MiB -----
+CUDA - Tesla K20Xm, 6.94ms
+AmdRuntime - AMD Firepro W9100, 22.00ms
 
 ----- 432MiB -----
+CUDA - Tesla K20Xm, 7.21ms
+AmdRuntime - AMD Firepro W9100, 24.00ms
 
 ----- 448MiB -----
+CUDA - Tesla K20Xm, 7.48ms
+AmdRuntime - AMD Firepro W9100, 21.36ms
 
 ----- 464MiB -----
+CUDA - Tesla K20Xm, 7.75ms
+AmdRuntime - AMD Firepro W9100, 20.71ms
 
 ----- 480MiB -----
+CUDA - Tesla K20Xm, 8.00ms
+AmdRuntime - AMD Firepro W9100, 23.78ms
 
 ----- 496MiB -----
+CUDA - Tesla K20Xm, 8.29ms
+AmdRuntime - AMD Firepro W9100, 24.14ms

@@ -121,18 +121,3 @@ void dpCudaSquareArray::generateArray(float *A, int N){
 }
 
 
-/*
-#include <stddef.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <sys/un.h>
-#include <math.h>
-#include <errno.h>
-#include <string.h>
-
-
-*/
-
-
-

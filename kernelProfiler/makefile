@@ -33,6 +33,7 @@ dpCudaSquareArray.cpp \
 dpCudaVectorAdd.cpp \
 dpCudaMatrixTranspose.cpp \
 dpCudaMatrixMultiplication.cpp \
+dpCudaOxxxxx.cpp \
 dpFloydWarshall.cpp \
 dpFluidSimulation.cpp \
 dpArray3dAverage.cpp \
@@ -150,6 +151,9 @@ obj/dpCudaMemory.o: src/dpCudaMemory.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 	
 obj/dpCudaComputation.o: src/dpCudaComputation.cu
+	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
+	
+obj/dpCudaOxxxxx.o: src/dpCudaOxxxxx.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 	
 #HELPER FUNCTIONS:

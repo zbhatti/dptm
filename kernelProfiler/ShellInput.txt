@@ -1,7 +1,8 @@
 #DEVICES:
-1,0
+3,0
+3,1
 #KERNELS:
-Oxxxxx
+CudaOxxxxx
 #MBSTART:
 16
 #MBEND:
