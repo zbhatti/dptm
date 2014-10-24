@@ -1,4344 +1,5262 @@
-On Platform CUDA
+On Platform NvidiaRuntime
 using device Tesla K20Xm
-On Platform CUDA
+On Platform NvidiaRuntime
 using device GTX 780
+On Platform AmdRuntime
+using device AMD Firepro W9100
+On Platform AmdRuntime
+using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
+On Platform IntelRuntime
+using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
+On Platform IntelRuntime
+using device Intel Xeon Phi coprocessor x100 family
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+NvidiaRuntime-Tesla K20Xm @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+NvidiaRuntime-GTX 780 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+AmdRuntime-AMD Firepro W9100 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+NvidiaRuntime-Tesla K20Xm @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+NvidiaRuntime-GTX 780 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+AmdRuntime-AMD Firepro W9100 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+NvidiaRuntime-Tesla K20Xm @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+NvidiaRuntime-GTX 780 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+NvidiaRuntime-Tesla K20Xm @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+NvidiaRuntime-GTX 780 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+AmdRuntime-AMD Firepro W9100 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+NvidiaRuntime-Tesla K20Xm @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+NvidiaRuntime-GTX 780 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+AmdRuntime-AMD Firepro W9100 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+NvidiaRuntime-Tesla K20Xm @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+NvidiaRuntime-GTX 780 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+AmdRuntime-AMD Firepro W9100 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+NvidiaRuntime-Tesla K20Xm @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+NvidiaRuntime-GTX 780 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+NvidiaRuntime-Tesla K20Xm @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+NvidiaRuntime-GTX 780 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+AmdRuntime-AMD Firepro W9100 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+NvidiaRuntime-Tesla K20Xm @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+NvidiaRuntime-GTX 780 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+AmdRuntime-AMD Firepro W9100 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+NvidiaRuntime-Tesla K20Xm @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+NvidiaRuntime-GTX 780 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+AmdRuntime-AMD Firepro W9100 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+NvidiaRuntime-Tesla K20Xm @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+NvidiaRuntime-GTX 780 @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+AmdRuntime-AMD Firepro W9100 @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+NvidiaRuntime-Tesla K20Xm @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+NvidiaRuntime-GTX 780 @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+NvidiaRuntime-Tesla K20Xm @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+NvidiaRuntime-GTX 780 @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+AmdRuntime-AMD Firepro W9100 @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+NvidiaRuntime-Tesla K20Xm @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+NvidiaRuntime-GTX 780 @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+AmdRuntime-AMD Firepro W9100 @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+NvidiaRuntime-Tesla K20Xm @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+NvidiaRuntime-GTX 780 @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+AmdRuntime-AMD Firepro W9100 @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+NvidiaRuntime-Tesla K20Xm @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+NvidiaRuntime-GTX 780 @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+NvidiaRuntime-Tesla K20Xm @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+NvidiaRuntime-GTX 780 @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+AmdRuntime-AMD Firepro W9100 @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+NvidiaRuntime-Tesla K20Xm @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+NvidiaRuntime-GTX 780 @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+AmdRuntime-AMD Firepro W9100 @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+NvidiaRuntime-Tesla K20Xm @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+NvidiaRuntime-GTX 780 @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+AmdRuntime-AMD Firepro W9100 @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+NvidiaRuntime-Tesla K20Xm @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+NvidiaRuntime-GTX 780 @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+NvidiaRuntime-Tesla K20Xm @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+NvidiaRuntime-GTX 780 @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+AmdRuntime-AMD Firepro W9100 @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+NvidiaRuntime-Tesla K20Xm @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+NvidiaRuntime-GTX 780 @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+AmdRuntime-AMD Firepro W9100 @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+NvidiaRuntime-Tesla K20Xm @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+NvidiaRuntime-GTX 780 @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+AmdRuntime-AMD Firepro W9100 @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+NvidiaRuntime-Tesla K20Xm @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+NvidiaRuntime-GTX 780 @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+AmdRuntime-AMD Firepro W9100 @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+NvidiaRuntime-Tesla K20Xm @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+NvidiaRuntime-GTX 780 @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+NvidiaRuntime-Tesla K20Xm @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+NvidiaRuntime-GTX 780 @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+AmdRuntime-AMD Firepro W9100 @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+NvidiaRuntime-Tesla K20Xm @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+NvidiaRuntime-GTX 780 @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+AmdRuntime-AMD Firepro W9100 @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+NvidiaRuntime-Tesla K20Xm @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+NvidiaRuntime-GTX 780 @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+AmdRuntime-AMD Firepro W9100 @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+NvidiaRuntime-Tesla K20Xm @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+NvidiaRuntime-GTX 780 @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+AmdRuntime-AMD Firepro W9100 @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+NvidiaRuntime-Tesla K20Xm @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+NvidiaRuntime-GTX 780 @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+AmdRuntime-AMD Firepro W9100 @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+NvidiaRuntime-Tesla K20Xm @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+NvidiaRuntime-GTX 780 @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+AmdRuntime-AMD Firepro W9100 @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+NvidiaRuntime-Tesla K20Xm @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+NvidiaRuntime-GTX 780 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+AmdRuntime-AMD Firepro W9100 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+NvidiaRuntime-Tesla K20Xm @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+NvidiaRuntime-GTX 780 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+AmdRuntime-AMD Firepro W9100 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+NvidiaRuntime-Tesla K20Xm @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+NvidiaRuntime-GTX 780 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+NvidiaRuntime-Tesla K20Xm @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+NvidiaRuntime-GTX 780 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+AmdRuntime-AMD Firepro W9100 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+NvidiaRuntime-Tesla K20Xm @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+NvidiaRuntime-GTX 780 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+AmdRuntime-AMD Firepro W9100 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+NvidiaRuntime-Tesla K20Xm @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+NvidiaRuntime-GTX 780 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+AmdRuntime-AMD Firepro W9100 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+NvidiaRuntime-Tesla K20Xm @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+NvidiaRuntime-GTX 780 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+NvidiaRuntime-Tesla K20Xm @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+NvidiaRuntime-GTX 780 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+AmdRuntime-AMD Firepro W9100 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+NvidiaRuntime-Tesla K20Xm @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+NvidiaRuntime-GTX 780 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+AmdRuntime-AMD Firepro W9100 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+NvidiaRuntime-Tesla K20Xm @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+NvidiaRuntime-GTX 780 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+AmdRuntime-AMD Firepro W9100 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+NvidiaRuntime-Tesla K20Xm @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+NvidiaRuntime-GTX 780 @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+AmdRuntime-AMD Firepro W9100 @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+NvidiaRuntime-Tesla K20Xm @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+NvidiaRuntime-GTX 780 @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+NvidiaRuntime-Tesla K20Xm @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+NvidiaRuntime-GTX 780 @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+AmdRuntime-AMD Firepro W9100 @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+NvidiaRuntime-Tesla K20Xm @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+NvidiaRuntime-GTX 780 @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+AmdRuntime-AMD Firepro W9100 @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+NvidiaRuntime-Tesla K20Xm @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+NvidiaRuntime-GTX 780 @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+AmdRuntime-AMD Firepro W9100 @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+NvidiaRuntime-Tesla K20Xm @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+NvidiaRuntime-GTX 780 @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+NvidiaRuntime-Tesla K20Xm @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+NvidiaRuntime-GTX 780 @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+AmdRuntime-AMD Firepro W9100 @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+NvidiaRuntime-Tesla K20Xm @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+NvidiaRuntime-GTX 780 @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+AmdRuntime-AMD Firepro W9100 @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+NvidiaRuntime-Tesla K20Xm @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+NvidiaRuntime-GTX 780 @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+AmdRuntime-AMD Firepro W9100 @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+NvidiaRuntime-Tesla K20Xm @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+NvidiaRuntime-GTX 780 @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+NvidiaRuntime-Tesla K20Xm @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+NvidiaRuntime-GTX 780 @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+AmdRuntime-AMD Firepro W9100 @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+NvidiaRuntime-Tesla K20Xm @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+NvidiaRuntime-GTX 780 @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+AmdRuntime-AMD Firepro W9100 @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+NvidiaRuntime-Tesla K20Xm @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+NvidiaRuntime-GTX 780 @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+AmdRuntime-AMD Firepro W9100 @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+NvidiaRuntime-Tesla K20Xm @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+NvidiaRuntime-GTX 780 @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+AmdRuntime-AMD Firepro W9100 @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+NvidiaRuntime-Tesla K20Xm @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+NvidiaRuntime-GTX 780 @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+NvidiaRuntime-Tesla K20Xm @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+NvidiaRuntime-GTX 780 @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+AmdRuntime-AMD Firepro W9100 @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+NvidiaRuntime-Tesla K20Xm @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+NvidiaRuntime-GTX 780 @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+AmdRuntime-AMD Firepro W9100 @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+NvidiaRuntime-Tesla K20Xm @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+NvidiaRuntime-GTX 780 @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+AmdRuntime-AMD Firepro W9100 @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+NvidiaRuntime-Tesla K20Xm @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+NvidiaRuntime-GTX 780 @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+AmdRuntime-AMD Firepro W9100 @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+NvidiaRuntime-Tesla K20Xm @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+NvidiaRuntime-GTX 780 @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+AmdRuntime-AMD Firepro W9100 @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+NvidiaRuntime-Tesla K20Xm @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+NvidiaRuntime-GTX 780 @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+AmdRuntime-AMD Firepro W9100 @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+NvidiaRuntime-Tesla K20Xm @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+NvidiaRuntime-GTX 780 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+AmdRuntime-AMD Firepro W9100 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+NvidiaRuntime-Tesla K20Xm @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+NvidiaRuntime-GTX 780 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+AmdRuntime-AMD Firepro W9100 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+NvidiaRuntime-Tesla K20Xm @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+NvidiaRuntime-GTX 780 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+NvidiaRuntime-Tesla K20Xm @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+NvidiaRuntime-GTX 780 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+AmdRuntime-AMD Firepro W9100 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+NvidiaRuntime-Tesla K20Xm @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+NvidiaRuntime-GTX 780 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+AmdRuntime-AMD Firepro W9100 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+NvidiaRuntime-Tesla K20Xm @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+NvidiaRuntime-GTX 780 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+AmdRuntime-AMD Firepro W9100 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+NvidiaRuntime-Tesla K20Xm @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+NvidiaRuntime-GTX 780 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+NvidiaRuntime-Tesla K20Xm @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+NvidiaRuntime-GTX 780 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+AmdRuntime-AMD Firepro W9100 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+NvidiaRuntime-Tesla K20Xm @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+NvidiaRuntime-GTX 780 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+AmdRuntime-AMD Firepro W9100 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+NvidiaRuntime-Tesla K20Xm @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+NvidiaRuntime-GTX 780 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+AmdRuntime-AMD Firepro W9100 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+NvidiaRuntime-Tesla K20Xm @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+NvidiaRuntime-GTX 780 @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+AmdRuntime-AMD Firepro W9100 @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+NvidiaRuntime-Tesla K20Xm @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+NvidiaRuntime-GTX 780 @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+AmdRuntime-AMD Firepro W9100 @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+NvidiaRuntime-Tesla K20Xm @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+NvidiaRuntime-GTX 780 @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+AmdRuntime-AMD Firepro W9100 @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 208MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+NvidiaRuntime-Tesla K20Xm @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+NvidiaRuntime-GTX 780 @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+AmdRuntime-AMD Firepro W9100 @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 224MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+NvidiaRuntime-Tesla K20Xm @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+NvidiaRuntime-GTX 780 @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+AmdRuntime-AMD Firepro W9100 @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 240MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+NvidiaRuntime-Tesla K20Xm @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+NvidiaRuntime-GTX 780 @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+AmdRuntime-AMD Firepro W9100 @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+NvidiaRuntime-Tesla K20Xm @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+NvidiaRuntime-GTX 780 @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+AmdRuntime-AMD Firepro W9100 @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 272MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+NvidiaRuntime-Tesla K20Xm @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+NvidiaRuntime-GTX 780 @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+AmdRuntime-AMD Firepro W9100 @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 288MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+NvidiaRuntime-Tesla K20Xm @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+NvidiaRuntime-GTX 780 @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+AmdRuntime-AMD Firepro W9100 @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 304MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+NvidiaRuntime-Tesla K20Xm @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+NvidiaRuntime-GTX 780 @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+AmdRuntime-AMD Firepro W9100 @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+NvidiaRuntime-Tesla K20Xm @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+NvidiaRuntime-GTX 780 @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+AmdRuntime-AMD Firepro W9100 @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 336MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+NvidiaRuntime-Tesla K20Xm @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+NvidiaRuntime-GTX 780 @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+AmdRuntime-AMD Firepro W9100 @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 352MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+NvidiaRuntime-Tesla K20Xm @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+NvidiaRuntime-GTX 780 @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+AmdRuntime-AMD Firepro W9100 @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 368MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+NvidiaRuntime-Tesla K20Xm @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+NvidiaRuntime-GTX 780 @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+AmdRuntime-AMD Firepro W9100 @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 384MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+NvidiaRuntime-Tesla K20Xm @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+NvidiaRuntime-GTX 780 @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+AmdRuntime-AMD Firepro W9100 @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 400MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+NvidiaRuntime-Tesla K20Xm @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+NvidiaRuntime-GTX 780 @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+AmdRuntime-AMD Firepro W9100 @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 416MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+NvidiaRuntime-Tesla K20Xm @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+NvidiaRuntime-GTX 780 @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+AmdRuntime-AMD Firepro W9100 @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 432MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+NvidiaRuntime-Tesla K20Xm @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+NvidiaRuntime-GTX 780 @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+AmdRuntime-AMD Firepro W9100 @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 448MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+NvidiaRuntime-Tesla K20Xm @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+NvidiaRuntime-GTX 780 @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+AmdRuntime-AMD Firepro W9100 @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 464MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+NvidiaRuntime-Tesla K20Xm @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+NvidiaRuntime-GTX 780 @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+AmdRuntime-AMD Firepro W9100 @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 480MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+NvidiaRuntime-Tesla K20Xm @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+NvidiaRuntime-GTX 780 @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+AmdRuntime-AMD Firepro W9100 @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 496MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 16MiB
+NvidiaRuntime-Tesla K20Xm @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 16MiB
+NvidiaRuntime-GTX 780 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 32MiB
+AmdRuntime-AMD Firepro W9100 @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 32MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 48MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 48MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 16MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 64MiB
+NvidiaRuntime-Tesla K20Xm @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 64MiB
+NvidiaRuntime-GTX 780 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 80MiB
+AmdRuntime-AMD Firepro W9100 @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 80MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 96MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 96MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 32MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 112MiB
+NvidiaRuntime-Tesla K20Xm @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 112MiB
+NvidiaRuntime-GTX 780 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 128MiB
+AmdRuntime-AMD Firepro W9100 @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 128MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 144MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 144MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 48MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 160MiB
+NvidiaRuntime-Tesla K20Xm @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 160MiB
+NvidiaRuntime-GTX 780 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 176MiB
+AmdRuntime-AMD Firepro W9100 @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 176MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 192MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 192MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 64MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 208MiB
+NvidiaRuntime-Tesla K20Xm @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 208MiB
+NvidiaRuntime-GTX 780 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 224MiB
+AmdRuntime-AMD Firepro W9100 @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 224MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 240MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 240MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 80MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 256MiB
+NvidiaRuntime-Tesla K20Xm @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 256MiB
+NvidiaRuntime-GTX 780 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 272MiB
+AmdRuntime-AMD Firepro W9100 @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 272MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 288MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 288MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 96MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 304MiB
+NvidiaRuntime-Tesla K20Xm @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 304MiB
+NvidiaRuntime-GTX 780 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 320MiB
+AmdRuntime-AMD Firepro W9100 @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 320MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 336MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 336MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 112MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 352MiB
+NvidiaRuntime-Tesla K20Xm @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 352MiB
+NvidiaRuntime-GTX 780 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 368MiB
+AmdRuntime-AMD Firepro W9100 @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 368MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 384MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 384MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 128MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 400MiB
+NvidiaRuntime-Tesla K20Xm @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 400MiB
+NvidiaRuntime-GTX 780 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 416MiB
+AmdRuntime-AMD Firepro W9100 @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 416MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 432MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 432MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 144MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 448MiB
+NvidiaRuntime-Tesla K20Xm @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 448MiB
+NvidiaRuntime-GTX 780 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 464MiB
+AmdRuntime-AMD Firepro W9100 @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 464MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 480MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 480MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 160MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-Tesla K20Xm @ 496MiB
+NvidiaRuntime-Tesla K20Xm @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
 
 
 ########################
-CUDA-GTX 780 @ 496MiB
+NvidiaRuntime-GTX 780 @ 176MiB
 ########################
 
-adding CUDA: CudaOxxxxx
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 176MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 192MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 208MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 224MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 240MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 256MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 272MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 288MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 304MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 320MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 336MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 352MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 368MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 384MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 400MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 416MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 432MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 448MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 464MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 480MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 496MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+NvidiaRuntime-GTX 780 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 16MiB
+########################
+
+adding OpenCL: Oxxxxx

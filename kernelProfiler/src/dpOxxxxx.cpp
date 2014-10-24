@@ -10,11 +10,11 @@ dpOxxxxx::dpOxxxxx(cl_context ctx, cl_command_queue q){
 	workDimension = ONE_D;
 	name = "Oxxxxx";
 	
-	std::string programSource = getFile("./src/cl/oxxxxx.cl");
+	std::string programSource = getFile("./src/cl/oxxxxx_C.cl");
 	kernelString = programSource.c_str();
 	
 	program = clCreateProgramWithSource(context, 1, (const char **) &kernelString, NULL, &err); clErrChk(err);
-	err = clBuildProgram(program, 0, NULL, "-x clc++", NULL, NULL);
+	err = clBuildProgram(program, 0, NULL, NULL, NULL, NULL);
 	clErrChk(err);
 	programCheck(err, context, program);
 	

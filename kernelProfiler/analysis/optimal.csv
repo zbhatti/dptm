@@ -1,4 +1,66 @@
 kernel/C,device/C,x/I,y/I,z/I,mb/F,time/F
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,496.0,10.840749979
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,176.0,4.22349989414
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,368.0,8.21825003624
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,336.0,7.51099991798
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,352.0,7.87625002861
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,80.0,2.18174993992
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,240.0,5.56275010109
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,432.0,9.54025006294
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,208.0,4.89649999142
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,448.0,9.86975002289
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,224.0,5.25224995613
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,32.0,1.06675001979
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,272.0,6.22600007057
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,112.0,2.84250003099
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,288.0,6.54475009441
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,480.0,10.5350000858
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,384.0,8.5352499485
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,400.0,8.86925005913
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,96.0,2.50624996424
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,416.0,9.20550012589
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,128.0,3.17274999619
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,16.0,0.67840000391
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,16, 1, 1,160.0,3.79500007629
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,256.0,5.88250005245
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,16, 1, 1,192.0,4.52875006199
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,64.0,1.83649998903
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,304.0,6.88274991512
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,32, 1, 1,144.0,3.51049995422
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,48.0,1.42950001359
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,464.0,10.2000000477
+Oxxxxx,NvidiaRuntime - Tesla K20Xm,64, 1, 1,320.0,7.21349990368
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512, 1, 1,496.0,16.470749855
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,176.0,7.0517500639
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,368.0,12.8309998512
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,336.0,11.9897501469
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,352.0,12.7992498875
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,80.0,3.34574997425
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,240.0,8.66875004768
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,432.0,14.9535000324
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,208.0,8.03174984455
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8, 1, 1,448.0,15.3602502346
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,224.0,8.4782500267
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,32.0,2.3042499423
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,272.0,9.87924981117
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,112.0,5.30349993706
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,288.0,10.5197503567
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,480.0,15.1762499809
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,384.0,13.3087499142
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32, 1, 1,400.0,13.7947502136
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,96.0,4.22225004435
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,416.0,14.3732500076
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,128.0,4.97750002146
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,16.0,1.61800003052
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,160.0,6.30075001717
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,256.0,9.82725000381
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,192.0,7.53899991512
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,64.0,3.50850003958
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,304.0,10.6672501564
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,144.0,6.25874996185
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,48.0,3.05249994993
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,464.0,14.7929999828
+Oxxxxx,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,320.0,11.3077502251
 Oxxxxx,CUDA - Tesla K20Xm,1, 1, 1,496.0,8.29400005341
 Oxxxxx,CUDA - Tesla K20Xm,1, 1, 1,176.0,3.00290000439
 Oxxxxx,CUDA - Tesla K20Xm,1, 1, 1,368.0,6.17030000687
@@ -30,6 +92,37 @@ Oxxxxx,CUDA - Tesla K20Xm,1, 1, 1,144.0,2.45879998207
 Oxxxxx,CUDA - Tesla K20Xm,1, 1, 1,48.0,0.870699989796
 Oxxxxx,CUDA - Tesla K20Xm,1, 1, 1,464.0,7.75110001564
 Oxxxxx,CUDA - Tesla K20Xm,1, 1, 1,320.0,5.38240003586
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,496.0,9.31049990654
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,176.0,3.52100002766
+Oxxxxx,NvidiaRuntime - GTX 780,128, 1, 1,368.0,7.01575005054
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,336.0,6.4129999876
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,352.0,6.7215000391
+Oxxxxx,NvidiaRuntime - GTX 780,128, 1, 1,80.0,1.77875000238
+Oxxxxx,NvidiaRuntime - GTX 780,256, 1, 1,240.0,4.68950009346
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,432.0,8.15750002861
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,208.0,4.10374999046
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,448.0,8.46449995041
+Oxxxxx,NvidiaRuntime - GTX 780,128, 1, 1,224.0,4.37674999237
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,32.0,0.732500001788
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,272.0,5.26550006866
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,112.0,2.35449999571
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,288.0,5.55474996567
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,480.0,9.04524993896
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,384.0,7.30050003529
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,400.0,7.59399998188
+Oxxxxx,NvidiaRuntime - GTX 780,128, 1, 1,96.0,2.0680000186
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,416.0,7.88524997234
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,128.0,2.65099996328
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,16.0,0.411000001431
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,160.0,3.22850000858
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,256.0,4.9782500267
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,192.0,3.8125
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,64.0,1.47699996829
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,304.0,5.84675002098
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,144.0,2.94049996138
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,48.0,1.13924998045
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,464.0,8.75475001335
+Oxxxxx,NvidiaRuntime - GTX 780,64, 1, 1,320.0,6.13750016689
 Oxxxxx,CUDA - GTX 780,1, 1, 1,496.0,7.00689997673
 Oxxxxx,CUDA - GTX 780,1, 1, 1,176.0,2.52099997997
 Oxxxxx,CUDA - GTX 780,1, 1, 1,368.0,5.208700037
@@ -61,34 +154,96 @@ Oxxxxx,CUDA - GTX 780,1, 1, 1,144.0,2.06949999332
 Oxxxxx,CUDA - GTX 780,1, 1, 1,48.0,0.724499994516
 Oxxxxx,CUDA - GTX 780,1, 1, 1,464.0,6.55180010796
 Oxxxxx,CUDA - GTX 780,1, 1, 1,320.0,4.53869996071
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,496.0,24.1394001007
-Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,176.0,7.17999992371
-Oxxxxx,AmdRuntime - AMD Firepro W9100,32, 1, 1,368.0,16.1982000351
-Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,336.0,16.0537000656
-Oxxxxx,AmdRuntime - AMD Firepro W9100,32, 1, 1,352.0,17.5296001434
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,80.0,3.27229995728
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,240.0,10.0890999794
-Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,432.0,23.9975000381
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,208.0,9.37459998131
-Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,448.0,21.3582998276
-Oxxxxx,AmdRuntime - AMD Firepro W9100,32, 1, 1,224.0,9.52640008926
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,32.0,0.709899991751
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,272.0,12.1501001358
-Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,112.0,4.52369995117
-Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,288.0,11.2376000404
-Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,480.0,23.7827001572
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,384.0,15.8328999519
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,400.0,17.518900013
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,96.0,3.87699999809
-Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,416.0,21.9982000351
-Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,128.0,5.16310009956
-Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,16.0,0.487199997902
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,160.0,6.90380001068
-Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,256.0,11.1729999542
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,192.0,7.74259991646
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,64.0,2.86470000744
-Oxxxxx,AmdRuntime - AMD Firepro W9100,16, 1, 1,304.0,13.8093998909
-Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,144.0,5.96720004082
-Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,48.0,2.38669998646
-Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,464.0,20.7079000473
-Oxxxxx,AmdRuntime - AMD Firepro W9100,32, 1, 1,320.0,13.6616999626
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,496.0,88.4167499542
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,176.0,24.8914999962
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,368.0,81.8797512054
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16, 1, 1,336.0,58.3107509613
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,352.0,71.2660017014
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,80.0,13.167750001
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,240.0,44.9822511673
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,432.0,90.844499588
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,208.0,43.5422506332
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,448.0,89.236749649
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,224.0,33.2939996719
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,32.0,3.31024998426
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,272.0,48.4479990005
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,112.0,17.0844997168
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,288.0,49.9895000458
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,480.0,96.611000061
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,384.0,79.4957504272
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,400.0,90.2392482758
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256, 1, 1,96.0,11.6095001698
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,416.0,78.7687492371
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16, 1, 1,128.0,11.3600001335
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,16.0,1.34360003471
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,160.0,26.2259995937
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,256.0,48.9964990616
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,16, 1, 1,192.0,32.146999836
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,64.0,13.9447498322
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,304.0,56.1247501373
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,144.0,21.3079996109
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,48.0,5.66074997187
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,464.0,89.9197502136
+Oxxxxx,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,320.0,62.4802494049
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,496.0,337.361747742
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16, 1, 1,176.0,123.142749786
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,368.0,253.726501465
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32, 1, 1,336.0,232.573497772
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,352.0,243.558002472
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8, 1, 1,80.0,63.2994995117
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512, 1, 1,240.0,166.168750763
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512, 1, 1,432.0,294.767753601
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,208.0,147.908748627
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1024, 1, 1,448.0,305.271003723
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,224.0,156.728248596
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128, 1, 1,32.0,28.1120004654
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32, 1, 1,272.0,189.84349823
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16, 1, 1,112.0,85.7339992523
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,288.0,200.290248871
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1024, 1, 1,480.0,324.645751953
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128, 1, 1,384.0,262.678504944
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256, 1, 1,400.0,272.34299469
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512, 1, 1,96.0,73.5189990997
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256, 1, 1,416.0,284.756996155
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256, 1, 1,128.0,95.0469989777
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1, 1, 1,16.0,18.1830000877
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,32, 1, 1,160.0,115.955249786
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,256.0,181.180999756
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,16, 1, 1,192.0,137.78175354
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256, 1, 1,64.0,49.2512493134
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128, 1, 1,304.0,207.529750824
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,64, 1, 1,144.0,104.281000137
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,256, 1, 1,48.0,37.6054992676
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512, 1, 1,464.0,314.608505249
+Oxxxxx,IntelRuntime - Intel Xeon Phi coprocessor x100 family,128, 1, 1,320.0,221.177997589
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,496.0,24.7380715779
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,176.0,7.60442852974
+Oxxxxx,AmdRuntime - AMD Firepro W9100,32, 1, 1,368.0,17.5863571167
+Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,336.0,15.8973573276
+Oxxxxx,AmdRuntime - AMD Firepro W9100,32, 1, 1,352.0,16.8026429585
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,80.0,3.39464281287
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,240.0,10.4781428746
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,432.0,24.1432142939
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,208.0,9.1260000297
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,448.0,22.2169284821
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,224.0,9.9172143255
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,32.0,0.755142850535
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,272.0,13.4524287496
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,112.0,4.79828565461
+Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,288.0,13.1073572976
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,480.0,25.9674287524
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,384.0,18.0332857541
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,400.0,18.6176428114
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,96.0,4.12435715539
+Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,416.0,21.2289999553
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,128.0,6.01457146236
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,16.0,0.525999999046
+Oxxxxx,AmdRuntime - AMD Firepro W9100,128, 1, 1,160.0,6.87199997902
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,256.0,10.967428548
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,192.0,7.77614280156
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,64.0,2.96935714994
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,304.0,14.2265713555
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,144.0,6.0180714471
+Oxxxxx,AmdRuntime - AMD Firepro W9100,256, 1, 1,48.0,2.44714283943
+Oxxxxx,AmdRuntime - AMD Firepro W9100,64, 1, 1,464.0,21.8938572747
+Oxxxxx,AmdRuntime - AMD Firepro W9100,32, 1, 1,320.0,13.6395000049
