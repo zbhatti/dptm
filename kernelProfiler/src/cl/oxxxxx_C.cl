@@ -1,5 +1,4 @@
 #pragma OPENCL EXTENSION cl_khr_fp64 : enable
-//#include "/home/zxb0111/dptm/kernelProfiler/include/cmplx.h"
 
 #define cmplx a_cmplx_t
 
@@ -13,7 +12,7 @@ void oxxxxx(double* p, double fmass, int nhel, int nsf, cmplx* fo){
 	
 	cmplx tst = {124.1, 124.412};
 	fo[4].re = p[0]*nsf; 
-	fo[4].im=p[3]*nsf;
+	fo[4].im = p[3]*nsf;
 	
 	fo[5].re = p[1]*nsf; 
 	fo[5].re=p[2]*nsf;

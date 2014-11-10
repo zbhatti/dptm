@@ -17,6 +17,7 @@ dpComputation.cpp \
 dpMemory.cpp \
 dpMatrixTranspose.cpp \
 dpOxxxxx.cpp \
+dpUux3a.cpp \
 dpVectorAdd.cpp \
 dpLUDecomposition.cpp \
 dpNBody.cpp \
@@ -34,6 +35,7 @@ dpCudaVectorAdd.cpp \
 dpCudaMatrixTranspose.cpp \
 dpCudaMatrixMultiplication.cpp \
 dpCudaOxxxxx.cpp \
+dpCudaUux3a.cpp \
 dpFloydWarshall.cpp \
 dpFluidSimulation.cpp \
 dpArray3dAverage.cpp \
@@ -115,6 +117,9 @@ obj/dpNBody.o: src/dpNBody.cpp
 
 obj/dpOxxxxx.o: src/dpOxxxxx.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 
+	
+obj/dpUux3a.o: src/dpUux3a.cpp
+	g++ $(CFLAGS) $(IDIR) -o $@ $< 
 
 obj/dpReduction.o: src/dpReduction.cpp
 	g++ $(CFLAGS) $(IDIR) -o $@ $< 	
@@ -154,6 +159,9 @@ obj/dpCudaComputation.o: src/dpCudaComputation.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 	
 obj/dpCudaOxxxxx.o: src/dpCudaOxxxxx.cu
+	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
+	
+obj/dpCudaUux3a.o: src/dpCudaUux3a.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 	
 #HELPER FUNCTIONS:

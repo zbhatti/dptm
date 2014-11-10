@@ -11,13 +11,15 @@ struct a_cmplx_t {
   
 	__host__ __device__ a_cmplx_t() {}
 	__host__ __device__ a_cmplx_t(a_float_t x, a_float_t y) { re = x; im = y; }
+
 	__host__ __device__ a_cmplx_t(a_float_t x)  { re = x; im = 0; }
 	__host__ __device__ a_cmplx_t(const a_cmplx_t& c)  { re = c.re; im = c.im; }
-  __host__ __device__
+ 
   __host__ __device__ a_cmplx_t& operator=(const a_float_t& x) { re  = x; im = 0; return *this;}
   __host__ __device__ a_cmplx_t& operator=(const a_cmplx_t& c) { re = c.re; im = c.im; return *this;}
 };
 
+inline __host__ __device__ a_cmplx_t mkcmplx(a_float_t x, a_float_t y) { return cmplx(x,y);}
 
 inline __host__ __device__ a_float_t real(a_cmplx_t a) { return a.re;}
 

@@ -14,6 +14,7 @@
 #include "dpArray3dAverage.hpp"
 #include "dpMonteCarloAsian.hpp"
 #include "dpOxxxxx.hpp"
+#include "dpUux3a.hpp"
 #include "dpReduction.hpp"
 #include "dpEmpty.hpp"
 #include "dpNoMemory.hpp"
@@ -28,6 +29,7 @@
 #include "dpCudaEmpty.hpp"
 #include "dpCudaNoMemory.hpp"
 #include "dpCudaOxxxxx.hpp"
+#include "dpCudaUux3a.hpp"
 
 #ifndef __dpKernelFactory_H_INCLUDED__
 #define __dpKernelFactory_H_INCLUDED__
@@ -86,6 +88,9 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 		
 		if (!name.compare("Oxxxxx"))
 			return new dpOxxxxx(context,queue);
+			
+		if (!name.compare("Uux3a"))
+			return new dpUux3a(context,queue);
 		
 		if(!name.compare("Array3dAverage"))
 			return new dpArray3dAverage(context,queue);
@@ -121,6 +126,9 @@ dpKernel* dpKernelFactory::makeTask(std::string name, cl_context context, cl_com
 			
 		if (!name.compare("CudaOxxxxx"))
 			return new dpCudaOxxxxx(context, queue);
+
+		if (!name.compare("CudaUux3a"))
+			return new dpCudaUux3a(context, queue);
 			
 		else	//need better return case here
 			return new dpSquareArray(context, queue);
