@@ -4,9 +4,9 @@
 #define __dpUux3a_H_INCLUDED__
 
 class dpUux3a: public dpKernel{
-	cl_mem eventsP_d, Fo_d;
-	float *eventsP; // P is .. double; P is array of 4 ..double; P is array of 4 pointer to double
-	cmplx *Fo;
+	cl_mem eventsP_d, Amp_d;
+	float *eventsP; 
+	cmplx *Amp;
 	int nEvents, inputBytes, outputBytes;
 	
 	public:

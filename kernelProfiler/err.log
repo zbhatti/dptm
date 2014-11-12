@@ -1,5542 +1,1124 @@
-On Platform NvidiaRuntime
+On Platform CUDA
 using device Tesla K20Xm
-On Platform NvidiaRuntime
+On Platform CUDA
 using device GTX 780
-On Platform AmdRuntime
-using device AMD Firepro W9100
-On Platform AmdRuntime
-using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
-On Platform IntelRuntime
-using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
-On Platform IntelRuntime
-using device Intel Xeon Phi coprocessor x100 family
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 8MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 72MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 136MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 200MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 264MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 328MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 392MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 456MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 520MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 584MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 648MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 712MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 776MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 840MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 904MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 968MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 8MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 72MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 136MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 200MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 264MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 328MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 392MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 456MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
+CUDA-Tesla K20Xm @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 520MiB
+CUDA-GTX 780 @ 8MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
+CUDA-Tesla K20Xm @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
+CUDA-GTX 780 @ 72MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
+CUDA-Tesla K20Xm @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
+CUDA-GTX 780 @ 136MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
+CUDA-Tesla K20Xm @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 584MiB
+CUDA-GTX 780 @ 200MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
+CUDA-Tesla K20Xm @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
+CUDA-GTX 780 @ 264MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
+CUDA-Tesla K20Xm @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
+CUDA-GTX 780 @ 328MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
+CUDA-Tesla K20Xm @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-NvidiaRuntime-GTX 780 @ 648MiB
+CUDA-GTX 780 @ 392MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
+CUDA-Tesla K20Xm @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a
 
 
 ########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
+CUDA-GTX 780 @ 456MiB
 ########################
 
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 520MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 584MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 648MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 712MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 776MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 840MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 904MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 968MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-Tesla K20Xm @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-NvidiaRuntime-GTX 780 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-AMD Firepro W9100 @ 200MiB
-########################
-
-adding OpenCL: Uux3a
-
-
-########################
-AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
-########################
-
-adding OpenCL: Uux3a
+adding CUDA: CudaUux3a

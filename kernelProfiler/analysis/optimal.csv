@@ -1,129 +1,65 @@
 kernel/C,device/C,x/I,y/I,z/I,mb/F,time/F
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,455.0,0.347874995321
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,520.0,0.358124997467
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,135.0,0.313000003497
-Uux3a,NvidiaRuntime - Tesla K20Xm,64, 1, 1,7.0,0.214222219255
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,840.0,0.41562499851
-Uux3a,NvidiaRuntime - Tesla K20Xm,256, 1, 1,391.0,0.341874994338
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,711.0,0.385749995708
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,71.0,0.298555556271
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,967.0,0.425875004381
-Uux3a,NvidiaRuntime - Tesla K20Xm,256, 1, 1,263.0,0.330624997616
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,775.0,0.389499999583
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,647.0,0.383374996483
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,903.0,0.419250007719
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,200.0,0.319555554125
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,583.0,0.368374995887
-Uux3a,NvidiaRuntime - Tesla K20Xm,512, 1, 1,327.0,0.340500000864
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128, 1, 1,455.0,0.602249994874
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,520.0,0.435249997303
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,135.0,0.279222220182
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,7.0,0.03333333383
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,840.0,0.513250000775
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,391.0,0.273250000551
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,711.0,0.497250009328
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,71.0,0.231999998291
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,967.0,0.401124997064
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2048, 1, 1,263.0,0.422374995425
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,775.0,0.388375004753
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,647.0,0.469624996185
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,903.0,0.532374996692
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4096, 1, 1,200.0,0.243125000969
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,583.0,0.353625005111
-Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,8192, 1, 1,327.0,0.245124997571
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,455.0,0.126200002432
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,520.0,0.136600001156
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,135.0,0.0763000011444
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,7.0,0.0336000008509
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,840.0,0.189699999988
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,391.0,0.117199998349
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,711.0,0.165200001001
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,71.0,0.0661000005901
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,967.0,0.204599997401
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,263.0,0.0978000000119
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,775.0,0.17539999783
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,647.0,0.156500004232
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,903.0,0.195499999821
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,200.0,0.0864999994636
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,583.0,0.14619999826
-Uux3a,CUDA - Tesla K20Xm,1, 1, 1,327.0,0.106899999827
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,455.0,0.0993750002235
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,520.0,0.110000001267
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,135.0,0.0634444438749
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,7.0,0.0186666660011
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,840.0,0.146250002086
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,391.0,0.0949999988079
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,711.0,0.130750000477
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,71.0,0.0579999995728
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,967.0,0.162375001237
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,263.0,0.0820000004023
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,775.0,0.137375000864
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,647.0,0.12612500228
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,903.0,0.152125000954
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,200.0,0.0713333330221
-Uux3a,NvidiaRuntime - GTX 780,256, 1, 1,583.0,0.116749999113
-Uux3a,NvidiaRuntime - GTX 780,512, 1, 1,327.0,0.0878750002012
-Uux3a,CUDA - GTX 780,1, 1, 1,455.0,0.1160999991
-Uux3a,CUDA - GTX 780,1, 1, 1,520.0,0.125800000131
-Uux3a,CUDA - GTX 780,1, 1, 1,135.0,0.0700000017881
-Uux3a,CUDA - GTX 780,1, 1, 1,7.0,0.0281000003219
-Uux3a,CUDA - GTX 780,1, 1, 1,840.0,0.16819999963
-Uux3a,CUDA - GTX 780,1, 1, 1,391.0,0.110499998927
-Uux3a,CUDA - GTX 780,1, 1, 1,711.0,0.151199997962
-Uux3a,CUDA - GTX 780,1, 1, 1,71.0,0.0617000002414
-Uux3a,CUDA - GTX 780,1, 1, 1,967.0,0.186200001836
-Uux3a,CUDA - GTX 780,1, 1, 1,263.0,0.0891000002623
-Uux3a,CUDA - GTX 780,1, 1, 1,775.0,0.159799996018
-Uux3a,CUDA - GTX 780,1, 1, 1,647.0,0.141800004244
-Uux3a,CUDA - GTX 780,1, 1, 1,903.0,0.178200002015
-Uux3a,CUDA - GTX 780,1, 1, 1,200.0,0.0790000014007
-Uux3a,CUDA - GTX 780,1, 1, 1,583.0,0.132500000298
-Uux3a,CUDA - GTX 780,1, 1, 1,327.0,0.0980999998748
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256, 1, 1,455.0,172.646623611
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512, 1, 1,520.0,193.625997543
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256, 1, 1,135.0,53.651444753
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128, 1, 1,7.0,4.26388888889
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512, 1, 1,840.0,311.606498718
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,256, 1, 1,391.0,148.342376709
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512, 1, 1,711.0,264.865379333
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64, 1, 1,71.0,30.5814444224
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512, 1, 1,967.0,357.917873383
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,32, 1, 1,263.0,101.744999886
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,64, 1, 1,775.0,288.949375153
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128, 1, 1,647.0,242.383499146
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512, 1, 1,903.0,336.349502563
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128, 1, 1,200.0,76.8467493057
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,128, 1, 1,583.0,218.092498779
-Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,512, 1, 1,327.0,123.808623314
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,455.0,1.91762499511
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,520.0,1.99499998987
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,135.0,1.09033332268
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,7.0,0.451222227679
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,840.0,2.56474998593
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,391.0,1.71800000966
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,711.0,2.34824997187
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,71.0,0.728222224447
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,967.0,2.69462499022
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,263.0,1.56337499619
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,775.0,2.50050002337
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,647.0,2.34937500954
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,903.0,2.76374995708
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,200.0,1.30850000679
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,583.0,2.08475004137
-Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,8192, 1, 1,327.0,1.69462497532
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,455.0,0.594999991357
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,520.0,0.607749998569
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,135.0,0.454777783818
-Uux3a,AmdRuntime - AMD Firepro W9100,32, 1, 1,7.0,0.302111112409
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,840.0,0.785375006497
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,391.0,0.571874991059
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,711.0,0.720749996603
-Uux3a,AmdRuntime - AMD Firepro W9100,128, 1, 1,71.0,0.415333333943
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,967.0,0.788375005126
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,263.0,0.572999998927
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,775.0,0.774374991655
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,647.0,0.737750008702
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,903.0,0.795249998569
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,200.0,0.473000006543
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,583.0,0.638499990106
-Uux3a,AmdRuntime - AMD Firepro W9100,256, 1, 1,327.0,0.575374994427
+Uux3a,NvidiaRuntime - Tesla K20Xm,1, 1, 1,455.0,246.004998779
+Uux3a,NvidiaRuntime - Tesla K20Xm,1, 1, 1,135.0,73.6687988281
+Uux3a,NvidiaRuntime - Tesla K20Xm,1, 1, 1,7.0,4.63580007553
+Uux3a,NvidiaRuntime - Tesla K20Xm,2, 1, 1,391.0,107.495201111
+Uux3a,NvidiaRuntime - Tesla K20Xm,2, 1, 1,71.0,20.1379997253
+Uux3a,NvidiaRuntime - Tesla K20Xm,4, 1, 1,263.0,37.3351997375
+Uux3a,NvidiaRuntime - Tesla K20Xm,32, 1, 1,200.0,8.58020000458
+Uux3a,NvidiaRuntime - Tesla K20Xm,1, 1, 1,327.0,177.017401123
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,455.0,166.760800171
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,135.0,53.026600647
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,7.0,4.27680006027
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,391.0,140.201000977
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,71.0,28.8158004761
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,263.0,95.3736022949
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,200.0,17.526599884
+Uux3a,IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,327.0,123.412399292
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,455.0,3.09990000725
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,135.0,0.967399990559
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,7.0,0.0912000015378
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,391.0,2.67240002155
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,71.0,0.540900009871
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,263.0,1.82109998465
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,200.0,1.39310003519
+Uux3a,CUDA - Tesla K20Xm,1, 1, 1,327.0,2.24539997578
+Uux3a,NvidiaRuntime - GTX 780,1, 1, 1,455.0,267.87800293
+Uux3a,NvidiaRuntime - GTX 780,1, 1, 1,135.0,82.3551986694
+Uux3a,NvidiaRuntime - GTX 780,1, 1, 1,7.0,4.87640008926
+Uux3a,NvidiaRuntime - GTX 780,2, 1, 1,391.0,108.197599792
+Uux3a,NvidiaRuntime - GTX 780,2, 1, 1,71.0,22.3394001007
+Uux3a,NvidiaRuntime - GTX 780,4, 1, 1,263.0,41.2278007507
+Uux3a,NvidiaRuntime - GTX 780,32, 1, 1,200.0,7.94280004501
+Uux3a,NvidiaRuntime - GTX 780,1, 1, 1,327.0,194.520599365
+Uux3a,CUDA - GTX 780,1, 1, 1,455.0,2.63339998722
+Uux3a,CUDA - GTX 780,1, 1, 1,135.0,0.824800002575
+Uux3a,CUDA - GTX 780,1, 1, 1,7.0,0.0751999996603
+Uux3a,CUDA - GTX 780,1, 1, 1,391.0,2.27300000191
+Uux3a,CUDA - GTX 780,1, 1, 1,71.0,0.462999999523
+Uux3a,CUDA - GTX 780,1, 1, 1,263.0,1.54639999866
+Uux3a,CUDA - GTX 780,1, 1, 1,200.0,1.18810002804
+Uux3a,CUDA - GTX 780,1, 1, 1,327.0,1.91009999514
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,455.0,242.617202759
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,135.0,76.6055999756
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,7.0,8.15939998627
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,391.0,187.269796753
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,2, 1, 1,71.0,36.9490013123
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,4, 1, 1,263.0,120.888200378
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1024, 1, 1,200.0,75.929800415
+Uux3a,AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz,1, 1, 1,327.0,180.847000122
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1, 1, 1,455.0,211.229199219
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1, 1, 1,135.0,67.2407989502
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1, 1, 1,7.0,8.07419986725
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2, 1, 1,391.0,163.529602051
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,2, 1, 1,71.0,34.6350006104
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,4, 1, 1,263.0,110.627998352
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,512, 1, 1,200.0,30.0498001099
+Uux3a,IntelRuntime - Intel Xeon Phi coprocessor x100 family,1, 1, 1,327.0,152.734994507
+Uux3a,AmdRuntime - AMD Firepro W9100,64, 1, 1,455.0,6.12220001221
+Uux3a,AmdRuntime - AMD Firepro W9100,128, 1, 1,135.0,2.21119999886
+Uux3a,AmdRuntime - AMD Firepro W9100,64, 1, 1,7.0,0.590400004387
+Uux3a,AmdRuntime - AMD Firepro W9100,64, 1, 1,391.0,5.21400003433
+Uux3a,AmdRuntime - AMD Firepro W9100,128, 1, 1,71.0,1.49919998646
+Uux3a,AmdRuntime - AMD Firepro W9100,64, 1, 1,263.0,3.6742000103
+Uux3a,AmdRuntime - AMD Firepro W9100,64, 1, 1,200.0,2.94440002441
+Uux3a,AmdRuntime - AMD Firepro W9100,64, 1, 1,327.0,4.5297999382

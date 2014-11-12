@@ -34,11 +34,11 @@ void dpUux3a::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 void dpUux3a::init(){
 	//allocate local memory for original array
 	eventsP = new float[5*4*nEvents]; //4 momentum for each of the 5 particles in an event. nEevents
-	Fo = new cmplx[8*6*nEvents]; //6 complex "w" for each of the 8 outputes of an event. nEvents
+	Amp = new cmplx[nEvents]; //complex "ampsum" for each event. nEvents
 	inputBytes = 5*4*nEvents*sizeof(float);
-	outputBytes = 8*6*nEvents*sizeof(cmplx);
+	outputBytes = nEvents*sizeof(cmplx);
 	
-	if(!eventsP || !Fo)
+	if(!eventsP || !Amp)
 		fprintf(stderr, "error in malloc\n");
 	
 	generateArray(eventsP, nEvents);
@@ -49,7 +49,7 @@ void dpUux3a::init(){
 
 void dpUux3a::memoryCopyOut(){
 	eventsP_d = clCreateBuffer(context, CL_MEM_READ_WRITE, inputBytes, NULL, &err); clErrChk(err);
-	//Fo_d = clCreateBuffer(context, CL_MEM_READ_WRITE, outputBytes, NULL, &err); clErrChk(err);
+	Amp_d = clCreateBuffer(context, CL_MEM_READ_WRITE, outputBytes, NULL, &err); clErrChk(err);
 
 	clErrChk(clEnqueueWriteBuffer(queue, eventsP_d, CL_TRUE, 0, inputBytes, eventsP, 0, NULL, NULL));
 	clErrChk(clFinish(queue));
@@ -58,14 +58,10 @@ void dpUux3a::memoryCopyOut(){
 
 void dpUux3a::plan(){
 	clErrChk(clSetKernelArg(kernel, 0, sizeof(cl_mem), (void*) &eventsP_d));
-	clErrChk(clSetKernelArg(kernel, 1, sizeof(int), &nEvents));
-	
-	
+	clErrChk(clSetKernelArg(kernel, 1, sizeof(cl_mem), (void*) &Amp_d));
+	clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &nEvents));
 	
 	globalSize[0] = nEvents;
-	
-	if (globalSize[0] % localSize[0] != 0)
-		globalSize[0] = (( (int) globalSize[0]/(int)localSize[0]) + 1)*(int)localSize[0];
 }
 
 int dpUux3a::execute(){
@@ -78,7 +74,7 @@ int dpUux3a::execute(){
 }
 
 void dpUux3a::memoryCopyIn(){
-	//clErrChk(clEnqueueReadBuffer(queue, Fo_d, CL_TRUE, 0, Psize*sizeof(cmplx)*6, Fo, 0, NULL, NULL));
+	clErrChk(clEnqueueReadBuffer(queue, Amp_d, CL_TRUE, 0, outputBytes, Amp, 0, NULL, NULL));
 	clErrChk(clFinish(queue));
 }
 
@@ -86,9 +82,9 @@ void dpUux3a::cleanUp(){
 	clErrChk(clReleaseKernel(kernel));
 	clErrChk(clReleaseProgram(program));
 	clErrChk(clReleaseMemObject(eventsP_d));
-	//clErrChk(clReleaseMemObject(Fo_d));
+	clErrChk(clReleaseMemObject(Amp_d));
 	delete[] eventsP;
-	delete[] Fo;
+	delete[] Amp;
 }
 
 void dpUux3a::generateArray(float *eventsP, int nEvents){

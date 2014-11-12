@@ -167,7 +167,7 @@ void fvixx0(cmplx* fi, cmplx* vc, float* gal, cmplx* fvi)
 // Each thread has 5 particles that have a 4momentum description
 // No ouput
 
-__kernel void Uux3a(__global const float *P_d, int nEvents){
+__kernel void Uux3a(__global const float *P_d, __global cmplx* Amp_d, int nEvents){
 	
 	int idx = get_global_id(0);
 	
@@ -233,5 +233,7 @@ __kernel void Uux3a(__global const float *P_d, int nEvents){
 	fvoxx0(w02,w04,gau,w06);
 	iovxxx(w07,w06,w05,gau,&amp);
 	ampsum = ADD(ampsum, amp);
+	
+	Amp_d[idx] = ampsum;
 	
 }

@@ -120,15 +120,16 @@ void fvixx0(cmplx* fi, cmplx* vc, float* gal, cmplx* fvi)
 }
 
 // Each thread corresponds to an event
-// Each thread has 5 particles that have a 4momentum description
-// No ouput
+// Each thread takes 5 float arrays of size 4 each
+// Each thread saves 8 complex arrays of size 6 each
 
-__global__ void Uux3a(float *P_d, int nEvents){
+__global__ void Uux3a(float *P_d, cmplx *Amp_d, int nEvents){
 
 	int idx = blockIdx.x * blockDim.x + threadIdx.x;
+	
 	if (idx > nEvents)
 		return;
-	
+
 	//first term gets us to the correct event in P_d, the second one gets us the corresponding 4momentum for each particle
 	float *p1 = &P_d[idx*5*4 + 4*0];
 	float *p2 = &P_d[idx*5*4 + 4*1];
@@ -174,22 +175,35 @@ __global__ void Uux3a(float *P_d, int nEvents){
 	iovxxx(w07,w06,w05,gau,amp);
 	ampsum = ampsum + amp;
 	
+	
+	
 	fvoxx0(w02,w04,gau,w06);
 	fvixx0(w01,w05,gau,w07);
 	iovxxx(w07,w06,w03,gau,amp);
 	ampsum = ampsum + amp;
+	
 	
 	fvixx0(w01,w03,gau,w07);
 	fvixx0(w07,w04,gau,w08);
 	iovxxx(w08,w02,w05,gau,amp);
 	ampsum = ampsum + amp;
 	
+	
 	fvixx0(w01,w03,gau,w07);
 	fvoxx0(w02,w04,gau,w06);
 	iovxxx(w07,w06,w05,gau,amp);
 	ampsum = ampsum + amp;
 	
-}
+	
+	
+	//for some reason copying ampsum is causing errors
+	float re = ampsum.re;
+	float im = ampsum.im;
+	
+	//Amp_d[idx] = mkcmplx(0.0f, 0.0f);
+	Amp_d[idx] = mkcmplx(P_d[idx*5*4 + 4*0], P_d[idx*5*4 + 4*1]);
+
+}                               
 
 //notice unused parameters for CUDA kernel:
 dpCudaUux3a::dpCudaUux3a(cl_context ctx, cl_command_queue q){
@@ -218,12 +232,13 @@ void dpCudaUux3a::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 
 void dpCudaUux3a::init(){
 	//allocate local memory for original array
-	eventsP = new float[5*4*nEvents]; //4 momentum for each of the 5 particles in an event. nEevents
-	Fo = new cmplx[8*6*nEvents]; //6 complex "w" for each of the 8 outputes of an event. nEvents
 	inputBytes = 5*4*nEvents*sizeof(float);
-	outputBytes = 8*6*nEvents*sizeof(cmplx);
+	outputBytes = nEvents*sizeof(cmplx);
 	
-	if(!eventsP || !Fo)
+	eventsP = (float*) malloc(inputBytes); //4 momentum for each of the 5 particles in an event. nEevents
+	Amp = (cmplx*) malloc(outputBytes); //Amp = new cmplx[nEvents]; //6 complex "w" for each of the 8 outputes of an event. nEvents
+	
+	if(!eventsP || !Amp)
 		fprintf(stderr, "error in malloc\n");
 	
 	generateArray(eventsP, nEvents);
@@ -236,7 +251,7 @@ void dpCudaUux3a::init(){
 void dpCudaUux3a::memoryCopyOut(){
 	BEGIN
 	cudaErrChk( cudaMalloc((void **) &eventsP_d, inputBytes ));
-	//cudaErrChk( cudaMalloc((void **) &Fo_d, outputBytes ));
+	cudaErrChk( cudaMalloc((void **) &Amp_d, outputBytes ));
 	cudaErrChk( cudaMemcpy(eventsP_d, eventsP, inputBytes, cudaMemcpyHostToDevice) );
 	END
 }
@@ -267,10 +282,10 @@ int dpCudaUux3a::execute(){
 	
 	BEGIN
 	for (int i = 0; i < nKernels; i++){
-		Uux3a <<< nBlocks, blockSize >>> (eventsP_d + (i*stride), nEvents - (i*stride));
+		Uux3a <<< nBlocks, blockSize >>> (eventsP_d + (i*stride), Amp_d + (i*stride), nEvents - (i*stride));
 	}
 	if (lastBlock != 0){
-		Uux3a <<<lastBlock, blockSize >>> (eventsP_d + (nKernels*lastStride), nEvents - (nKernels*lastStride));
+		Uux3a <<<lastBlock, blockSize >>> (eventsP_d + (nKernels*lastStride), Amp_d + (nKernels*lastStride), nEvents - (nKernels*lastStride) );
 	}
 	err = cudaPeekAtLastError();
 	cudaErrChk(err);
@@ -283,15 +298,15 @@ int dpCudaUux3a::execute(){
 
 void dpCudaUux3a::memoryCopyIn(){
 	BEGIN
-	//cudaErrChk(cudaMemcpy(Fo, Fo_d, outputBytes, cudaMemcpyDeviceToHost));
+	cudaErrChk(cudaMemcpy(Amp, Amp_d, outputBytes, cudaMemcpyDeviceToHost));
 	END
 }
 
 void dpCudaUux3a::cleanUp(){
 	cudaFree(eventsP_d);
-	//cudaFree(Fo_d);
+	cudaFree(Amp_d);
 	delete[] eventsP;
-	delete[] Fo;
+	free(Amp);
 }
 
 //5 particles each described by their four-momentum for each event,

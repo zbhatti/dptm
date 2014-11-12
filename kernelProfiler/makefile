@@ -162,7 +162,7 @@ obj/dpCudaOxxxxx.o: src/dpCudaOxxxxx.cu
 	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
 	
 obj/dpCudaUux3a.o: src/dpCudaUux3a.cu
-	nvcc $(NVCCFLAGS) $(INCCUDA) -o $@ $< 
+	nvcc -v -c $(INCCUDA) -o $@ $< 
 	
 #HELPER FUNCTIONS:
 obj/errorCheck.o: src/errorCheck.cpp

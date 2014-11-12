@@ -11,7 +11,7 @@ class dpCudaUux3a: public dpKernel{
 	
 	int nEvents, blockSize, nBlocks, outputBytes, inputBytes;
 	float *eventsP, *eventsP_d;
-	cmplx *Fo, *Fo_d;
+	cmplx *Amp, *Amp_d;
 	int device;
 	cudaEvent_t begin, end;
 	float delTime;

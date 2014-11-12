@@ -2,146 +2,74 @@
 ########## Uux3a ##########
 
 ----- 7MiB -----
-NvidiaRuntime - GTX 780, 0.02ms
-CUDA - GTX 780, 0.03ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.03ms
-CUDA - Tesla K20Xm, 0.03ms
-NvidiaRuntime - Tesla K20Xm, 0.21ms
-AmdRuntime - AMD Firepro W9100, 0.30ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 0.45ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 4.26ms
-
------ 71MiB -----
-CUDA - GTX 780, 0.06ms
-CUDA - Tesla K20Xm, 0.07ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.23ms
-NvidiaRuntime - Tesla K20Xm, 0.30ms
-AmdRuntime - AMD Firepro W9100, 0.42ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 0.73ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 30.58ms
-
------ 135MiB -----
-CUDA - GTX 780, 0.07ms
-CUDA - Tesla K20Xm, 0.08ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.28ms
-NvidiaRuntime - Tesla K20Xm, 0.31ms
-AmdRuntime - AMD Firepro W9100, 0.45ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 1.09ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 53.65ms
-
------ 200MiB -----
 CUDA - GTX 780, 0.08ms
 CUDA - Tesla K20Xm, 0.09ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.24ms
-NvidiaRuntime - Tesla K20Xm, 0.32ms
-AmdRuntime - AMD Firepro W9100, 0.47ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 1.31ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 76.85ms
+AmdRuntime - AMD Firepro W9100, 0.59ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 4.28ms
+NvidiaRuntime - Tesla K20Xm, 4.64ms
+NvidiaRuntime - GTX 780, 4.88ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 8.07ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 8.16ms
+
+----- 71MiB -----
+CUDA - Tesla K20Xm, 0.54ms
+AmdRuntime - AMD Firepro W9100, 1.50ms
+NvidiaRuntime - Tesla K20Xm, 20.14ms
+NvidiaRuntime - GTX 780, 22.34ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 28.82ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 34.64ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 36.95ms
+
+----- 135MiB -----
+CUDA - Tesla K20Xm, 0.97ms
+AmdRuntime - AMD Firepro W9100, 2.21ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 53.03ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 67.24ms
+NvidiaRuntime - Tesla K20Xm, 73.67ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 76.61ms
+NvidiaRuntime - GTX 780, 82.36ms
+
+----- 200MiB -----
+CUDA - Tesla K20Xm, 1.39ms
+AmdRuntime - AMD Firepro W9100, 2.94ms
+NvidiaRuntime - GTX 780, 7.94ms
+NvidiaRuntime - Tesla K20Xm, 8.58ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 17.53ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 30.05ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 75.93ms
 
 ----- 263MiB -----
-CUDA - GTX 780, 0.09ms
-CUDA - Tesla K20Xm, 0.10ms
-NvidiaRuntime - Tesla K20Xm, 0.33ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.42ms
-AmdRuntime - AMD Firepro W9100, 0.57ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 1.56ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 101.74ms
+CUDA - Tesla K20Xm, 1.82ms
+AmdRuntime - AMD Firepro W9100, 3.67ms
+NvidiaRuntime - Tesla K20Xm, 37.34ms
+NvidiaRuntime - GTX 780, 41.23ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 95.37ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 110.63ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 120.89ms
 
 ----- 327MiB -----
-CUDA - GTX 780, 0.10ms
-CUDA - Tesla K20Xm, 0.11ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.25ms
-NvidiaRuntime - Tesla K20Xm, 0.34ms
-AmdRuntime - AMD Firepro W9100, 0.58ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 1.69ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 123.81ms
+CUDA - Tesla K20Xm, 2.25ms
+AmdRuntime - AMD Firepro W9100, 4.53ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 123.41ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 152.73ms
+NvidiaRuntime - Tesla K20Xm, 177.02ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 180.85ms
+NvidiaRuntime - GTX 780, 194.52ms
 
 ----- 391MiB -----
-CUDA - GTX 780, 0.11ms
-CUDA - Tesla K20Xm, 0.12ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.27ms
-NvidiaRuntime - Tesla K20Xm, 0.34ms
-AmdRuntime - AMD Firepro W9100, 0.57ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 1.72ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 148.34ms
+CUDA - Tesla K20Xm, 2.67ms
+AmdRuntime - AMD Firepro W9100, 5.21ms
+NvidiaRuntime - Tesla K20Xm, 107.50ms
+NvidiaRuntime - GTX 780, 108.20ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 140.20ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 163.53ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 187.27ms
 
 ----- 455MiB -----
-CUDA - GTX 780, 0.12ms
-CUDA - Tesla K20Xm, 0.13ms
-NvidiaRuntime - Tesla K20Xm, 0.35ms
-AmdRuntime - AMD Firepro W9100, 0.59ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.60ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 1.92ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 172.65ms
-
------ 520MiB -----
-CUDA - GTX 780, 0.13ms
-CUDA - Tesla K20Xm, 0.14ms
-NvidiaRuntime - Tesla K20Xm, 0.36ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.44ms
-AmdRuntime - AMD Firepro W9100, 0.61ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 1.99ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 193.63ms
-
------ 583MiB -----
-CUDA - GTX 780, 0.13ms
-CUDA - Tesla K20Xm, 0.15ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.35ms
-NvidiaRuntime - Tesla K20Xm, 0.37ms
-AmdRuntime - AMD Firepro W9100, 0.64ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 2.08ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 218.09ms
-
------ 647MiB -----
-CUDA - GTX 780, 0.14ms
-CUDA - Tesla K20Xm, 0.16ms
-NvidiaRuntime - Tesla K20Xm, 0.38ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.47ms
-AmdRuntime - AMD Firepro W9100, 0.74ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 2.35ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 242.38ms
-
------ 711MiB -----
-CUDA - GTX 780, 0.15ms
-CUDA - Tesla K20Xm, 0.17ms
-NvidiaRuntime - Tesla K20Xm, 0.39ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.50ms
-AmdRuntime - AMD Firepro W9100, 0.72ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 2.35ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 264.87ms
-
------ 775MiB -----
-CUDA - GTX 780, 0.16ms
-CUDA - Tesla K20Xm, 0.18ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.39ms
-NvidiaRuntime - Tesla K20Xm, 0.39ms
-AmdRuntime - AMD Firepro W9100, 0.77ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 2.50ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 288.95ms
-
------ 840MiB -----
-CUDA - GTX 780, 0.17ms
-CUDA - Tesla K20Xm, 0.19ms
-NvidiaRuntime - Tesla K20Xm, 0.42ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.51ms
-AmdRuntime - AMD Firepro W9100, 0.79ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 2.56ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 311.61ms
-
------ 903MiB -----
-CUDA - GTX 780, 0.18ms
-CUDA - Tesla K20Xm, 0.20ms
-NvidiaRuntime - Tesla K20Xm, 0.42ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.53ms
-AmdRuntime - AMD Firepro W9100, 0.80ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 2.76ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 336.35ms
-
------ 967MiB -----
-CUDA - GTX 780, 0.19ms
-CUDA - Tesla K20Xm, 0.20ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.40ms
-NvidiaRuntime - Tesla K20Xm, 0.43ms
-AmdRuntime - AMD Firepro W9100, 0.79ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 2.69ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 357.92ms
+CUDA - Tesla K20Xm, 3.10ms
+AmdRuntime - AMD Firepro W9100, 6.12ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 166.76ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 211.23ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 242.62ms
+NvidiaRuntime - Tesla K20Xm, 246.00ms
+NvidiaRuntime - GTX 780, 267.88ms
