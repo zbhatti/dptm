@@ -28,6 +28,11 @@ void dpUux3a::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	
 	nEvents = 1048576*dataMB/(sizeof(float)*5*4);
 	
+	//need globalSize = nEvents to be divisible by localSize which is a power of 2:
+	int n = 0;
+	n = floor(log(nEvents) / log(2))
+	nEvents = pow(2,n);
+	
 	MB = ( nEvents * sizeof(float)*5*4) / 1048576;
 
 }
@@ -63,6 +68,8 @@ void dpUux3a::plan(){
 	clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &nEvents));
 	
 	globalSize[0] = nEvents;
+	
+	
 }
 
 int dpUux3a::execute(){
