@@ -27,6 +27,7 @@ void dpUux3a::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[2] = 1;
 	
 	nEvents = 1048576*dataMB/(sizeof(float)*5*4);
+	
 	MB = ( nEvents * sizeof(float)*5*4) / 1048576;
 
 }
@@ -76,6 +77,27 @@ int dpUux3a::execute(){
 void dpUux3a::memoryCopyIn(){
 	clErrChk(clEnqueueReadBuffer(queue, Amp_d, CL_TRUE, 0, outputBytes, Amp, 0, NULL, NULL));
 	clErrChk(clFinish(queue));
+	
+	
+	
+	for (int i=0; i<1; i++){ //events
+		
+		if ((Amp[i].re ==0.) && (Amp[i].im == 0.))
+			continue;
+		
+		printf("event %d:\n", i+1);
+		for (int j=0; j<5; j++){ //particle id
+			printf("particle %d:\n", j+1);
+			for (int k=0; k<4; k++){ //4 momentum
+				printf("%d: %f, ", k, eventsP[i*5*4 + 4*j + k]);
+			}
+			printf("\n");
+		}
+		
+		printf("amp: %f + %fi\n", Amp[i].re, Amp[i].im);
+	}
+	
+	
 }
 
 void dpUux3a::cleanUp(){
@@ -94,7 +116,8 @@ void dpUux3a::generateArray(float *eventsP, int nEvents){
 	for (n=0; n < nEvents; n++){
 		for (j=0; j<5; j++){
 			for (k=0; k<4; k++){
-				eventsP[n*5*4 + 4*j + k]=rand() / (RAND_MAX/99999.9 + 1);
+				//eventsP[n*5*4 + 4*j + k]=rand() / (RAND_MAX/999.9 + 1);
+				eventsP[n*5*4 + 4*j + k]= (j+1)*(k + 1);
 			}
 		}
 	}

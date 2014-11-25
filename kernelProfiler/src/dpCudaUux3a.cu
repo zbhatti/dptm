@@ -197,11 +197,8 @@ __global__ void Uux3a(float *P_d, cmplx *Amp_d, int nEvents){
 	
 	
 	//for some reason copying ampsum is causing errors
-	float re = ampsum.re;
-	float im = ampsum.im;
-	
-	//Amp_d[idx] = mkcmplx(0.0f, 0.0f);
-	Amp_d[idx] = mkcmplx(P_d[idx*5*4 + 4*0], P_d[idx*5*4 + 4*1]);
+	Amp_d[idx] = amp;
+	//Amp_d[idx] = mkcmplx(P_d[idx*5*4 + 4*0], P_d[idx*5*4 + 4*1]);
 
 }                               
 
@@ -226,6 +223,7 @@ void dpCudaUux3a::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	localSize[0] = localSize[1] = localSize[2] = 1;
 	
 	nEvents = 1048576*dataMB/(sizeof(float)*5*4);
+	
 	MB = ( nEvents * sizeof(float)*5*4) / 1048576;
 
 }

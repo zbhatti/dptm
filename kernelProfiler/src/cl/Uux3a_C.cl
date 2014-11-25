@@ -119,6 +119,7 @@ void fvoxx0(cmplx* fo, cmplx* vc, float* gal, cmplx* fvo)
 
 void iovxxx(cmplx* fi, cmplx* fo, cmplx* vc, float* gal, cmplx* vertex)
 {
+
 vertex[0] =
 	ADD(
 	SMUL(gal[0],
@@ -135,6 +136,7 @@ vertex[0] =
 	MUL(MUL(SUB(MUL(fo[0],fi[3]),MUL(fo[1],fi[2])),vc[2]), mkcmplx(0.0f, 1.0f))),
 	MUL(SUB(MUL(fo[0],fi[2]), MUL(fo[1],fi[3])),vc[3]))	))
 	);
+	
 return;
 }
 
@@ -183,8 +185,8 @@ __kernel void Uux3a(__global const float *P_d, __global cmplx* Amp_d, int nEvent
 	
 	// coupling constants of FFV vertex, using meaningless fillers
 	float gau[2];
-	gau[0] = 5123.51;
-	gau[1] = 3109.64;
+	gau[0] = 1.;
+	gau[1] = 1.;
 	
 	//twice fermion helicity (-1 or 1), using meaningless fillers
 	int nh1 = -1;
@@ -204,30 +206,61 @@ __kernel void Uux3a(__global const float *P_d, __global cmplx* Amp_d, int nEvent
 	cmplx ampsum = mkcmplx(0.0f, 0.0f);
 	cmplx amp;
 	
+	/*
+	if (idx == 0){
+		printf("gau = %f, %f\n",gau[0], gau[1]); // print gau
+		printf("nh1,2,3,4,5 = %d,%d,%d,%d,%d\n", nh1,nh2,nh3,nh4,nh5); //print nh
+		
+		for (int i =0; i <4; i ++){//print 4 momentum
+			printf("p1[%d]: %f\n", i, p1[i]);
+			printf("p2[%d]: %f\n", i, p2[i]);
+			printf("p3[%d]: %f\n", i, p3[i]);
+			printf("p4[%d]: %f\n", i, p4[i]);
+			printf("p5[%d]: %f\n", i, p5[i]);
+		}
+		
+		for (int i = 0; (idx == 0) && (i < 7); i++){ // print wave functions
+			printf("w01[%d]: %f + %fi\n", i, w01[i].re, w01[i].im);
+			printf("w02[%d]: %f + %fi\n", i, w02[i].re, w02[i].im);
+			printf("w03[%d]: %f + %fi\n", i, w03[i].re, w03[i].im);
+			printf("w04[%d]: %f + %fi\n", i, w04[i].re, w04[i].im);
+			printf("w05[%d]: %f + %fi\n", i, w05[i].re, w05[i].im);
+			printf("w06[%d]: %f + %fi\n", i, w06[i].re, w06[i].im);
+			printf("w07[%d]: %f + %fi\n", i, w07[i].re, w07[i].im);
+			printf("w08[%d]: %f + %fi\n", i, w08[i].re, w08[i].im);
+		}
+
+	}*/
+	
 	fvoxx0(w02,w03,gau,w06);
 	fvoxx0(w06,w04,gau,w07);
 	iovxxx(w01,w07,w05,gau,&amp); 
 	ampsum = ADD(ampsum, amp);
+	
 	
 	fvixx0(w01,w04,gau,w07);
 	fvoxx0(w02,w05,gau,w08);
 	iovxxx(w07,w08,w03,gau,&amp);
 	ampsum = ADD(ampsum, amp);
 	
+	
 	fvoxx0(w02,w03,gau,w06);
 	fvixx0(w01,w04,gau,w07);
 	iovxxx(w07,w06,w05,gau,&amp);
 	ampsum = ADD(ampsum, amp);
+	
 	
 	fvoxx0(w02,w04,gau,w06);
 	fvixx0(w01,w05,gau,w07);
 	iovxxx(w07,w06,w03,gau,&amp);
 	ampsum = ADD(ampsum, amp);
 	
+	
 	fvixx0(w01,w03,gau,w07);
 	fvixx0(w07,w04,gau,w08);
 	iovxxx(w08,w02,w05,gau,&amp);
 	ampsum = ADD(ampsum, amp);
+	
 	
 	fvixx0(w01,w03,gau,w07);
 	fvoxx0(w02,w04,gau,w06);
@@ -235,5 +268,6 @@ __kernel void Uux3a(__global const float *P_d, __global cmplx* Amp_d, int nEvent
 	ampsum = ADD(ampsum, amp);
 	
 	Amp_d[idx] = ampsum;
+
 	
 }
