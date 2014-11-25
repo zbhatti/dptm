@@ -1,75 +1,62 @@
 
 ########## Uux3a ##########
 
+----- 5MiB -----
+NvidiaRuntime - GTX 780, 0.24ms
+NvidiaRuntime - Tesla K20Xm, 0.46ms
+AmdRuntime - AMD Firepro W9100, 0.51ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 0.90ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 3.12ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 3.99ms
+
 ----- 7MiB -----
-CUDA - GTX 780, 0.33ms
 CUDA - Tesla K20Xm, 0.38ms
-AmdRuntime - AMD Firepro W9100, 0.59ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 4.28ms
-NvidiaRuntime - Tesla K20Xm, 4.64ms
-NvidiaRuntime - GTX 780, 4.88ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 8.07ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 8.16ms
+
+----- 40MiB -----
+NvidiaRuntime - GTX 780, 1.81ms
+NvidiaRuntime - Tesla K20Xm, 2.10ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 4.45ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 9.64ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 18.53ms
 
 ----- 71MiB -----
-CUDA - GTX 780, 2.64ms
 CUDA - Tesla K20Xm, 2.88ms
-NvidiaRuntime - Tesla K20Xm, 20.14ms
-NvidiaRuntime - GTX 780, 22.34ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 28.82ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 34.64ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 36.95ms
+
+----- 80MiB -----
+NvidiaRuntime - GTX 780, 3.40ms
+NvidiaRuntime - Tesla K20Xm, 3.64ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 7.65ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 15.36ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 33.81ms
 
 ----- 135MiB -----
-CUDA - GTX 780, 4.91ms
 CUDA - Tesla K20Xm, 5.35ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 53.03ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 67.24ms
-NvidiaRuntime - Tesla K20Xm, 73.67ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 76.61ms
-NvidiaRuntime - GTX 780, 82.36ms
+
+----- 160MiB -----
+NvidiaRuntime - GTX 780, 6.35ms
+NvidiaRuntime - Tesla K20Xm, 6.91ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 13.54ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 24.53ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 63.62ms
 
 ----- 200MiB -----
-CUDA - GTX 780, 7.19ms
 CUDA - Tesla K20Xm, 7.82ms
-NvidiaRuntime - GTX 780, 7.94ms
-NvidiaRuntime - Tesla K20Xm, 8.58ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 17.53ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 30.05ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 75.93ms
 
 ----- 263MiB -----
-CUDA - GTX 780, 9.47ms
 CUDA - Tesla K20Xm, 10.31ms
-NvidiaRuntime - Tesla K20Xm, 37.34ms
-NvidiaRuntime - GTX 780, 41.23ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 95.37ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 110.63ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 120.89ms
+
+----- 320MiB -----
+NvidiaRuntime - GTX 780, 12.00ms
+NvidiaRuntime - Tesla K20Xm, 13.37ms
+IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 25.93ms
+IntelRuntime - Intel Xeon Phi coprocessor x100 family, 44.51ms
+AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 121.86ms
 
 ----- 327MiB -----
-CUDA - GTX 780, 11.74ms
 CUDA - Tesla K20Xm, 12.78ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 123.41ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 152.73ms
-NvidiaRuntime - Tesla K20Xm, 177.02ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 180.85ms
-NvidiaRuntime - GTX 780, 194.52ms
 
 ----- 391MiB -----
-CUDA - GTX 780, 14.01ms
 CUDA - Tesla K20Xm, 15.26ms
-NvidiaRuntime - Tesla K20Xm, 107.50ms
-NvidiaRuntime - GTX 780, 108.20ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 140.20ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 163.53ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 187.27ms
 
 ----- 455MiB -----
-CUDA - GTX 780, 16.29ms
 CUDA - Tesla K20Xm, 17.74ms
-IntelRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 166.76ms
-IntelRuntime - Intel Xeon Phi coprocessor x100 family, 211.23ms
-AmdRuntime - Intel Xeon CPU E5-2695 v2 @ 2.40GHz, 242.62ms
-NvidiaRuntime - Tesla K20Xm, 246.00ms
-NvidiaRuntime - GTX 780, 267.88ms

@@ -1,1124 +1,1061 @@
-On Platform CUDA
+On Platform NvidiaRuntime
 using device Tesla K20Xm
-On Platform CUDA
+On Platform NvidiaRuntime
 using device GTX 780
+On Platform AmdRuntime
+using device AMD Firepro W9100
+On Platform AmdRuntime
+using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
+On Platform IntelRuntime
+using device Intel Xeon CPU E5-2695 v2 @ 2.40GHz
+On Platform IntelRuntime
+using device Intel Xeon Phi coprocessor x100 family
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+NvidiaRuntime-Tesla K20Xm @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+NvidiaRuntime-GTX 780 @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+AmdRuntime-AMD Firepro W9100 @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+NvidiaRuntime-Tesla K20Xm @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+NvidiaRuntime-GTX 780 @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+AmdRuntime-AMD Firepro W9100 @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+NvidiaRuntime-Tesla K20Xm @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+NvidiaRuntime-GTX 780 @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+AmdRuntime-AMD Firepro W9100 @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+NvidiaRuntime-Tesla K20Xm @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+NvidiaRuntime-GTX 780 @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+AmdRuntime-AMD Firepro W9100 @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+NvidiaRuntime-Tesla K20Xm @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+NvidiaRuntime-GTX 780 @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+AmdRuntime-AMD Firepro W9100 @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+NvidiaRuntime-Tesla K20Xm @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+NvidiaRuntime-GTX 780 @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+AmdRuntime-AMD Firepro W9100 @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+NvidiaRuntime-Tesla K20Xm @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+NvidiaRuntime-GTX 780 @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+AmdRuntime-AMD Firepro W9100 @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+NvidiaRuntime-Tesla K20Xm @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+NvidiaRuntime-GTX 780 @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+AmdRuntime-AMD Firepro W9100 @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+NvidiaRuntime-Tesla K20Xm @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+NvidiaRuntime-GTX 780 @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+AmdRuntime-AMD Firepro W9100 @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+NvidiaRuntime-Tesla K20Xm @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+NvidiaRuntime-GTX 780 @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+AmdRuntime-AMD Firepro W9100 @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+NvidiaRuntime-Tesla K20Xm @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+NvidiaRuntime-GTX 780 @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+AmdRuntime-AMD Firepro W9100 @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+NvidiaRuntime-Tesla K20Xm @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+NvidiaRuntime-GTX 780 @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+AmdRuntime-AMD Firepro W9100 @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+NvidiaRuntime-Tesla K20Xm @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+NvidiaRuntime-GTX 780 @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+AmdRuntime-AMD Firepro W9100 @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+NvidiaRuntime-Tesla K20Xm @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+NvidiaRuntime-GTX 780 @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+AmdRuntime-AMD Firepro W9100 @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+NvidiaRuntime-Tesla K20Xm @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+NvidiaRuntime-GTX 780 @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+AmdRuntime-AMD Firepro W9100 @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+NvidiaRuntime-Tesla K20Xm @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+NvidiaRuntime-GTX 780 @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+AmdRuntime-AMD Firepro W9100 @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+NvidiaRuntime-Tesla K20Xm @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+NvidiaRuntime-GTX 780 @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+AmdRuntime-AMD Firepro W9100 @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+NvidiaRuntime-Tesla K20Xm @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+NvidiaRuntime-GTX 780 @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+AmdRuntime-AMD Firepro W9100 @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+NvidiaRuntime-Tesla K20Xm @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+NvidiaRuntime-GTX 780 @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+AmdRuntime-AMD Firepro W9100 @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+NvidiaRuntime-Tesla K20Xm @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+NvidiaRuntime-GTX 780 @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+AmdRuntime-AMD Firepro W9100 @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+NvidiaRuntime-Tesla K20Xm @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+NvidiaRuntime-GTX 780 @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+AmdRuntime-AMD Firepro W9100 @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+NvidiaRuntime-Tesla K20Xm @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 456MiB
+NvidiaRuntime-GTX 780 @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 8MiB
+AmdRuntime-AMD Firepro W9100 @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 8MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 72MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 72MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 136MiB
+NvidiaRuntime-Tesla K20Xm @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 136MiB
+NvidiaRuntime-GTX 780 @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 200MiB
+AmdRuntime-AMD Firepro W9100 @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 200MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 264MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 264MiB
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 328MiB
+NvidiaRuntime-Tesla K20Xm @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-GTX 780 @ 328MiB
+NvidiaRuntime-GTX 780 @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
 
 
 ########################
-CUDA-Tesla K20Xm @ 392MiB
+AmdRuntime-AMD Firepro W9100 @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-GTX 780 @ 392MiB
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a
 
 
 ########################
-CUDA-Tesla K20Xm @ 456MiB
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
 ########################
 
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 456MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 8MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 8MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 72MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 72MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 136MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 136MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 200MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 200MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 264MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 264MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 328MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 328MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 392MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 392MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-Tesla K20Xm @ 456MiB
-########################
-
-adding CUDA: CudaUux3a
-
-
-########################
-CUDA-GTX 780 @ 456MiB
-########################
-
-adding CUDA: CudaUux3a
+adding OpenCL: Uux3a

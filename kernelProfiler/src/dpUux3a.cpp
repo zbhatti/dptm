@@ -28,13 +28,13 @@ void dpUux3a::setup(int dataMB, int xLocal, int yLocal, int zLocal){
 	
 	nEvents = 1048576*dataMB/(sizeof(float)*5*4);
 	
-	//need globalSize = nEvents to be divisible by localSize which is a power of 2:
+	//need globalSize = nEvents to be divisible by any of the localSize it might see, which are powers of 2:
 	int n = 0;
-	n = floor(log(nEvents) / log(2))
+	n = floor(log(nEvents) / log(2));
 	nEvents = pow(2,n);
 	
 	MB = ( nEvents * sizeof(float)*5*4) / 1048576;
-
+	
 }
 
 void dpUux3a::init(){
@@ -68,8 +68,6 @@ void dpUux3a::plan(){
 	clErrChk(clSetKernelArg(kernel, 2, sizeof(int), &nEvents));
 	
 	globalSize[0] = nEvents;
-	
-	
 }
 
 int dpUux3a::execute(){
@@ -86,7 +84,7 @@ void dpUux3a::memoryCopyIn(){
 	clErrChk(clFinish(queue));
 	
 	
-	
+	/*
 	for (int i=0; i<1; i++){ //events
 		
 		if ((Amp[i].re ==0.) && (Amp[i].im == 0.))
@@ -102,7 +100,7 @@ void dpUux3a::memoryCopyIn(){
 		}
 		
 		printf("amp: %f + %fi\n", Amp[i].re, Amp[i].im);
-	}
+	}*/
 	
 	
 }

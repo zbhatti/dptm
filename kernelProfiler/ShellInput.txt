@@ -1,8 +1,12 @@
 #DEVICES:
-3,0
-3,1
+0,0
+0,1
+1,0
+1,1
+2,0
+2,1
 #KERNELS:
-CudaUux3a
+Uux3a
 #MBSTART:
 8
 #MBEND:
