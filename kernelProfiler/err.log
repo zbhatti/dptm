@@ -1059,3 +1059,2474 @@ IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
 ########################
 
 adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 8MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 72MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 136MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 200MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 264MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 328MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 392MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+NvidiaRuntime-Tesla K20Xm @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+NvidiaRuntime-GTX 780 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+clErrChk: CL_OUT_OF_RESOURCES src/dpUux3a.cpp 75
+
+
+########################
+AmdRuntime-AMD Firepro W9100 @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+AmdRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon CPU E5-2695 v2 @ 2.40GHz @ 456MiB
+########################
+
+adding OpenCL: Uux3a
+
+
+########################
+IntelRuntime-Intel Xeon Phi coprocessor x100 family @ 456MiB
+########################
+
+adding OpenCL: Uux3a
