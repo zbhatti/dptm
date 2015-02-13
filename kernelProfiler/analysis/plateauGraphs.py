@@ -86,6 +86,7 @@ for ker in kernels:
 	mg.SetTitle(ker)
 	
 	color=1
+	marker=1
 	leg = TLegend(0.1, 0.7, 0.39, 0.9)
 	leg.SetFillColor(0)
 	
@@ -98,12 +99,14 @@ for ker in kernels:
 		
 		devGraph = TGraph(n, data[ker][dev][0], data[ker][dev][1])
 		devGraph.SetTitle(dev)
-		devGraph.SetLineColor(color)
-		devGraph.SetMarkerStyle(4)
-		devGraph.SetMarkerColor(color)
+		#devGraph.SetLineColor(color)
+		devGraph.SetMarkerStyle(marker)
+		devGraph.SetMarkerSize(1)
+		#devGraph.SetMarkerColor(color)
 		mg.Add(devGraph)
 		leg.AddEntry(devGraph, dev, "lp")
 		color = color + 1
+		marker = marker + 1
 
 	mg.Draw("APL")
 	leg.Draw()
